@@ -1,9 +1,16 @@
 import puppeteer from "puppeteer";
 import fs from "fs/promises";
+import path from "path";
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 
-async function navigateWebPage() {
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+async function jumboScraper() {
+    console.log('Iniciando jumboScraper...');
     const browser = await puppeteer.launch({
-        headless: false,
+        headless: true,
         defaultViewport: null,
         args: ['--start-maximized']
     });
@@ -67,9 +74,15 @@ async function navigateWebPage() {
 
         console.log(uniqueProducts);
 
-        await fs.writeFile("offers.json", JSON.stringify(uniqueProducts, null, 2));
+        const dataDir = path.join(__dirname, '..', 'data');
+        console.log(`Creando carpeta en: ${dataDir}`);
+        await fs.mkdir(dataDir, { recursive: true });
 
-        console.log("Productos guardados correctamente en offers.json");
+        const filePath = path.join(dataDir, 'jumbo-ofertas.json');
+        console.log(`Guardando archivo en: ${filePath}`);
+        await fs.writeFile(filePath, JSON.stringify(uniqueProducts, null, 2));
+
+        console.log("Productos guardados correctamente en jumbo-offers.json");
 
         await browser.close();
     } catch (error) {
@@ -78,4 +91,6 @@ async function navigateWebPage() {
     }
 }
 
-navigateWebPage();
+jumboScraper();
+
+export default jumboScraper;

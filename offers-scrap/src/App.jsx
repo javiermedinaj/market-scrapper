@@ -1,13 +1,10 @@
-import React from 'react'
-import ProductList from './components/ProductList'
+import React from 'react';
+import OfferList from './components/Offerlist'; // Update the import statement to match the file name
 
-function App() {
+export default function App() {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-4">Productos de Jumbo</h1>
-      <ProductList />
+    <div className="App">
+      <OfferList />
     </div>
-  )
+  );
 }
-
-export default App

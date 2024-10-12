@@ -1,9 +1,16 @@
 import puppeteer from "puppeteer";
 import fs from "fs/promises";
+import path from "path";
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 
-async function navigateWebPage() {
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+async function carrefourScraper() {
+    console.log('Iniciando carrefourScraper...');
     const browser = await puppeteer.launch({
-        headless: false,
+        headless: true,
         defaultViewport: null,
         args: ["--start-maximized"],
     });
@@ -12,10 +19,8 @@ async function navigateWebPage() {
         const page = await browser.newPage();
         await page.goto("https://www.carrefour.com.ar/promociones");
 
-        // Función de retraso
         const delay = (time) => new Promise(resolve => setTimeout(resolve, time));
 
-        // Espera 10 segundos para que la página cargue completamente
         await delay(10000);
 
         const images = await page.evaluate(() => {
@@ -25,7 +30,7 @@ async function navigateWebPage() {
             imageElements.forEach((element) => {
                 const src = element.getAttribute("src");
                 if (src) {
-                    imageUrls.push(`https://www.carrefour.com.ar${src}`);
+                    imageUrls.push({ image: `https://www.carrefour.com.ar${src}` });
                 }
             });
 
@@ -34,9 +39,15 @@ async function navigateWebPage() {
 
         console.log(images);
 
-        await fs.writeFile("carrefour-images.json", JSON.stringify(images, null, 2));
+        const dataDir = path.join(__dirname, '..', 'data');
+        console.log(`Creando carpeta en: ${dataDir}`);
+        await fs.mkdir(dataDir, { recursive: true });
 
-        console.log("Imágenes guardadas correctamente en carrefour-images.json");
+        const filePath = path.join(dataDir, 'carrefour-ofertas.json');
+        console.log(`Guardando archivo en: ${filePath}`);
+        await fs.writeFile(filePath, JSON.stringify(images, null, 2));
+
+        console.log("Imágenes guardadas correctamente en carrefour-ofertas.json");
 
         await browser.close();
     } catch (error) {
@@ -45,4 +56,6 @@ async function navigateWebPage() {
     }
 }
 
-navigateWebPage();
+carrefourScraper();
+
+export default carrefourScraper;

@@ -1,9 +1,16 @@
 import puppeteer from "puppeteer";
 import fs from "fs/promises";
+import path from "path";
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 
-async function navigateWebPage() {
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+async function diaScraper() {
+    console.log('Iniciando diaScraper...');
     const browser = await puppeteer.launch({
-        headless: false,
+        headless: true,
         defaultViewport: null,
         args: ['--start-maximized']
     });
@@ -55,7 +62,13 @@ async function navigateWebPage() {
         products.push(...initialProducts);
         await delay(3000);
 
-        await fs.writeFile("dia-ofertas.json", JSON.stringify(products, null, 2));
+        const dataDir = path.join(__dirname, '..', 'data');
+        console.log(`Creando carpeta en: ${dataDir}`);
+        await fs.mkdir(dataDir, { recursive: true });
+
+        const filePath = path.join(dataDir, 'dia-ofertas.json');
+        console.log(`Guardando archivo en: ${filePath}`);
+        await fs.writeFile(filePath, JSON.stringify(products, null, 2));
 
         console.log("Productos guardados correctamente en dia-ofertas.json");
     } catch (error) {
@@ -65,4 +78,6 @@ async function navigateWebPage() {
     }
 }
 
-navigateWebPage();
+diaScraper();
+
+export default diaScraper;
