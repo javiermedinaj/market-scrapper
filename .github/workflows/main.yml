@@ -1,0 +1,24 @@
+name: Ejecutar scrapper cada 12 horas
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"  # Ejecutar cada 12 horas
+  workflow_dispatch: 
+
+jobs:
+  run-scrapper:
+    runs-on: ubuntu-latest 
+
+    steps:
+      
+      - name: Clonar el repositorio
+        uses: actions/checkout@v2
+
+      
+      - name: Instalar dependencias
+        run: npm install
+
+   
+      - name: Ejecutar scrapper
+        run: |
+          node scraper/scrapers/index.js
