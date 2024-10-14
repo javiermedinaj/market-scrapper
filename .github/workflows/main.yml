@@ -3,26 +3,27 @@ name: Ejecutar scrapper cada 12 horas
 on:
   schedule:
     - cron: "0 */12 * * *"  # Ejecutar cada 12 horas
-  workflow_dispatch: 
+  workflow_dispatch: # Permite ejecutar manualmente
 
 jobs:
   run-scrapper:
-    runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest
 
     steps:
-      
       - name: Clonar el repositorio
         uses: actions/checkout@v3
 
-      - name: Instalar Node.js
+      - name: Configurar Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20'
-      
-      - name: Instalar dependencias
-        run: npm install
+          node-version: '16'
 
-   
+      - name: Instalar dependencias
+        run: |
+          cd scraper
+          npm install
+
       - name: Ejecutar scrapper
         run: |
-          node scraper/scrapers/index.js
+          cd scraper
+          node scrapers/index.js
