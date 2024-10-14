@@ -8,12 +8,12 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 async function jumboScraper() {
-    console.log('Iniciando jumboScraper...');
     const browser = await puppeteer.launch({
         headless: true,
         defaultViewport: null,
-        args: ['--start-maximized']
+        args: ['--no-sandbox', '--disable-setuid-sandbox', '--start-maximized']
     });
+    
 
     try {
         const page = await browser.newPage();
