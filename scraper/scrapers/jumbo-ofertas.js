@@ -13,11 +13,10 @@ async function jumboScraper() {
         defaultViewport: null,
         args: ['--no-sandbox', '--disable-setuid-sandbox', '--start-maximized']
     });
-    
 
     try {
         const page = await browser.newPage();
-        await page.goto("https://www.jumbo.com.ar/especial-de-la-semana");
+        await page.goto("https://www.jumbo.com.ar/especial-de-la-semana", { timeout: 60000 }); // Aumentar el tiempo de espera a 60 segundos
 
         const products = [];
 
