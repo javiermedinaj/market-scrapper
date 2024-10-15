@@ -16,7 +16,7 @@ jobs:
       - name: Configurar Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: '20'
 
       - name: Instalar dependencias
         run: |
@@ -26,4 +26,16 @@ jobs:
       - name: Ejecutar scrapper
         run: |
           cd scraper
-          node scrapers/index.js
+          node index.js
+
+      - name: Hacer commit y push de los archivos actualizados
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add .
+          git commit -m "Actualización automática de los datos"
+          git push
+
+      - name: Configurar token para autenticación
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
