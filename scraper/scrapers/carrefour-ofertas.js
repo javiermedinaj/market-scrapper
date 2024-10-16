@@ -24,7 +24,7 @@ async function carrefourScraper() {
         await delay(10000);
 
         const images = await page.evaluate(() => {
-            const imageElements = document.querySelectorAll(".valtech-carrefourar-offline-promotions-0-x-T4Col2Image img");
+            const imageElements = document.querySelectorAll(".valtech-carrefourar-offline-promotions-0-x-cardBody img");
             const imageUrls = [];
 
             imageElements.forEach((element) => {

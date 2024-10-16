@@ -19,7 +19,6 @@ const ImageCarousel = ({ images }) => {
           alt={`Oferta ${currentIndex + 1}`}
           className="w-full h-full object-cover transition-transform duration-500"
         />
-        {/* Botones de navegación */}
         <button
           onClick={handlePrev}
           className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full hover:bg-gray-600 transition-colors"
@@ -33,7 +32,6 @@ const ImageCarousel = ({ images }) => {
           ▶
         </button>
       </div>
-      {/* Indicadores de posición */}
       <div className="flex justify-center mt-4 space-x-2">
         {images.map((_, index) => (
           <span
@@ -42,6 +40,9 @@ const ImageCarousel = ({ images }) => {
           />
         ))}
       </div>
+      <button className="mt-4 bg-black text-white py-2 px-4 rounded-full w-full">
+          <a href="https://www.carrefour.com.ar/promociones" target="_blank" rel="noopener noreferrer">Ver mas</a> 
+        </button>
     </div>
   );
 };

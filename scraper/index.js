@@ -20,3 +20,5 @@ export async function runAllScrapers() {
     console.error('Error al ejecutar los scrapers:', error);
   }
 }
+
+runAllScrapers().catch(console.error);
