@@ -5,13 +5,12 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-    "test": "echo \"No tests specified\" && exit 0", 
-    "start": "node server.js",
-    "scrape": "node index.js",
-    "dev": "npm run scrape && npm start"
-    }
-
-    "keywords": [],
+        "test": "echo \"No tests specified\" && exit 0", 
+        "start": "node server.js",
+        "scrape": "node index.js",
+        "dev": "npm run scrape && npm start"
+    },
+    "keywords": [], 
     "author": "",
     "license": "ISC",
     "dependencies": {
