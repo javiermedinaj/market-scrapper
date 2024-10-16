@@ -20,7 +20,7 @@ const OfferList = () => {
         const offersData = {};
 
         for (const store of stores) {
-          const response = await axios.get(`http://localhost:3000/api/offers/${store}`);
+          const response = await axios.get(`https://api-scrapper-market-fserewhvczgrfmh9.canadacentral-01.azurewebsites.net/api/offers/${store}`);
           offersData[store] = response.data;
         }
 
