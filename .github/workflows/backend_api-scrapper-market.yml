@@ -21,20 +21,26 @@ jobs:
         with:
           node-version: '20.x'
 
+      - name: Change to scraper directory
+        run: cd scraper
+
       - name: npm install, build, and test
         run: |
+          cd scraper  # Cambia a la carpeta del proyecto
           npm install
           npm run build --if-present
           npm run test --if-present
 
       - name: Zip artifact for deployment
-        run: zip release.zip ./* -r
+        run: |
+          cd scraper  # Cambia a la carpeta del proyecto
+          zip -r release.zip .  # Zipa todo el contenido de la carpeta
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: node-app
-          path: release.zip
+          path: scraper/release.zip  # Ajusta el path para el artefacto
 
   deploy:
     runs-on: ubuntu-latest
