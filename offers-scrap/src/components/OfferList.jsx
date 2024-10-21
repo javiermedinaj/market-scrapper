@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import ImageCarousel from './ImageCarousel';
+import ImageGrid from './ImageGrid';
 import OfferCard from './OfferCard';
 import Sidebar from './Sidebar';
 import Navbar from './Navbar';
+import diaOffers from '../../../scraper/data/dia-ofertas.json';
+import jumboOffers from '../../../scraper/data/jumbo-ofertas.json';
+import carrefourOffers from '../../../scraper/data/carrefour-ofertas.json';
 
 const OfferList = () => {
   const [offers, setOffers] = useState({});
@@ -14,25 +16,19 @@ const OfferList = () => {
   const [searchResults, setSearchResults] = useState([]);
 
   useEffect(() => {
-    const fetchOffers = async () => {
-      try {
-        const stores = ['jumbo', 'carrefour', 'dia'];
-        const offersData = {};
+    try {
+      const offersData = {
+        dia: diaOffers,
+        jumbo: jumboOffers,
+        carrefour: carrefourOffers
+      };
 
-        for (const store of stores) {
-          const response = await axios.get(`https://api-scrapper-market-fserewhvczgrfmh9.canadacentral-01.azurewebsites.net/api/offers/${store}`);
-          offersData[store] = response.data;
-        }
-
-        setOffers(offersData);
-        setLoading(false);
-      } catch (err) {
-        setError('Error al cargar las ofertas');
-        setLoading(false);
-      }
-    };
-
-    fetchOffers();
+      setOffers(offersData);
+      setLoading(false);
+    } catch (err) {
+      setError('Error al cargar las ofertas');
+      setLoading(false);
+    }
   }, []);
 
   useEffect(() => {
@@ -77,7 +73,7 @@ const OfferList = () => {
               <div className="mb-8">
                 <h2 className="text-2xl font-bold mb-4">{activeStore.charAt(0).toUpperCase() + activeStore.slice(1)} Ofertas</h2>
                 {activeStore === 'carrefour' ? (
-                  <ImageCarousel images={offers[activeStore]} />
+                  <ImageGrid images={offers[activeStore]} />
                 ) : (
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                     {offers[activeStore].map((offer, index) => (
