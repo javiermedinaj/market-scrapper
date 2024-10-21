@@ -56,6 +56,6 @@ async function carrefourScraper() {
     }
 }
 
-carrefourScraper();
+
 
 export default carrefourScraper;

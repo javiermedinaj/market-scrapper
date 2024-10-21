@@ -16,7 +16,7 @@ async function diaScraper() {
     
     try {
         const page = await browser.newPage();
-        await page.goto("https://diaonline.supermercadosdia.com.ar/especial-ofertas", { timeout: 60000 });
+        await page.goto("https://diaonline.supermercadosdia.com.ar/especial-ofertas", { timeout: 120000 });
         const products = [];
         const extractProducts = async () => {
             const productsData = await page.evaluate(() => {
@@ -48,7 +48,7 @@ async function diaScraper() {
         const delay = (time) => new Promise(resolve => setTimeout(resolve, time));
         const initialProducts = await extractProducts();
         products.push(...initialProducts);
-        await delay(3000);
+        await delay(30000);
         const dataDir = path.join(__dirname, '..', 'data');
         console.log(`Creando carpeta en: ${dataDir}`);
         await fs.mkdir(dataDir, { recursive: true });
@@ -63,6 +63,6 @@ async function diaScraper() {
     }
 }
 
-diaScraper().catch(console.error);
+
 
 export default diaScraper;

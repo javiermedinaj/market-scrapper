@@ -16,7 +16,7 @@ async function jumboScraper() {
 
     try {
         const page = await browser.newPage();
-        await page.goto("https://www.jumbo.com.ar/especial-de-la-semana", { timeout: 60000 }); // Aumentar el tiempo de espera a 60 segundos
+        await page.goto("https://www.jumbo.com.ar/43448?map=productClusterIds&order=&page=1", { timeout: 20000 }); // Aumentar el tiempo de espera a 60 segundos
 
         const products = [];
 
@@ -90,6 +90,5 @@ async function jumboScraper() {
     }
 }
 
-jumboScraper();
 
 export default jumboScraper;
