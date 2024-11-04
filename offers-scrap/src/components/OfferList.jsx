@@ -6,7 +6,7 @@ import Navbar from './Navbar';
 import diaOffers from '../../../scraper/data/dia-ofertas.json';
 import jumboOffers from '../../../scraper/data/jumbo-ofertas.json';
 import carrefourOffers from '../../../scraper/data/carrefour-ofertas.json';
-
+import { useTheme } from '../context/ThemeContext';
 const OfferList = () => {
   const [offers, setOffers] = useState({});
   const [loading, setLoading] = useState(true);
@@ -14,6 +14,7 @@ const OfferList = () => {
   const [activeStore, setActiveStore] = useState('jumbo');
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState([]);
+  const { darkMode } = useTheme();
 
   useEffect(() => {
     try {
@@ -46,11 +47,14 @@ const OfferList = () => {
     }
   }, [searchTerm, offers]);
 
-  if (loading) return <div>Cargando ofertas...</div>;
-  if (error) return <div>{error}</div>;
+  if (loading) return (
+    <div className={`flex items-center justify-center min-h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100'}`}>
+      <div className="animate-spin rounded-full h-12 w-12 border-4 border-primary"></div>
+    </div>
+  );
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className={`min-h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100'} transition-colors duration-300`}>
       <Navbar onSearch={setSearchTerm} />
       <div className="flex flex-col md:flex-row">
         <Sidebar
@@ -70,8 +74,8 @@ const OfferList = () => {
             </div>
           ) : (
             offers[activeStore] && (
-              <div className="mb-8">
-                <h2 className="text-2xl font-bold mb-4">{activeStore.charAt(0).toUpperCase() + activeStore.slice(1)} Ofertas</h2>
+              <div className="mb-8 mt-4">
+                <h2 className="text-2xl font-bold mb-8 text-center">{activeStore.charAt(0).toUpperCase() + activeStore.slice(1)} Ofertas</h2>
                 {activeStore === 'carrefour' ? (
                   <ImageGrid images={offers[activeStore]} />
                 ) : (
