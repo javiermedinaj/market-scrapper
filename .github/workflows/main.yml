@@ -3,7 +3,7 @@ name: Ejecutar scrapper cada 12 horas
 on:
   schedule:
     - cron: "0 */12 * * *"  # Ejecutar cada 12 horas
-  workflow_dispatch: # Permite ejecutar manualmente
+  workflow_dispatch: 
 
 jobs:
   run-scrapper:
@@ -12,8 +12,6 @@ jobs:
     steps:
       - name: Clonar el repositorio
         uses: actions/checkout@v3
-        with:
-          ref: backend  # Hacer checkout a la rama backend
 
       - name: Configurar Node.js
         uses: actions/setup-node@v3
@@ -30,16 +28,14 @@ jobs:
           cd scraper
           node index.js
 
+      - name: Configurar token para autenticación
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
       - name: Hacer commit y push de los archivos actualizados
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add .
-          git commit -m "Actualización automática de los datos" || echo "No hay cambios para commit"
-          
-          # Hacer push a la rama backend
-          git push origin backend
-
-      - name: Configurar token para autenticación
-        run: |
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git commit -m "Actualización automática de los datos"
+          git push

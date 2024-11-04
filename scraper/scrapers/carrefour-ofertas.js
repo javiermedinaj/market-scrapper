@@ -37,7 +37,7 @@ async function carrefourScraper() {
             return imageUrls;
         });
 
-        console.log(images);
+        // console.log(images);
 
         const dataDir = path.join(__dirname, '..', 'data');
         console.log(`Creando carpeta en: ${dataDir}`);
@@ -56,6 +56,6 @@ async function carrefourScraper() {
     }
 }
 
-carrefourScraper();
+
 
 export default carrefourScraper;

@@ -16,11 +16,13 @@ async function jumboScraper() {
 
     try {
         const page = await browser.newPage();
-        await page.goto("https://www.jumbo.com.ar/especial-de-la-semana", { timeout: 60000 }); // Aumentar el tiempo de espera a 60 segundos
+        await page.goto("https://www.jumbo.com.ar/43794?map=productClusterIds&page=1", { timeout: 60000 }); 
 
         const products = [];
 
         const extractProducts = async () => {
+            await page.waitForSelector(".vtex-product-summary-2-x-container"); 
+
             const productsData = await page.evaluate(() => {
                 const productElements = document.querySelectorAll(".vtex-product-summary-2-x-container");
                 const productsData = [];
@@ -71,7 +73,7 @@ async function jumboScraper() {
             return acc;
         }, []);
 
-        console.log(uniqueProducts);
+        // console.log(uniqueProducts);
 
         const dataDir = path.join(__dirname, '..', 'data');
         console.log(`Creando carpeta en: ${dataDir}`);
@@ -81,7 +83,7 @@ async function jumboScraper() {
         console.log(`Guardando archivo en: ${filePath}`);
         await fs.writeFile(filePath, JSON.stringify(uniqueProducts, null, 2));
 
-        console.log("Productos guardados correctamente en jumbo-offers.json");
+        console.log("Productos guardados correctamente en jumbo-ofertas.json");
 
         await browser.close();
     } catch (error) {
@@ -90,6 +92,5 @@ async function jumboScraper() {
     }
 }
 
-jumboScraper();
 
 export default jumboScraper;
