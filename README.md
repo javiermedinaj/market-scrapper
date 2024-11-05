@@ -27,7 +27,7 @@ Este proyecto automatiza la recolección de ofertas de diferentes supermercados 
 
 1. Clona el proyecto:
     ```bash
-    git clone https://github.com/tu-usuario/scraper-react.git
+    git clone https://github.com/javiermedinaj/market-scrapper
     ```
 
 2. Instala las dependencias:
