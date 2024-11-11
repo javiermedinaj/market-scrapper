@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import ImageGrid from './ImageGrid';
 import OfferCard from './OfferCard';
 import Sidebar from './Sidebar';
-import Navbar from './Navbar';
 import diaOffers from '../../../scraper/data/dia-ofertas.json';
 import jumboOffers from '../../../scraper/data/jumbo-ofertas.json';
 import carrefourOffers from '../../../scraper/data/carrefour-ofertas.json';
@@ -54,8 +53,7 @@ const OfferList = () => {
   );
 
   return (
-    <div className={`min-h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100'} transition-colors duration-300`}>
-      <Navbar onSearch={setSearchTerm} />
+    <div className={`min-h-screen ${darkMode ? 'bg-gray-700 text-white' : 'bg-gray-100'} transition-colors duration-300`}>
       <div className="flex flex-col md:flex-row">
         <Sidebar
           stores={['jumbo', 'carrefour', 'dia']}

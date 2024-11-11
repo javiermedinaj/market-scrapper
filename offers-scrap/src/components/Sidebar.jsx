@@ -15,8 +15,9 @@ const Sidebar = ({ stores, activeStore, onStoreSelect }) => {
       </button>
       <div 
         className={`
-          ${darkMode ? 'bg-gray-800 text-white' : 'bg-white'} 
-          fixed md:static top-0 left-0 h-full w-64 
+          ${darkMode  ? 'bg-gradient-to-br from-gray-900 to-gray-800' 
+        : 'bg-gradient-to-br from-white to-gray-50'} 
+          fixed md:static top-0 left-0 min-h-full w-64 
           transition-all duration-300 transform shadow-lg
           md:translate-x-0 z-40
           ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'}

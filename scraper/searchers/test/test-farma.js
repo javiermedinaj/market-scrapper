@@ -1,4 +1,4 @@
-import searchProduct from './farma.js';
+import searchProduct from '../farma.js';
 
 async function testSearch() {
     try {

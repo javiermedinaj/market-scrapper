@@ -62,6 +62,8 @@ Este proyecto automatiza la recolección de ofertas de diferentes supermercados 
 - Comparación en tiempo real de precios
 - Diseño responsive (se adapta a móviles y tablets)
 
+- Añadido busqueda por input 
+
 ## 🤝Contribuciones
 
 ¡Las contribuciones son bienvenidas! Puedes ayudar:

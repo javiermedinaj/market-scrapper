@@ -35,13 +35,13 @@ const ImageGrid = ({ images }) => {
           </div>
         ))}
       </div>
-      <button className="mt-4 bg-black text-white py-2 px-4 rounded-full w-full">
+      <button className="mt-4 bg-sky-600  text-white py-2 px-4 rounded-full w-full">
         <a href="https://www.carrefour.com.ar/promociones" target="_blank" rel="noopener noreferrer">Ver más</a>
       </button>
       {showButton && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-4 right-4 bg-black text-white p-4 rounded-full shadow-md"
+          className="fixed bottom-4 right-4 bg-sky-600   text-white p-4 rounded-full shadow-md"
         >
           ↑
         </button>
