@@ -43,9 +43,15 @@
   },
   {
     "name": "Galletitas Con Chips De Chocolate Cuisine And Co. 172 Gr",
-    "price": "$1.650",
+    "price": "$1.750",
     "link": "https://www.jumbo.com.ar/galletitas-con-chips-de-chocolate-cuisine-and-co-172-gr/p",
     "image": "https://jumboargentinaio.vtexassets.com/arquivos/ids/791393-500-auto?v=638288337779830000&width=500&height=auto&aspect=true"
+  },
+  {
+    "name": "Crackers Cuisine And Co 505 Gr",
+    "price": "$1.360",
+    "link": "https://www.jumbo.com.ar/crackers-cuisine-and-co-505-gr/p",
+    "image": "https://jumboargentinaio.vtexassets.com/arquivos/ids/637297-500-auto?v=637539672422300000&width=500&height=auto&aspect=true"
   },
   {
     "name": "Cubanitos Waffers Chocolate Cuisine & Co 130 Gr",
@@ -73,7 +79,7 @@
   },
   {
     "name": "Tostadas Clásicas Cuisine & Co 200 Gr",
-    "price": "$1.800",
+    "price": "$1.900",
     "link": "https://www.jumbo.com.ar/tostadas-clasicas-cuisine-co-200-gr/p",
     "image": "https://jumboargentinaio.vtexassets.com/arquivos/ids/791405-500-auto?v=638288337822830000&width=500&height=auto&aspect=true"
   },
@@ -90,20 +96,14 @@
     "image": "https://jumboargentinaio.vtexassets.com/arquivos/ids/673333-500-auto?v=637710321783800000&width=500&height=auto&aspect=true"
   },
   {
-    "name": "Obleas Sabor Limon Cuisine And Co 100 Gr",
-    "price": "$800",
-    "link": "https://www.jumbo.com.ar/obleas-sabor-limon-cuisine-and-co-100-gr/p",
-    "image": "https://jumboargentinaio.vtexassets.com/arquivos/ids/791392-500-auto?v=638288337773800000&width=500&height=auto&aspect=true"
-  },
-  {
     "name": "Endulzante Hileret Light X 500 Gr",
-    "price": "$1.787,5",
+    "price": "$1.820",
     "link": "https://www.jumbo.com.ar/endulzante-hileret-light-x-500-gr/p",
     "image": "https://jumboargentinaio.vtexassets.com/arquivos/ids/819115-500-auto?v=638489001784400000&width=500&height=auto&aspect=true"
   },
   {
     "name": "Té Taragui Filtro Diamantado X 100 Saquitos",
-    "price": "$3.100",
+    "price": "$1.890",
     "link": "https://www.jumbo.com.ar/te-taragui-filtro-diamantado-x-100-saquitos/p",
     "image": "https://jumboargentinaio.vtexassets.com/arquivos/ids/640948-500-auto?v=637557379298100000&width=500&height=auto&aspect=true"
   },
@@ -127,9 +127,15 @@
   },
   {
     "name": "Yerba Mate Canarias 500 Gr",
-    "price": "$4.850",
+    "price": "$2.970",
     "link": "https://www.jumbo.com.ar/yerba-mate-canarias-500-gr/p",
     "image": "https://jumboargentinaio.vtexassets.com/arquivos/ids/477652-500-auto?v=636710250261900000&width=500&height=auto&aspect=true"
+  },
+  {
+    "name": "Pepas De Membrillo Cuisine And Co. 300 Gr",
+    "price": "$1.000",
+    "link": "https://www.jumbo.com.ar/pepas-de-membrillo-cuisine-and-co-300-gr/p",
+    "image": "https://jumboargentinaio.vtexassets.com/arquivos/ids/791429-500-auto?v=638288337921330000&width=500&height=auto&aspect=true"
   },
   {
     "name": "Tostadas De Arroz Original Cariló 150 Gr",
@@ -148,11 +154,5 @@
     "price": "$2.350",
     "link": "https://www.jumbo.com.ar/galletitas-hogarenas-salvado-600g/p",
     "image": "https://jumboargentinaio.vtexassets.com/arquivos/ids/621206-500-auto?v=637472274398930000&width=500&height=auto&aspect=true"
-  },
-  {
-    "name": "Yerba Mate De Campo La Merced 500 Gr",
-    "price": "$4.350",
-    "link": "https://www.jumbo.com.ar/yerba-mate-de-campo-la-merced-500-gr/p",
-    "image": "https://jumboargentinaio.vtexassets.com/arquivos/ids/621304-500-auto?v=637473138269830000&width=500&height=auto&aspect=true"
   }
 ]
