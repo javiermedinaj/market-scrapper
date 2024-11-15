@@ -13,9 +13,7 @@ async function searchCarrefourProduct(productName) {
             '--single-process',
             '--disable-extensions'
         ],
-        executablePath: process.env.NODE_ENV === 'production' 
-            ? '/usr/bin/google-chrome' 
-            : puppeteer.executablePath()
+        executablePath: process.env.CHROME_PATH || '/usr/bin/google-chrome'
     });
     try {
         const page = await browser.newPage();

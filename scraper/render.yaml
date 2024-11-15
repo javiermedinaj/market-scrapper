@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: market-scrapping
+    region: oregon
+    plan: free
+    runtime: node
+    buildCommand: ./install_packages.sh && npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
