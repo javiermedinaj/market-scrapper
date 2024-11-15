@@ -4,11 +4,15 @@
     "description": "",
     "main": "index.js",
     "type": "module",
+    "engines": {
+        "node": ">=16.0.0"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node server.js",
         "scrape": "node scrapers/index.js",
-        "dev": "npm run scrape && npm start"
+        "dev": "npm run scrape && npm start",
+        "build": "echo \"No build needed\""
     },
     "keywords": [],
     "author": "",

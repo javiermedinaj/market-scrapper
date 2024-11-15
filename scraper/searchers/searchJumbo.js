@@ -2,9 +2,20 @@ import puppeteer from "puppeteer";
 
 async function searchJumboProduct(productName) {
     const browser = await puppeteer.launch({
-        headless: true,
-        slowMo: 100,
-        args: ['--no-sandbox', '--disable-setuid-sandbox', '--start-maximized']
+        headless: "new",
+        args: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-dev-shm-usage',
+            '--disable-gpu',
+            '--no-first-run',
+            '--no-zygote',
+            '--single-process',
+            '--disable-extensions'
+        ],
+        executablePath: process.env.NODE_ENV === 'production' 
+            ? '/usr/bin/google-chrome' 
+            : puppeteer.executablePath()
     });
 
     try {

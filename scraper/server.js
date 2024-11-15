@@ -67,6 +67,19 @@ app.get('/api/search', async (req, res) => {
 });
 
 
+app.get('/', (req, res) => {
+  res.status(200).send('OK');
+});
+
+// Error handling middleware
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).json({
+    error: 'Internal Server Error',
+    message: process.env.NODE_ENV === 'development' ? err.message : undefined
+  });
+});
+
 app.listen(PORT, () => {
-  console.log(`Servidor corriendo en http://localhost:${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
