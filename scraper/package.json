@@ -3,16 +3,16 @@
     "version": "1.0.0",
     "type": "module",
     "engines": {
-        "node": ">=16.0.0"
+      "node": ">=18.0.0"
     },
     "scripts": {
-        "start": "node server.js",
-        "scrape": "node scrapers/index.js",
-        "dev": "npm run scrape && npm start"
+      "start": "node server.js",
+      "scrape": "node scrapers/index.js",
+      "dev": "npm run scrape && npm start"
     },
     "dependencies": {
-        "cors": "^2.8.5",
-        "express": "^4.21.1",
-        "puppeteer": "^23.5.0"
+      "cors": "^2.8.5",
+      "express": "^4.21.1",
+      "puppeteer": "^23.5.0"
     }
 }

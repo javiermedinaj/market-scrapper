@@ -3,7 +3,6 @@ import cors from 'cors';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import fs from 'fs/promises';
-// import searchProduct from './searchers/farma';
 import searchAllMarkets from './searchers/searchAllMarkets.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -14,6 +13,15 @@ const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
+
+app.use((req, res, next) => {
+  console.log(`${new Date().toISOString()} - ${req.method} ${req.url}`);
+  next();
+});
+
+app.get('/', (req, res) => {
+  res.status(200).send('OK');
+});
 
 app.get('/api/offers', async (req, res) => {
   try {
@@ -48,9 +56,6 @@ app.get('/api/offers/:store', async (req, res) => {
   }
 });
 
-
-//searchers test 
-
 app.get('/api/search', async (req, res) => {
   const { query } = req.query;
   if (!query) {
@@ -66,20 +71,13 @@ app.get('/api/search', async (req, res) => {
   }
 });
 
-
-app.get('/', (req, res) => {
-  res.status(200).send('OK');
-});
-
-// Error handling middleware
 app.use((err, req, res, next) => {
-  console.error(err.stack);
-  res.status(500).json({
-    error: 'Internal Server Error',
-    message: process.env.NODE_ENV === 'development' ? err.message : undefined
-  });
+  console.error(err);
+  res.status(500).json({ error: 'Internal Server Error' });
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server running on port ${PORT}`);
 });
+
+

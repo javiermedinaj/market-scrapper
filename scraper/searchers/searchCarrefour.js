@@ -4,23 +4,26 @@ async function searchCarrefourProduct(productName) {
     const browser = await puppeteer.launch({
         headless: "new",
         args: [
-            '--no-sandbox',
-            '--disable-setuid-sandbox',
-            '--disable-dev-shm-usage',
-            '--disable-gpu',
-            '--no-first-run',
-            '--no-zygote',
-            '--single-process',
-            '--disable-extensions'
+          '--no-sandbox',
+          '--disable-setuid-sandbox',
+          '--disable-gpu',
+          '--no-first-run',
+          '--no-zygote',
+          '--disable-dev-shm-usage',
+          '--single-process'
         ],
-        executablePath: process.env.CHROME_PATH || '/usr/bin/google-chrome'
-    });
+        executablePath: process.env.CHROME_PATH || '/usr/bin/google-chrome',
+        timeout: 0
+      });
     try {
         const page = await browser.newPage();
         await page.setViewport({ width: 1200, height: 800 });
 
         const searchUrl = `https://www.carrefour.com.ar/${productName}?_q=${productName}&map=ft&order=OrderByPriceASC`;
-        await page.goto(searchUrl, { timeout: 50000 });
+        await page.goto(searchUrl, { 
+            timeout: 120000,
+            waitUntil: ['networkidle0', 'domcontentloaded']
+          });;
     
         await page.waitForSelector(".valtech-carrefourar-product-summary-status-0-x-container");
         
@@ -57,5 +60,7 @@ async function searchCarrefourProduct(productName) {
         await browser.close();
     }
 }
+
+
 
 export default searchCarrefourProduct;
