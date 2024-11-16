@@ -2,7 +2,7 @@ import searchProduct from '../farma.js';
 
 async function testSearch() {
     try {
-        const searchTerm = 'ibuprofeno';
+        const searchTerm = 'protector solar';
         console.log(`Buscando los 5 ${searchTerm} más baratos...`);
         
         const results = await searchProduct(searchTerm);

@@ -11,7 +11,11 @@ const __dirname = dirname(__filename);
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(cors());
+app.use(cors({
+  origin: '*',
+  methods: ['GET', 'POST', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 app.use(express.json());
 
 app.use((req, res, next) => {
@@ -59,15 +63,22 @@ app.get('/api/offers/:store', async (req, res) => {
 app.get('/api/search', async (req, res) => {
   const { query } = req.query;
   if (!query) {
-    return res.status(400).json({ error: 'Query parameter is required' });
+      return res.status(400).json({ error: 'Query parameter is required' });
   }
 
+  console.log(`Iniciando búsqueda para query: "${query}"`);
+  
   try {
-    const results = await searchAllMarkets(query);
-    res.json(results);
+      const results = await searchAllMarkets(query);
+      console.log(`Búsqueda completada. Resultados: ${results.length}`);
+      res.json(results);
   } catch (error) {
-    console.error('Error al realizar la búsqueda:', error);
-    res.status(500).json({ error: 'Error interno del servidor' });
+      console.error('Error detallado:', error);
+      console.error('Stack trace:', error.stack);
+      res.status(500).json({ 
+          error: 'Error interno del servidor',
+          details: error.message
+      });
   }
 });
 

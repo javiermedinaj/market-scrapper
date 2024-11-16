@@ -16,7 +16,7 @@ async function diaScraper() {
     
     try {
         const page = await browser.newPage();
-        await page.goto("https://diaonline.supermercadosdia.com.ar/cybermonday", { timeout: 120000 });
+        await page.goto("https://diaonline.supermercadosdia.com.ar/especial-ofertas", { timeout: 120000 });
         const products = [];
         const extractProducts = async () => {
             const productsData = await page.evaluate(() => {
@@ -62,5 +62,6 @@ async function diaScraper() {
         await browser.close();
     }
 }
+
 
 export default diaScraper;

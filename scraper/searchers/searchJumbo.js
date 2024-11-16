@@ -1,20 +1,31 @@
 import puppeteer from "puppeteer";
+import { platform } from 'os';
 
 async function searchJumboProduct(productName) {
+    const isWindows = platform() === 'win32';
+    const defaultChromePath = isWindows 
+        ? 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
+        : '/usr/bin/google-chrome';
+
     const browser = await puppeteer.launch({
         headless: "new",
         args: [
-          '--no-sandbox',
-          '--disable-setuid-sandbox',
-          '--disable-gpu',
-          '--no-first-run',
-          '--no-zygote',
-          '--disable-dev-shm-usage',
-          '--single-process'
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-gpu',
+            '--disable-dev-shm-usage',
+            '--no-first-run',
+            '--no-zygote',
+            '--single-process',
+            '--disable-features=site-per-process',
+            '--disable-web-security',
+            '--disable-features=IsolateOrigins',
+            '--disable-site-isolation-trials',
+            '--disable-features=BlockInsecurePrivateNetworkRequests'
         ],
-        executablePath: process.env.CHROME_PATH || '/usr/bin/google-chrome',
+        executablePath: process.env.CHROME_PATH || defaultChromePath,
         timeout: 0
-      });
+    });
 
     try {
         const page = await browser.newPage();

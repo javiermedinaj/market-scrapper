@@ -28,7 +28,7 @@ const Navbar = ({ onSearch }) => {
           </a>
         </div>
 
-        <div className="hidden md:block max-w-xl flex-1 mx-4">
+        {/* <div className="hidden md:block max-w-xl flex-1 mx-4">
           <form onSubmit={handleSubmit} className="flex">
             <input
               type="text"
@@ -57,7 +57,7 @@ const Navbar = ({ onSearch }) => {
               <Search size={20} />
             </button>
           </form>
-        </div>
+        </div> */}
 
         <button
           onClick={toggleDarkMode}

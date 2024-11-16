@@ -62,7 +62,23 @@ Este proyecto automatiza la recolección de ofertas de diferentes supermercados 
 - Comparación en tiempo real de precios
 - Diseño responsive (se adapta a móviles y tablets)
 
-- Añadido busqueda por input 
+## 🔍 Nueva Funcionalidad: Búsqueda por Input
+
+Se ha añadido una nueva funcionalidad de búsqueda por input. Puedes utilizarla de las siguientes maneras:
+
+1. Ejecutando el backend con Docker:
+  ```bash
+  cd scrapers
+  npm start
+  ```
+
+2. Ejecutando el backend directamente desde la carpeta `scrapers`:
+  ```bash
+  cd scrapers
+  node server.js
+  ```
+
+Para activar la función de búsqueda, asegúrate de habilitar el input en la barra de navegación del frontend.
 
 ## 🤝Contribuciones
 

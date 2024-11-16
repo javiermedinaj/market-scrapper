@@ -2,10 +2,14 @@ import React, { useState, useEffect } from 'react';
 import ImageGrid from './ImageGrid';
 import OfferCard from './OfferCard';
 import Sidebar from './Sidebar';
+import { useTheme } from '../context/ThemeContext';
 import diaOffers from '../../../scraper/data/dia-ofertas.json';
 import jumboOffers from '../../../scraper/data/jumbo-ofertas.json';
 import carrefourOffers from '../../../scraper/data/carrefour-ofertas.json';
-import { useTheme } from '../context/ThemeContext';
+import cotoOffers from '../../../scraper/data/coto-ofertas.json';
+import farmacityOffers from '../../../scraper/data/farmacity-ofertas.json'; 
+import farmaonline from '../../../scraper/data/farma-ofertas.json'; 
+
 const OfferList = () => {
   const [offers, setOffers] = useState({});
   const [loading, setLoading] = useState(true);
@@ -20,7 +24,10 @@ const OfferList = () => {
       const offersData = {
         dia: diaOffers,
         jumbo: jumboOffers,
-        carrefour: carrefourOffers
+        carrefour: carrefourOffers,
+        coto: cotoOffers,
+        farmacity: farmacityOffers,
+        farmaonline: farmaonline
       };
 
       setOffers(offersData);
@@ -52,11 +59,22 @@ const OfferList = () => {
     </div>
   );
 
+  const getLinkUrl = (store) => {
+    switch(store) {
+      case 'carrefour':
+        return 'https://www.carrefour.com.ar/promociones';
+      case 'coto':
+        return 'https://www.coto.com.ar/';
+      default:
+        return '#'; 
+    }
+  };
+
   return (
     <div className={`min-h-screen ${darkMode ? 'bg-gray-700 text-white' : 'bg-gray-100'} transition-colors duration-300`}>
       <div className="flex flex-col md:flex-row">
         <Sidebar
-          stores={['jumbo', 'carrefour', 'dia']}
+          stores={['jumbo', 'carrefour', 'dia', 'farmacity', 'farmaonline', 'coto']}
           activeStore={activeStore}
           onStoreSelect={(store) => setActiveStore(store)}
         />
@@ -73,9 +91,14 @@ const OfferList = () => {
           ) : (
             offers[activeStore] && (
               <div className="mb-8 mt-4">
-                <h2 className="text-2xl font-bold mb-8 text-center">{activeStore.charAt(0).toUpperCase() + activeStore.slice(1)} Ofertas</h2>
-                {activeStore === 'carrefour' ? (
-                  <ImageGrid images={offers[activeStore]} />
+                <h2 className="text-2xl font-bold mb-8 text-center">
+                  {activeStore.charAt(0).toUpperCase() + activeStore.slice(1)} Ofertas
+                </h2>
+                {(activeStore === 'carrefour' || activeStore === 'coto') ? (
+                  <ImageGrid 
+                    images={offers[activeStore]} 
+                    linkUrl={getLinkUrl(activeStore)} 
+                  />
                 ) : (
                   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                     {offers[activeStore].map((offer, index) => (
