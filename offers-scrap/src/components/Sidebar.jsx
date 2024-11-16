@@ -8,7 +8,7 @@ const Sidebar = ({ stores, activeStore, onStoreSelect }) => {
   return (
     <>
       <button
-        className="md:hidden fixed top-18 left-1 z-50 p-2 rounded-full shadow-lg transition-colors duration-300"
+        className="md:hidden fixed top-20 left-1 z-50 p-2 rounded-2xl shadow-lg transition-colors duration-300"
         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
       >
         {isMobileMenuOpen ? '✕' : '☰'}
@@ -24,7 +24,7 @@ const Sidebar = ({ stores, activeStore, onStoreSelect }) => {
         `}
       >
         <div className="p-6 mt-16 md:mt-0">
-          <h2 className="text-2xl font-bold mb-6">Mercados</h2>
+          <h2 className="text-2xl font-bold mb-6 ml-6">Mercados</h2>
           <ul className="space-y-3">
             {stores.map((store) => (
               <li key={store}>

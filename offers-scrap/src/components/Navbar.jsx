@@ -71,8 +71,7 @@ const Navbar = ({ onSearch }) => {
           {darkMode ? "🌙" : "☀️"}
         </button>
       </div>
-
-      {/* Mobile search */}
+      {/*
       <div className="md:hidden mt-4">
         <form onSubmit={handleSubmit} className="flex">
           <input
@@ -103,6 +102,7 @@ const Navbar = ({ onSearch }) => {
           </button>
         </form>
       </div>
+      */}
     </nav>
   );
 };
