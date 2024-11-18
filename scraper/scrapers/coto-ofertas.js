@@ -69,4 +69,4 @@ async function cotoScraper() {
     }
 }
 
-cotoScraper();
+export default cotoScraper;

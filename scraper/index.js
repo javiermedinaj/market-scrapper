@@ -1,6 +1,9 @@
 import jumboScraper from './scrapers/jumbo-ofertas.js';
 import carrefourScraper from './scrapers/carrefour-ofertas.js';
 import diaScraper from './scrapers/dia-ofertas.js';
+import farmaScraper from './scrapers/farma-ofertas.js';
+import farmacityScraper from './scrapers/farmacity-ofertas.js';
+import cotoScraper from './scrapers/coto-ofertas.js';
 
 export async function runAllScrapers() {
   try {
@@ -14,6 +17,16 @@ export async function runAllScrapers() {
 
     await diaScraper();
     console.log('Dia scraper ejecutado exitosamente');
+
+    await farmaScraper();
+    console.log('Farma scraper ejecutado exitosamente');
+
+    await farmacityScraper();
+    console.log('Farmacity scraper ejecutado exitosamente');
+
+    await cotoScraper();
+    console.log('Coto scraper ejecutado exitosamente');
+
 
     console.log('Todos los scrapers se han ejecutado exitosamente');
   } catch (error) {

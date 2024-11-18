@@ -97,6 +97,5 @@ async function farmaScraper() {
     }
 }
 
-farmaScraper();
 
 export default farmaScraper;
