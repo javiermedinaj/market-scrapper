@@ -1,5 +1,13 @@
 [
   {
+    "name": "Mascara de pestañas sky high very black wsh",
+    "price": "$ 13567,50",
+    "link": "https://www.farmaonline.com/maybelline-mascara-de-pestaas-sky-high-very-black-wsh-8121647/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1220223-500-auto?v=638531164270500000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "CUIDADO CAPILAR"
+  },
+  {
     "name": "Gel crema anti brillo revitalift 50 ml",
     "price": "$ 15201,00",
     "link": "https://www.farmaonline.com/loreal-paris-8126005/p",
@@ -8,26 +16,18 @@
     "category": "CUIDADO CAPILAR"
   },
   {
+    "name": "Serum glycolic gloss 100ml",
+    "price": "$ 8067,95",
+    "link": "https://www.farmaonline.com/elvive-8131945/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1287368-500-auto?v=638662806504170000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "CUIDADO CAPILAR"
+  },
+  {
     "name": "Suplemento dietario complex (30 comprimidos)",
     "price": "$ 18550,00",
     "link": "https://www.farmaonline.com/quelat-suplemento-dietario-complex-30-comprimidos-8030599/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1229118-500-auto?v=638533644547400000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "CUIDADO CAPILAR"
-  },
-  {
-    "name": "Photoderm nude touch mineral spf50+ very light 40 ml",
-    "price": "$ 32173,35",
-    "link": "https://www.farmaonline.com/bioderma-8133596/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1265749-500-auto?v=638608872068500000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "CUIDADO CAPILAR"
-  },
-  {
-    "name": "Serum corporal pantenol piel extra seca 400 ml",
-    "price": "$ 11501,47",
-    "link": "https://www.farmaonline.com/dove-8133241/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1258268-500-auto?v=638586534524570000&width=500&height=auto&aspect=true",
     "promo": null,
     "category": "CUIDADO CAPILAR"
   },
@@ -56,6 +56,14 @@
     "category": "CUIDADO CAPILAR"
   },
   {
+    "name": "Mascara de pestañas sky high very black wsh",
+    "price": "$ 13567,50",
+    "link": "https://www.farmaonline.com/maybelline-mascara-de-pestaas-sky-high-very-black-wsh-8121647/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1220223-500-auto?v=638531164270500000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "HOGAR"
+  },
+  {
     "name": "Gel crema anti brillo revitalift 50 ml",
     "price": "$ 15201,00",
     "link": "https://www.farmaonline.com/loreal-paris-8126005/p",
@@ -64,26 +72,18 @@
     "category": "HOGAR"
   },
   {
+    "name": "Serum glycolic gloss 100ml",
+    "price": "$ 8067,95",
+    "link": "https://www.farmaonline.com/elvive-8131945/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1287368-500-auto?v=638662806504170000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "HOGAR"
+  },
+  {
     "name": "Suplemento dietario complex (30 comprimidos)",
     "price": "$ 18550,00",
     "link": "https://www.farmaonline.com/quelat-suplemento-dietario-complex-30-comprimidos-8030599/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1229118-500-auto?v=638533644547400000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "HOGAR"
-  },
-  {
-    "name": "Photoderm nude touch mineral spf50+ very light 40 ml",
-    "price": "$ 32173,35",
-    "link": "https://www.farmaonline.com/bioderma-8133596/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1265749-500-auto?v=638608872068500000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "HOGAR"
-  },
-  {
-    "name": "Serum corporal pantenol piel extra seca 400 ml",
-    "price": "$ 11501,47",
-    "link": "https://www.farmaonline.com/dove-8133241/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1258268-500-auto?v=638586534524570000&width=500&height=auto&aspect=true",
     "promo": null,
     "category": "HOGAR"
   },
@@ -112,6 +112,14 @@
     "category": "HOGAR"
   },
   {
+    "name": "Mascara de pestañas sky high very black wsh",
+    "price": "$ 13567,50",
+    "link": "https://www.farmaonline.com/maybelline-mascara-de-pestaas-sky-high-very-black-wsh-8121647/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1220223-500-auto?v=638531164270500000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "DESODORANTES"
+  },
+  {
     "name": "Gel crema anti brillo revitalift 50 ml",
     "price": "$ 15201,00",
     "link": "https://www.farmaonline.com/loreal-paris-8126005/p",
@@ -120,26 +128,18 @@
     "category": "DESODORANTES"
   },
   {
+    "name": "Serum glycolic gloss 100ml",
+    "price": "$ 8067,95",
+    "link": "https://www.farmaonline.com/elvive-8131945/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1287368-500-auto?v=638662806504170000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "DESODORANTES"
+  },
+  {
     "name": "Suplemento dietario complex (30 comprimidos)",
     "price": "$ 18550,00",
     "link": "https://www.farmaonline.com/quelat-suplemento-dietario-complex-30-comprimidos-8030599/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1229118-500-auto?v=638533644547400000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "DESODORANTES"
-  },
-  {
-    "name": "Photoderm nude touch mineral spf50+ very light 40 ml",
-    "price": "$ 32173,35",
-    "link": "https://www.farmaonline.com/bioderma-8133596/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1265749-500-auto?v=638608872068500000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "DESODORANTES"
-  },
-  {
-    "name": "Serum corporal pantenol piel extra seca 400 ml",
-    "price": "$ 11501,47",
-    "link": "https://www.farmaonline.com/dove-8133241/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1258268-500-auto?v=638586534524570000&width=500&height=auto&aspect=true",
     "promo": null,
     "category": "DESODORANTES"
   },
@@ -168,6 +168,14 @@
     "category": "DESODORANTES"
   },
   {
+    "name": "Mascara de pestañas sky high very black wsh",
+    "price": "$ 13567,50",
+    "link": "https://www.farmaonline.com/maybelline-mascara-de-pestaas-sky-high-very-black-wsh-8121647/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1220223-500-auto?v=638531164270500000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "PAÑALES"
+  },
+  {
     "name": "Gel crema anti brillo revitalift 50 ml",
     "price": "$ 15201,00",
     "link": "https://www.farmaonline.com/loreal-paris-8126005/p",
@@ -176,26 +184,18 @@
     "category": "PAÑALES"
   },
   {
+    "name": "Serum glycolic gloss 100ml",
+    "price": "$ 8067,95",
+    "link": "https://www.farmaonline.com/elvive-8131945/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1287368-500-auto?v=638662806504170000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "PAÑALES"
+  },
+  {
     "name": "Suplemento dietario complex (30 comprimidos)",
     "price": "$ 18550,00",
     "link": "https://www.farmaonline.com/quelat-suplemento-dietario-complex-30-comprimidos-8030599/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1229118-500-auto?v=638533644547400000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "PAÑALES"
-  },
-  {
-    "name": "Photoderm nude touch mineral spf50+ very light 40 ml",
-    "price": "$ 32173,35",
-    "link": "https://www.farmaonline.com/bioderma-8133596/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1265749-500-auto?v=638608872068500000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "PAÑALES"
-  },
-  {
-    "name": "Serum corporal pantenol piel extra seca 400 ml",
-    "price": "$ 11501,47",
-    "link": "https://www.farmaonline.com/dove-8133241/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1258268-500-auto?v=638586534524570000&width=500&height=auto&aspect=true",
     "promo": null,
     "category": "PAÑALES"
   },
@@ -224,6 +224,14 @@
     "category": "PAÑALES"
   },
   {
+    "name": "Mascara de pestañas sky high very black wsh",
+    "price": "$ 13567,50",
+    "link": "https://www.farmaonline.com/maybelline-mascara-de-pestaas-sky-high-very-black-wsh-8121647/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1220223-500-auto?v=638531164270500000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "ELECTRO"
+  },
+  {
     "name": "Gel crema anti brillo revitalift 50 ml",
     "price": "$ 15201,00",
     "link": "https://www.farmaonline.com/loreal-paris-8126005/p",
@@ -232,26 +240,18 @@
     "category": "ELECTRO"
   },
   {
+    "name": "Serum glycolic gloss 100ml",
+    "price": "$ 8067,95",
+    "link": "https://www.farmaonline.com/elvive-8131945/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1287368-500-auto?v=638662806504170000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "ELECTRO"
+  },
+  {
     "name": "Suplemento dietario complex (30 comprimidos)",
     "price": "$ 18550,00",
     "link": "https://www.farmaonline.com/quelat-suplemento-dietario-complex-30-comprimidos-8030599/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1229118-500-auto?v=638533644547400000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "ELECTRO"
-  },
-  {
-    "name": "Photoderm nude touch mineral spf50+ very light 40 ml",
-    "price": "$ 32173,35",
-    "link": "https://www.farmaonline.com/bioderma-8133596/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1265749-500-auto?v=638608872068500000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "ELECTRO"
-  },
-  {
-    "name": "Serum corporal pantenol piel extra seca 400 ml",
-    "price": "$ 11501,47",
-    "link": "https://www.farmaonline.com/dove-8133241/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1258268-500-auto?v=638586534524570000&width=500&height=auto&aspect=true",
     "promo": null,
     "category": "ELECTRO"
   },
