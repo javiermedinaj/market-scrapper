@@ -48,16 +48,16 @@
     "image": "https://farmacityar.vtexassets.com/arquivos/ids/208036-500-auto?v=637502903070100000&width=500&height=auto&aspect=true"
   },
   {
-    "name": "Acondicionador Herbal Essences Bio Renew 6X Aloe & Mango x 250 ml",
-    "price": "$ 16291.",
-    "link": "https://www.farmacity.com/acondicionador-herbal-essences-bio-renew-x6-aloe-y-mango-x-250-ml/p",
-    "image": "https://farmacityar.vtexassets.com/arquivos/ids/210934-500-auto?v=637587693055570000&width=500&height=auto&aspect=true"
-  },
-  {
     "name": "Gel Post Solar con aloe vera Bagóvit X 200 g",
     "price": "$ 11543.",
     "link": "https://www.farmacity.com/gel-post-solar-con-aloe-vera-dermaglos-x-200-gr/p",
     "image": "https://farmacityar.vtexassets.com/arquivos/ids/242270-500-auto?v=638192400681970000&width=500&height=auto&aspect=true"
+  },
+  {
+    "name": "Acondicionador Herbal Essences Bio Renew 6X Aloe & Mango x 250 ml",
+    "price": "$ 16291.",
+    "link": "https://www.farmacity.com/acondicionador-herbal-essences-bio-renew-x6-aloe-y-mango-x-250-ml/p",
+    "image": "https://farmacityar.vtexassets.com/arquivos/ids/210934-500-auto?v=637587693055570000&width=500&height=auto&aspect=true"
   },
   {
     "name": "Base Líquida Extreme 24 Hs Light Finish",
@@ -108,6 +108,12 @@
     "image": "https://farmacityar.vtexassets.com/arquivos/ids/204884-500-auto?v=637404718835230000&width=500&height=auto&aspect=true"
   },
   {
+    "name": "Algodón Clásico Farmacity x 75 g",
+    "price": "$ 749",
+    "link": "https://www.farmacity.com/algodon-clasico-farmacity-x-75gr/p",
+    "image": "https://farmacityar.vtexassets.com/arquivos/ids/156175-500-auto?v=636670305410200000&width=500&height=auto&aspect=true"
+  },
+  {
     "name": "Baño Líquido Cetaphil Baby x 300 ml",
     "price": "$ 19260.",
     "link": "https://www.farmacity.com/bano-liquido-baby-de-la-cabeza-a-los-pies-x-300-ml/p",
@@ -120,10 +126,10 @@
     "image": "https://farmacityar.vtexassets.com/arquivos/ids/249066-500-auto?v=638350454650000000&width=500&height=auto&aspect=true"
   },
   {
-    "name": "Algodón Clásico Farmacity x 75 g",
-    "price": "$ 749",
-    "link": "https://www.farmacity.com/algodon-clasico-farmacity-x-75gr/p",
-    "image": "https://farmacityar.vtexassets.com/arquivos/ids/156175-500-auto?v=636670305410200000&width=500&height=auto&aspect=true"
+    "name": "Gel de Cejas Extreme Color Brow Fix",
+    "price": "$ 7095.",
+    "link": "https://www.farmacity.com/gel-de-cejas-extreme-color-brow-fix/p",
+    "image": "https://farmacityar.vtexassets.com/arquivos/ids/243336-500-auto?v=638216563096870000&width=500&height=auto&aspect=true"
   },
   {
     "name": "Protector Solar Rayito de Sol Family FPS 30 X 400 Gr",
@@ -132,15 +138,9 @@
     "image": "https://farmacityar.vtexassets.com/arquivos/ids/182665-500-auto?v=636790399600530000&width=500&height=auto&aspect=true"
   },
   {
-    "name": "Gel de Cejas Extreme Color Brow Fix",
-    "price": "$ 7095.",
-    "link": "https://www.farmacity.com/gel-de-cejas-extreme-color-brow-fix/p",
-    "image": "https://farmacityar.vtexassets.com/arquivos/ids/243336-500-auto?v=638216563096870000&width=500&height=auto&aspect=true"
-  },
-  {
-    "name": "Protector Solar Bagóvit Family Care Fps 20 x 200 ml",
-    "price": "$ 14319.",
-    "link": "https://www.farmacity.com/bagovit-solar-family-care-nf-fps20-emu-200-ml/p",
-    "image": "https://farmacityar.vtexassets.com/arquivos/ids/217407-500-auto?v=637727588928500000&width=500&height=auto&aspect=true"
+    "name": "Protector Solar Facial con Color Bagóvit Solar FPS 45 x 50 g",
+    "price": "$ 14698.",
+    "link": "https://www.farmacity.com/protector-solar-facial-con-color-bagovit-solar-fps-45-x-50-g/p",
+    "image": "https://farmacityar.vtexassets.com/arquivos/ids/242301-500-auto?v=638192530172570000&width=500&height=auto&aspect=true"
   }
 ]
