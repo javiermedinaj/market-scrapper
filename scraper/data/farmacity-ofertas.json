@@ -42,16 +42,16 @@
     "image": "https://farmacityar.vtexassets.com/arquivos/ids/221664-500-auto?v=637861696204670000&width=500&height=auto&aspect=true"
   },
   {
-    "name": "Protectores Diario Enjoy Anatómico x 20 un",
-    "price": "$ 1620.",
-    "link": "https://www.farmacity.com/protectores-diarios-anatomico-x-20-un/p",
-    "image": "https://farmacityar.vtexassets.com/arquivos/ids/166856-500-auto?v=636670343266670000&width=500&height=auto&aspect=true"
-  },
-  {
     "name": "Sérum para Ojos L'Oréal Paris Revitalift Ácido Hialurónico x 20 ml",
     "price": "$ 19750.",
     "link": "https://www.farmacity.com/serum-para-ojos-loreal-paris-revitalift-acido-hialuronico-x-20-ml/p",
     "image": "https://farmacityar.vtexassets.com/arquivos/ids/237865-500-auto?v=638127516316900000&width=500&height=auto&aspect=true"
+  },
+  {
+    "name": "Protectores Diario Enjoy Anatómico x 20 un",
+    "price": "$ 1620.",
+    "link": "https://www.farmacity.com/protectores-diarios-anatomico-x-20-un/p",
+    "image": "https://farmacityar.vtexassets.com/arquivos/ids/166856-500-auto?v=636670343266670000&width=500&height=auto&aspect=true"
   },
   {
     "name": "Protector Solar Nivea Protect & Play Kids Trigger Spray FPS 60 y Protección UVA 5 en 1 x 270 ml",
@@ -82,6 +82,12 @@
     "price": "$ 14500.",
     "link": "https://www.farmacity.com/suplemento-dietario-pure-wellnes-colageno-x-60-capsulas/p",
     "image": "https://farmacityar.vtexassets.com/arquivos/ids/197581-500-auto?v=637236844045300000&width=500&height=auto&aspect=true"
+  },
+  {
+    "name": "Base de Maquillaje Maybelline Super Stay Lumi-Matte",
+    "price": "$ 36945.",
+    "link": "https://www.farmacity.com/base-liquida-maybelline-superstay-lumi-matte-x-35-ml/p",
+    "image": "https://farmacityar.vtexassets.com/arquivos/ids/259959-500-auto?v=638609864169500000&width=500&height=auto&aspect=true"
   },
   {
     "name": "Corrector en Barra Rimmel Hide the Blemish x 4,5 g",
@@ -124,5 +130,11 @@
     "price": "$ 7600.",
     "link": "https://www.farmacity.com/lubricante-en-gel-puro-placer-x-50-gr/p",
     "image": "https://farmacityar.vtexassets.com/arquivos/ids/159197-500-auto?v=636670314117670000&width=500&height=auto&aspect=true"
+  },
+  {
+    "name": "Base Líquida Maybelline Fit Me Fresh Tint Spf 50",
+    "price": "$ 28096.",
+    "link": "https://www.farmacity.com/base-liquida-maybelline-fit-me-fresh-tint-spf-50/p",
+    "image": "https://farmacityar.vtexassets.com/arquivos/ids/244536-500-auto?v=638246114447230000&width=500&height=auto&aspect=true"
   }
 ]
