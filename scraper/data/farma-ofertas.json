@@ -144,14 +144,6 @@
     "category": "SUPLEMENTOS"
   },
   {
-    "name": "Suplemento dietario bronsol (30 cápsulas)",
-    "price": "$ 5604,00",
-    "link": "https://www.farmaonline.com/vitamin-way-suplemento-dietario-bronsol-30-cpsulas-8040892/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1228773-500-auto?v=638533537607770000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "SUPLEMENTOS"
-  },
-  {
     "name": "Nutri100 vitamina c 1000 mg (30 unidades)",
     "price": "$ 9990,00",
     "link": "https://www.farmaonline.com/nutri100-nutri100-vitamina-c-1000-mg-30-unidades-8117917/p",
@@ -168,6 +160,14 @@
     "category": "SUPLEMENTOS"
   },
   {
+    "name": "Vitamina E (30 cápsulas vegetales)",
+    "price": "$ 9250,00",
+    "link": "https://www.farmaonline.com/nutri100-8122850/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1227751-500-auto?v=638533217915730000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "SUPLEMENTOS"
+  },
+  {
     "name": "Pañales Splashers para agua talle xg (10 unidades)",
     "price": "$ 8922,73",
     "link": "https://www.farmaonline.com/pampers-paales-splashers-para-agua-talle-xg-10-unidades-8112092/p",
@@ -200,6 +200,30 @@
     "category": "SOLARES FACIALES"
   },
   {
+    "name": "Protector solar facial hydro fluid fps 50+ 50 ml",
+    "price": "$ 26428,93",
+    "link": "https://www.farmaonline.com/eucerin-8127334/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1288006-500-auto?v=638672063722200000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "SOLARES FACIALES"
+  },
+  {
+    "name": "Protector solar facial pigment control tono medio fps 50",
+    "price": "$ 31139,15",
+    "link": "https://www.farmaonline.com/eucerin-protector-solar-facial-pigment-control-tono-medio-fps-50-8123083/p?skuId=8123083",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1278141/8123083_0.jpg?v=638647890872700000",
+    "promo": null,
+    "category": "SOLARES FACIALES"
+  },
+  {
+    "name": "Anthelios oil control fluido SPF50+ 50 ml",
+    "price": "$ 30030,00",
+    "link": "https://www.farmaonline.com/la-roche-posay-8132848/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1258770-500-auto?v=638590632811300000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "SOLARES FACIALES"
+  },
+  {
     "name": "Pañales Splashers para agua talle xg (10 unidades)",
     "price": "$ 8922,73",
     "link": "https://www.farmaonline.com/pampers-paales-splashers-para-agua-talle-xg-10-unidades-8112092/p",
@@ -228,22 +252,6 @@
     "price": "$ 14201,55",
     "link": "https://www.farmaonline.com/bagovit-gel-post-solar-hidratante-aloe-vera-200-gr-8036069/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1277035-500-auto?v=638647652964630000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "JABONES"
-  },
-  {
-    "name": "Jabón líquido berries hidrata y revitaliza 240 ml",
-    "price": "$ 2498,30",
-    "link": "https://www.farmaonline.com/vn-8133057/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1256317-500-auto?v=638578548226230000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "JABONES"
-  },
-  {
-    "name": "Jabon liquido coco hidrata y suaviza 240 ml",
-    "price": "$ 2498,30",
-    "link": "https://www.farmaonline.com/vn-8133058/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1256318-500-auto?v=638578548256500000&width=500&height=auto&aspect=true",
     "promo": null,
     "category": "JABONES"
   },
@@ -252,6 +260,22 @@
     "price": "$ 2498,30",
     "link": "https://www.farmaonline.com/vn-8133059/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1256319-500-auto?v=638578548283530000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "JABONES"
+  },
+  {
+    "name": "Jabón de glicerina en barra lemongrass y flores blancas 90 g (3 unid)",
+    "price": "$ 2810,08",
+    "link": "https://www.farmaonline.com/lux-8131619/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1245009-500-auto?v=638543477409930000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "JABONES"
+  },
+  {
+    "name": "Jabón de glicerina en barra camomila 90 gr (3 unidades)",
+    "price": "$ 2810,08",
+    "link": "https://www.farmaonline.com/lux-8131623/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1244997-500-auto?v=638543476934530000&width=500&height=auto&aspect=true",
     "promo": null,
     "category": "JABONES"
   }
