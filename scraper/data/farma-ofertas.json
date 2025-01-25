@@ -160,10 +160,10 @@
     "category": "SUPLEMENTOS"
   },
   {
-    "name": "Suplemento dietario colágeno y hialurónico (30 cápsulas)",
-    "price": "$ 9204,50",
-    "link": "https://www.farmaonline.com/vitamin-way-8124916/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1234412-500-auto?v=638535302751200000&width=500&height=auto&aspect=true",
+    "name": "Suplemento dietario ácido hialurónico (30 cápsulas)",
+    "price": "$ 10983,50",
+    "link": "https://www.farmaonline.com/vitamin-way-suplemento-dietario-cido-hialurnico-30-cpsulas-8040888/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1228769-500-auto?v=638533537252870000&width=500&height=auto&aspect=true",
     "promo": null,
     "category": "SUPLEMENTOS"
   },
@@ -264,18 +264,18 @@
     "category": "JABONES"
   },
   {
-    "name": "Jabon liquido coco hidrata y suaviza doypack 200 ml",
-    "price": "$ 1479,10",
-    "link": "https://www.farmaonline.com/vn-8133068/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1256322-500-auto?v=638578548342300000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "JABONES"
-  },
-  {
     "name": "Jabon liquido jengibre hidrata y purifica doypack 200 ml",
     "price": "$ 1479,10",
     "link": "https://www.farmaonline.com/vn-8133072/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1256323-500-auto?v=638578548367670000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "JABONES"
+  },
+  {
+    "name": "Jabon liquido coco hidrata y suaviza doypack 200 ml",
+    "price": "$ 1479,10",
+    "link": "https://www.farmaonline.com/vn-8133068/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1256322-500-auto?v=638578548342300000&width=500&height=auto&aspect=true",
     "promo": null,
     "category": "JABONES"
   }
