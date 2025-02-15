@@ -54,16 +54,16 @@
     "image": "https://farmacityar.vtexassets.com/arquivos/ids/250248-500-auto?v=638379140760000000&width=500&height=auto&aspect=true"
   },
   {
-    "name": "Agua Micelar L'Oréal Paris Ácido Hialurónico x 200 ml",
-    "price": "$ 8890.",
-    "link": "https://www.farmacity.com/agua-micelar-loreal-paris-revitalift-filler-con-acido-hialuronico-x-200-ml/p",
-    "image": "https://farmacityar.vtexassets.com/arquivos/ids/209281-500-auto?v=637547121018600000&width=500&height=auto&aspect=true"
-  },
-  {
     "name": "Enjuague Bucal Colgate Plax Ice Infinity Promo Lleve 500 Ml Pague 350 Ml",
     "price": "$ 4644.",
     "link": "https://www.farmacity.com/enjuague-bucal-colgate-plax-ice-infinity-x-500ml-al-precio-de-350-ml/p",
     "image": "https://farmacityar.vtexassets.com/arquivos/ids/259645-500-auto?v=638605430098370000&width=500&height=auto&aspect=true"
+  },
+  {
+    "name": "Agua Micelar L'Oréal Paris Ácido Hialurónico x 200 ml",
+    "price": "$ 8890.",
+    "link": "https://www.farmacity.com/agua-micelar-loreal-paris-revitalift-filler-con-acido-hialuronico-x-200-ml/p",
+    "image": "https://farmacityar.vtexassets.com/arquivos/ids/209281-500-auto?v=637547121018600000&width=500&height=auto&aspect=true"
   },
   {
     "name": "Acondicionador Dove Bond Intense Repair x 250 ml",
@@ -90,12 +90,6 @@
     "image": "https://farmacityar.vtexassets.com/arquivos/ids/259071-500-auto?v=638580312762830000&width=500&height=auto&aspect=true"
   },
   {
-    "name": "Shampoo Dove Bond Intense Repair x 400 ml",
-    "price": "$ 4370.",
-    "link": "https://www.farmacity.com/shampo-dove-bond-intense-repair-x-400-ml/p",
-    "image": "https://farmacityar.vtexassets.com/arquivos/ids/259384-500-auto?v=638597557006270000&width=500&height=auto&aspect=true"
-  },
-  {
     "name": "Crema Corporal Goicochea Ultranutritiva x 400 ml",
     "price": "$ 7805.",
     "link": "https://www.farmacity.com/crema-mejora-zonas-con-varices-ultra-nutritiva-x-400-ml/p",
@@ -106,6 +100,12 @@
     "price": "$ 4315.",
     "link": "https://www.farmacity.com/acondicionador-tresemme-brillo-lamelar-p-x-500-ml/p",
     "image": "https://farmacityar.vtexassets.com/arquivos/ids/248663-500-auto?v=638342929970600000&width=500&height=auto&aspect=true"
+  },
+  {
+    "name": "Shampoo Dove Bond Intense Repair x 400 ml",
+    "price": "$ 4370.",
+    "link": "https://www.farmacity.com/shampo-dove-bond-intense-repair-x-400-ml/p",
+    "image": "https://farmacityar.vtexassets.com/arquivos/ids/259384-500-auto?v=638597557006270000&width=500&height=auto&aspect=true"
   },
   {
     "name": "Suplemento Dietario Vitamin Way Bronsol x 30 un",
@@ -132,15 +132,15 @@
     "image": "https://farmacityar.vtexassets.com/arquivos/ids/238177-500-auto?v=638132777843170000&width=500&height=auto&aspect=true"
   },
   {
-    "name": "Suplemento Dietario Satial Food Carb Controller en Polvo x 50 g",
-    "price": "$ 22261.",
-    "link": "https://www.farmacity.com/satial-food-pvo-x-50-g/p",
-    "image": "https://farmacityar.vtexassets.com/arquivos/ids/250602-500-auto?v=638386083827130000&width=500&height=auto&aspect=true"
-  },
-  {
     "name": "Sérum Corporal Dove Concentrado x 100 ml",
     "price": "$ 11255.",
     "link": "https://www.farmacity.com/serum-dove-corporal-concentrado-x-100-ml/p",
     "image": "https://farmacityar.vtexassets.com/arquivos/ids/259091-500-auto?v=638580346158800000&width=500&height=auto&aspect=true"
+  },
+  {
+    "name": "Suplemento Dietario Satial Food Carb Controller en Polvo x 50 g",
+    "price": "$ 22261.",
+    "link": "https://www.farmacity.com/satial-food-pvo-x-50-g/p",
+    "image": "https://farmacityar.vtexassets.com/arquivos/ids/250602-500-auto?v=638386083827130000&width=500&height=auto&aspect=true"
   }
 ]
