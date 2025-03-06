@@ -40,18 +40,18 @@
     "category": "ACCESORIOS"
   },
   {
-    "name": "Gomitas de pelo color marron (18 unidades)",
-    "price": "$ 1614,77",
-    "link": "https://www.farmaonline.com/apper-8135370/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1313625-500-auto?v=638754769512900000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "ACCESORIOS"
-  },
-  {
     "name": "Cepillo araña recubierto goma",
     "price": "$ 5080,61",
     "link": "https://www.farmaonline.com/apper-cepillo-araa-recubierto-goma-8031136/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1215997-500-auto?v=638530225593330000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "ACCESORIOS"
+  },
+  {
+    "name": "Cepillo neumatico ovalado recubierto de goma",
+    "price": "$ 6182,14",
+    "link": "https://www.farmaonline.com/apper-cepillo-neumatico-ovalado-recubierto-de-goma-8031135/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1215996-500-auto?v=638530225521400000&width=500&height=auto&aspect=true",
     "promo": null,
     "category": "ACCESORIOS"
   },
@@ -88,6 +88,14 @@
     "category": "CREMAS FACIALES"
   },
   {
+    "name": "Fresh skin roxa pocket locion rosacea aloe vera 75 ml",
+    "price": "$ 12109,14",
+    "link": "https://www.farmaonline.com/by-derm-fresh-skin-roxa-pocket-locion-rosacea-aloe-vera-75-ml-8030110/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1215723-500-auto?v=638530154351530000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "CREMAS FACIALES"
+  },
+  {
     "name": "Crema antiedad de noche hyaluron-filler + elasticity todo tipo de piel",
     "price": "$ 62151,25",
     "link": "https://www.farmaonline.com/eucerin-crema-antiedad-de-noche-hyaluron-filler--elasticity-todo-tipo-de-piel-8027923/p",
@@ -100,14 +108,6 @@
     "price": "$ 23100,00",
     "link": "https://www.farmaonline.com/loreal-paris-8134611/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1279161-500-auto?v=638652024588670000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "CREMAS FACIALES"
-  },
-  {
-    "name": "Crema día anti manchas glycolic bright",
-    "price": "$ 23100,00",
-    "link": "https://www.farmaonline.com/loreal-paris-8134610/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1279245-500-auto?v=638652025489070000&width=500&height=auto&aspect=true",
     "promo": null,
     "category": "CREMAS FACIALES"
   },
@@ -200,26 +200,26 @@
     "category": "INFANTILES"
   },
   {
-    "name": "Toallas húmedas 4en1 la sirenita (48 unidades)",
-    "price": "$ 7145,57",
-    "link": "https://www.farmaonline.com/huggies-8130470/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1260746-500-auto?v=638593621141670000&width=500&height=auto&aspect=true",
+    "name": "Vaso con unicornio de acrilico",
+    "price": "$ 11970,00",
+    "link": "https://www.farmaonline.com/clandy-8134727/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1286853-500-auto?v=638660004249500000&width=500&height=auto&aspect=true",
     "promo": null,
     "category": "INFANTILES"
   },
   {
-    "name": "Toallas humedas hora del sueño (96 unidades)",
-    "price": "$ 9509,89",
-    "link": "https://www.farmaonline.com/johnsons-baby-toallas-humedas-hora-del-sueo-96-unidades-8020951/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1307968-500-auto?v=638743695067170000&width=500&height=auto&aspect=true",
+    "name": "Mochila grande con rayos",
+    "price": "$ 58514,40",
+    "link": "https://www.farmaonline.com/clandy-8135782/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1316057-500-auto?v=638756773887870000&width=500&height=auto&aspect=true",
     "promo": null,
     "category": "INFANTILES"
   },
   {
-    "name": "Toallas húmedas recién nacido (48 unidades)",
-    "price": "$ 4463,83",
-    "link": "https://www.farmaonline.com/johnsons-baby-toallas-hmedas-recin-nacido-48-unidades-8020631/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1307963-500-auto?v=638743694994330000&width=500&height=auto&aspect=true",
+    "name": "Mochila grande con estrellas",
+    "price": "$ 58514,40",
+    "link": "https://www.farmaonline.com/clandy-8135780/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1316031-500-auto?v=638756773647870000&width=500&height=auto&aspect=true",
     "promo": null,
     "category": "INFANTILES"
   },
