@@ -1,11 +1,27 @@
 [
   {
-    "name": "Brillo Labial Hidratante Lifter Gloss",
-    "price": "$ 16893,50",
-    "link": "https://www.farmaonline.com/maybelline-brillo-labial-hidratante-lifter-gloss-8121391/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1289296-500-auto?v=638688401224530000&width=500&height=auto&aspect=true",
+    "name": "Pañales super premium",
+    "price": "$ 28579,54",
+    "link": "https://www.farmaonline.com/babysec-8132734/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1331553-500-auto?v=638791384021630000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "FRAGANCIAS"
+  },
+  {
+    "name": "Mascara de pestañas sky high very black waterproof",
+    "price": "$ 20394,00",
+    "link": "https://www.farmaonline.com/maybelline-mascara-de-pestaas-sky-high-very-black-waterproof-8121648/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1326116-500-auto?v=638779999366300000&width=500&height=auto&aspect=true",
     "promo": null,
-    "category": "INFANTILES Y ACCESORIOS"
+    "category": "FRAGANCIAS"
+  },
+  {
+    "name": "Depiladora por luz pulsada lumea advanced + visapure de regalo",
+    "price": "$ 372799,20",
+    "link": "https://www.farmaonline.com/philips-depiladora-por-luz-pulsada-lumea-advanced--visapure-de-regalo-8109647/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1229677-500-auto?v=638533788592670000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "FRAGANCIAS"
   },
   {
     "name": "Toallas humedas ultra fresh 150 unidades",
@@ -13,23 +29,7 @@
     "link": "https://www.farmaonline.com/babysec-8134790/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1287734-500-auto?v=638669281402200000&width=500&height=auto&aspect=true",
     "promo": "2x1",
-    "category": "INFANTILES Y ACCESORIOS"
-  },
-  {
-    "name": "Depiladora por luz pulsada lumea advanced + visapure de regalo",
-    "price": "$ 395099,10",
-    "link": "https://www.farmaonline.com/philips-depiladora-por-luz-pulsada-lumea-advanced--visapure-de-regalo-8109647/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1229677-500-auto?v=638533788592670000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "INFANTILES Y ACCESORIOS"
-  },
-  {
-    "name": "Gel limpiador espumoso 473 ml",
-    "price": "$ 36551,20",
-    "link": "https://www.farmaonline.com/cerave-8135919/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1316696-500-auto?v=638760192278670000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "INFANTILES Y ACCESORIOS"
+    "category": "FRAGANCIAS"
   },
   {
     "name": "Fragancia flower l´absolue edp 100 ml",
@@ -37,7 +37,7 @@
     "link": "https://www.farmaonline.com/kenzo-8126973/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1322167-500-auto?v=638774448905670000&width=500&height=auto&aspect=true",
     "promo": null,
-    "category": "INFANTILES Y ACCESORIOS"
+    "category": "FRAGANCIAS"
   },
   {
     "name": "Fragancia perfect intense for her edp 50 ml",
@@ -45,7 +45,7 @@
     "link": "https://www.farmaonline.com/marc-jacobs-8123727/p?skuId=8123727",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1326051/8123727_0.jpg?v=638779974183270000",
     "promo": null,
-    "category": "INFANTILES Y ACCESORIOS"
+    "category": "FRAGANCIAS"
   },
   {
     "name": "Fragancia fame edp for woman",
@@ -53,15 +53,31 @@
     "link": "https://www.farmaonline.com/rabanne-8126162/p?skuId=8126160",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1322287/8126160_0.jpg?v=638774485256030000",
     "promo": null,
-    "category": "INFANTILES Y ACCESORIOS"
+    "category": "FRAGANCIAS"
   },
   {
-    "name": "Brillo Labial Hidratante Lifter Gloss",
-    "price": "$ 16893,50",
-    "link": "https://www.farmaonline.com/maybelline-brillo-labial-hidratante-lifter-gloss-8121391/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1289296-500-auto?v=638688401224530000&width=500&height=auto&aspect=true",
+    "name": "Pañales super premium",
+    "price": "$ 28579,54",
+    "link": "https://www.farmaonline.com/babysec-8132734/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1331553-500-auto?v=638791384021630000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "CUIDADO ORAL"
+  },
+  {
+    "name": "Mascara de pestañas sky high very black waterproof",
+    "price": "$ 20394,00",
+    "link": "https://www.farmaonline.com/maybelline-mascara-de-pestaas-sky-high-very-black-waterproof-8121648/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1326116-500-auto?v=638779999366300000&width=500&height=auto&aspect=true",
     "promo": null,
-    "category": "TINTURAS & COLORACIÓN"
+    "category": "CUIDADO ORAL"
+  },
+  {
+    "name": "Depiladora por luz pulsada lumea advanced + visapure de regalo",
+    "price": "$ 372799,20",
+    "link": "https://www.farmaonline.com/philips-depiladora-por-luz-pulsada-lumea-advanced--visapure-de-regalo-8109647/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1229677-500-auto?v=638533788592670000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "CUIDADO ORAL"
   },
   {
     "name": "Toallas humedas ultra fresh 150 unidades",
@@ -69,31 +85,7 @@
     "link": "https://www.farmaonline.com/babysec-8134790/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1287734-500-auto?v=638669281402200000&width=500&height=auto&aspect=true",
     "promo": "2x1",
-    "category": "TINTURAS & COLORACIÓN"
-  },
-  {
-    "name": "Depiladora por luz pulsada lumea advanced + visapure de regalo",
-    "price": "$ 395099,10",
-    "link": "https://www.farmaonline.com/philips-depiladora-por-luz-pulsada-lumea-advanced--visapure-de-regalo-8109647/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1229677-500-auto?v=638533788592670000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "TINTURAS & COLORACIÓN"
-  },
-  {
-    "name": "Gel limpiador espumoso 473 ml",
-    "price": "$ 36551,20",
-    "link": "https://www.farmaonline.com/cerave-8135919/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1316696-500-auto?v=638760192278670000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "TINTURAS & COLORACIÓN"
-  },
-  {
-    "name": "Cepillo dental 360º black suave 2 unidades promo precio especial",
-    "price": "$ 5602,53",
-    "link": "https://www.farmaonline.com/colgate-plax-cepillo-dental-360-black-suave-2-unidades-promo-precio-especial-8025248/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1294657-500-auto?v=638709108139300000&width=500&height=auto&aspect=true",
-    "promo": "2x1",
-    "category": "TINTURAS & COLORACIÓN"
+    "category": "CUIDADO ORAL"
   },
   {
     "name": "Pasta dental Total carbón activado con flúor 90 gr",
@@ -101,7 +93,7 @@
     "link": "https://www.farmaonline.com/colgate-8127817/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1319432-500-auto?v=638772139577830000&width=500&height=auto&aspect=true",
     "promo": "2x1",
-    "category": "TINTURAS & COLORACIÓN"
+    "category": "CUIDADO ORAL"
   },
   {
     "name": "Pasta dental luminous white instant 70g",
@@ -109,15 +101,39 @@
     "link": "https://www.farmaonline.com/colgate-pasta-dental-luminous-white-instant-70g-8031494/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1239152-500-auto?v=638536994566570000&width=500&height=auto&aspect=true",
     "promo": "2x1",
-    "category": "TINTURAS & COLORACIÓN"
+    "category": "CUIDADO ORAL"
   },
   {
-    "name": "Brillo Labial Hidratante Lifter Gloss",
-    "price": "$ 16893,50",
-    "link": "https://www.farmaonline.com/maybelline-brillo-labial-hidratante-lifter-gloss-8121391/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1289296-500-auto?v=638688401224530000&width=500&height=auto&aspect=true",
+    "name": "Enjuague bucal Total clean mint 250 ml",
+    "price": "$ 6063,02",
+    "link": "https://www.farmaonline.com/colgate-enjuague-bucal-total-clean-mint-250-ml-8033811/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1317057-500-auto?v=638762613631430000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "CUIDADO ORAL"
+  },
+  {
+    "name": "Pañales super premium",
+    "price": "$ 28579,54",
+    "link": "https://www.farmaonline.com/babysec-8132734/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1331553-500-auto?v=638791384021630000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "BIENESTAR SEXUAL"
+  },
+  {
+    "name": "Mascara de pestañas sky high very black waterproof",
+    "price": "$ 20394,00",
+    "link": "https://www.farmaonline.com/maybelline-mascara-de-pestaas-sky-high-very-black-waterproof-8121648/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1326116-500-auto?v=638779999366300000&width=500&height=auto&aspect=true",
     "promo": null,
-    "category": "CUIDADO DE LA SALUD"
+    "category": "BIENESTAR SEXUAL"
+  },
+  {
+    "name": "Depiladora por luz pulsada lumea advanced + visapure de regalo",
+    "price": "$ 372799,20",
+    "link": "https://www.farmaonline.com/philips-depiladora-por-luz-pulsada-lumea-advanced--visapure-de-regalo-8109647/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1229677-500-auto?v=638533788592670000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "BIENESTAR SEXUAL"
   },
   {
     "name": "Toallas humedas ultra fresh 150 unidades",
@@ -125,23 +141,7 @@
     "link": "https://www.farmaonline.com/babysec-8134790/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1287734-500-auto?v=638669281402200000&width=500&height=auto&aspect=true",
     "promo": "2x1",
-    "category": "CUIDADO DE LA SALUD"
-  },
-  {
-    "name": "Depiladora por luz pulsada lumea advanced + visapure de regalo",
-    "price": "$ 395099,10",
-    "link": "https://www.farmaonline.com/philips-depiladora-por-luz-pulsada-lumea-advanced--visapure-de-regalo-8109647/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1229677-500-auto?v=638533788592670000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "CUIDADO DE LA SALUD"
-  },
-  {
-    "name": "Gel limpiador espumoso 473 ml",
-    "price": "$ 36551,20",
-    "link": "https://www.farmaonline.com/cerave-8135919/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1316696-500-auto?v=638760192278670000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "CUIDADO DE LA SALUD"
+    "category": "BIENESTAR SEXUAL"
   },
   {
     "name": "Preservativos zero hiper fino (12 unidades)",
@@ -149,7 +149,7 @@
     "link": "https://www.farmaonline.com/prime-8132686/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1299752-500-auto?v=638736108581600000&width=500&height=auto&aspect=true",
     "promo": null,
-    "category": "CUIDADO DE LA SALUD"
+    "category": "BIENESTAR SEXUAL"
   },
   {
     "name": "Preservativo skyn elite (6 unidades)",
@@ -157,7 +157,7 @@
     "link": "https://www.farmaonline.com/prime-preservativo-skyn-elite-6-unidades-8039034/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1299803-500-auto?v=638736109604630000&width=500&height=auto&aspect=true",
     "promo": null,
-    "category": "CUIDADO DE LA SALUD"
+    "category": "BIENESTAR SEXUAL"
   },
   {
     "name": "Preservativos super fino (12 cajas de 3 unidades c/u)",
@@ -165,15 +165,31 @@
     "link": "https://www.farmaonline.com/maxx-preservativos-super-fino-12-cajas-de-3-unidades-cu-8039020/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1299846-500-auto?v=638736110531770000&width=500&height=auto&aspect=true",
     "promo": null,
-    "category": "CUIDADO DE LA SALUD"
+    "category": "BIENESTAR SEXUAL"
   },
   {
-    "name": "Brillo Labial Hidratante Lifter Gloss",
-    "price": "$ 16893,50",
-    "link": "https://www.farmaonline.com/maybelline-brillo-labial-hidratante-lifter-gloss-8121391/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1289296-500-auto?v=638688401224530000&width=500&height=auto&aspect=true",
+    "name": "Pañales super premium",
+    "price": "$ 28579,54",
+    "link": "https://www.farmaonline.com/babysec-8132734/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1331553-500-auto?v=638791384021630000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "PROTECCIÓN FEMENINA"
+  },
+  {
+    "name": "Mascara de pestañas sky high very black waterproof",
+    "price": "$ 20394,00",
+    "link": "https://www.farmaonline.com/maybelline-mascara-de-pestaas-sky-high-very-black-waterproof-8121648/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1326116-500-auto?v=638779999366300000&width=500&height=auto&aspect=true",
     "promo": null,
-    "category": "BEBÉ Y MATERNIDAD"
+    "category": "PROTECCIÓN FEMENINA"
+  },
+  {
+    "name": "Depiladora por luz pulsada lumea advanced + visapure de regalo",
+    "price": "$ 372799,20",
+    "link": "https://www.farmaonline.com/philips-depiladora-por-luz-pulsada-lumea-advanced--visapure-de-regalo-8109647/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1229677-500-auto?v=638533788592670000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "PROTECCIÓN FEMENINA"
   },
   {
     "name": "Toallas humedas ultra fresh 150 unidades",
@@ -181,23 +197,7 @@
     "link": "https://www.farmaonline.com/babysec-8134790/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1287734-500-auto?v=638669281402200000&width=500&height=auto&aspect=true",
     "promo": "2x1",
-    "category": "BEBÉ Y MATERNIDAD"
-  },
-  {
-    "name": "Depiladora por luz pulsada lumea advanced + visapure de regalo",
-    "price": "$ 395099,10",
-    "link": "https://www.farmaonline.com/philips-depiladora-por-luz-pulsada-lumea-advanced--visapure-de-regalo-8109647/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1229677-500-auto?v=638533788592670000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "BEBÉ Y MATERNIDAD"
-  },
-  {
-    "name": "Gel limpiador espumoso 473 ml",
-    "price": "$ 36551,20",
-    "link": "https://www.farmaonline.com/cerave-8135919/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1316696-500-auto?v=638760192278670000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "BEBÉ Y MATERNIDAD"
+    "category": "PROTECCIÓN FEMENINA"
   },
   {
     "name": "Protector diario discreet natural care sin alas (15 unidades)",
@@ -205,7 +205,7 @@
     "link": "https://www.farmaonline.com/tena-8134708/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1315763-500-auto?v=638756724734000000&width=500&height=auto&aspect=true",
     "promo": "2x1",
-    "category": "BEBÉ Y MATERNIDAD"
+    "category": "PROTECCIÓN FEMENINA"
   },
   {
     "name": "Toalla buenas noches max curv (8 unidades)",
@@ -213,7 +213,7 @@
     "link": "https://www.farmaonline.com/nosotras-toalla-buenas-noches-max-curv-8-unidades-8014422/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1311894-500-auto?v=638748844657770000&width=500&height=auto&aspect=true",
     "promo": null,
-    "category": "BEBÉ Y MATERNIDAD"
+    "category": "PROTECCIÓN FEMENINA"
   },
   {
     "name": "Toallitas femeninas con alas normal centro color (8 unidades)",
@@ -221,6 +221,62 @@
     "link": "https://www.farmaonline.com/ladysoft-toallitas-femeninas-con-alas-normal-centro-color-8-unidades-8021215/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1212945-500-auto?v=638529437638100000&width=500&height=auto&aspect=true",
     "promo": null,
-    "category": "BEBÉ Y MATERNIDAD"
+    "category": "PROTECCIÓN FEMENINA"
+  },
+  {
+    "name": "Pañales super premium",
+    "price": "$ 28579,54",
+    "link": "https://www.farmaonline.com/babysec-8132734/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1331553-500-auto?v=638791384021630000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "ACCESORIOS"
+  },
+  {
+    "name": "Mascara de pestañas sky high very black waterproof",
+    "price": "$ 20394,00",
+    "link": "https://www.farmaonline.com/maybelline-mascara-de-pestaas-sky-high-very-black-waterproof-8121648/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1326116-500-auto?v=638779999366300000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "ACCESORIOS"
+  },
+  {
+    "name": "Depiladora por luz pulsada lumea advanced + visapure de regalo",
+    "price": "$ 372799,20",
+    "link": "https://www.farmaonline.com/philips-depiladora-por-luz-pulsada-lumea-advanced--visapure-de-regalo-8109647/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1229677-500-auto?v=638533788592670000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "ACCESORIOS"
+  },
+  {
+    "name": "Toallas humedas ultra fresh 150 unidades",
+    "price": "$ 8045,70",
+    "link": "https://www.farmaonline.com/babysec-8134790/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1287734-500-auto?v=638669281402200000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "ACCESORIOS"
+  },
+  {
+    "name": "Cepillo neumatico ovalado recubierto de goma",
+    "price": "$ 5797,47",
+    "link": "https://www.farmaonline.com/apper-cepillo-neumatico-ovalado-recubierto-de-goma-8031135/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1215996-500-auto?v=638530225521400000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "ACCESORIOS"
+  },
+  {
+    "name": "Arqueador pestañas ergonomico",
+    "price": "$ 3316,46",
+    "link": "https://www.farmaonline.com/apper-arqueador-pestaas-ergonomico-8015504/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1211362-500-auto?v=638529036749970000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "ACCESORIOS"
+  },
+  {
+    "name": "Esponja maquillaje 3d borde plano",
+    "price": "$ 4247,04",
+    "link": "https://www.farmaonline.com/apper-esponja-maquillaje-3d-borde-plano-8040613/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1234289-500-auto?v=638535231183700000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "ACCESORIOS"
   }
 ]
