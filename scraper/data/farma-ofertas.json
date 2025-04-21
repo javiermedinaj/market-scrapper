@@ -1,11 +1,91 @@
 [
   {
-    "name": "Pure Vitamin C 10 serum antioxidante 30 ml",
-    "price": "$ 79444,30",
-    "link": "https://www.farmaonline.com/la-roche-posay-pure-vitamin-c-10-serum-antioxidante-30-ml-8038971/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1230108-500-auto?v=638533866113670000&width=500&height=auto&aspect=true",
+    "name": "Kit tintura creme",
+    "price": "$ 16190,00",
+    "link": "https://www.farmaonline.com/excellence-kit-tintura-creme-6031319/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1325388-500-auto?v=638779912213670000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "SUPLEMENTOS NUTRICIONALES"
+  },
+  {
+    "name": "Pasta dental luminous white instant 70g",
+    "price": "$ 7744,55",
+    "link": "https://www.farmaonline.com/colgate-pasta-dental-luminous-white-instant-70g-8031494/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1239152-500-auto?v=638536994566570000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "SUPLEMENTOS NUTRICIONALES"
+  },
+  {
+    "name": "Suplemento dietario colágeno + calcio (60 cápsulas)",
+    "price": "$ 7257,50",
+    "link": "https://www.farmaonline.com/vitamin-way-8131029/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1227933-500-auto?v=638533285906370000&width=500&height=auto&aspect=true",
     "promo": null,
-    "category": "SKIN CARE"
+    "category": "SUPLEMENTOS NUTRICIONALES"
+  },
+  {
+    "name": "Shampoo dream long liss 400 ml",
+    "price": "$ 7989,00",
+    "link": "https://www.farmaonline.com/elvive-shampoo-dream-long-liss-400-ml-8041889/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1229174-500-auto?v=638533646934730000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "SUPLEMENTOS NUTRICIONALES"
+  },
+  {
+    "name": "Hair skin and nails (80 gomitas)",
+    "price": "$ 19460,65",
+    "link": "https://www.farmaonline.com/nature-s-bounty-hair-skin-and-nails-80-gomitas-8041772/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1328007-500-auto?v=638785077695900000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "SUPLEMENTOS NUTRICIONALES"
+  },
+  {
+    "name": "Citrato de magnesio 180 gr",
+    "price": "$ 16876,30",
+    "link": "https://www.farmaonline.com/vitamin-way-8128637/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1236012-500-auto?v=638535949497530000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "SUPLEMENTOS NUTRICIONALES"
+  },
+  {
+    "name": "Citrato de magnesio 400 (30 comprimidos)",
+    "price": "$ 16720,00",
+    "link": "https://www.farmaonline.com/quelat-8131831/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1231694-500-auto?v=638534365439770000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "SUPLEMENTOS NUTRICIONALES"
+  },
+  {
+    "name": "Kit tintura creme",
+    "price": "$ 16190,00",
+    "link": "https://www.farmaonline.com/excellence-kit-tintura-creme-6031319/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1325388-500-auto?v=638779912213670000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "CREMAS FACIALES"
+  },
+  {
+    "name": "Pasta dental luminous white instant 70g",
+    "price": "$ 7744,55",
+    "link": "https://www.farmaonline.com/colgate-pasta-dental-luminous-white-instant-70g-8031494/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1239152-500-auto?v=638536994566570000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "CREMAS FACIALES"
+  },
+  {
+    "name": "Suplemento dietario colágeno + calcio (60 cápsulas)",
+    "price": "$ 7257,50",
+    "link": "https://www.farmaonline.com/vitamin-way-8131029/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1227933-500-auto?v=638533285906370000&width=500&height=auto&aspect=true",
+    "promo": null,
+    "category": "CREMAS FACIALES"
+  },
+  {
+    "name": "Shampoo dream long liss 400 ml",
+    "price": "$ 7989,00",
+    "link": "https://www.farmaonline.com/elvive-shampoo-dream-long-liss-400-ml-8041889/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1229174-500-auto?v=638533646934730000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "CREMAS FACIALES"
   },
   {
     "name": "Crema hidratante facial urea piel seca 45 gr",
@@ -13,77 +93,125 @@
     "link": "https://www.farmaonline.com/caviahue-crema-hidratante-facial-urea-piel-seca-45-gr-8114588/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1234772-500-auto?v=638535446746200000&width=500&height=auto&aspect=true",
     "promo": null,
-    "category": "SKIN CARE"
+    "category": "CREMAS FACIALES"
   },
   {
-    "name": "Sérum triple efecto dermopure oil control para manchas post acné",
-    "price": "$ 43363,50",
-    "link": "https://www.farmaonline.com/eucerin-srum-triple-efecto-dermopure-oil-control-para-manchas-post-acn-8120810/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1312310-500-auto?v=638748879602900000&width=500&height=auto&aspect=true",
+    "name": "Isdinceutics age reverse crema facial night 50 gr",
+    "price": "$ 112850,47",
+    "link": "https://www.farmaonline.com/isdin-isdinceutics-age-reverse-crema-facial-night-50-gr-8042495/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1261804-500-auto?v=638597698343270000&width=500&height=auto&aspect=true",
     "promo": null,
-    "category": "SKIN CARE"
+    "category": "CREMAS FACIALES"
   },
   {
-    "name": "Aceite facial natural 30 ml",
-    "price": "$ 18600,00",
-    "link": "https://www.farmaonline.com/caviahue-8125361/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1262050-500-auto?v=638598510670670000&width=500&height=auto&aspect=true",
+    "name": "Crema anti-arrugas con vitamina c y retinol 110 ml",
+    "price": "$ 5424,08",
+    "link": "https://www.farmaonline.com/tortulan-crema-anti-arrugas-con-vitamina-c-y-retinol-110-ml-6300971/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1237823-500-auto?v=638536600525100000&width=500&height=auto&aspect=true",
     "promo": null,
-    "category": "SKIN CARE"
+    "category": "CREMAS FACIALES"
   },
   {
-    "name": "Mascarilla facial revitalift con acido hialuronico 28 gr",
-    "price": "$ 5777,50",
-    "link": "https://www.farmaonline.com/loreal-paris-8135902/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1331434-500-auto?v=638791197823130000&width=500&height=auto&aspect=true",
+    "name": "Kit tintura creme",
+    "price": "$ 16190,00",
+    "link": "https://www.farmaonline.com/excellence-kit-tintura-creme-6031319/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1325388-500-auto?v=638779912213670000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "CUIDADO DEL ADULTO"
+  },
+  {
+    "name": "Pasta dental luminous white instant 70g",
+    "price": "$ 7744,55",
+    "link": "https://www.farmaonline.com/colgate-pasta-dental-luminous-white-instant-70g-8031494/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1239152-500-auto?v=638536994566570000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "CUIDADO DEL ADULTO"
+  },
+  {
+    "name": "Suplemento dietario colágeno + calcio (60 cápsulas)",
+    "price": "$ 7257,50",
+    "link": "https://www.farmaonline.com/vitamin-way-8131029/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1227933-500-auto?v=638533285906370000&width=500&height=auto&aspect=true",
     "promo": null,
-    "category": "SKIN CARE"
+    "category": "CUIDADO DEL ADULTO"
   },
   {
-    "name": "Crema facial antiarrugas de día Q10 active piel seca FPS 15",
-    "price": "$ 40408,87",
-    "link": "https://www.farmaonline.com/eucerin-crema-facial-antiarrugas-de-da-q10-active-piel-seca-fps-15-6310185/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1250207-500-auto?v=638560464406430000&width=500&height=auto&aspect=true",
+    "name": "Shampoo dream long liss 400 ml",
+    "price": "$ 7989,00",
+    "link": "https://www.farmaonline.com/elvive-shampoo-dream-long-liss-400-ml-8041889/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1229174-500-auto?v=638533646934730000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "CUIDADO DEL ADULTO"
+  },
+  {
+    "name": "Pañal para adulto unisex talle xg (8 unidades)",
+    "price": "$ 12974,51",
+    "link": "https://www.farmaonline.com/estrella-paal-para-adulto-unisex-talle-xg-8-unidades-8042096/p?skuId=8042096",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1331312/8042096_1.jpg?v=638791194390970000",
     "promo": null,
-    "category": "SKIN CARE"
+    "category": "CUIDADO DEL ADULTO"
   },
   {
-    "name": "Crema antimanchas mela b3 spf30 40 ml",
-    "price": "$ 71146,40",
-    "link": "https://www.farmaonline.com/la-roche-posay-8133184/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1258141-500-auto?v=638585586087900000&width=500&height=auto&aspect=true",
+    "name": "Suplemento nutricional powder neutral 370 gr",
+    "price": "$ 27679,15",
+    "link": "https://www.farmaonline.com/boost-suplemento-nutricional-powder-neutral-370-gr-8033889/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1258761-500-auto?v=638588124347670000&width=500&height=auto&aspect=true",
     "promo": null,
-    "category": "SKIN CARE"
+    "category": "CUIDADO DEL ADULTO"
   },
   {
-    "name": "Pure Vitamin C 10 serum antioxidante 30 ml",
-    "price": "$ 79444,30",
-    "link": "https://www.farmaonline.com/la-roche-posay-pure-vitamin-c-10-serum-antioxidante-30-ml-8038971/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1230108-500-auto?v=638533866113670000&width=500&height=auto&aspect=true",
+    "name": "Pañal para adulto unisex m (8 unidades)",
+    "price": "$ 12974,51",
+    "link": "https://www.farmaonline.com/estrella-paal-para-adulto-unisex-m-8-unidades-8042097/p?skuId=8042097",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1331295/8042097_1.jpg?v=638798067113630000",
+    "promo": null,
+    "category": "CUIDADO DEL ADULTO"
+  },
+  {
+    "name": "Kit tintura creme",
+    "price": "$ 16190,00",
+    "link": "https://www.farmaonline.com/excellence-kit-tintura-creme-6031319/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1325388-500-auto?v=638779912213670000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "SUPLEMENTOS DEPORTIVOS"
+  },
+  {
+    "name": "Pasta dental luminous white instant 70g",
+    "price": "$ 7744,55",
+    "link": "https://www.farmaonline.com/colgate-pasta-dental-luminous-white-instant-70g-8031494/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1239152-500-auto?v=638536994566570000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "SUPLEMENTOS DEPORTIVOS"
+  },
+  {
+    "name": "Suplemento dietario colágeno + calcio (60 cápsulas)",
+    "price": "$ 7257,50",
+    "link": "https://www.farmaonline.com/vitamin-way-8131029/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1227933-500-auto?v=638533285906370000&width=500&height=auto&aspect=true",
     "promo": null,
     "category": "SUPLEMENTOS DEPORTIVOS"
   },
   {
-    "name": "Crema hidratante facial urea piel seca 45 gr",
-    "price": "$ 22400,00",
-    "link": "https://www.farmaonline.com/caviahue-crema-hidratante-facial-urea-piel-seca-45-gr-8114588/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1234772-500-auto?v=638535446746200000&width=500&height=auto&aspect=true",
+    "name": "Shampoo dream long liss 400 ml",
+    "price": "$ 7989,00",
+    "link": "https://www.farmaonline.com/elvive-shampoo-dream-long-liss-400-ml-8041889/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1229174-500-auto?v=638533646934730000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "SUPLEMENTOS DEPORTIVOS"
+  },
+  {
+    "name": "Suplemento deportivo enargy gel sabor frutilla (6 sobres)",
+    "price": "$ 7140,00",
+    "link": "https://www.farmaonline.com/ena-suplemento-deportivo-enargy-gel-sabor-frutilla-6-sobres-8034785/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1219438-500-auto?v=638530980777230000&width=500&height=auto&aspect=true",
     "promo": null,
     "category": "SUPLEMENTOS DEPORTIVOS"
   },
   {
-    "name": "Sérum triple efecto dermopure oil control para manchas post acné",
-    "price": "$ 43363,50",
-    "link": "https://www.farmaonline.com/eucerin-srum-triple-efecto-dermopure-oil-control-para-manchas-post-acn-8120810/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1312310-500-auto?v=638748879602900000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "SUPLEMENTOS DEPORTIVOS"
-  },
-  {
-    "name": "Aceite facial natural 30 ml",
-    "price": "$ 18600,00",
-    "link": "https://www.farmaonline.com/caviahue-8125361/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1262050-500-auto?v=638598510670670000&width=500&height=auto&aspect=true",
+    "name": "Creatina sport 150 grs",
+    "price": "$ 27650,00",
+    "link": "https://www.farmaonline.com/ampk-sport-8126872/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1235238-500-auto?v=638535660916600000&width=500&height=auto&aspect=true",
     "promo": null,
     "category": "SUPLEMENTOS DEPORTIVOS"
   },
@@ -96,108 +224,12 @@
     "category": "SUPLEMENTOS DEPORTIVOS"
   },
   {
-    "name": "Shaker protein rosa 600 cc",
-    "price": "$ 5810,00",
-    "link": "https://www.farmaonline.com/ampk-sport-8130125/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1234903-500-auto?v=638535518643870000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "SUPLEMENTOS DEPORTIVOS"
-  },
-  {
-    "name": "Kit de bandas super resistentes premium stork x 5",
-    "price": "$ 167693,18",
-    "link": "https://www.farmaonline.com/maverick-8131798/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1224524-500-auto?v=638532350730230000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "SUPLEMENTOS DEPORTIVOS"
-  },
-  {
-    "name": "Pure Vitamin C 10 serum antioxidante 30 ml",
-    "price": "$ 79444,30",
-    "link": "https://www.farmaonline.com/la-roche-posay-pure-vitamin-c-10-serum-antioxidante-30-ml-8038971/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1230108-500-auto?v=638533866113670000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "ELECTRO SALUD"
-  },
-  {
-    "name": "Crema hidratante facial urea piel seca 45 gr",
-    "price": "$ 22400,00",
-    "link": "https://www.farmaonline.com/caviahue-crema-hidratante-facial-urea-piel-seca-45-gr-8114588/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1234772-500-auto?v=638535446746200000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "ELECTRO SALUD"
-  },
-  {
-    "name": "Sérum triple efecto dermopure oil control para manchas post acné",
-    "price": "$ 43363,50",
-    "link": "https://www.farmaonline.com/eucerin-srum-triple-efecto-dermopure-oil-control-para-manchas-post-acn-8120810/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1312310-500-auto?v=638748879602900000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "ELECTRO SALUD"
-  },
-  {
-    "name": "Aceite facial natural 30 ml",
-    "price": "$ 18600,00",
-    "link": "https://www.farmaonline.com/caviahue-8125361/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1262050-500-auto?v=638598510670670000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "ELECTRO SALUD"
-  },
-  {
-    "name": "Vaporizador humidificador vp-3",
-    "price": "$ 32010,00",
-    "link": "https://www.farmaonline.com/maverick-8128556/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1237604-500-auto?v=638536527114500000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "ELECTRO SALUD"
-  },
-  {
-    "name": "Nebulizador ultrasonico portatil mesh silencioso NE-M01",
-    "price": "$ 68706,00",
-    "link": "https://www.farmaonline.com/maverick-8128551/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1236768-500-auto?v=638536240782000000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "ELECTRO SALUD"
-  },
-  {
-    "name": "Tensiometro digital brazo con voz YE650D",
-    "price": "$ 52139,78",
-    "link": "https://www.farmaonline.com/maverick-8128559/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1236772-500-auto?v=638536241066870000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "ELECTRO SALUD"
-  },
-  {
-    "name": "Pure Vitamin C 10 serum antioxidante 30 ml",
-    "price": "$ 79444,30",
-    "link": "https://www.farmaonline.com/la-roche-posay-pure-vitamin-c-10-serum-antioxidante-30-ml-8038971/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1230108-500-auto?v=638533866113670000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "CUIDADO ORAL"
-  },
-  {
-    "name": "Crema hidratante facial urea piel seca 45 gr",
-    "price": "$ 22400,00",
-    "link": "https://www.farmaonline.com/caviahue-crema-hidratante-facial-urea-piel-seca-45-gr-8114588/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1234772-500-auto?v=638535446746200000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "CUIDADO ORAL"
-  },
-  {
-    "name": "Sérum triple efecto dermopure oil control para manchas post acné",
-    "price": "$ 43363,50",
-    "link": "https://www.farmaonline.com/eucerin-srum-triple-efecto-dermopure-oil-control-para-manchas-post-acn-8120810/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1312310-500-auto?v=638748879602900000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "CUIDADO ORAL"
-  },
-  {
-    "name": "Aceite facial natural 30 ml",
-    "price": "$ 18600,00",
-    "link": "https://www.farmaonline.com/caviahue-8125361/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1262050-500-auto?v=638598510670670000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "CUIDADO ORAL"
+    "name": "Kit tintura creme",
+    "price": "$ 16190,00",
+    "link": "https://www.farmaonline.com/excellence-kit-tintura-creme-6031319/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1325388-500-auto?v=638779912213670000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "ELECTRO"
   },
   {
     "name": "Pasta dental luminous white instant 70g",
@@ -205,78 +237,46 @@
     "link": "https://www.farmaonline.com/colgate-pasta-dental-luminous-white-instant-70g-8031494/p",
     "image": "https://farmaonline.vtexassets.com/arquivos/ids/1239152-500-auto?v=638536994566570000&width=500&height=auto&aspect=true",
     "promo": "2x1",
-    "category": "CUIDADO ORAL"
+    "category": "ELECTRO"
   },
   {
-    "name": "Enjuague bucal orthodontic rinse menta suave 250 ml",
-    "price": "$ 6751,60",
-    "link": "https://www.farmaonline.com/gum-8135708/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1296567-500-auto?v=638730631136030000&width=500&height=auto&aspect=true",
+    "name": "Suplemento dietario colágeno + calcio (60 cápsulas)",
+    "price": "$ 7257,50",
+    "link": "https://www.farmaonline.com/vitamin-way-8131029/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1227933-500-auto?v=638533285906370000&width=500&height=auto&aspect=true",
     "promo": null,
-    "category": "CUIDADO ORAL"
+    "category": "ELECTRO"
   },
   {
-    "name": "Crema dental clinical repair 100 gr",
-    "price": "$ 7625,74",
-    "link": "https://www.farmaonline.com/sensodyne-8135962/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1332833-500-auto?v=638796246147500000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "CUIDADO ORAL"
+    "name": "Shampoo dream long liss 400 ml",
+    "price": "$ 7989,00",
+    "link": "https://www.farmaonline.com/elvive-shampoo-dream-long-liss-400-ml-8041889/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1229174-500-auto?v=638533646934730000&width=500&height=auto&aspect=true",
+    "promo": "2x1",
+    "category": "ELECTRO"
   },
   {
-    "name": "Pure Vitamin C 10 serum antioxidante 30 ml",
-    "price": "$ 79444,30",
-    "link": "https://www.farmaonline.com/la-roche-posay-pure-vitamin-c-10-serum-antioxidante-30-ml-8038971/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1230108-500-auto?v=638533866113670000&width=500&height=auto&aspect=true",
+    "name": "Depiladora electrica satinelle essential opti light y accesorios",
+    "price": "$ 57849,50",
+    "link": "https://www.farmaonline.com/philips-depiladora-electrica-satinelle-essential-opti-light-y-accesorios-8112215/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1331305-500-auto?v=638791194159900000&width=500&height=auto&aspect=true",
     "promo": null,
-    "category": "FRAGANCIAS INFANTILES"
+    "category": "ELECTRO"
   },
   {
-    "name": "Crema hidratante facial urea piel seca 45 gr",
-    "price": "$ 22400,00",
-    "link": "https://www.farmaonline.com/caviahue-crema-hidratante-facial-urea-piel-seca-45-gr-8114588/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1234772-500-auto?v=638535446746200000&width=500&height=auto&aspect=true",
+    "name": "Vaporizador humidificador vp-3",
+    "price": "$ 32010,00",
+    "link": "https://www.farmaonline.com/maverick-8128556/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1237604-500-auto?v=638536527114500000&width=500&height=auto&aspect=true",
     "promo": null,
-    "category": "FRAGANCIAS INFANTILES"
+    "category": "ELECTRO"
   },
   {
-    "name": "Sérum triple efecto dermopure oil control para manchas post acné",
-    "price": "$ 43363,50",
-    "link": "https://www.farmaonline.com/eucerin-srum-triple-efecto-dermopure-oil-control-para-manchas-post-acn-8120810/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1312310-500-auto?v=638748879602900000&width=500&height=auto&aspect=true",
+    "name": "Nebulizador ultrasonico portatil mesh silencioso NE-M01",
+    "price": "$ 68706,00",
+    "link": "https://www.farmaonline.com/maverick-8128551/p",
+    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1236768-500-auto?v=638536240782000000&width=500&height=auto&aspect=true",
     "promo": null,
-    "category": "FRAGANCIAS INFANTILES"
-  },
-  {
-    "name": "Aceite facial natural 30 ml",
-    "price": "$ 18600,00",
-    "link": "https://www.farmaonline.com/caviahue-8125361/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1262050-500-auto?v=638598510670670000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "FRAGANCIAS INFANTILES"
-  },
-  {
-    "name": "Perfume infantil elementos hexagonal ventana 50 ml",
-    "price": "$ 9731,17",
-    "link": "https://www.farmaonline.com/disney-8127463/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1241838-500-auto?v=638537461893530000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "FRAGANCIAS INFANTILES"
-  },
-  {
-    "name": "Perfume infantil elementos 50 ml",
-    "price": "$ 6545,84",
-    "link": "https://www.farmaonline.com/disney-8127462/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1241837-500-auto?v=638537461801900000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "FRAGANCIAS INFANTILES"
-  },
-  {
-    "name": "Body splash flash 65 ml",
-    "price": "$ 7076,73",
-    "link": "https://www.farmaonline.com/marvel-comics-8127454/p",
-    "image": "https://farmaonline.vtexassets.com/arquivos/ids/1241836-500-auto?v=638537461683000000&width=500&height=auto&aspect=true",
-    "promo": null,
-    "category": "FRAGANCIAS INFANTILES"
+    "category": "ELECTRO"
   }
 ]
