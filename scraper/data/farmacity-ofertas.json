@@ -24,6 +24,12 @@
     "image": "https://farmacityar.vtexassets.com/arquivos/ids/268011-500-auto?v=638810961539230000&width=500&height=auto&aspect=true"
   },
   {
+    "name": "Protector Térmico Tresemmé Spray x 120 ml",
+    "price": "$ 5166.",
+    "link": "https://www.farmacity.com/protector-termico-tresemme-spray-x-120-ml/p",
+    "image": "https://farmacityar.vtexassets.com/arquivos/ids/260255-500-auto?v=638618280724670000&width=500&height=auto&aspect=true"
+  },
+  {
     "name": "Toallas Femeninas Enjoy Anatómica con Alas x 16 un",
     "price": "$ 2960.",
     "link": "https://www.farmacity.com/toallas-femeninas-anatomica-con-alas-x-16-un/p",
@@ -84,22 +90,22 @@
     "image": "https://farmacityar.vtexassets.com/arquivos/ids/242625-500-auto?v=638198470431400000&width=500&height=auto&aspect=true"
   },
   {
+    "name": "Acondicionador Dove Reconstrucción Completa x 400 ml",
+    "price": "$ 3998.",
+    "link": "https://www.farmacity.com/acondicionador-dove-reconstruccion-completa-botella-x-400-ml/p",
+    "image": "https://farmacityar.vtexassets.com/arquivos/ids/239114-500-auto?v=638149981370500000&width=500&height=auto&aspect=true"
+  },
+  {
+    "name": "Shampoo Dove Ritual de Reparación Coco y Cúrcuma 400 ml",
+    "price": "$ 3998.",
+    "link": "https://www.farmacity.com/sha-dove-ritual-de-reparacion-x-400ml/p",
+    "image": "https://farmacityar.vtexassets.com/arquivos/ids/239173-500-auto?v=638150004999470000&width=500&height=auto&aspect=true"
+  },
+  {
     "name": "Kit Tintura Excellence Creme Triple Cuidado x 47 g",
     "price": "$ 9714.",
     "link": "https://www.farmacity.com/kit-tintura-excellence-creme-triple-cuidado-x-47-g/p",
     "image": "https://farmacityar.vtexassets.com/arquivos/ids/263028-500-auto?v=638691026437800000&width=500&height=auto&aspect=true"
-  },
-  {
-    "name": "Acondicionador Elvive Glycolic Gloss x 400 ml",
-    "price": "$ 5687.",
-    "link": "https://www.farmacity.com/acondicionador-elvive-glyco-gloss-x-400-ml/p",
-    "image": "https://farmacityar.vtexassets.com/arquivos/ids/256622-500-auto?v=638530179218870000&width=500&height=auto&aspect=true"
-  },
-  {
-    "name": "Gel de Limpieza Neutrogena Purified Skin x 150 g",
-    "price": "$ 7736.",
-    "link": "https://www.farmacity.com/gel-de-limpieza-neutrogena-purified-skin-x-150-gr/p",
-    "image": "https://farmacityar.vtexassets.com/arquivos/ids/228546-500-auto?v=637988484730400000&width=500&height=auto&aspect=true"
   },
   {
     "name": "Protectores Diarios Enjoy Anatómico x 60 un",
@@ -108,16 +114,28 @@
     "image": "https://farmacityar.vtexassets.com/arquivos/ids/179647-500-auto?v=636684087272630000&width=500&height=auto&aspect=true"
   },
   {
-    "name": "Suplemento Dietario Vitamina C 1000 x 15 sobres",
-    "price": "$ 4500.",
-    "link": "https://www.farmacity.com/suplemento-dietario-vitamina-c-1000-x-15-sobres/p",
-    "image": "https://farmacityar.vtexassets.com/arquivos/ids/217135-500-auto?v=637717247336670000&width=500&height=auto&aspect=true"
+    "name": "Shampoo Elvive Glycolic Gloss x 400 ml",
+    "price": "$ 5687.",
+    "link": "https://www.farmacity.com/shampoo-elvive-glyco-gloss-x-400-ml/p",
+    "image": "https://farmacityar.vtexassets.com/arquivos/ids/256674-500-auto?v=638530223783530000&width=500&height=auto&aspect=true"
   },
   {
     "name": "Apósitos Adhesivos Curitas Tela elástica para Todo Tipo de Piel x 10 un",
     "price": "$ 986",
     "link": "https://www.farmacity.com/curitas-de-tela-elastica-armacity-flex-x-10-un/p",
     "image": "https://farmacityar.vtexassets.com/arquivos/ids/262099-500-auto?v=638658968442630000&width=500&height=auto&aspect=true"
+  },
+  {
+    "name": "Gel de Limpieza Neutrogena Purified Skin x 150 g",
+    "price": "$ 7736.",
+    "link": "https://www.farmacity.com/gel-de-limpieza-neutrogena-purified-skin-x-150-gr/p",
+    "image": "https://farmacityar.vtexassets.com/arquivos/ids/228546-500-auto?v=637988484730400000&width=500&height=auto&aspect=true"
+  },
+  {
+    "name": "Suplemento Dietario Vitamina C 1000 x 15 sobres",
+    "price": "$ 4500.",
+    "link": "https://www.farmacity.com/suplemento-dietario-vitamina-c-1000-x-15-sobres/p",
+    "image": "https://farmacityar.vtexassets.com/arquivos/ids/217135-500-auto?v=637717247336670000&width=500&height=auto&aspect=true"
   },
   {
     "name": "Máscara de Pestañas L'Oréal París Panorama Black Wtp",
