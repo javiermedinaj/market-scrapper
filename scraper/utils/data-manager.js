@@ -1,7 +1,7 @@
 
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
-import { getStoreHistory, cleanOldFiles, getAllTodayOrLatestData, getAvailableDates } from './utils/dateStorage.js';
+import { getStoreHistory, cleanOldFiles, getAllTodayOrLatestData, getAvailableDates } from './dateStorage.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);

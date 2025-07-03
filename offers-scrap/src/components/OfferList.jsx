@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import OfferCard from './OfferCard';
-import { Store, Loader, AlertCircle, RefreshCw, Calendar, TrendingUp } from 'lucide-react';
+import { Store, Loader, AlertCircle, RefreshCw, Calendar, TrendingUp, Database } from 'lucide-react';
+import { staticOffersData, getStaticStats } from '../data/staticData';
 
 const STORES = [
   { id: 'jumbo', name: 'Jumbo', color: 'bg-green-600', textColor: 'text-green-600' },
@@ -17,17 +18,29 @@ const OfferList = () => {
   const [error, setError] = useState(null);
   const [activeStore, setActiveStore] = useState('all');
   const [refreshing, setRefreshing] = useState(false);
+  const [usingStaticData, setUsingStaticData] = useState(false);
 
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:3000/api/offers');
-      if (!response.ok) throw new Error('Error al cargar ofertas');
+      console.log('🔄 Intentando conectar al servidor...');
+      const response = await fetch('http://localhost:3000/api/offers', { 
+        signal: AbortSignal.timeout(5000) // Timeout de 5 segundos
+      });
+      
+      if (!response.ok) throw new Error('Servidor no responde');
+      
       const offersData = await response.json();
       setData(offersData);
       setError(null);
+      setUsingStaticData(false);
+      console.log('✅ Datos cargados desde el servidor');
+      
     } catch (err) {
-      setError('No se pudieron cargar las ofertas. Verifica que el servidor esté funcionando.');
-      console.error('Error:', err);
+      console.log('⚠️ Servidor no disponible, usando datos estáticos');
+      setData(staticOffersData);
+      setError(null);
+      setUsingStaticData(true);
+      
     } finally {
       setLoading(false);
       setRefreshing(false);
