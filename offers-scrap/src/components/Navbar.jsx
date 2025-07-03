@@ -21,14 +21,14 @@ const Navbar = ({ onSearch }) => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-3">
           <a href="/" className="flex items-center gap-2">
-            <ShoppingCart size={32} className={`${darkMode ? "text-white" : "text-black"} transition-colors duration-300`} />
-            {/* <span className={`text-xl font-bold ${darkMode ? "text-white" : "text-black"} hidden sm:block`}>
+            <ShoppingCart size={32} className={`${darkMode ? "text-primary-400" : "text-primary-600"} transition-colors duration-300`} />
+            <span className={`text-xl font-bold ${darkMode ? "text-white" : "text-gray-900"} hidden sm:block`}>
               OffersBa
-            </span> */}
+            </span>
           </a>
         </div>
 
-        {/* <div className="hidden md:block max-w-xl flex-1 mx-4">
+        <div className="hidden md:block max-w-xl flex-1 mx-4">
           <form onSubmit={handleSubmit} className="flex">
             <input
               type="text"
@@ -36,10 +36,10 @@ const Navbar = ({ onSearch }) => {
               onChange={(e) => setSearchTerm(e.target.value)}
               placeholder="Buscar productos..."
               className={`
-                ${darkMode ? "bg-dark-100 text-black" : "bg-gray-50"} 
+                ${darkMode ? "bg-gray-700 text-white placeholder-gray-400" : "bg-gray-50 text-gray-900 placeholder-gray-500"} 
                 w-full px-6 py-2.5 rounded-l-full
                 border-2 border-r-0 
-                ${darkMode ? 'border-dark-100' : 'border-gray-100'}
+                ${darkMode ? 'border-gray-600' : 'border-gray-200'}
                 focus:outline-none focus:border-primary-500
                 transition-all duration-300
               `}
@@ -57,13 +57,13 @@ const Navbar = ({ onSearch }) => {
               <Search size={20} />
             </button>
           </form>
-        </div> */}
+        </div>
 
         <button
           onClick={toggleDarkMode}
           className={`
             p-2.5 rounded-full
-            ${darkMode ? "bg-dark-100 text-white" : "bg-gray-100"}
+            ${darkMode ? "bg-gray-700 text-white hover:bg-gray-600" : "bg-gray-100 hover:bg-gray-200"}
             hover:scale-110
             transition-all duration-300
           `}
@@ -71,7 +71,7 @@ const Navbar = ({ onSearch }) => {
           {darkMode ? "🌙" : "☀️"}
         </button>
       </div>
-      {/*
+      
       <div className="md:hidden mt-4">
         <form onSubmit={handleSubmit} className="flex">
           <input
@@ -80,10 +80,10 @@ const Navbar = ({ onSearch }) => {
             onChange={(e) => setSearchTerm(e.target.value)}
             placeholder="Buscar productos..."
             className={`
-              ${darkMode ? "bg-dark-100 text-white" : "bg-gray-50"} 
+              ${darkMode ? "bg-gray-700 text-white placeholder-gray-400" : "bg-gray-50 text-gray-900 placeholder-gray-500"} 
               w-full px-4 py-2 rounded-l-full
               border-2 border-r-0 
-              ${darkMode ? 'border-dark-100' : 'border-gray-100'}
+              ${darkMode ? 'border-gray-600' : 'border-gray-200'}
               focus:outline-none focus:border-primary-500
               transition-all duration-300
             `}
@@ -102,7 +102,6 @@ const Navbar = ({ onSearch }) => {
           </button>
         </form>
       </div>
-      */}
     </nav>
   );
 };
