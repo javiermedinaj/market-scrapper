@@ -3,6 +3,7 @@ import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
+import { saveDataWithDate } from '../utils/dateStorage.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -18,9 +19,9 @@ async function cotoScraper() {
 
     try {
         const page = await browser.newPage();
-        await page.goto("https://www.coto.com.ar/", { timeout: 120000, waitUntil: 'networkidle2' });
+        await page.goto("https://www.coto.com.ar/", { timeout: 20000, waitUntil: 'networkidle2' });
 
-        await page.waitForSelector(".swiper-slide img", { timeout: 60000 });
+        await page.waitForSelector(".swiper-slide img", { timeout: 20000 });
 
         const images = await page.evaluate(() => {
             const imageElements = document.querySelectorAll(".swiper-slide img");
@@ -49,18 +50,19 @@ async function cotoScraper() {
             })
             .filter(url => url !== null) 
             .filter(url => url.includes('/ofertas/') || url.includes('/catalogos/')) 
-            .map(url => ({ image: url }));
+            .map((url, index) => ({ 
+                name: `Oferta Coto ${index + 1}`,
+                image: url,
+                price: 'Ver en tienda',
+                link: 'https://www.coto.com.ar/ofertas'
+            }));
 
         console.log(`Imágenes únicas después de la corrección y filtrado: ${uniqueImages.length}`);
         const dataDir = path.join(__dirname, '..', 'data');
         console.log(`Creando carpeta en: ${dataDir}`);
-        await fs.mkdir(dataDir, { recursive: true });
+        await saveDataWithDate(uniqueImages, 'coto', dataDir);
 
-        const filePath = path.join(dataDir, 'coto-ofertas.json');
-        console.log(`Guardando archivo en: ${filePath}`);
-        await fs.writeFile(filePath, JSON.stringify(uniqueImages, null, 2));
-
-        console.log("Imágenes guardadas correctamente en coto-ofertas.json");
+        console.log("✅ Productos de Coto guardados correctamente por día");
 
     } catch (error) {
         console.error("Error occurred:", error);
@@ -68,5 +70,7 @@ async function cotoScraper() {
         await browser.close();
     }
 }
+//funcionm para testear
+// cotoScraper()
 
 export default cotoScraper;

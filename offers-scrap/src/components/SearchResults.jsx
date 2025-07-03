@@ -1,64 +1,116 @@
 import React from 'react';
-import { useTheme } from '../context/ThemeContext';
+import { ExternalLink, Tag, Search } from 'lucide-react';
 
 const SearchResults = ({ results }) => {
-  const { darkMode } = useTheme();
+  const formatPrice = (price) => {
+    if (!price) return 'Consultar precio';
+    return price.toString().replace(/[^\d.,]/g, '').trim() || price;
+  };
+
+  const getStoreColor = (store) => {
+    const colors = {
+      'Jumbo': 'bg-green-100 text-green-800',
+      'Carrefour': 'bg-blue-100 text-blue-800',
+      'Farmacity': 'bg-purple-100 text-purple-800',
+      'Día': 'bg-red-100 text-red-800',
+      'Farma': 'bg-orange-100 text-orange-800',
+      'Coto': 'bg-yellow-100 text-yellow-800'
+    };
+    return colors[store] || 'bg-gray-100 text-gray-800';
+  };
+
+  if (!results || results.length === 0) {
+    return (
+      <div className="min-h-screen bg-gray-50 py-12">
+        <div className="container mx-auto px-4">
+          <div className="text-center">
+            <Search className="w-16 h-16 text-gray-300 mx-auto mb-4" />
+            <h2 className="text-2xl font-bold text-gray-900 mb-2">No se encontraron resultados</h2>
+            <p className="text-gray-600">Intenta con otros términos de búsqueda</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
-    <div className={`min-h-screen ${darkMode ? 'bg-gradient-to-br from-gray-900 to-gray-800' : 'bg-gradient-to-br from-gray-50 to-white'}`}>
-      <div className="container mx-auto p-4">
-        <h2 className={`text-3xl font-bold mb-6 ${darkMode ? 'text-white' : 'text-gray-900'} text-center mt-2 bg-gradient-to-r from-accent-light to-accent bg-clip-text`}>
-          Resultados de búsqueda
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="min-h-screen bg-gray-50 py-12">
+      <div className="container mx-auto px-4">
+        <div className="mb-8">
+          <h2 className="text-3xl font-bold text-gray-900 mb-2">Resultados de búsqueda</h2>
+          <p className="text-gray-600">Se encontraron {results.length} productos</p>
+        </div>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {results.map((product, index) => (
             <div 
               key={index}
-              className={`
-                ${darkMode ? 'bg-gradient-to-br from-gray-800 to-gray-900' : 'bg-gradient-to-br from-white to-gray-50'}
-                rounded-xl overflow-hidden
-                shadow-lg hover:shadow-2xl
-                transition-all duration-500
-                transform hover:scale-[1.02]
-                animate-fade-in
-                border ${darkMode ? 'border-gray-700' : 'border-gray-200'}
-              `}
+              className="bg-white rounded-lg shadow-md hover:shadow-lg border border-gray-200 
+                         transition-all duration-300 hover:scale-[1.02] overflow-hidden group"
             >
-              <div className="relative group">
-                {product.image && (
+              {/* Imagen del producto */}
+              <div className="relative overflow-hidden bg-gray-100">
+                {product.image && product.image !== 'Imagen no encontrada' ? (
                   <img 
                     src={product.image} 
-                    alt={product.name}
-                    className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105"
+                    alt={product.name || 'Producto'}
+                    className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      e.target.nextSibling.style.display = 'flex';
+                    }}
                   />
+                ) : null}
+                
+                {/* Fallback cuando no hay imagen */}
+                <div className={`${product.image && product.image !== 'Imagen no encontrada' ? 'hidden' : 'flex'} 
+                                w-full h-48 items-center justify-center bg-gray-100`}>
+                  <Tag size={40} className="text-gray-400" />
+                </div>
+
+                {/* Badge de la tienda */}
+                {product.store && (
+                  <div className="absolute top-3 left-3">
+                    <span className={`px-2 py-1 rounded-full text-xs font-medium ${getStoreColor(product.store)}`}>
+                      {product.store}
+                    </span>
+                  </div>
                 )}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
               </div>
-              <div className="p-6">
-                <h3 className={`text-lg font-bold truncate mb-2 ${darkMode ? 'text-gray-100' : 'text-gray-900'}`}>
-                  {product.name}
+
+              {/* Contenido de la tarjeta */}
+              <div className="p-4 flex flex-col h-40">
+                {/* Nombre del producto */}
+                <h3 className="text-sm font-semibold text-gray-900 mb-2 line-clamp-2 flex-grow">
+                  {product.name || 'Producto sin nombre'}
                 </h3>
-                <p className="text-3xl font-bold bg-gradient-to-r from-accent-light to-accent bg-clip-text text-transparent">
-                  {product.price}
-                </p>
-                <p className={`text-sm mt-2 ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-                  Tienda: {product.store}
-                </p>
-                <a 
-                  href={product.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`
-                    mt-6 block w-full px-6 py-3
-                    bg-gradient-to-r from-accent to-accent-dark
-                    text-white font-medium text-center
-                    rounded-full shadow-lg
-                    transform hover:scale-[1.02] hover:shadow-xl
-                    transition-all duration-300
-                  `}
-                >
-                  Ver oferta
-                </a>
+
+                {/* Precio */}
+                <div className="mb-3">
+                  <p className="text-xl font-bold text-blue-600">
+                    {formatPrice(product.price)}
+                  </p>
+                </div>
+
+                {/* Botón de enlace */}
+                {product.link && product.link !== '' ? (
+                  <a 
+                    href={product.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 
+                             rounded-lg transition-colors duration-200 flex items-center justify-center gap-2
+                             text-sm group-hover:bg-blue-700"
+                  >
+                    <span>Ver en tienda</span>
+                    <ExternalLink size={16} />
+                  </a>
+                ) : (
+                  <div className="w-full bg-gray-100 text-gray-500 font-medium py-2 px-4 
+                                 rounded-lg text-center text-sm">
+                    Enlace no disponible
+                  </div>
+                )}
               </div>
             </div>
           ))}

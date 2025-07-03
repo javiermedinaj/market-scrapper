@@ -7,8 +7,12 @@
     },
     "scripts": {
         "start": "node server.js",
-        "scrape": "node scrapers/index.js",
-        "dev": "npm run scrape && npm start"
+        "scrape": "node index.js",
+        "scrape:single": "node scrapers/",
+        "dev": "npm run scrape && npm start",
+        "stats": "node data-manager.js stats",
+        "history": "node data-manager.js history",
+        "clean": "node data-manager.js clean"
     },
     "dependencies": {
         "cors": "^2.8.5",

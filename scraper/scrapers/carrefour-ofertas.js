@@ -3,6 +3,7 @@ import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
+import { saveDataWithDate } from '../utils/dateStorage.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -13,7 +14,6 @@ async function carrefourScraper() {
         defaultViewport: null,
         args: ['--no-sandbox', '--disable-setuid-sandbox', '--start-maximized']
     });
-    
 
     try {
         const page = await browser.newPage();
@@ -27,27 +27,28 @@ async function carrefourScraper() {
             const imageElements = document.querySelectorAll(".valtech-carrefourar-offline-promotions-0-x-cardBody img");
             const imageUrls = [];
 
-            imageElements.forEach((element) => {
+            imageElements.forEach((element, index) => {
                 const src = element.getAttribute("src");
                 if (src) {
-                    imageUrls.push({ image: `https://www.carrefour.com.ar${src}` });
+                    imageUrls.push({ 
+                        name: `Promoción Carrefour ${index + 1}`,
+                        image: `https://www.carrefour.com.ar${src}`,
+                        price: "Ver en tienda",
+                        link: "https://www.carrefour.com.ar/promociones"
+                    });
                 }
             });
 
             return imageUrls;
         });
 
-        // console.log(images);
+        console.log(`✅ Obtenidas ${images.length} promociones de Carrefour`);
 
         const dataDir = path.join(__dirname, '..', 'data');
         console.log(`Creando carpeta en: ${dataDir}`);
-        await fs.mkdir(dataDir, { recursive: true });
+        await saveDataWithDate(images, 'carrefour', dataDir);
 
-        const filePath = path.join(dataDir, 'carrefour-ofertas.json');
-        console.log(`Guardando archivo en: ${filePath}`);
-        await fs.writeFile(filePath, JSON.stringify(images, null, 2));
-
-        console.log("Imágenes guardadas correctamente en carrefour-ofertas.json");
+        console.log("✅ Productos de Carrefour guardados correctamente por día");
 
         await browser.close();
     } catch (error) {
@@ -56,6 +57,6 @@ async function carrefourScraper() {
     }
 }
 
-
+carrefourScraper()
 
 export default carrefourScraper;

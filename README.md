@@ -80,16 +80,4 @@ Se ha añadido una nueva funcionalidad de búsqueda por input. Puedes utilizarla
 
 Para activar la función de búsqueda, asegúrate de habilitar el input en la barra de navegación del frontend.
 
-## 🤝Contribuciones
 
-¡Las contribuciones son bienvenidas! Puedes ayudar:
-1. Haciendo fork del proyecto
-2. Creando una nueva rama para tus cambios
-3. Enviando un Pull Request
-
-## 📬 Contacto
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/javiermedinaj)
-
-También puedes:
-- 📧 Enviarme un mensaje por LinkedIn

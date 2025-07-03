@@ -1,0 +1,706 @@
+{
+  "timestamp": "2025-07-03T22:29:52.325Z",
+  "date": "2025-07-03",
+  "time": "22-29-52",
+  "store": "carrefour",
+  "totalProducts": 116,
+  "lastUpdate": "2025-07-03T22:29:52.325Z",
+  "data": [
+    {
+      "name": "Promoción Carrefour 1",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/479355a7-567a-11f0-b37f-dbcf5d5b9702/col1_image/attachments/70marcas_010725_600x280_4118424479974365941.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 2",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/479355a7-567a-11f0-b37f-dbcf5d5b9702/col2_image/attachments/70marcas_desc_010725_600x280_226429897955404482.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 3",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/47626a41-567a-11f0-b37f-978da20592b1/col1_image/attachments/70marcas2_010725_600x280_14512924785705759697.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 4",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/47626a41-567a-11f0-b37f-978da20592b1/col2_image/attachments/70marcas2_desc_010725_600x280_8978258668860274222.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 5",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/46ad15ff-567a-11f0-b37f-f28badcdff23/col1_image/attachments/70marcas3_010725_600x280_9324451972377494041.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 6",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/46ad15ff-567a-11f0-b37f-f28badcdff23/col2_image/attachments/70marcas3_desc_010725_600x280_10990526682470612769.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 7",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/479355a8-567a-11f0-b37f-dbcf5d5b9702/col1_image/attachments/50marcas_010725_600x280_10822358048979647166.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 8",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/479355a8-567a-11f0-b37f-dbcf5d5b9702/col2_image/attachments/50marcas_desc_010725_600x280_14120061654870480959.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 9",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/49f23e23-567a-11f0-b37f-97a3b2f0dd15/col1_image/attachments/50marcas2_010725_600x280_376059017990270156.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 10",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/49f23e23-567a-11f0-b37f-97a3b2f0dd15/col2_image/attachments/50marcas2_desc_010725_600x280_1086949676252612003.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 11",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/4975ccbb-567a-11f0-b37f-dbcf5d5b9702/col1_image/attachments/50marcas3_010725_600x280_10527541566340094109.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 12",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/4975ccbb-567a-11f0-b37f-dbcf5d5b9702/col2_image/attachments/50marcas3_desc_010725_600x280_3112645011239115451.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 13",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/4480fa04-567a-11f0-b37f-e2546c6d27be/col1_image/attachments/50marcas4_010725_600x280_17535316541415289495.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 14",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/4480fa04-567a-11f0-b37f-e2546c6d27be/col2_image/attachments/50marcas4_desc_010725_600x280_6186392174981994294.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 15",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/44f70d7a-567a-11f0-b37f-8940d7286a38/col1_image/attachments/50marcas5_010725_600x280_10369064043192356903.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 16",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/44f70d7a-567a-11f0-b37f-8940d7286a38/col2_image/attachments/50marcas5_desc_010725_600x280_11244733281686351039.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 17",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/4b578b95-567a-11f0-b37f-e7bc643836a0/col1_image/attachments/50marcas6_010725_600x280_4805761964227804868.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 18",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/4b578b95-567a-11f0-b37f-e7bc643836a0/col2_image/attachments/50marcas6_desc_010725_600x280_16520834476448761167.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 19",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/499b02ec-567a-11f0-b37f-c2cb70a90ede/col1_image/attachments/25_35marcas_010725_600x280_743913535105045232.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 20",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/499b02ec-567a-11f0-b37f-c2cb70a90ede/col2_image/attachments/25_35marcas_desc_010725_600x280_822785487282724038.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 21",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/4af4590c-567a-11f0-b37f-dec18ccdf061/col1_image/attachments/25_35marcas2_010725_600x280_10417441518672918189.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 22",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/4af4590c-567a-11f0-b37f-dec18ccdf061/col2_image/attachments/25_35marcas2_desc_010725_600x280_12486407308523122710.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 23",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/4a9620c5-567a-11f0-b37f-9cf6fce8e9fc/col1_image/attachments/25_35marcas3_010725_600x280_15217483548859573036.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 24",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/4a9620c5-567a-11f0-b37f-9cf6fce8e9fc/col2_image/attachments/25_35marcas3_desc_010725_600x280_1285497752620474533.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 25",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/4657c3f6-567a-11f0-b37f-cc1253b58289/col1_image/attachments/35_40marcas_010725_600x280_1807437881472250788.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 26",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/4657c3f6-567a-11f0-b37f-cc1253b58289/col2_image/attachments/35_40marcas_desc_010725_600x280_15279563881398322641.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 27",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/47d2a774-567a-11f0-b37f-96cab47e004e/col1_image/attachments/35_40marcas2_010725_600x280_7583035512719023630.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 28",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/47d2a774-567a-11f0-b37f-96cab47e004e/col2_image/attachments/35_40marcas2_desc_010725_600x280_2142094431708978672.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 29",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/46ab56c7-567a-11f0-b37f-b14d706db88c/col1_image/attachments/35_40marcas3_010725_600x280_12459102514388767645.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 30",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/46ab56c7-567a-11f0-b37f-b14d706db88c/col2_image/attachments/35_40marcas3_desc_010725_600x280_10853876674981843594.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 31",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/4094345c-567b-11f0-b37f-b14d706db88c/col1_image/attachments/40cepillos_010725_600x280_9886294295249930550.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 32",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/4094345c-567b-11f0-b37f-b14d706db88c/col2_image/attachments/40cepillos_desc_010725_600x280_8435407847344244897.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 33",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/437c83b2-567b-11f0-b37f-9cf6fce8e9fc/col1_image/attachments/40marcas_010725_600x280_17616155870512900842.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 34",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/437c83b2-567b-11f0-b37f-9cf6fce8e9fc/col2_image/attachments/40marcas_desc_010725_600x280_10995062331184395892.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 35",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/43fb684f-567b-11f0-b37f-9fb4e0b3b216/col1_image/attachments/2x1marcas_010725_600x280_10742970507543511764.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 36",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/43fb684f-567b-11f0-b37f-9fb4e0b3b216/col2_image/attachments/2x1marcas_desc_010725_600x280_17779147607972494155.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 37",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/4448d868-567b-11f0-b37f-ec4745fce02c/col1_image/attachments/3x2marcas_010725_600x280_8293112884403846855.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 38",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/4448d868-567b-11f0-b37f-ec4745fce02c/col2_image/attachments/3x2marcas_desc_010725_600x280_17443961681342871136.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 39",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/3eafac67-567b-11f0-b37f-be9649941c2c/col1_image/attachments/3x2marcas2_010725_600x280_2545477769897914203.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 40",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/3eafac67-567b-11f0-b37f-be9649941c2c/col2_image/attachments/3x2marcas2_desc_010725_600x280_11053859897891419655.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 41",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/3f9f5f27-567b-11f0-b37f-842fce820b77/col1_image/attachments/6x5marcas_010725_600x280_16389741622658465019.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 42",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/3f9f5f27-567b-11f0-b37f-842fce820b77/col2_image/attachments/6x5marcas_desc_010725_600x280_8479564505101891033.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 43",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/443c5064-567b-11f0-b37f-8940d7286a38/col1_image/attachments/50hamburguesa_010725_600x280_16082068860362589885.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 44",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/443c5064-567b-11f0-b37f-8940d7286a38/col2_image/attachments/50hamburguesa_desc_010725_600x280_18406324867383097617.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 45",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/444c6ad4-567b-11f0-b37f-be9649941c2c/col1_image/attachments/50jamon_010725_600x280_11259372551400079307.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 46",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/444c6ad4-567b-11f0-b37f-be9649941c2c/col2_image/attachments/50jamon_desc_010725_600x280_2393511982827597016.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 47",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/4094345e-567b-11f0-b37f-b14d706db88c/col1_image/attachments/50queso_010725_600x280_12092378467544866544.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 48",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/4094345e-567b-11f0-b37f-b14d706db88c/col2_image/attachments/50queso_desc_010725_600x280_17120020197821650476.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 49",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/3f9f5f29-567b-11f0-b37f-842fce820b77/col1_image/attachments/15bizcochito_010725_600x280_6495264226824293360.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 50",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/3f9f5f29-567b-11f0-b37f-842fce820b77/col2_image/attachments/15bizcochito_desc_010725_600x280_9499712194476963868.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 51",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/415f7a38-567b-11f0-b37f-b8e3c0370628/col1_image/attachments/15sorrentinos_010725_600x280_9600906565168179434.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 52",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/415f7a38-567b-11f0-b37f-b8e3c0370628/col2_image/attachments/15sorrentinos_desc_010725_600x280_1137045822442106055.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 53",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/40593d0b-567b-11f0-b37f-90099a1e9b90/col1_image/attachments/12_15aire_010725_600x280_9815917775623185923.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 54",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/40593d0b-567b-11f0-b37f-90099a1e9b90/col2_image/attachments/12_15aire_desc_010725_600x280_2749911250210819567.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 55",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/42b23c8d-567b-11f0-b37f-b14d706db88c/col1_image/attachments/30_12calefaccion_010725_600x280_4242048178931001728.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 56",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/42b23c8d-567b-11f0-b37f-b14d706db88c/col2_image/attachments/30_12calefaccion_desc_010725_600x280_8275421398663297521.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 57",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/4068d500-567b-11f0-b37f-e219d79675df/col1_image/attachments/30_12parlante_010725_600x280_17487920626486989304.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 58",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/4068d500-567b-11f0-b37f-e219d79675df/col2_image/attachments/30_12parlante_desc_010725_600x280_3534641915586291219.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 59",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/446a7bfe-567b-11f0-b37f-cc1253b58289/col1_image/attachments/20_6monitor_010725_600x280_14856907570375451898.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 60",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/446a7bfe-567b-11f0-b37f-cc1253b58289/col2_image/attachments/20_6monitor_desc_010725_600x280_3181734968798031696.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 61",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/9ec63ca7-567b-11f0-b37f-b2665656e035/col1_image/attachments/30_12calefaccion_010725_600x280_14152119127755949974.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 62",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/9ec63ca7-567b-11f0-b37f-b2665656e035/col2_image/attachments/30_12calefaccion_desc_010725_600x280_9841477397157697462.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 63",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/a06a4ff3-567b-11f0-b37f-9cf6fce8e9fc/col1_image/attachments/30_12parlante_010725_600x280_8635569298437789565.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 64",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/a06a4ff3-567b-11f0-b37f-9cf6fce8e9fc/col2_image/attachments/30_12parlante_desc_010725_600x280_4223996118147150853.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 65",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/9db59b5e-567b-11f0-b37f-e2546c6d27be/col1_image/attachments/10_6celular_010725_600x280_17368813844035060926.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 66",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/9db59b5e-567b-11f0-b37f-e2546c6d27be/col2_image/attachments/10_6celular_desc_010725_600x280_10277114515428007054.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 67",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/a0dc68fa-567b-11f0-b37f-9f2ce414dd3a/col1_image/attachments/9_10heladera_010725_600x280_4980447366428518046.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 68",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/a0dc68fa-567b-11f0-b37f-9f2ce414dd3a/col2_image/attachments/9_10heladera_desc_010725_600x280_6312309911633864047.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 69",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/9eb788f5-567b-11f0-b37f-ec35e7cb19c6/col1_image/attachments/15_6impresora_010725_600x280_7014346107884576581.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 70",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/9eb788f5-567b-11f0-b37f-ec35e7cb19c6/col2_image/attachments/15_6impresora_desc_010725_600x280_1194196573159152777.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 71",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/9dea9aa0-567b-11f0-b37f-fc08fbf78cb1/col1_image/attachments/50alimento_010725_600x280_7181162273888060248.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 72",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/9dea9aa0-567b-11f0-b37f-fc08fbf78cb1/col2_image/attachments/50alimento_desc_010725_600x280_4642443860265515374.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 73",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/a1c48411-567b-11f0-b37f-febde8c23e7e/col1_image/attachments/50_3electro_010725_600x280_7954413427154075896.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 74",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/a1c48411-567b-11f0-b37f-febde8c23e7e/col2_image/attachments/50_3electro_desc_010725_600x280_5308379080309911623.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 75",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/9e196b14-567b-11f0-b37f-febde8c23e7e/col1_image/attachments/50alimento2_010725_600x280_9510627140010378477.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 76",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/9e196b14-567b-11f0-b37f-febde8c23e7e/col2_image/attachments/50alimento2_desc_010725_600x280_2992114799920250501.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 77",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/9faaf3e3-567b-11f0-b37f-b0ce473de423/col1_image/attachments/50snacks_010725_600x280_17356069840585073970.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 78",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/9faaf3e3-567b-11f0-b37f-b0ce473de423/col2_image/attachments/50snacks_desc_010725_600x280_12157016639814202539.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 79",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/a0adfa91-567b-11f0-b37f-e219d79675df/col1_image/attachments/25alimento_010725_600x280_7475940774527532129.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 80",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/a0adfa91-567b-11f0-b37f-e219d79675df/col2_image/attachments/25alimento_desc_010725_600x280_1841456034583681758.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 81",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/9cfdf1e6-567b-11f0-b37f-cc1253b58289/col1_image/attachments/3x2repasador_010725_600x280_10613091959860848595.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 82",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/9cfdf1e6-567b-11f0-b37f-cc1253b58289/col2_image/attachments/3x2repasador_desc_010725_600x280_5794061908298239162.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 83",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/a1332524-567b-11f0-b37f-ffdd0a6c510b/col1_image/attachments/3x2snack_010725_600x280_5703238617346960622.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 84",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/a1332524-567b-11f0-b37f-ffdd0a6c510b/col2_image/attachments/3x2snack_desc_010725_600x280_7457068765768693666.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 85",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/9dd502f4-567b-11f0-b37f-90099a1e9b90/col1_image/attachments/70almohada_010725_600x280_5315624536001426749.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 86",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/9dd502f4-567b-11f0-b37f-90099a1e9b90/col2_image/attachments/70almohada_desc_010725_600x280_12932274275899845801.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 87",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/9f08a551-567b-11f0-b37f-e7bc643836a0/col1_image/attachments/70caja_010725_600x280_133842660672787769.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 88",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/9f08a551-567b-11f0-b37f-e7bc643836a0/col2_image/attachments/70caja_desc_010725_600x280_7723623733978754862.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 89",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/9f6503f9-567b-11f0-b37f-8940d7286a38/col1_image/attachments/70esmalte_010725_600x280_527899842609603696.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 90",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/9f6503f9-567b-11f0-b37f-8940d7286a38/col2_image/attachments/70esmalte_desc_010725_600x280_12591421994764719459.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 91",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/df797aec-567b-11f0-b37f-e219d79675df/col1_image/attachments/70lampara_010725_600x280_14094970107034442316.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 92",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/df797aec-567b-11f0-b37f-e219d79675df/col2_image/attachments/70lampara_desc_010725_600x280_5768773611557505816.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 93",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/df8e8c9d-567b-11f0-b37f-a3f1f683c198/col1_image/attachments/70maceta_010725_600x280_6254168826448025917.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 94",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/df8e8c9d-567b-11f0-b37f-a3f1f683c198/col2_image/attachments/70maceta_desc_010725_600x280_6798583246844457327.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 95",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/df24b806-567b-11f0-b37f-b8251ca76b03/col1_image/attachments/70sabana_010725_600x280_3580321348172308041.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 96",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/df24b806-567b-11f0-b37f-b8251ca76b03/col2_image/attachments/70sabana_desc_010725_600x280_11994072954814534560.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 97",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/e340e4ab-567b-11f0-b37f-b2665656e035/col1_image/attachments/70tazas_010725_600x280_6945113693889621888.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 98",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/e340e4ab-567b-11f0-b37f-b2665656e035/col2_image/attachments/70tazas_desc_010725_600x280_10289836578617854920.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 99",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/e3d38c7e-567b-11f0-b37f-9cf6fce8e9fc/col1_image/attachments/70vasos_010725_600x280_5898245722348499744.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 100",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/e3d38c7e-567b-11f0-b37f-9cf6fce8e9fc/col2_image/attachments/70vasos_desc_010725_600x280_14104875482220540098.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 101",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/e386b30d-567b-11f0-b37f-d6d64d665240/col1_image/attachments/70vela_010725_600x280_1560805289825528633.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 102",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/e386b30d-567b-11f0-b37f-d6d64d665240/col2_image/attachments/70vela_desc_010725_600x280_6776691584418287638.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 103",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/df24b809-567b-11f0-b37f-b8251ca76b03/col1_image/attachments/50campera_010725_600x280_16046710561939344216.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 104",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/df24b809-567b-11f0-b37f-b8251ca76b03/col2_image/attachments/50campera_desc_010725_600x280_11589173229087459325.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 105",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/e0c847b6-567b-11f0-b37f-c2cb70a90ede/col1_image/attachments/50pantalon_010725_600x280_2881612308414298947.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 106",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/e0c847b6-567b-11f0-b37f-c2cb70a90ede/col2_image/attachments/50pantalon_desc_010725_600x280_13693062040935173579.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 107",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/e36858c5-567b-11f0-b37f-8940d7286a38/col1_image/attachments/50sweater_010725_600x280_5108070449469973579.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 108",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/e36858c5-567b-11f0-b37f-8940d7286a38/col2_image/attachments/50sweater_desc_010725_600x280_11218156147726645459.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 109",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/e269bed9-567b-11f0-b37f-b0ce473de423/col1_image/attachments/campera_010725_600x280_3475204592695003528.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 110",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/e269bed9-567b-11f0-b37f-b0ce473de423/col2_image/attachments/campera_desc_010725_600x280_16652665931004032089.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 111",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/df4190bf-567b-11f0-b37f-febde8c23e7e/col1_image/attachments/chaleco_010725_600x280_8293025892616174213.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 112",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/df4190bf-567b-11f0-b37f-febde8c23e7e/col2_image/attachments/chaleco_desc_010725_600x280_2482158619007316369.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 113",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/e36858c6-567b-11f0-b37f-8940d7286a38/col1_image/attachments/remera_010725_600x280_540400505377465638.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 114",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/e36858c6-567b-11f0-b37f-8940d7286a38/col2_image/attachments/remera_desc_010725_600x280_8900892515503459680.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 115",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/e4ffd36f-567b-11f0-b37f-de06edd0bb91/col1_image/attachments/3x2ropa_010725_600x280_8591174525115346733.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    },
+    {
+      "name": "Promoción Carrefour 116",
+      "image": "https://www.carrefour.com.ar/api/dataentities/PR/documents/e4ffd36f-567b-11f0-b37f-de06edd0bb91/col2_image/attachments/3x2ropa_desc_010725_600x280_10253609254838026438.jpg",
+      "price": "Ver en tienda",
+      "link": "https://www.carrefour.com.ar/promociones"
+    }
+  ]
+}

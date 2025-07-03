@@ -3,6 +3,7 @@ import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
+import { saveDataWithDate } from '../utils/dateStorage.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -18,7 +19,7 @@ async function farmaScraper() {
     
     try {
         const page = await browser.newPage();
-        await page.goto("https://www.farmaonline.com/ofertas-home", { timeout: 120000 });
+        await page.goto("https://www.farmaonline.com/ofertas-home", { timeout: 20000 });
         let allProducts = [];
 
         const extractProducts = async () => {
@@ -81,13 +82,12 @@ async function farmaScraper() {
 
             allProducts = [...allProducts, ...categoryProducts];
         }
-
+        const uniqueProducts = Array.from(new Map(allProducts.map(item => [item.link, item])).values());
+        
         const dataDir = path.join(__dirname, '..', 'data');
-        await fs.mkdir(dataDir, { recursive: true });
+        await saveDataWithDate(uniqueProducts, 'farma', dataDir);
 
-        const filePath = path.join(dataDir, 'farma-ofertas.json');
-        await fs.writeFile(filePath, JSON.stringify(allProducts, null, 2));
-        console.log(`Guardados ${allProducts.length} productos en farma-ofertas.json`);
+        console.log("✅ Productos de Farma guardados correctamente por día");
 
     } catch (error) {
         console.error("Error occurred:", error);

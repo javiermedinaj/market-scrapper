@@ -3,6 +3,7 @@ import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
+import { saveDataWithDate } from '../utils/dateStorage.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -81,12 +82,9 @@ async function farmacityScraper() {
         const uniqueProducts = Array.from(new Map(allProducts.map(item => [item.link, item])).values());
 
         const dataDir = path.join(__dirname, '..', 'data');
-        await fs.mkdir(dataDir, { recursive: true });
+        await saveDataWithDate(uniqueProducts, 'farmacity', dataDir);
 
-        const filePath = path.join(dataDir, 'farmacity-ofertas.json');
-        await fs.writeFile(filePath, JSON.stringify(uniqueProducts, null, 2));
-
-        console.log(`Productos guardados correctamente en ${filePath}`);
+        console.log("✅ Productos de Farmacity guardados correctamente por día");
     } catch (error) {
         console.error("Error ocurrido:", error);
     } finally {
