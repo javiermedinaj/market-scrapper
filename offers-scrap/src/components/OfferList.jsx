@@ -5,10 +5,10 @@ import { staticOffersData, getStaticStats } from '../data/staticData';
 
 const STORES = [
   { id: 'jumbo', name: 'Jumbo', color: 'bg-green-600', textColor: 'text-green-600' },
-  { id: 'carrefour', name: 'Carrefour', color: 'bg-blue-600', textColor: 'text-blue-600' },
+  { id: 'carrefour', name: 'Carrefour', color: 'bg-blue-600', textColor: 'text-blue-400' },
   { id: 'farmacity', name: 'Farmacity', color: 'bg-purple-600', textColor: 'text-purple-600' },
   { id: 'dia', name: 'Día', color: 'bg-red-600', textColor: 'text-red-600' },
-  { id: 'farma', name: 'Farma', color: 'bg-orange-600', textColor: 'text-orange-600' },
+  { id: 'farma', name: 'FarmaOnline', color: 'bg-orange-600', textColor: 'text-orange-600' },
   { id: 'coto', name: 'Coto', color: 'bg-yellow-600', textColor: 'text-yellow-600' }
 ];
 
@@ -103,7 +103,7 @@ const OfferList = () => {
       <div className="flex justify-center items-center py-20">
         <div className="text-center">
           <Loader className="animate-spin w-12 h-12 text-blue-600 mx-auto mb-4" />
-          <p className="text-gray-600">Cargando ofertas...</p>
+          <p className="text-gray-600 dark:text-gray-400">Cargando ofertas...</p>
         </div>
       </div>
     );
@@ -111,11 +111,11 @@ const OfferList = () => {
 
   return (
     <div className="space-y-6">
-      <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-4 sm:p-6">
+      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-4 sm:p-6">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">Ofertas Disponibles</h2>
-            <div className="flex flex-wrap gap-4 text-sm text-gray-600">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Ofertas Disponibles</h2>
+            <div className="flex flex-wrap gap-4 text-sm text-gray-600 dark:text-gray-400">
               <div className="flex items-center gap-1">
                 <TrendingUp size={16} />
                 <span>{totalProducts} productos</span>
@@ -143,20 +143,20 @@ const OfferList = () => {
       </div>
 
       {error && (
-        <div className="bg-red-50 border border-red-200 rounded-lg p-4 flex items-center gap-3 text-red-700">
+        <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-4 flex items-center gap-3 text-red-700 dark:text-red-400">
           <AlertCircle size={20} />
           <span>{error}</span>
         </div>
       )}
 
-      <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-4">
+      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-4">
         <div className="flex overflow-x-auto gap-2 no-scrollbar py-1 px-1 -mx-1">
           <button
             onClick={() => setActiveStore('all')}
             className={`px-4 py-2 rounded-lg font-medium whitespace-nowrap transition-colors ${
               activeStore === 'all'
-                ? 'bg-gray-900 text-white'
-                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                ? 'bg-gray-900 dark:bg-white text-white dark:text-black'
+                : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
             }`}
           >
             Todos ({totalProducts})
@@ -176,8 +176,8 @@ const OfferList = () => {
                   activeStore === store.id
                     ? `${store.color} text-white`
                     : hasData
-                    ? `bg-gray-100 ${store.textColor} hover:bg-gray-200`
-                    : 'bg-gray-50 text-gray-400 cursor-not-allowed'
+                    ? `bg-gray-100 dark:bg-gray-700 ${store.textColor} hover:bg-gray-200 dark:hover:bg-gray-600`
+                    : 'bg-gray-50 dark:bg-gray-800 text-gray-400 dark:text-gray-600 cursor-not-allowed'
                 }`}
               >
                 {store.name} {hasData ? `(${count})` : '(0)'}
@@ -201,9 +201,9 @@ const OfferList = () => {
         </div>
       ) : (
         <div className="text-center py-12">
-          <Store className="w-16 h-16 text-gray-300 mx-auto mb-4" />
-          <h3 className="text-lg font-medium text-gray-900 mb-2">No hay ofertas disponibles</h3>
-          <p className="text-gray-500">
+          <Store className="w-16 h-16 text-gray-300 dark:text-gray-600 mx-auto mb-4" />
+          <h3 className="text-lg font-medium text-gray-900 dark:text-white mb-2">No hay ofertas disponibles</h3>
+          <p className="text-gray-500 dark:text-gray-400">
             {activeStore === 'all' 
               ? 'No se encontraron ofertas en ningún supermercado' 
               : `No hay ofertas disponibles en ${STORES.find(s => s.id === activeStore)?.name}`}

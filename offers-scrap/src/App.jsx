@@ -3,11 +3,13 @@ import Navbar from './components/Navbar';
 import OfferList from './components/OfferList';
 import SearchResults from './components/SearchResults';
 import { Loader, AlertCircle } from 'lucide-react';
+import { useTheme } from './context/ThemeContext';
 
 export default function App() {
   const [searchResults, setSearchResults] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
+  const { darkMode } = useTheme();
 
   const handleSearch = async (query) => {
     if (!query.trim()) {
@@ -43,12 +45,12 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 dark:bg-black">
       <Navbar onSearch={handleSearch} onClear={clearSearch} />
       
       <main className="container mx-auto px-4 py-6">
         {error && (
-          <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex items-center gap-3 text-red-700">
+          <div className="mb-6 p-4 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg flex items-center gap-3 text-red-700 dark:text-red-400">
             <AlertCircle size={20} />
             <span>{error}</span>
           </div>
@@ -58,7 +60,7 @@ export default function App() {
           <div className="flex justify-center items-center py-20">
             <div className="text-center">
               <Loader className="animate-spin w-12 h-12 text-blue-600 mx-auto mb-4" />
-              <p className="text-gray-600">Buscando ofertas...</p>
+              <p className="text-gray-600 dark:text-gray-400">Buscando ofertas...</p>
             </div>
           </div>  
         ) : searchResults ? (

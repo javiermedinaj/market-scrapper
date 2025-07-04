@@ -33,9 +33,17 @@
         overflow: hidden;
         min-height: 380px;
     }
+    .dark .offer-card {
+        background-color: #1f2937;
+        border-color: #374151;
+        box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+    }
     .offer-card:hover {
         box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
         transform: scale(1.01);
+    }
+    .dark .offer-card:hover {
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.3);
     }
     
     .offer-card-content {
@@ -59,8 +67,14 @@
         transition: color 0.2s;
         height: 2.5rem;
     }
+    .dark .offer-title {
+        color: #f9fafb;
+    }
     .offer-title:hover {
         color: #2563eb;
+    }
+    .dark .offer-title:hover {
+        color: #60a5fa;
     }
 }
 
