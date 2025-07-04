@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-07-04T00:46:34.386Z",
+  "timestamp": "2025-07-04T12:18:16.892Z",
   "date": "2025-07-04",
-  "time": "00-46-34",
+  "time": "12-18-16",
   "store": "farma",
   "totalProducts": 19,
-  "lastUpdate": "2025-07-04T00:46:34.386Z",
+  "lastUpdate": "2025-07-04T12:18:16.892Z",
   "data": [
     {
       "name": "Fórmula láctea advanced 3 800 grs",
@@ -47,18 +47,18 @@
       "category": "SERUMS"
     },
     {
-      "name": "Combo cuidado facial",
-      "price": "$ 62700,00",
-      "link": "https://www.farmaonline.com/combo-cuidado-facial-10000672/p",
-      "image": "https://farmaonline.vtexassets.com/arquivos/ids/1130117-500-auto?v=638382522187970000&width=500&height=auto&aspect=true",
-      "promo": null,
-      "category": "SERUMS"
-    },
-    {
       "name": "Effaclar serum diario corrector de imperfecciones 30 ml",
       "price": "$ 54270,45",
       "link": "https://www.farmaonline.com/la-roche-posay-effaclar-serum-diario-corrector-de-imperfecciones-30-ml-8115108/p",
       "image": "https://farmaonline.vtexassets.com/arquivos/ids/1230803-500-auto?v=638534076303970000&width=500&height=auto&aspect=true",
+      "promo": null,
+      "category": "SERUMS"
+    },
+    {
+      "name": "Mineral 89 serum de ácido hyalurónico fortificante y reparador 50 ml",
+      "price": "$ 46427,55",
+      "link": "https://www.farmaonline.com/vichy-mineral-89-serum-de-cido-hyalurnico-fortificante-y-reparador-50-ml-8032886/p",
+      "image": "https://farmaonline.vtexassets.com/arquivos/ids/1229968-500-auto?v=638533860482500000&width=500&height=auto&aspect=true",
       "promo": null,
       "category": "SERUMS"
     },
