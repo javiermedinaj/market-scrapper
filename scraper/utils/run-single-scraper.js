@@ -39,7 +39,6 @@ async function runSingleScraper(scraperName) {
   }
 }
 
-// Obtener el nombre del scraper desde argumentos de línea de comandos
 const scraperName = process.argv[2];
 
 if (!scraperName) {

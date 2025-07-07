@@ -5,7 +5,6 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Lista de scrapers a actualizar
 const scrapers = [
     'jumbo-ofertas.js',
     'carrefour-ofertas.js',
@@ -25,13 +24,11 @@ async function updateScrapersForDailySystem() {
             
             let content = await fs.readFile(scraperPath, 'utf8');
             
-            // Cambiar el import de dateStorage
             content = content.replace(
                 "import { saveDataWithDate } from '../utils/dateStorage.js';",
                 "import { saveDataByDay } from '../utils/dateStorage.js';"
             );
             
-            // Cambiar la llamada a la función de guardado
             const storeName = scraperFile.replace('-ofertas.js', '');
             
             content = content.replace(
@@ -39,7 +36,6 @@ async function updateScrapersForDailySystem() {
                 `await saveDataByDay(uniqueProducts, '${storeName}', dataDir);`
             );
             
-            // Actualizar el mensaje de log
             content = content.replace(
                 `console.log("✅ Productos de ${storeName.charAt(0).toUpperCase() + storeName.slice(1)} guardados correctamente con historial por fechas");`,
                 `console.log("✅ Productos de ${storeName.charAt(0).toUpperCase() + storeName.slice(1)} guardados correctamente por día");`

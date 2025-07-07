@@ -5,7 +5,6 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Lista de scrapers a actualizar
 const scrapers = [
     'carrefour-ofertas.js',
     'coto-ofertas.js',
@@ -24,7 +23,6 @@ async function updateScrapers() {
             
             let content = await fs.readFile(scraperPath, 'utf8');
             
-            // Agregar import de dateStorage si no existe
             if (!content.includes('saveDataWithDate')) {
                 content = content.replace(
                     "import { dirname } from 'path';",
@@ -32,10 +30,8 @@ async function updateScrapers() {
                 );
             }
             
-            // Reemplazar el código de guardado tradicional
             const storeName = scraperFile.replace('-ofertas.js', '');
             
-            // Buscar el patrón de guardado actual y reemplazarlo
             const oldSavePattern = new RegExp(
                 `(const dataDir = path\\.join\\(__dirname, '\\.\\.', 'data'\\);[\\s\\S]*?)(await fs\\.mkdir\\(dataDir, \\{ recursive: true \\}\\);[\\s\\S]*?const filePath = path\\.join\\(dataDir, '${storeName}-ofertas\\.json'\\);[\\s\\S]*?await fs\\.writeFile\\(filePath, JSON\\.stringify\\([^,]+, null, 2\\)\\);[\\s\\S]*?console\\.log\\([^)]+\\);)`,
                 'g'
@@ -48,7 +44,6 @@ async function updateScrapers() {
             
             content = content.replace(oldSavePattern, newSaveCode);
             
-            // Si no se pudo hacer el reemplazo automático, mostrar advertencia
             if (content.includes(`${storeName}-ofertas.json`)) {
                 console.log(`⚠️  No se pudo actualizar automáticamente ${scraperFile}. Requiere actualización manual.`);
             } else {

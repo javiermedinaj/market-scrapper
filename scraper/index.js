@@ -4,7 +4,7 @@ import diaScraper from './scrapers/dia-ofertas.js';
 import farmaScraper from './scrapers/farma-ofertas.js';
 import farmacityScraper from './scrapers/farmacity-ofertas.js';
 import cotoScraper from './scrapers/coto-ofertas.js';
-import { cleanOldFiles } from './utils/dateStorage.js';
+// import { cleanOldFiles } from './utils/dateStorage.js'; // 🔒 DESACTIVADO PARA INVESTIGACIÓN
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -47,9 +47,10 @@ export async function runAllScrapers() {
       }
     }
 
-    console.log('\n🧹 Limpiando archivos antiguos...');
-    const dataDir = path.join(__dirname, 'data');
-    await cleanOldFiles(dataDir, 30);
+    // 🔒 DESACTIVADO PARA INVESTIGACIÓN - No eliminar datos históricos
+    // console.log('\n🧹 Limpiando archivos antiguos...');
+    // const dataDir = path.join(__dirname, 'data');
+    // await cleanOldFiles(dataDir, 30);
 
     const endTime = new Date();
     const totalDuration = Math.round((endTime - startTime) / 1000);

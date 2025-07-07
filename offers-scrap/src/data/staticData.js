@@ -1,11 +1,32 @@
-import diaOffers from '../../../scraper/data/dia-ofertas.json';
-import jumboOffers from '../../../scraper/data/jumbo-ofertas.json';
-import carrefourOffers from '../../../scraper/data/carrefour-ofertas.json';
-import cotoOffers from '../../../scraper/data/coto-ofertas.json';
-import farmacityOffers from '../../../scraper/data/farmacity-ofertas.json'; 
-import farmaOffers from '../../../scraper/data/farma-ofertas.json'; 
+const getCurrentDateFolder = () => {
+  const today = new Date();
+  return today.toISOString().split('T')[0]; // formato: YYYY-MM-DD
+};
 
-const convertToExpectedFormat = (data, storeName) => {
+const loadTodayData = async (storeName) => {
+  const dateFolder = getCurrentDateFolder();
+  
+  try {
+    const data = await import(`../../../scraper/data/daily/${dateFolder}/${storeName}-ofertas.json`);
+    return data.default || data;
+  } catch (error) {
+    console.warn(`No data found for ${storeName} on ${dateFolder}, using fallback`);
+    
+    try {
+      const fallbackData = await import(`../../../scraper/data/today/${storeName}-ofertas.json`);
+      return fallbackData.default || fallbackData;
+    } catch (fallbackError) {
+      console.error(`No data found for ${storeName}`, fallbackError);
+      return null;
+    }
+  }
+};
+
+const convertToExpectedFormat = (fileData, storeName) => {
+  if (!fileData) return {};
+  
+  const data = fileData?.data || fileData;
+  
   if (!data || !Array.isArray(data)) return {};
   
   const formattedProducts = {};
@@ -16,27 +37,31 @@ const convertToExpectedFormat = (data, storeName) => {
   
   formattedProducts._metadata = {
     source: 'static',
-    date: new Date().toISOString().split('T')[0],
-    lastUpdate: new Date().toISOString(),
+    date: fileData?.date || new Date().toISOString().split('T')[0],
+    lastUpdate: fileData?.lastUpdate || new Date().toISOString(),
     totalProducts: data.length
   };
   
   return formattedProducts;
 };
 
-export const staticOffersData = {
-  dia: convertToExpectedFormat(diaOffers, 'dia'),
-  jumbo: convertToExpectedFormat(jumboOffers, 'jumbo'),
-  carrefour: convertToExpectedFormat(carrefourOffers, 'carrefour'),
-  coto: convertToExpectedFormat(cotoOffers, 'coto'),
-  farmacity: convertToExpectedFormat(farmacityOffers, 'farmacity'),
-  farma: convertToExpectedFormat(farmaOffers, 'farma')
+export const getStaticOffersData = async () => {
+  const stores = ['dia', 'jumbo', 'carrefour', 'coto', 'farmacity', 'farma'];
+  const data = {};
+  
+  for (const store of stores) {
+    const storeData = await loadTodayData(store);
+    data[store] = convertToExpectedFormat(storeData, store);
+  }
+  
+  return data;
 };
 
-export const getStaticStats = () => {
+export const getStaticStats = async () => {
+  const staticData = await getStaticOffersData();
   const stats = {};
   
-  Object.entries(staticOffersData).forEach(([store, data]) => {
+  Object.entries(staticData).forEach(([store, data]) => {
     if (data._metadata) {
       stats[store] = {
         hasData: true,
@@ -53,6 +78,15 @@ export const getStaticStats = () => {
   });
   
   return stats;
+};
+
+export const staticOffersData = {
+  dia: {},
+  jumbo: {},
+  carrefour: {},
+  coto: {},
+  farmacity: {},
+  farma: {}
 };
 
 export default staticOffersData;

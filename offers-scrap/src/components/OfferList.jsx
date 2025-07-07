@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import OfferCard from './OfferCard';
 import { Store, Loader, AlertCircle, RefreshCw, Calendar, TrendingUp, Database } from 'lucide-react';
-import { staticOffersData, getStaticStats } from '../data/staticData';
+import { getStaticOffersData } from '../data/staticData';
 
 const STORES = [
   { id: 'jumbo', name: 'Jumbo', color: 'bg-green-600', textColor: 'text-green-600' },
@@ -37,7 +37,8 @@ const OfferList = () => {
       
     } catch (err) {
       console.log('⚠️ Servidor no disponible, usando datos estáticos');
-      setData(staticOffersData);
+      const staticData = await getStaticOffersData();
+      setData(staticData);
       setError(null);
       setUsingStaticData(true);
       

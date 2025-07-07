@@ -51,18 +51,21 @@ jobs:
           git commit -m "📊 Datos del día - $(date '+%Y-%m-%d %H:%M:%S')"
           git push
 
-      - name: Limpiar archivos antiguos en el repositorio
-        run: |
-          cd scraper
-          # Mantener solo los últimos 10 días en el repositorio
-          find data/daily -name "*.json" -type d -path "*/????-??-??" | sort -r | tail -n +11 | xargs rm -rf 2>/dev/null || true
+      # 🔒 LIMPIEZA DESACTIVADA PARA INVESTIGACIÓN
+      # Comentado para mantener todos los datos históricos
+      # - name: Limpiar archivos antiguos en el repositorio
+      #   run: |
+      #     cd scraper
+      #     # Mantener solo los últimos 10 días en el repositorio
+      #     find data/daily -name "*.json" -type d -path "*/????-??-??" | sort -r | tail -n +11 | xargs rm -rf 2>/dev/null || true
 
-      - name: Commit limpieza si hay cambios
-        run: |
-          if [[ -n $(git status --porcelain) ]]; then
-            git config --global user.name "GitHub Actions"
-            git config --global user.email "actions@github.com"
-            git add -A
-            git commit -m "🧹 Limpieza automática - mantener últimos 10 días"
-            git push
-          fi
+      # 🔒 COMMIT DE LIMPIEZA DESACTIVADO
+      # - name: Commit limpieza si hay cambios
+      #   run: |
+      #     if [[ -n $(git status --porcelain) ]]; then
+      #       git config --global user.name "GitHub Actions"
+      #       git config --global user.email "actions@github.com"
+      #       git add -A
+      #       git commit -m "🧹 Limpieza automática - mantener últimos 10 días"
+      #       git push
+      #     fi

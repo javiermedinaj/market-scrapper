@@ -106,15 +106,18 @@ async function showStats() {
 
 async function cleanData(days = 30) {
     try {
-        console.log(`\n🧹 Limpiando archivos anteriores a ${days} días...`);
+        console.log(`\n🔒 LIMPIEZA DESACTIVADA PARA INVESTIGACIÓN`);
         console.log('='.repeat(50));
+        console.log('ℹ️  Los datos históricos se mantienen para análisis de investigación');
+        console.log('💡 Para reactivar la limpieza, descomenta la línea cleanOldFiles');
         
-        await cleanOldFiles(dataDir, days);
+        // 🔒 DESACTIVADO PARA INVESTIGACIÓN - No eliminar datos históricos
+        // await cleanOldFiles(dataDir, days);
         
-        console.log('✅ Limpieza completada');
+        console.log('✅ Verificación completada - datos históricos preservados');
         
     } catch (error) {
-        console.error('❌ Error durante la limpieza:', error.message);
+        console.error('❌ Error durante la verificación:', error.message);
     }
 }
 
