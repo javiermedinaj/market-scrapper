@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-07-08T00:47:31.252Z",
+  "timestamp": "2025-07-08T12:19:24.813Z",
   "date": "2025-07-08",
-  "time": "00-47-31",
+  "time": "12-19-24",
   "store": "farmacity",
   "totalProducts": 24,
-  "lastUpdate": "2025-07-08T00:47:31.252Z",
+  "lastUpdate": "2025-07-08T12:19:24.813Z",
   "data": [
     {
       "name": "Brillo Labial Hidratante Maybelline Lifter Gloss",
@@ -25,16 +25,16 @@
       "image": "https://farmacityar.vtexassets.com/arquivos/ids/264369-500-auto?v=638760161665700000&width=500&height=auto&aspect=true"
     },
     {
-      "name": "Toallas Femeninas Enjoy Anatómica con Alas x 16 un",
-      "price": "$ 3080.",
-      "link": "https://www.farmacity.com/toallas-femeninas-anatomica-con-alas-x-16-un/p",
-      "image": "https://farmacityar.vtexassets.com/arquivos/ids/166926-500-auto?v=636670343588070000&width=500&height=auto&aspect=true"
-    },
-    {
       "name": "Labial Líquido Maybelline SuperStay Vinyl Ink x 4,2 ml",
       "price": "$ 18193.",
       "link": "https://www.farmacity.com/labial-liquido-maybelline-superstay-vinyl-ink-x-4-2-ml/p",
       "image": "https://farmacityar.vtexassets.com/arquivos/ids/272948-500-auto?v=638842165421130000&width=500&height=auto&aspect=true"
+    },
+    {
+      "name": "Toallas Femeninas Enjoy Anatómica con Alas x 16 un",
+      "price": "$ 3080.",
+      "link": "https://www.farmacity.com/toallas-femeninas-anatomica-con-alas-x-16-un/p",
+      "image": "https://farmacityar.vtexassets.com/arquivos/ids/166926-500-auto?v=636670343588070000&width=500&height=auto&aspect=true"
     },
     {
       "name": "Toallas Húmedas Farmacity Bebé Cuidado Diario Glicerina x 48 un",
@@ -91,16 +91,16 @@
       "image": "https://farmacityar.vtexassets.com/arquivos/ids/252786-500-auto?v=638455213890170000&width=500&height=auto&aspect=true"
     },
     {
-      "name": "Pasta Dental para Dientes Sensibles Sensodyne Limpieza Profunda 90 g",
-      "price": "$ 3678.",
-      "link": "https://www.farmacity.com/crema-dental-sensodyne-limpieza-profunda-x-90-gr/p",
-      "image": "https://farmacityar.vtexassets.com/arquivos/ids/231299-500-auto?v=638034358069530000&width=500&height=auto&aspect=true"
-    },
-    {
       "name": "Toallas Húmedas Farmacity Bebé Nutricion e Hidratacion Leche de Almendra x 48 un",
       "price": "$ 5590.",
       "link": "https://www.farmacity.com/toallas-humedas-farmacity-bebe-nutricion-e-hidratacion-leche-de-almendra-x-48-un/p",
       "image": "https://farmacityar.vtexassets.com/arquivos/ids/228316-500-auto?v=637986035251600000&width=500&height=auto&aspect=true"
+    },
+    {
+      "name": "Pasta Dental para Dientes Sensibles Sensodyne Limpieza Profunda 90 g",
+      "price": "$ 3678.",
+      "link": "https://www.farmacity.com/crema-dental-sensodyne-limpieza-profunda-x-90-gr/p",
+      "image": "https://farmacityar.vtexassets.com/arquivos/ids/231299-500-auto?v=638034358069530000&width=500&height=auto&aspect=true"
     },
     {
       "name": "Protector Diario Kotex Cuidado Diario x 100 un",
@@ -115,12 +115,6 @@
       "image": "https://farmacityar.vtexassets.com/arquivos/ids/254735-500-auto?v=638500725099330000&width=500&height=auto&aspect=true"
     },
     {
-      "name": "Kit Tintura Excellence Sin Amoníaco",
-      "price": "$ 10740.",
-      "link": "https://www.farmacity.com/tintura-permanente-excellence-triple-cuidado-sin-amoniaco/p",
-      "image": "https://farmacityar.vtexassets.com/arquivos/ids/249635-500-auto?v=638363382426600000&width=500&height=auto&aspect=true"
-    },
-    {
       "name": "Suplemento Dietario Pure Wellness Vitamina C Triacción x 30 un",
       "price": "$ 13900.",
       "link": "https://www.farmacity.com/suplemento-dietario-pure-wellness-vitamina-c-triaccion-x-30-comp/p",
@@ -131,6 +125,12 @@
       "price": "$ 7090.",
       "link": "https://www.farmacity.com/toallitas-humedas-farmacity-bebe-cuidado-diario-glicerina-x-96-un/p",
       "image": "https://farmacityar.vtexassets.com/arquivos/ids/255177-500-auto?v=638513090904400000&width=500&height=auto&aspect=true"
+    },
+    {
+      "name": "Kit Tintura Excellence Sin Amoníaco",
+      "price": "$ 10740.",
+      "link": "https://www.farmacity.com/tintura-permanente-excellence-triple-cuidado-sin-amoniaco/p",
+      "image": "https://farmacityar.vtexassets.com/arquivos/ids/249635-500-auto?v=638363382426600000&width=500&height=auto&aspect=true"
     },
     {
       "name": "Kit de Coloración Permanente Revlon Colorsilk Beautiful",

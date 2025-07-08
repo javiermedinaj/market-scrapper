@@ -1,176 +1,16 @@
 {
-  "timestamp": "2025-07-08T00:46:49.618Z",
+  "timestamp": "2025-07-08T12:18:40.633Z",
   "date": "2025-07-08",
-  "time": "00-46-49",
+  "time": "12-18-40",
   "store": "dia",
-  "totalProducts": 26,
-  "lastUpdate": "2025-07-08T00:46:49.618Z",
+  "totalProducts": 6,
+  "lastUpdate": "2025-07-08T12:18:40.633Z",
   "data": [
     {
-      "name": "Queso Untable Finlandia Clásico 180 Gr.",
-      "price": "$ 2.230",
-      "oldPrice": "$ 2.970",
-      "discount": "25%",
-      "image": "https://diaio.vtexassets.com/arquivos/ids/352288-500-auto?v=638851462718970000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
-      "name": "Palta X 1 Ud.",
-      "price": "$ 740",
-      "oldPrice": "$ 890",
-      "discount": "17%",
-      "image": "https://diaio.vtexassets.com/arquivos/ids/341543-500-auto?v=638708906947800000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
-      "name": "Bebida A Base De Almendras S/Azúcar Silk 1 Lt.",
-      "price": "$ 4.400",
-      "oldPrice": "$ 5.880",
-      "discount": "25%",
-      "image": "https://diaio.vtexassets.com/arquivos/ids/337524-500-auto?v=638665699644430000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
-      "name": "Yogur Entero Milkaut Sachet Sabor Frutilla 900 Gr.",
-      "price": "$ 2.100",
-      "oldPrice": "$ 2.875",
-      "discount": "27%",
-      "image": "https://diaio.vtexassets.com/arquivos/ids/339727-500-auto?v=638689887569630000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
-      "name": "Pasta Dental Colgate Triple Beneficio 140 Gr.",
-      "price": "$ 4.520",
-      "oldPrice": null,
-      "discount": null,
-      "image": "https://diaio.vtexassets.com/arquivos/ids/350567-500-auto?v=638827339692800000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
-      "name": "Tirabuzon N 34 Luchetti 500 Gr.",
-      "price": "$ 1.370",
-      "oldPrice": null,
-      "discount": null,
-      "image": "https://diaio.vtexassets.com/arquivos/ids/312550-500-auto?v=638872605759030000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
-      "name": "Medallón Vegetalex Espinaca 300 Gr.",
-      "price": "$ 4.840",
-      "oldPrice": null,
-      "discount": null,
-      "image": "https://diaio.vtexassets.com/arquivos/ids/320399-500-auto?v=638599517008500000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
-      "name": "Salsa Knorr Pizza 340 Gr.",
-      "price": "$ 1.285",
-      "oldPrice": null,
-      "discount": null,
-      "image": "https://diaio.vtexassets.com/arquivos/ids/345029-500-auto?v=638744393454770000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
-      "name": "Tratamiento Restaurador Pro V Pearls Pantene 270 Gr.",
-      "price": "$ 4.248",
-      "oldPrice": "$ 7.080",
-      "discount": "40%",
-      "image": "https://diaio.vtexassets.com/arquivos/ids/332096-500-auto?v=638616524619470000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
-      "name": "Pañal Babysan Pampers G 9 Ud.",
-      "price": "$ 5.630",
-      "oldPrice": null,
-      "discount": null,
-      "image": "https://diaio.vtexassets.com/arquivos/ids/341253-500-auto?v=638708903567470000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
-      "name": "Toallas Femeninas Nocturnas Puro Y Natural Kotex 8 Ud.",
-      "price": "$ 2.256",
-      "oldPrice": "$ 3.760",
-      "discount": "40%",
-      "image": "https://diaio.vtexassets.com/arquivos/ids/334498-500-auto?v=638634720288130000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
-      "name": "NotCheese Mozzarella 250 Gr.",
-      "price": "$ 3.400",
-      "oldPrice": "$ 5.685",
-      "discount": "40%",
-      "image": "https://diaio.vtexassets.com/arquivos/ids/328919-500-auto?v=638599629049930000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
-      "name": "Papas Tradicionales McCain 700 Gr.",
-      "price": "$ 3.990",
-      "oldPrice": "$ 5.870",
-      "discount": "32%",
-      "image": "https://diaio.vtexassets.com/arquivos/ids/345395-500-auto?v=638744397063600000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
-      "name": "Queso Crema Clásico Casancrem 500 Gr.",
-      "price": "$ 4.500",
-      "oldPrice": "$ 6.985",
-      "discount": "36%",
-      "image": "https://diaio.vtexassets.com/arquivos/ids/335808-500-auto?v=638653102997770000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
-      "name": "Agua Sin Gas Villavicencio 2 Lt.",
-      "price": "$ 1.610",
-      "oldPrice": "$ 2.480",
-      "discount": "35%",
-      "image": "https://diaio.vtexassets.com/arquivos/ids/332061-500-auto?v=638616524157600000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
-      "name": "Crema Dental Pro Alivio Inmediato Colgate 60 Gr.",
-      "price": "$ 2.340",
-      "oldPrice": "$ 3.600",
-      "discount": "35%",
-      "image": "https://diaio.vtexassets.com/arquivos/ids/337243-500-auto?v=638661373902600000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
-      "name": "Dulce De Leche Milkaut 400 Gr.",
-      "price": "$ 2.590",
-      "oldPrice": "$ 3.465",
-      "discount": "25%",
-      "image": "https://diaio.vtexassets.com/arquivos/ids/342259-500-auto?v=638708915824430000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
-      "name": "Nachos Sweet Chilli Doritos 74 Gr.",
-      "price": "$ 3.000",
-      "oldPrice": null,
-      "discount": null,
-      "image": "https://diaio.vtexassets.com/arquivos/ids/345969-500-auto?v=638786783445800000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
-      "name": "Quitamanchas Ayudín Blancos Intensos Floral 1 Lt.",
-      "price": "$ 1.450",
-      "oldPrice": "$ 2.075",
-      "discount": "30%",
-      "image": "https://diaio.vtexassets.com/arquivos/ids/322858-500-auto?v=638599548647300000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
-      "name": "Queso Reggianito Rallado La Serenisima 35 Gr.",
-      "price": "$ 1.065",
-      "oldPrice": "$ 1.420",
-      "discount": "25%",
-      "image": "https://diaio.vtexassets.com/arquivos/ids/352279-500-auto?v=638851462591700000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
       "name": "Agua Micelar Con Rosas Garnier 400 Ml.",
-      "price": "$ 11.130",
-      "oldPrice": "$ 15.900",
-      "discount": "30%",
+      "price": "$ 16.375",
+      "oldPrice": null,
+      "discount": null,
       "image": "https://diaio.vtexassets.com/arquivos/ids/351355-500-auto?v=638841098994530000&width=500&height=auto&aspect=true",
       "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
     },
@@ -184,25 +24,25 @@
     },
     {
       "name": "Jabón En Barra Lux Jazmín Cremoso Multipack 3X120 Gr.",
-      "price": "$ 2.470",
-      "oldPrice": "$ 3.090",
-      "discount": "20%",
+      "price": "$ 3.185",
+      "oldPrice": null,
+      "discount": null,
       "image": "https://diaio.vtexassets.com/arquivos/ids/344953-500-auto?v=638744392735100000&width=500&height=auto&aspect=true",
       "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
     },
     {
       "name": "Queso Port Salut La Paulina X Kg.",
-      "price": "$ 13.000",
-      "oldPrice": "$ 15.490",
-      "discount": "16%",
+      "price": "$ 15.490",
+      "oldPrice": null,
+      "discount": null,
       "image": "https://diaio.vtexassets.com/arquivos/ids/341334-500-auto?v=638708904437400000&width=500&height=auto&aspect=true",
       "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
     },
     {
       "name": "Papas Noisette Congeladas Dia 500 Gr.",
-      "price": "$ 3.490",
-      "oldPrice": "$ 4.480",
-      "discount": "22%",
+      "price": "$ 4.190",
+      "oldPrice": null,
+      "discount": null,
       "image": "https://diaio.vtexassets.com/arquivos/ids/344565-500-auto?v=638743459104670000&width=500&height=auto&aspect=true",
       "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
     },
