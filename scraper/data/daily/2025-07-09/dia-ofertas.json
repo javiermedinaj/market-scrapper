@@ -1,14 +1,166 @@
 {
-  "timestamp": "2025-07-09T00:48:29.456Z",
+  "timestamp": "2025-07-09T12:18:33.011Z",
   "date": "2025-07-09",
-  "time": "00-48-29",
+  "time": "12-18-33",
   "store": "dia",
-  "totalProducts": 6,
-  "lastUpdate": "2025-07-09T00:48:29.456Z",
+  "totalProducts": 25,
+  "lastUpdate": "2025-07-09T12:18:33.011Z",
   "data": [
     {
+      "name": "Leche Multidefensa 3% La Serenisima 1 Lt.",
+      "price": "$ 1.430",
+      "oldPrice": null,
+      "discount": null,
+      "image": "https://diaio.vtexassets.com/arquivos/ids/343627-500-auto?v=638732576485070000&width=500&height=auto&aspect=true",
+      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
+    },
+    {
+      "name": "Leche Multidefensa 1% La Serenisima 1 Lt.",
+      "price": "$ 1.430",
+      "oldPrice": null,
+      "discount": null,
+      "image": "https://diaio.vtexassets.com/arquivos/ids/343574-500-auto?v=638732575879930000&width=500&height=auto&aspect=true",
+      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
+    },
+    {
+      "name": "Palta X 1 Ud.",
+      "price": "$ 740",
+      "oldPrice": null,
+      "discount": null,
+      "image": "https://diaio.vtexassets.com/arquivos/ids/341543-500-auto?v=638708906947800000&width=500&height=auto&aspect=true",
+      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
+    },
+    {
+      "name": "Rollo de Cocina 50 paños 3 Ud.",
+      "price": "$ 1.840",
+      "oldPrice": null,
+      "discount": null,
+      "image": "https://diaio.vtexassets.com/arquivos/ids/312363-500-auto?v=638778392732170000&width=500&height=auto&aspect=true",
+      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
+    },
+    {
+      "name": "Arroz Largo Fino Ala 1 Kg.",
+      "price": "$ 1.710",
+      "oldPrice": null,
+      "discount": null,
+      "image": "https://diaio.vtexassets.com/arquivos/ids/341195-500-auto?v=638778358022100000&width=500&height=auto&aspect=true",
+      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
+    },
+    {
+      "name": "Fideos Tirabuzon N28 Matarazzo 500 Gr.",
+      "price": "$ 955",
+      "oldPrice": "$ 1.600",
+      "discount": "40%",
+      "image": "https://diaio.vtexassets.com/arquivos/ids/308688-500-auto?v=638599347155070000&width=500&height=auto&aspect=true",
+      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
+    },
+    {
+      "name": "Jugo En Polvo Clight Naranja Dulce 7,5 Gr.",
+      "price": "$ 380",
+      "oldPrice": null,
+      "discount": null,
+      "image": "https://diaio.vtexassets.com/arquivos/ids/322612-500-auto?v=638599545927670000&width=500&height=auto&aspect=true",
+      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
+    },
+    {
+      "name": "Toallita Femenina Kotex Esencial 16 Ud.",
+      "price": "$ 2.019",
+      "oldPrice": "$ 3.365",
+      "discount": "40%",
+      "image": "https://diaio.vtexassets.com/arquivos/ids/341764-500-auto?v=638708909853200000&width=500&height=auto&aspect=true",
+      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
+    },
+    {
+      "name": "Papel Higiénico Doble Hoja Fusión Manzanilla + Loto Higienol 4 Ud.",
+      "price": "$ 1.998",
+      "oldPrice": "$ 3.330",
+      "discount": "40%",
+      "image": "https://diaio.vtexassets.com/arquivos/ids/353809-500-auto?v=638871336207600000&width=500&height=auto&aspect=true",
+      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
+    },
+    {
+      "name": "Jamón Cocido Lario Feteado 150 Gr.",
+      "price": "$ 2.268",
+      "oldPrice": "$ 3.780",
+      "discount": "40%",
+      "image": "https://diaio.vtexassets.com/arquivos/ids/321149-500-auto?v=638599527230500000&width=500&height=auto&aspect=true",
+      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
+    },
+    {
+      "name": "Cerveza Alemana St. Wendeler 330 Ml.",
+      "price": "$ 590",
+      "oldPrice": "$ 990",
+      "discount": "40%",
+      "image": "https://diaio.vtexassets.com/arquivos/ids/308964-500-auto?v=638599350624600000&width=500&height=auto&aspect=true",
+      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
+    },
+    {
+      "name": "Queso Untable La Serenísima Cremón 280 Gr.",
+      "price": "$ 1.995",
+      "oldPrice": "$ 3.060",
+      "discount": "35%",
+      "image": "https://diaio.vtexassets.com/arquivos/ids/352300-500-auto?v=638851462884400000&width=500&height=auto&aspect=true",
+      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
+    },
+    {
+      "name": "Manzana Roja Comercial en bolsa malla x Kg.",
+      "price": "$ 1.290",
+      "oldPrice": null,
+      "discount": null,
+      "image": "https://diaio.vtexassets.com/arquivos/ids/353422-500-auto?v=638871331483370000&width=500&height=auto&aspect=true",
+      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
+    },
+    {
+      "name": "Papas Tradicionales McCain 700 Gr.",
+      "price": "$ 3.820",
+      "oldPrice": "$ 5.870",
+      "discount": "35%",
+      "image": "https://diaio.vtexassets.com/arquivos/ids/345395-500-auto?v=638744397063600000&width=500&height=auto&aspect=true",
+      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
+    },
+    {
+      "name": "Yogur Batido Ser PRO+ Con Proteínas Sabor Frutos Rojos 175 Gr.",
+      "price": "$ 1.470",
+      "oldPrice": "$ 2.265",
+      "discount": "35%",
+      "image": "https://diaio.vtexassets.com/arquivos/ids/350257-500-auto?v=638822085174070000&width=500&height=auto&aspect=true",
+      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
+    },
+    {
+      "name": "Pomelo x 1 Kg.",
+      "price": "$ 1.190",
+      "oldPrice": null,
+      "discount": null,
+      "image": "https://diaio.vtexassets.com/arquivos/ids/310401-500-auto?v=638599371250700000&width=500&height=auto&aspect=true",
+      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
+    },
+    {
+      "name": "Mini Mortadela DIA Bocha 300 Gr.",
+      "price": "$ 1.990",
+      "oldPrice": "$ 2.850",
+      "discount": "30%",
+      "image": "https://diaio.vtexassets.com/arquivos/ids/321372-500-auto?v=638599530002700000&width=500&height=auto&aspect=true",
+      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
+    },
+    {
+      "name": "Not Burger Parrillera 220 Gr.",
+      "price": "$ 4.380",
+      "oldPrice": "$ 6.260",
+      "discount": "30%",
+      "image": "https://diaio.vtexassets.com/arquivos/ids/341994-500-auto?v=638708912686800000&width=500&height=auto&aspect=true",
+      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
+    },
+    {
+      "name": "Snack Sabor Queso Crema Cheetos 85 Gr.",
+      "price": "$ 1.480",
+      "oldPrice": "$ 2.100",
+      "discount": "30%",
+      "image": "https://diaio.vtexassets.com/arquivos/ids/308115-500-auto?v=638599339144000000&width=500&height=auto&aspect=true",
+      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
+    },
+    {
       "name": "Toalla Nosotras Buenas Noches Suave MAX CURV X 8 Ud.",
-      "price": "$ 2.930",
+      "price": "$ 2.840",
       "oldPrice": null,
       "discount": null,
       "image": "https://diaio.vtexassets.com/arquivos/ids/345426-500-auto?v=638744397373730000&width=500&height=auto&aspect=true",
@@ -16,9 +168,9 @@
     },
     {
       "name": "Limpiador Líquido Pisos Procenex Lavanda 900 Ml.",
-      "price": "$ 1.920",
-      "oldPrice": null,
-      "discount": null,
+      "price": "$ 1.440",
+      "oldPrice": "$ 1.920",
+      "discount": "25%",
       "image": "https://diaio.vtexassets.com/arquivos/ids/341467-500-auto?v=638708906067170000&width=500&height=auto&aspect=true",
       "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
     },
@@ -31,24 +183,24 @@
       "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
     },
     {
+      "name": "Detergente Para Ropa Limpieza Profunda Ariel 800 Ml.",
+      "price": "$ 2.050",
+      "oldPrice": "$ 3.175",
+      "discount": "35%",
+      "image": "https://diaio.vtexassets.com/arquivos/ids/350782-500-auto?v=638828993505970000&width=500&height=auto&aspect=true",
+      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
+    },
+    {
       "name": "Yogur Bebible Ser PRO+ Con Proteínas Sabor Frutillas y Arándanos 190 Gr.",
-      "price": "$ 2.410",
-      "oldPrice": null,
-      "discount": null,
+      "price": "$ 1.560",
+      "oldPrice": "$ 2.410",
+      "discount": "35%",
       "image": "https://diaio.vtexassets.com/arquivos/ids/350243-500-auto?v=638822084995970000&width=500&height=auto&aspect=true",
       "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
     },
     {
-      "name": "Leche Multidefensa 3% La Serenisima 1 Lt.",
-      "price": "$ 1.740",
-      "oldPrice": null,
-      "discount": null,
-      "image": "https://diaio.vtexassets.com/arquivos/ids/343627-500-auto?v=638732576485070000&width=500&height=auto&aspect=true",
-      "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
-    },
-    {
       "name": "Medallon de Carne Con Soja Express 276 Gr.",
-      "price": "$ 3.910",
+      "price": "$ 3.800",
       "oldPrice": null,
       "discount": null,
       "image": "https://diaio.vtexassets.com/arquivos/ids/330151-500-auto?v=638599645075730000&width=500&height=auto&aspect=true",
