@@ -1,128 +1,86 @@
 {
-  "timestamp": "2025-07-14T00:53:54.982Z",
+  "timestamp": "2025-07-14T12:20:44.153Z",
   "date": "2025-07-14",
-  "time": "00-53-54",
+  "time": "12-20-44",
   "store": "coto",
-  "totalProducts": 20,
-  "lastUpdate": "2025-07-14T00:53:54.982Z",
+  "totalProducts": 13,
+  "lastUpdate": "2025-07-14T12:20:44.153Z",
   "data": [
     {
       "name": "Oferta Coto 1",
-      "image": "https://www.coto.com.ar/images/ofertas/AficheDescuento1207.jpg",
-      "price": "Ver en tienda",
-      "link": "https://www.coto.com.ar/ofertas"
-    },
-    {
-      "name": "Oferta Coto 2",
-      "image": "https://www.coto.com.ar/images/ofertas/AficheMix1107.jpg",
-      "price": "Ver en tienda",
-      "link": "https://www.coto.com.ar/ofertas"
-    },
-    {
-      "name": "Oferta Coto 3",
       "image": "https://www.coto.com.ar/images/ofertas/AficheSalon1007A.jpg",
       "price": "Ver en tienda",
       "link": "https://www.coto.com.ar/ofertas"
     },
     {
-      "name": "Oferta Coto 4",
+      "name": "Oferta Coto 2",
       "image": "https://www.coto.com.ar/images/ofertas/AficheSalon1007B.jpg",
       "price": "Ver en tienda",
       "link": "https://www.coto.com.ar/ofertas"
     },
     {
-      "name": "Oferta Coto 5",
-      "image": "https://www.coto.com.ar/images/ofertas/AficheWebDescuento1207.jpg",
+      "name": "Oferta Coto 3",
+      "image": "https://www.coto.com.ar/images/catalogos/revistas/semanal14072025/pages/1.jpg",
       "price": "Ver en tienda",
       "link": "https://www.coto.com.ar/ofertas"
     },
     {
-      "name": "Oferta Coto 6",
+      "name": "Oferta Coto 4",
       "image": "https://www.coto.com.ar/images/ofertas/AficheElectroMotivo1_1107.jpg",
       "price": "Ver en tienda",
       "link": "https://www.coto.com.ar/ofertas"
     },
     {
-      "name": "Oferta Coto 7",
+      "name": "Oferta Coto 5",
       "image": "https://www.coto.com.ar/images/ofertas/AficheElectroMotivo2_1107.jpg",
       "price": "Ver en tienda",
       "link": "https://www.coto.com.ar/ofertas"
     },
     {
-      "name": "Oferta Coto 8",
+      "name": "Oferta Coto 6",
       "image": "https://www.coto.com.ar/images/ofertas/AficheHogar1107.jpg",
       "price": "Ver en tienda",
       "link": "https://www.coto.com.ar/ofertas"
     },
     {
-      "name": "Oferta Coto 9",
+      "name": "Oferta Coto 7",
       "image": "https://www.coto.com.ar/images/ofertas/AficheElectroMotivo3_1107.jpg",
       "price": "Ver en tienda",
       "link": "https://www.coto.com.ar/ofertas"
     },
     {
-      "name": "Oferta Coto 10",
+      "name": "Oferta Coto 8",
       "image": "https://www.coto.com.ar/images/ofertas/AficheRenova1107.jpg",
       "price": "Ver en tienda",
       "link": "https://www.coto.com.ar/ofertas"
     },
     {
-      "name": "Oferta Coto 11",
-      "image": "https://www.coto.com.ar/images/ofertas/AficheWebGalicia18-JULIO.jpg",
+      "name": "Oferta Coto 9",
+      "image": "https://www.coto.com.ar/images/ofertas/Afiche-Semana-del-Pescado1407.jpg",
       "price": "Ver en tienda",
       "link": "https://www.coto.com.ar/ofertas"
     },
     {
-      "name": "Oferta Coto 12",
-      "image": "https://www.coto.com.ar/images/ofertas/AficheWebBancoCiudad18-JULIO.jpg",
-      "price": "Ver en tienda",
-      "link": "https://www.coto.com.ar/ofertas"
-    },
-    {
-      "name": "Oferta Coto 13",
-      "image": "https://www.coto.com.ar/images/ofertas/AficheWebSupervielle-Julio.jpg",
-      "price": "Ver en tienda",
-      "link": "https://www.coto.com.ar/ofertas"
-    },
-    {
-      "name": "Oferta Coto 14",
+      "name": "Oferta Coto 10",
       "image": "https://www.coto.com.ar/images/ofertas/AficheWebBNAElectro-JULIO.jpg",
       "price": "Ver en tienda",
       "link": "https://www.coto.com.ar/ofertas"
     },
     {
-      "name": "Oferta Coto 15",
+      "name": "Oferta Coto 11",
       "image": "https://www.coto.com.ar/images/ofertas/AficheWebBancoCredicoopElectro-JULIO.jpg",
       "price": "Ver en tienda",
       "link": "https://www.coto.com.ar/ofertas"
     },
     {
-      "name": "Oferta Coto 16",
+      "name": "Oferta Coto 12",
       "image": "https://www.coto.com.ar/images/ofertas/AficheWebColumbiaElectro-JULIO.jpg",
       "price": "Ver en tienda",
       "link": "https://www.coto.com.ar/ofertas"
     },
     {
-      "name": "Oferta Coto 17",
-      "image": "https://www.coto.com.ar/images/ofertas/Afiche-Rincon-Patrio-Lunes-3006A.jpg",
-      "price": "Ver en tienda",
-      "link": "https://www.coto.com.ar/ofertas"
-    },
-    {
-      "name": "Oferta Coto 18",
-      "image": "https://www.coto.com.ar/images/ofertas/Afiche-Rincon-Patrio-Lunes-3006B.jpg",
-      "price": "Ver en tienda",
-      "link": "https://www.coto.com.ar/ofertas"
-    },
-    {
-      "name": "Oferta Coto 19",
-      "image": "https://www.coto.com.ar/images/catalogos/revistas/semanal07072025/pages/1.jpg",
-      "price": "Ver en tienda",
-      "link": "https://www.coto.com.ar/ofertas"
-    },
-    {
-      "name": "Oferta Coto 20",
-      "image": "https://www.coto.com.ar/images/ofertas/AficheWebOfertasBazar0707.jpg",
+      "name": "Oferta Coto 13",
+      "image": "https://www.coto.com.ar/images/ofertas/AficheWebOfertasBazar1407.jpg",
       "price": "Ver en tienda",
       "link": "https://www.coto.com.ar/ofertas"
     }
