@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-07-16T00:50:27.077Z",
+  "timestamp": "2025-07-16T12:19:29.755Z",
   "date": "2025-07-16",
-  "time": "00-50-27",
+  "time": "12-19-29",
   "store": "dia",
   "totalProducts": 6,
-  "lastUpdate": "2025-07-16T00:50:27.077Z",
+  "lastUpdate": "2025-07-16T12:19:29.755Z",
   "data": [
     {
       "name": "Acondicionador Biotinamina Pantene 250 Ml.",
@@ -16,9 +16,9 @@
     },
     {
       "name": "Suavizante Concentrado Para Ropa Brisa De Verano Downy 500 Ml.",
-      "price": "$ 6.990",
-      "oldPrice": null,
-      "discount": null,
+      "price": "$ 4.893",
+      "oldPrice": "$ 6.990",
+      "discount": "30%",
       "image": "https://diaio.vtexassets.com/arquivos/ids/334636-500-auto?v=638635545198230000&width=500&height=auto&aspect=true",
       "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
     },
@@ -40,9 +40,9 @@
     },
     {
       "name": "Not Burger Parrillera 220 Gr.",
-      "price": "$ 6.450",
-      "oldPrice": null,
-      "discount": null,
+      "price": "$ 4.350",
+      "oldPrice": "$ 6.260",
+      "discount": "31%",
       "image": "https://diaio.vtexassets.com/arquivos/ids/341994-500-auto?v=638708912686800000&width=500&height=auto&aspect=true",
       "link": "https://diaonline.supermercadosdia.com.ar/especial-ofertas"
     },
