@@ -67,6 +67,28 @@ func main() {
 	all := append(diaProducts, jumboProducts...)
 
 	http.HandleFunc("/search", func(w http.ResponseWriter, r *http.Request) {
+		origin := r.Header.Get("Origin")
+		allowedOrigins := map[string]bool{
+			"https://offers-ba.vercel.app": true,
+			"http://localhost:5173":        true,
+		}
+
+		if allowedOrigins[origin] {
+			w.Header().Set("Access-Control-Allow-Origin", origin)
+		} else {
+			if strings.HasPrefix(origin, "http://localhost:") {
+				w.Header().Set("Access-Control-Allow-Origin", origin)
+			}
+		}
+
+		w.Header().Set("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+		w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
+
+		if r.Method == "OPTIONS" {
+			w.WriteHeader(http.StatusOK)
+			return
+		}
+
 		q := r.URL.Query().Get("q")
 		var results []Product
 		for _, p := range all {
@@ -74,7 +96,6 @@ func main() {
 				results = append(results, p)
 			}
 		}
-		w.Header().Set("Access-Control-Allow-Origin", "https://offers-ba.vercel.app")
 		json.NewEncoder(w).Encode(results)
 	})
 
