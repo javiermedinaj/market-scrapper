@@ -74,7 +74,7 @@ func main() {
 				results = append(results, p)
 			}
 		}
-		w.Header().Set("Access-Control-Allow-Origin", "*")
+		w.Header().Set("Access-Control-Allow-Origin", "https://offers-ba.vercel.app")
 		json.NewEncoder(w).Encode(results)
 	})
 

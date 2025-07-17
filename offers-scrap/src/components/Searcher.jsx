@@ -16,9 +16,9 @@ export default function Searcher() {
     setLoading(true);
     setResults([]);
     try {
-      const res = await axios.get("http://localhost:8080/search", {
-        params: { q: query }
-      });
+    const res = await axios.get(`${import.meta.env.VITE_API_URL}/search`, {
+    params: { q: query }
+    });
       setResults(res.data);
     } catch (err) {
       setResults([]);
