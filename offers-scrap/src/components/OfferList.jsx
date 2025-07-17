@@ -4,12 +4,12 @@ import { Store, Loader, AlertCircle, RefreshCw, Calendar, TrendingUp, Database }
 import { getStaticOffersData } from '../data/staticData';
 
 const STORES = [
-  { id: 'jumbo', name: 'Jumbo', color: 'bg-green-600', textColor: 'text-green-600' },
-  { id: 'carrefour', name: 'Carrefour', color: 'bg-blue-600', textColor: 'text-blue-400' },
-  { id: 'farmacity', name: 'Farmacity', color: 'bg-purple-600', textColor: 'text-purple-600' },
-  { id: 'dia', name: 'Día', color: 'bg-red-600', textColor: 'text-red-600' },
-  { id: 'farma', name: 'FarmaOnline', color: 'bg-orange-600', textColor: 'text-orange-600' },
-  { id: 'coto', name: 'Coto', color: 'bg-yellow-600', textColor: 'text-yellow-600' }
+  { id: 'jumbo', name: 'Jumbo', color: 'bg-green-600', textColor: 'text-green-900 dark:text-green-300' },
+  { id: 'carrefour', name: 'Carrefour', color: 'bg-blue-600', textColor: 'text-blue-900 dark:text-blue-300' },
+  { id: 'farmacity', name: 'Farmacity', color: 'bg-purple-600', textColor: 'text-purple-900 dark:text-purple-300' },
+  { id: 'dia', name: 'Día', color: 'bg-red-600', textColor: 'text-red-900 dark:text-red-300' },
+  { id: 'farma', name: 'FarmaOnline', color: 'bg-orange-600', textColor: 'text-orange-900 dark:text-orange-300' },
+  { id: 'coto', name: 'Coto', color: 'bg-yellow-600', textColor: 'text-yellow-900 dark:text-yellow-300' }
 ];
 
 const OfferList = () => {
@@ -20,33 +20,21 @@ const OfferList = () => {
   const [refreshing, setRefreshing] = useState(false);
   const [usingStaticData, setUsingStaticData] = useState(false);
 
-  const fetchData = async () => {
-    try {
-      console.log('🔄 Intentando conectar al servidor...');
-      const response = await fetch('http://localhost:3000/api/offers', { 
-        signal: AbortSignal.timeout(5000) // Timeout de 5 segundos
-      });
-      
-      if (!response.ok) throw new Error('Servidor no responde');
-      
-      const offersData = await response.json();
-      setData(offersData);
-      setError(null);
-      setUsingStaticData(false);
-      console.log('✅ Datos cargados desde el servidor');
-      
-    } catch (err) {
-      console.log('⚠️ Servidor no disponible, usando datos estáticos');
-      const staticData = await getStaticOffersData();
-      setData(staticData);
-      setError(null);
-      setUsingStaticData(true);
-      
-    } finally {
-      setLoading(false);
-      setRefreshing(false);
-    }
-  };
+ const fetchData = async () => {
+  try {
+    const staticData = await getStaticOffersData();
+    setData(staticData);
+    setError(null);
+    setUsingStaticData(true);
+  } catch (err) {
+    setError("No se pudieron cargar los datos estáticos.");
+    setData({});
+    setUsingStaticData(true);
+  } finally {
+    setLoading(false);
+    setRefreshing(false);
+  }
+};
 
   const handleRefresh = async () => {
     setRefreshing(true);
@@ -112,7 +100,7 @@ const OfferList = () => {
 
   return (
     <div className="space-y-6">
-      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-4 sm:p-6">
+      <div className="bg-white dark:bg-zinc-900 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-4 sm:p-6">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Ofertas Disponibles</h2>
@@ -150,7 +138,7 @@ const OfferList = () => {
         </div>
       )}
 
-      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-4">
+      <div className="bg-white dark:bg-zinc-900 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-4">
         <div className="flex overflow-x-auto gap-2 no-scrollbar py-1 px-1 -mx-1">
           <button
             onClick={() => setActiveStore('all')}

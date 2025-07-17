@@ -11,14 +11,14 @@ const OfferCard = ({ product, storeName }) => {
 
     const getStoreColor = (store) => {
         const colors = {
-            'Jumbo': 'bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-black border-green-200 dark:border-green-800',
+            'Jumbo': 'bg-green-100 text-green-900 dark:bg-green-900/30 text-green-800 dark:text-black border-green-200 dark:border-green-800',
             'Carrefour': 'bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-black border-green-200 dark:border-green-800',
             'Farmacity': 'bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-black border-purple-200 dark:border-purple-800',
             'Día': 'bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-black border-red-200 dark:border-red-800',
             'Farma': 'bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-black border-orange-200 dark:border-orange-800',
             'Coto': 'bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-black border-yellow-200 dark:border-yellow-800'
         };
-        return colors[store] || 'bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-300 border-gray-200 dark:border-gray-700';
+        return colors[store] || 'bg-zinc-400 dark:bg-gray-800 text-gray-800 dark:text-gray-300 border-gray-200 dark:border-gray-700';
     };
 
     const handleProductClick = () => {
@@ -43,8 +43,8 @@ const OfferCard = ({ product, storeName }) => {
     const finalLink = hasValidLink ? product.link : defaultStoreLinks[storeName] || '#';
 
     return (
-        <div className="offer-card group">
-            <div className="relative bg-gray-50 dark:bg-gray-8050 aspect-[4/3] overflow-hidden flex-shrink-0">
+        <div className="offer-card group dark:bg-zinc-900">
+            <div className="relative bg-gray-50 dark:bg-white aspect-[4/3] overflow-hidden flex-shrink-0">
                 {productImage ? (
                     <img
                         src={productImage}
@@ -58,7 +58,7 @@ const OfferCard = ({ product, storeName }) => {
                         }}
                     />
                 ) : null}
-                <div className={`${productImage ? 'hidden' : 'flex'} w-full h-full items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-800`}>
+                <div className={`${productImage ? 'hidden' : 'flex'} w-full h-full items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200 dark:bg-zinc-900`}>
                     <div className="text-center">
                         <ShoppingCart className="w-10 h-10 text-gray-400 dark:text-black-500 mx-auto mb-2" />
                         <span className="text-sm text-gray-500 dark:text-gray-400">Sin imagen</span>

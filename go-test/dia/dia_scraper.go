@@ -6,6 +6,8 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"os"
+	"path/filepath"
 	"time"
 )
 
@@ -29,6 +31,34 @@ type DiaItem struct {
 			} `json:"commertialOffer"`
 		} `json:"sellers"`
 	} `json:"items"`
+}
+
+func saveHistoricalData(result map[string]interface{}, storeName string) error {
+	// Crear estructura de carpetas para el día actual
+	now := time.Now()
+	dateStr := now.Format("2006-01-02")
+	dailyDir := filepath.Join("..", "data", "daily", dateStr)
+	if err := os.MkdirAll(dailyDir, 0755); err != nil {
+		return fmt.Errorf("error creating daily directory: %v", err)
+	}
+
+	// Guardar en la carpeta del día
+	dailyFile := filepath.Join(dailyDir, fmt.Sprintf("%s-ofertas.json", storeName))
+	dailyData, err := json.MarshalIndent(result, "", "  ")
+	if err != nil {
+		return fmt.Errorf("error marshaling JSON: %v", err)
+	}
+	if err := ioutil.WriteFile(dailyFile, dailyData, 0644); err != nil {
+		return fmt.Errorf("error writing daily file: %v", err)
+	}
+
+	// Actualizar también el archivo actual
+	currentFile := filepath.Join("..", "data", fmt.Sprintf("%s-ofertas.json", storeName))
+	if err := ioutil.WriteFile(currentFile, dailyData, 0644); err != nil {
+		return fmt.Errorf("error writing current file: %v", err)
+	}
+
+	return nil
 }
 
 func main() {
@@ -108,7 +138,10 @@ func main() {
 		"data":          allProducts,
 	}
 
-	out, _ := json.MarshalIndent(result, "", "  ")
-	ioutil.WriteFile("dia-ofertas-test.json", out, 0644)
-	fmt.Printf("Scrapeo finalizado. Productos: %d\n", len(allProducts))
+	// Guardar solo en la estructura de datos históricos
+	if err := saveHistoricalData(result, "dia"); err != nil {
+		log.Printf("Error saving historical data: %v", err)
+	}
+
+	fmt.Printf("✅ Scrapeo finalizado. Productos: %d\n", len(allProducts))
 }

@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"path/filepath"
 	"time"
 )
 
@@ -55,6 +56,33 @@ type Output struct {
 	Data          []Product `json:"data"`
 }
 
+func saveHistoricalData(output Output) error {
+	// Crear estructura de carpetas para el día actual
+	dateStr := output.Date
+	dailyDir := filepath.Join("..", "data", "daily", dateStr)
+	if err := os.MkdirAll(dailyDir, 0755); err != nil {
+		return fmt.Errorf("error creating daily directory: %v", err)
+	}
+
+	// Guardar en la carpeta del día
+	dailyFile := filepath.Join(dailyDir, "jumbo-ofertas.json")
+	dailyData, err := json.MarshalIndent(output, "", "  ")
+	if err != nil {
+		return fmt.Errorf("error marshaling JSON: %v", err)
+	}
+	if err := ioutil.WriteFile(dailyFile, dailyData, 0644); err != nil {
+		return fmt.Errorf("error writing daily file: %v", err)
+	}
+
+	// Actualizar también el archivo actual
+	currentFile := filepath.Join("..", "data", "jumbo-ofertas.json")
+	if err := ioutil.WriteFile(currentFile, dailyData, 0644); err != nil {
+		return fmt.Errorf("error writing current file: %v", err)
+	}
+
+	return nil
+}
+
 func main() {
 	clusterId := "50532"
 	baseUrl := "https://www.jumbo.com.ar/api/catalog_system/pub/products/search?productClusterIds=" + clusterId
@@ -64,35 +92,71 @@ func main() {
 
 	maxFrom := 2500
 	for from < maxFrom {
+		log.Printf("📄 Obteniendo productos %d-%d...", from, from+pageSize-1)
 		url := fmt.Sprintf("%s&_from=%d&_to=%d", baseUrl, from, from+pageSize-1)
-		req, err := http.NewRequest("GET", url, nil)
-		if err != nil {
-			log.Fatalf("Error creando request: %v", err)
+		// Configurar cliente HTTP con timeout y reintentos
+		client := &http.Client{
+			Timeout: 30 * time.Second,
 		}
-		req.Header.Set("User-Agent", "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)")
-		req.Header.Set("Accept", "application/json")
-		client := &http.Client{}
-		resp, err := client.Do(req)
-		if err != nil {
-			log.Fatalf("Error al hacer request: %v", err)
+
+		// Intentar hasta 3 veces
+		var resp *http.Response
+		var body []byte
+		maxRetries := 3
+		for retry := 0; retry < maxRetries; retry++ {
+			if retry > 0 {
+				log.Printf("Reintento %d de %d...", retry+1, maxRetries)
+				time.Sleep(2 * time.Second) // Esperar entre reintentos
+			}
+
+			req, err := http.NewRequest("GET", url, nil)
+			if err != nil {
+				log.Printf("Error creando request: %v", err)
+				continue
+			}
+
+			req.Header.Set("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+			req.Header.Set("Accept", "application/json")
+			req.Header.Set("Connection", "keep-alive")
+			req.Header.Set("Cache-Control", "no-cache")
+
+			resp, err = client.Do(req)
+			if err != nil {
+				log.Printf("Error en request (intento %d): %v", retry+1, err)
+				continue
+			}
+
+			body, err = ioutil.ReadAll(resp.Body)
+			resp.Body.Close()
+			if err != nil {
+				log.Printf("Error leyendo respuesta (intento %d): %v", retry+1, err)
+				continue
+			}
+
+			// Aceptar tanto 200 (OK) como 206 (Partial Content)
+			if resp.StatusCode == 200 || resp.StatusCode == 206 {
+				break // Si la respuesta es exitosa, salir del loop
+			}
+			log.Printf("Status code %d en intento %d (esperado 200 o 206)", resp.StatusCode, retry+1)
 		}
-		body, err := ioutil.ReadAll(resp.Body)
-		resp.Body.Close()
-		if err != nil {
-			log.Fatalf("Error leyendo respuesta: %v", err)
+
+		if resp == nil || (resp.StatusCode != 200 && resp.StatusCode != 206) {
+			log.Printf("❌ No se pudo obtener respuesta después de %d intentos", maxRetries)
+			break
 		}
 
 		var vtexProducts []map[string]interface{}
-		err = json.Unmarshal(body, &vtexProducts)
-		if err != nil {
-			fmt.Println("Respuesta recibida (no es JSON de productos):")
-			fmt.Println(string(body))
-			log.Fatalf("Error parseando JSON: %v", err)
+		if err := json.Unmarshal(body, &vtexProducts); err != nil {
+			log.Printf("Respuesta recibida (no es JSON de productos):\n%s", string(body))
+			log.Printf("Error parseando JSON: %v", err)
+			continue // Intentar siguiente página
 		}
 		if len(vtexProducts) == 0 {
-			break // No hay más productos
+			log.Printf("✅ No hay más productos en esta página")
+			break
 		}
 
+		log.Printf("✅ Encontrados %d productos en esta página", len(vtexProducts))
 		for _, vp := range vtexProducts {
 			name, _ := vp["productName"].(string)
 			linkText, _ := vp["linkText"].(string)
@@ -141,18 +205,10 @@ func main() {
 		Data:          allProducts,
 	}
 
-	outFile := "jumbo-ofertas-test.json"
-	f, err := os.Create(outFile)
-	if err != nil {
-		log.Fatalf("No se pudo crear el archivo de salida: %v", err)
-	}
-	defer f.Close()
-
-	enc := json.NewEncoder(f)
-	enc.SetIndent("", "  ")
-	if err := enc.Encode(output); err != nil {
-		log.Fatalf("No se pudo escribir el JSON: %v", err)
+	// Guardar solo en la estructura de datos históricos
+	if err := saveHistoricalData(output); err != nil {
+		log.Printf("Error saving historical data: %v", err)
 	}
 
-	fmt.Printf("✅ Scraping Jumbo (Go, API) completado. Productos: %d\nArchivo: %s\n", len(allProducts), outFile)
+	fmt.Printf("✅ Scraping Jumbo (Go, API) completado. Productos: %d\n", len(allProducts))
 }

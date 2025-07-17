@@ -4,6 +4,7 @@ import OfferList from './components/OfferList';
 import SearchResults from './components/SearchResults';
 import { Loader, AlertCircle } from 'lucide-react';
 import { useTheme } from './context/ThemeContext';
+import Searcher from './components/Searcher';
 
 export default function App() {
   const [searchResults, setSearchResults] = useState(null);
@@ -22,7 +23,7 @@ export default function App() {
     setError(null);
     
     try {
-      const response = await fetch(`http://localhost:3000/api/search?query=${encodeURIComponent(query)}`);
+      const response = await fetch(`http://localhost:8080/search?q=`);
       
       if (!response.ok) {
         throw new Error(`Error ${response.status}: ${response.statusText}`);
@@ -47,8 +48,9 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-black">
       <Navbar onSearch={handleSearch} onClear={clearSearch} />
-      
+              
       <main className="container mx-auto px-4 py-6">
+          <Searcher className="mb-6"/>
         {error && (
           <div className="mb-6 p-4 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg flex items-center gap-3 text-red-700 dark:text-red-400">
             <AlertCircle size={20} />
@@ -67,6 +69,7 @@ export default function App() {
           <SearchResults results={searchResults} onClear={clearSearch} />
         ) : (
           <OfferList />
+
         )}
       </main>
     </div>
