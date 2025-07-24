@@ -22,8 +22,8 @@ export default function Searcher() {
     setHasSearched(false);
 
     try {
-      console.log('Buscando en:', `${import.meta.env.VITE_API_URL_TEST}/search?q=${query}`);
-      const res = await axios.get(`${import.meta.env.VITE_API_URL_TEST}/search`, {
+      console.log('Buscando en:', `${import.meta.env.VITE_API_URL}/search?q=${query}`);
+      const res = await axios.get(`${import.meta.env.VITE_API_URL}/search`, {
         params: { q: query },
       });
       
