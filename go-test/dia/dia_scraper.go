@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"log"
 	"net/http"
 	"os"
@@ -34,7 +34,6 @@ type DiaItem struct {
 }
 
 func saveHistoricalData(result map[string]interface{}, storeName string) error {
-	// Crear estructura de carpetas para el día actual
 	now := time.Now()
 	dateStr := now.Format("2006-01-02")
 	dailyDir := filepath.Join("..", "data", "daily", dateStr)
@@ -42,19 +41,17 @@ func saveHistoricalData(result map[string]interface{}, storeName string) error {
 		return fmt.Errorf("error creating daily directory: %v", err)
 	}
 
-	// Guardar en la carpeta del día
 	dailyFile := filepath.Join(dailyDir, fmt.Sprintf("%s-ofertas.json", storeName))
 	dailyData, err := json.MarshalIndent(result, "", "  ")
 	if err != nil {
 		return fmt.Errorf("error marshaling JSON: %v", err)
 	}
-	if err := ioutil.WriteFile(dailyFile, dailyData, 0644); err != nil {
+	if err := os.WriteFile(dailyFile, dailyData, 0644); err != nil {
 		return fmt.Errorf("error writing daily file: %v", err)
 	}
 
-	// Actualizar también el archivo actual
 	currentFile := filepath.Join("..", "data", fmt.Sprintf("%s-ofertas.json", storeName))
-	if err := ioutil.WriteFile(currentFile, dailyData, 0644); err != nil {
+	if err := os.WriteFile(currentFile, dailyData, 0644); err != nil {
 		return fmt.Errorf("error writing current file: %v", err)
 	}
 
@@ -83,7 +80,7 @@ func main() {
 			log.Fatalf("Error al hacer request: %v", err)
 		}
 
-		body, err := ioutil.ReadAll(resp.Body)
+		body, err := io.ReadAll(resp.Body)
 		resp.Body.Close()
 		if err != nil {
 			log.Fatalf("Error leyendo body: %v", err)
@@ -138,7 +135,6 @@ func main() {
 		"data":          allProducts,
 	}
 
-	// Guardar solo en la estructura de datos históricos
 	if err := saveHistoricalData(result, "dia"); err != nil {
 		log.Printf("Error saving historical data: %v", err)
 	}

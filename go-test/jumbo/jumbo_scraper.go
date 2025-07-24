@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"log"
 	"net/http"
 	"os"
@@ -57,26 +57,23 @@ type Output struct {
 }
 
 func saveHistoricalData(output Output) error {
-	// Crear estructura de carpetas para el día actual
 	dateStr := output.Date
 	dailyDir := filepath.Join("..", "data", "daily", dateStr)
 	if err := os.MkdirAll(dailyDir, 0755); err != nil {
 		return fmt.Errorf("error creating daily directory: %v", err)
 	}
 
-	// Guardar en la carpeta del día
 	dailyFile := filepath.Join(dailyDir, "jumbo-ofertas.json")
 	dailyData, err := json.MarshalIndent(output, "", "  ")
 	if err != nil {
 		return fmt.Errorf("error marshaling JSON: %v", err)
 	}
-	if err := ioutil.WriteFile(dailyFile, dailyData, 0644); err != nil {
+	if err := os.WriteFile(dailyFile, dailyData, 0644); err != nil {
 		return fmt.Errorf("error writing daily file: %v", err)
 	}
 
-	// Actualizar también el archivo actual
 	currentFile := filepath.Join("..", "data", "jumbo-ofertas.json")
-	if err := ioutil.WriteFile(currentFile, dailyData, 0644); err != nil {
+	if err := os.WriteFile(currentFile, dailyData, 0644); err != nil {
 		return fmt.Errorf("error writing current file: %v", err)
 	}
 
@@ -94,19 +91,16 @@ func main() {
 	for from < maxFrom {
 		log.Printf("📄 Obteniendo productos %d-%d...", from, from+pageSize-1)
 		url := fmt.Sprintf("%s&_from=%d&_to=%d", baseUrl, from, from+pageSize-1)
-		// Configurar cliente HTTP con timeout y reintentos
 		client := &http.Client{
 			Timeout: 30 * time.Second,
 		}
-
-		// Intentar hasta 3 veces
 		var resp *http.Response
 		var body []byte
 		maxRetries := 3
 		for retry := 0; retry < maxRetries; retry++ {
 			if retry > 0 {
 				log.Printf("Reintento %d de %d...", retry+1, maxRetries)
-				time.Sleep(2 * time.Second) // Esperar entre reintentos
+				time.Sleep(2 * time.Second)
 			}
 
 			req, err := http.NewRequest("GET", url, nil)
@@ -126,16 +120,15 @@ func main() {
 				continue
 			}
 
-			body, err = ioutil.ReadAll(resp.Body)
+			body, err = io.ReadAll(resp.Body)
 			resp.Body.Close()
 			if err != nil {
 				log.Printf("Error leyendo respuesta (intento %d): %v", retry+1, err)
 				continue
 			}
 
-			// Aceptar tanto 200 (OK) como 206 (Partial Content)
 			if resp.StatusCode == 200 || resp.StatusCode == 206 {
-				break // Si la respuesta es exitosa, salir del loop
+				break
 			}
 			log.Printf("Status code %d en intento %d (esperado 200 o 206)", resp.StatusCode, retry+1)
 		}
@@ -149,7 +142,7 @@ func main() {
 		if err := json.Unmarshal(body, &vtexProducts); err != nil {
 			log.Printf("Respuesta recibida (no es JSON de productos):\n%s", string(body))
 			log.Printf("Error parseando JSON: %v", err)
-			continue // Intentar siguiente página
+			continue
 		}
 		if len(vtexProducts) == 0 {
 			log.Printf("✅ No hay más productos en esta página")
@@ -205,7 +198,6 @@ func main() {
 		Data:          allProducts,
 	}
 
-	// Guardar solo en la estructura de datos históricos
 	if err := saveHistoricalData(output); err != nil {
 		log.Printf("Error saving historical data: %v", err)
 	}
