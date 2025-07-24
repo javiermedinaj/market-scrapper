@@ -14,10 +14,8 @@ import (
 var allProducts []models.Product
 
 func SetupProducts(baseDir string) error {
-	projectRoot := filepath.Join(baseDir, "..", "..")
-	log.Printf("📂 Raíz del proyecto: %s", projectRoot)
-
-	dataDir := filepath.Join(projectRoot, "data")
+	dataDir := filepath.Join(baseDir, "data")
+	log.Printf("📂 Carpeta de datos: %s", dataDir)
 	log.Printf("📂 Carpeta de datos: %s", dataDir)
 
 	if _, err := os.Stat(dataDir); os.IsNotExist(err) {

@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"os"
 
 	"go-test/internal/api/handlers"
 	"go-test/internal/api/middleware"
@@ -10,7 +11,12 @@ import (
 )
 
 func main() {
-	if err := handlers.SetupProducts("."); err != nil {
+	dataPath := os.Getenv("DATA_PATH")
+	if dataPath == "" {
+		dataPath = "../.."
+	}
+
+	if err := handlers.SetupProducts(dataPath); err != nil {
 		log.Fatalf("Error cargando productos: %v", err)
 	}
 
