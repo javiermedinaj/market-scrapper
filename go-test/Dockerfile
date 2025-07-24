@@ -1,13 +1,16 @@
 # Build stage
-FROM golang:1.20-alpine AS builder
+FROM golang:1.23-alpine AS builder
 WORKDIR /app
 COPY . .
-RUN go build -o search_api search_api.go
-
+RUN cd cmd/api && go build -o api main.go
 # Run stage
 FROM alpine:latest
 WORKDIR /app
-COPY --from=builder /app/search_api .
+COPY --from=builder /app/cmd/api/api .
 COPY data ./data
 EXPOSE 8080
-CMD ["./search_api"]
+
+# Add necessary certificates for HTTPS requests
+RUN apk --no-cache add ca-certificates
+
+CMD ["./api"]
