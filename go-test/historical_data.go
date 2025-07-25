@@ -7,22 +7,29 @@ import (
 	"path/filepath"
 	"strings"
 	"time"
+
+	"go-test/internal/models"
 )
 
 type HistoricalData struct {
-	Date     string    `json:"date"`
-	Products []Product `json:"products"`
-	Store    string    `json:"store"`
+	Date     string           `json:"date"`
+	Products []models.Product `json:"products"`
+	Store    string           `json:"store"`
 }
 
-func saveHistoricalData(products []Product, store string) error {
+func saveHistoricalData(products []models.Product, store string) error {
 	data := HistoricalData{
 		Date:     time.Now().Format("2006-01-02"),
 		Products: products,
 		Store:    store,
 	}
+	exePath, err := os.Executable()
+	if err != nil {
+		return fmt.Errorf("error getting executable path: %v", err)
+	}
+	projectRoot := filepath.Dir(filepath.Dir(exePath)) // Go up two levels
 
-	baseDir := "data/daily"
+	baseDir := filepath.Join(projectRoot, "data", "daily")
 	dateDir := filepath.Join(baseDir, time.Now().Format("2006-01-02"))
 	if err := os.MkdirAll(dateDir, 0755); err != nil {
 		return fmt.Errorf("error creating directory: %v", err)

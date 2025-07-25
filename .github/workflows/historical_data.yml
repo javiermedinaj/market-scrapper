@@ -15,24 +15,36 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v4
         with:
-          go-version: '1.20'
+          go-version: '1.23'
 
       - name: Install dependencies
         run: |
           cd go-test
+          go mod tidy
           go mod download
 
       - name: Run scrapers
         run: |
           cd go-test
+          # Debug: Mostrar el directorio actual y su contenido
+          pwd
+          ls -la
+          
+          # Asegurarnos de que el directorio data existe
+          mkdir -p data/daily
+          
+          # Debug: Verificar la estructura del directorio data
+          ls -la data/
+          
           echo "Running Dia scraper..."
           cd dia
           go run dia_scraper.go
-          echo "Running Jumbo scraper..."
           cd ..
-          echo "directorio inicial"
+          
+          echo "Running Jumbo scraper..."
           cd jumbo
           go run jumbo_scraper.go
+          cd ..
 
       - name: Configurar token para autenticación
         run: |
