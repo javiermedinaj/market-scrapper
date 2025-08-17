@@ -23,7 +23,7 @@ jobs:
           go mod tidy
           go mod download
 
-      - name: Run scrapers
+      - name: Run scrapers and save historical data
         run: |
           cd go-test
           # Debug: Mostrar el directorio actual y su contenido
@@ -45,6 +45,25 @@ jobs:
           cd jumbo
           go run jumbo_scraper.go
           cd ..
+          
+          echo "Running Farmacity scraper..."
+          cd farmacity
+          go run main.go
+          cd ..
+          
+          echo "Running FarmaOnline scraper..."
+          cd farmaonline
+          go run main.go
+          cd ..
+          
+          echo "Running maintenance (compress old files)..."
+          cd utils
+          go run maintenance.go migrate_data.go historical_data.go
+          cd ..
+          
+          echo "Verificando archivos creados..."
+          ls -la data/daily/$(date +%Y-%m-%d)/ || echo "No se crearon archivos hoy"
+          ls -la data/historical/ || echo "No hay archivos históricos comprimidos"
 
       - name: Configurar token para autenticación
         run: |
@@ -64,6 +83,6 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add go-test/data/daily/ go-test/data/dia-ofertas.json go-test/data/jumbo-ofertas.json
+          git add go-test/data/daily/ go-test/data/historical/ go-test/data/*.json
           git commit -m "📊 Update historical data - $(date +'%Y-%m-%d %H:%M:%S')"
           git push

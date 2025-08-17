@@ -7,37 +7,47 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"sync"
 
 	"github.com/gin-gonic/gin"
 )
 
-var allProducts []models.Product
+var (
+	allProducts         []models.Product
+	diaProducts         []models.Product
+	jumboProducts       []models.Product
+	farmacityProducts   []models.Product
+	farmaOnlineProducts []models.Product
+	mu                  sync.RWMutex
+)
 
 func SetupProducts(baseDir string) error {
 	dataDir := filepath.Join(baseDir, "data")
-	log.Printf("📂 Carpeta de datos: %s", dataDir)
 	log.Printf("📂 Carpeta de datos: %s", dataDir)
 
 	if _, err := os.Stat(dataDir); os.IsNotExist(err) {
 		return fmt.Errorf("❌ la carpeta de datos no existe: %s", dataDir)
 	}
 
-	diaProducts, err := services.LoadProducts(dataDir, "dia-ofertas.json", "Día")
+	mu.Lock()
+	defer mu.Unlock()
+
+	var err error
+	diaProducts, err = services.LoadProducts(dataDir, "dia-ofertas.json", "Día")
 	if err != nil {
 		log.Printf("❌ Error cargando productos Día: %v", err)
 		return err
 	}
 	log.Printf("✅ Cargados %d productos de Día", len(diaProducts))
 
-	jumboProducts, err := services.LoadProducts(dataDir, "jumbo-ofertas.json", "Jumbo")
+	jumboProducts, err = services.LoadProducts(dataDir, "jumbo-ofertas.json", "Jumbo")
 	if err != nil {
 		log.Printf("❌ Error cargando productos Jumbo: %v", err)
 		return err
 	}
 	log.Printf("✅ Cargados %d productos de Jumbo", len(jumboProducts))
 
-	// Productos de Farmacity
-	farmacityProducts, err := services.LoadProducts(dataDir, "farmacity-ofertas.json", "Farmacity")
+	farmacityProducts, err = services.LoadProducts(dataDir, "farmacity-ofertas.json", "Farmacity")
 	if err != nil {
 		log.Printf("❌ Error cargando productos Farmacity: %v", err)
 		return err
@@ -45,7 +55,7 @@ func SetupProducts(baseDir string) error {
 	log.Printf("✅ Cargados %d productos de Farmacity", len(farmacityProducts))
 
 	// Productos de FarmaOnline
-	farmaOnlineProducts, err := services.LoadProducts(dataDir, "farma-ofertas.json", "FarmaOnline")
+	farmaOnlineProducts, err = services.LoadProducts(dataDir, "farma-ofertas.json", "FarmaOnline")
 	if err != nil {
 		log.Printf("❌ Error cargando productos FarmaOnline: %v", err)
 		return err
