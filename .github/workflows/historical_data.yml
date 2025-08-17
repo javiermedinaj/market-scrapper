@@ -2,10 +2,9 @@ name: Scrape and Store Historical Data
 
 on:
   schedule:
-    # Ejecutar una vez al día a las 00:00 UTC
-    - cron: '0 0 * * *'
+    # Ejecutar una vez al día a las 01:00 UTC (1 hora después del main.yml)
+    - cron: '0 1 * * *'
   workflow_dispatch: 
-
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -83,6 +82,10 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
+          
+          # Hacer pull antes del push para obtener cambios remotos
+          git pull --rebase origin main
+          
           git add go-test/data/daily/ go-test/data/historical/ go-test/data/*.json
           git commit -m "📊 Update historical data - $(date +'%Y-%m-%d %H:%M:%S')"
           git push
