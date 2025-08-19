@@ -1,4 +1,4 @@
-name: Scraper con guardado por días
+name: Scraper Carrefour y Coto
 
 on:
   schedule:
@@ -23,7 +23,7 @@ jobs:
           cd scraper
           npm install
 
-      - name: Ejecutar scrapper
+      - name: Ejecutar scrapers (Carrefour y Coto)
         run: |
           cd scraper
           node index.js
@@ -48,5 +48,5 @@ jobs:
           git config --global user.email "actions@github.com"
           # Agregar datos del día actual y carpeta today
           git add scraper/data/daily/ scraper/data/today/
-          git commit -m "📊 Datos del día - $(date '+%Y-%m-%d %H:%M:%S')"
+          git commit -m "📊 Datos Carrefour y Coto - $(date '+%Y-%m-%d %H:%M:%S')"
           git push

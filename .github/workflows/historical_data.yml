@@ -83,9 +83,12 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           
-          # Hacer pull antes del push para obtener cambios remotos
+          # Agregar y hacer commit de los cambios primero
+          git add go-test/data/daily/ go-test/data/historical/ go-test/data/*.json
+          git commit -m "Update historical data - $(date +'%Y-%m-%d %H:%M:%S')"
+          
+          # Ahora hacer pull con rebase
           git pull --rebase origin main
           
-          git add go-test/data/daily/ go-test/data/historical/ go-test/data/*.json
-          git commit -m "📊 Update historical data - $(date +'%Y-%m-%d %H:%M:%S')"
+          # Finalmente hacer push
           git push

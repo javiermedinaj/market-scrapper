@@ -1,8 +1,8 @@
-import jumboScraper from './scrapers/jumbo-ofertas.js';
+//import jumboScraper from './scrapers/jumbo-ofertas.js';
 import carrefourScraper from './scrapers/carrefour-ofertas.js';
-import diaScraper from './scrapers/dia-ofertas.js';
-import farmaScraper from './scrapers/farma-ofertas.js';
-import farmacityScraper from './scrapers/farmacity-ofertas.js';
+//import diaScraper from './scrapers/dia-ofertas.js';
+//import farmaScraper from './scrapers/farma-ofertas.js';
+//import farmacityScraper from './scrapers/farmacity-ofertas.js';
 import cotoScraper from './scrapers/coto-ofertas.js';
 // import { cleanOldFiles } from './utils/dateStorage.js'; // 🔒 DESACTIVADO PARA INVESTIGACIÓN
 import path from 'path';
@@ -14,23 +14,19 @@ const __dirname = path.dirname(__filename);
 export async function runAllScrapers() {
   const startTime = new Date();
   const today = startTime.toISOString().split('T')[0];
-  console.log(`🚀 Iniciando scrapers para ${today}... (${startTime.toISOString()})`);
+  console.log(`🚀 Iniciando scrapers (Carrefour y Coto) para ${today}... (${startTime.toISOString()})`);
   
   const results = [];
   
   try {
     const scrapers = [
-      { name: 'Jumbo', fn: jumboScraper },
       { name: 'Carrefour', fn: carrefourScraper },
-      { name: 'Día', fn: diaScraper },
-      { name: 'Farma', fn: farmaScraper },
-      { name: 'Farmacity', fn: farmacityScraper },
       { name: 'Coto', fn: cotoScraper }
     ];
 
     for (const scraper of scrapers) {
       try {
-        console.log(`\n📊 Ejecutando ${scraper.name} scraper...`);
+        console.log(`\n Ejecutando ${scraper.name} scraper...`);
         const scraperStartTime = new Date();
         
         await scraper.fn();
@@ -76,11 +72,11 @@ export async function runSingleScraper(scraperName) {
   console.log(`🚀 Ejecutando scraper específico: ${scraperName}...`);
   
   const scrapers = {
-    jumbo: jumboScraper,
+    //jumbo: jumboScraper,
     carrefour: carrefourScraper,
-    dia: diaScraper,
-    farma: farmaScraper,
-    farmacity: farmacityScraper,
+    //dia: diaScraper,
+    //farma: farmaScraper,
+    //farmacity: farmacityScraper,
     coto: cotoScraper
   };
   
