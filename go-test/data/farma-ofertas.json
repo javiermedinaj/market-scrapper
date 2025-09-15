@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-09-14T02:24:48Z",
-  "date": "2025-09-14",
-  "time": "02:24:48",
+  "timestamp": "2025-09-15T02:28:01Z",
+  "date": "2025-09-15",
+  "time": "02:28:01",
   "store": "Farmaonline",
   "totalProducts": 2500,
-  "lastUpdate": "2025-09-14T02:24:48Z",
+  "lastUpdate": "2025-09-15T02:28:01Z",
   "data": [
     {
       "name": "Spray protector térmico 120 ml",
@@ -61,6 +61,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1342149/10000575_0.jpg?v=638846484879830000"
     },
     {
+      "name": "Protector solar facial anthelios uv air fps50 40 ml",
+      "price": "33851.40",
+      "link": "https://www.farmaonline.com/la-roche-posay-8138569/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1361803/8138569_0.jpg?v=638907683187000000"
+    },
+    {
       "name": "Serum anti ojeras glycolic bright 20 gr",
       "price": "31040.00",
       "link": "https://www.farmaonline.com/loreal-paris-8137185/p",
@@ -89,12 +95,6 @@
       "price": "39000.00",
       "link": "https://www.farmaonline.com/loreal-paris-8134612/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1279203/8134612_0.jpg?v=638652025063130000"
-    },
-    {
-      "name": "Sérum anti-imperfecciones con ácido salicílico 30 ml",
-      "price": "30000.00",
-      "link": "https://www.farmaonline.com/garnier-8131870/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1305473/8131870_0.jpg?v=638742820858200000"
     },
     {
       "name": "Mascarilla Intensiva pro-v nutrición 270 ml",
@@ -139,6 +139,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1231383/8118142_0.jpg?v=638534222211970000"
     },
     {
+      "name": "Serum ácido hialurónico revitalift 30 ml",
+      "price": "21600.00",
+      "link": "https://www.farmaonline.com/loreal-paris-serum-cido-hialurnico-revitalift-30-ml-8043361/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1361597/8043361_0.jpg?v=638907123307500000"
+    },
+    {
       "name": "Corrector instant age rewind eraser",
       "price": "28990.00",
       "link": "https://www.farmaonline.com/maybelline-corrector-instant-age-rewind-eraser-8016426/p",
@@ -155,12 +161,6 @@
       "price": "2217.95",
       "link": "https://www.farmaonline.com/estrella-discos-de-algodn-80-unidades-6300702/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1207916/6300702_0.jpg?v=638528035020970000"
-    },
-    {
-      "name": "Combo Biotinamina",
-      "price": "23937.65",
-      "link": "https://www.farmaonline.com/combo-biotinamina-10001080/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1344196/10001080_0.jpg?v=638870820045670000"
     },
     {
       "name": "Combo shampoo + acondicionador  bond intense repair",
@@ -229,12 +229,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1342079/10000077_0.jpg?v=638846484117870000"
     },
     {
-      "name": "Protector solar facial anthelios uv air fps50 40 ml",
-      "price": "33851.40",
-      "link": "https://www.farmaonline.com/la-roche-posay-8138569/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1361803/8138569_0.jpg?v=638907683187000000"
-    },
-    {
       "name": "Mascara crema tratamiento dream liso 300 ml",
       "price": "9569.00",
       "link": "https://www.farmaonline.com/elvive-8137701/p",
@@ -271,6 +265,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1330746/8136514_0.jpg?v=638786905424100000"
     },
     {
+      "name": "Mascara de pestañas lash sensational firework washable",
+      "price": "20394.00",
+      "link": "https://www.farmaonline.com/maybelline-8136505/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1330192/8136505_0.jpg?v=638785909272670000"
+    },
+    {
       "name": "Toallas húmedas ultra fresh 150 unidades",
       "price": "8086.50",
       "link": "https://www.farmaonline.com/babysec-8134790/p",
@@ -293,6 +293,24 @@
       "price": "13492.50",
       "link": "https://www.farmaonline.com/vogue-8132843/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1252789/8132843_0.jpg?v=638563212616570000"
+    },
+    {
+      "name": "Sérum anti-imperfecciones con ácido salicílico 30 ml",
+      "price": "30000.00",
+      "link": "https://www.farmaonline.com/garnier-8131870/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1305473/8131870_0.jpg?v=638742820858200000"
+    },
+    {
+      "name": "Combo Biotinamina",
+      "price": "43523.00",
+      "link": "https://www.farmaonline.com/combo-biotinamina-10001080/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1344196/10001080_0.jpg?v=638870820045670000"
+    },
+    {
+      "name": "Crema dental luminous white glow 70 gr",
+      "price": "7626.02",
+      "link": "https://www.farmaonline.com/colgate-8131717/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1343595/8131717_0.jpg?v=638852744521600000"
     },
     {
       "name": "Mascarilla intensiva pro-v hidratación 270 ml",
@@ -341,6 +359,12 @@
       "price": "21485.33",
       "link": "https://www.farmaonline.com/dermaglos-8128279/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1266219/8128279_1.jpg?v=638609810438300000"
+    },
+    {
+      "name": "Antitranspirante en aerosol clinical classic 150 ml",
+      "price": "3732.51",
+      "link": "https://www.farmaonline.com/rexona-8127946/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1349249/8127946_0.jpg?v=638882784699900000"
     },
     {
       "name": "Shampoo hialuronico pure 400 ml",
@@ -487,12 +511,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1359615/8111842_0.jpg?v=638896660838870000"
     },
     {
-      "name": "Serum ácido hialurónico revitalift 30 ml",
-      "price": "21600.00",
-      "link": "https://www.farmaonline.com/loreal-paris-serum-cido-hialurnico-revitalift-30-ml-8043361/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1361597/8043361_0.jpg?v=638907123307500000"
-    },
-    {
       "name": "Copa menstrual",
       "price": "8925.00",
       "link": "https://www.farmaonline.com/eva-copa-copa-menstrual-8043285/p",
@@ -521,12 +539,6 @@
       "price": "8617.50",
       "link": "https://www.farmaonline.com/vogue-corrector-de-ojos-liquido-resist-8040149/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1354735/8040147_0.jpg?v=638888101019570000"
-    },
-    {
-      "name": "Base de maquillaje resist",
-      "price": "16492.50",
-      "link": "https://www.farmaonline.com/vogue-base-de-maquillaje-resist-8040146/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1364568/8040141_0.jpg?v=638912089376570000"
     },
     {
       "name": "Base de maquillaje líquida fit me matte y sin poros visibles 30 ml",
@@ -619,6 +631,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1342332/10000998_0.jpg?v=638846486849300000"
     },
     {
+      "name": "Combo shampoo + acondicionador + óleo bifásico  bond intense repair",
+      "price": "15559.55",
+      "link": "https://www.farmaonline.com/combo-shampoo---acondicionador---oleo-bifasico--bond-intense-repair-10000913/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1341590/Captura de pantalla 2025-05-30 080355.png?v=638842000791500000"
+    },
+    {
       "name": "Combo cuidado diario 30 grs (2 unidades)",
       "price": "12810.17",
       "link": "https://www.farmaonline.com/combo-cuidado-diario-30-grs--2-unidades--10000834/p",
@@ -637,6 +655,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1342103/10000250_0.jpg?v=638846484365830000"
     },
     {
+      "name": "Emulsión corporal hidratación esencial 300 grs",
+      "price": "11544.48",
+      "link": "https://www.farmaonline.com/dermaglos-emulsin-corporal-hidratacin-esencial-300-grs-9996083/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1219176/9996083_0.jpg?v=638530877769570000"
+    },
+    {
       "name": "Desodorante en Aerosol para Todo el Cuerpo All Body Deo Raspberry",
       "price": "4506.67",
       "link": "https://www.farmaonline.com/dove-8138940/p",
@@ -653,6 +677,18 @@
       "price": "7867.60",
       "link": "https://www.farmaonline.com/downy-8138377/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1361738/8138377_1.jpg?v=638907678181970000"
+    },
+    {
+      "name": "Desodorante serum cream piel sensible 50 gr",
+      "price": "3445.75",
+      "link": "https://www.farmaonline.com/dove-8138243/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1366734/8138243_0.jpg?v=638923537900730000"
+    },
+    {
+      "name": "Desodorante crema serum antitranspirante reparación diaria 50 gr",
+      "price": "3445.75",
+      "link": "https://www.farmaonline.com/dove-8138241/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1366035/8138241_0.jpg?v=638914908776130000"
     },
     {
       "name": "Labial liquido superstay teddy tint",
@@ -683,12 +719,6 @@
       "price": "4697.40",
       "link": "https://www.farmaonline.com/pantene-8136511/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1330744/8136511_0.jpg?v=638786905358300000"
-    },
-    {
-      "name": "Mascara de pestañas lash sensational firework washable",
-      "price": "20394.00",
-      "link": "https://www.farmaonline.com/maybelline-8136505/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1330192/8136505_0.jpg?v=638785909272670000"
     },
     {
       "name": "Máscara de pestañas lash sensational firework waterproof",
@@ -769,6 +799,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1258418/8133242_0.jpg?v=638586558860270000"
     },
     {
+      "name": "Serum corporal niacinamida 200 ml",
+      "price": "6557.89",
+      "link": "https://www.farmaonline.com/dove-8133240/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1349357/8133240_0.jpg?v=638882785824600000"
+    },
+    {
       "name": "Protector solar facial invisible daily fluid fps50 40 ml",
       "price": "18166.99",
       "link": "https://www.farmaonline.com/nivea-8133053/p",
@@ -805,6 +841,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1299752/8132686_0.jpg?v=638736108581600000"
     },
     {
+      "name": "Jabón de tocador piel sensible 90 gr",
+      "price": "1608.57",
+      "link": "https://www.farmaonline.com/dove-8132292/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1244965/8132292_0.jpg?v=638543475594030000"
+    },
+    {
       "name": "Serum  Glycolic Gloss 100ml",
       "price": "10001.40",
       "link": "https://www.farmaonline.com/elvive-8131945/p",
@@ -835,12 +877,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1231679/8131819_1.jpg?v=638534364770000000"
     },
     {
-      "name": "Crema dental luminous white glow 70 gr",
-      "price": "7626.02",
-      "link": "https://www.farmaonline.com/colgate-8131717/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1343595/8131717_0.jpg?v=638852744521600000"
-    },
-    {
       "name": "Sombra colorstay day to night addictive",
       "price": "14340.00",
       "link": "https://www.farmaonline.com/revlon-8131473/p",
@@ -851,18 +887,6 @@
       "price": "6151.60",
       "link": "https://www.farmaonline.com/vitamin-way-8131307/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1224393/8131307_0.jpg?v=638532313187170000"
-    },
-    {
-      "name": "Crema día revitalift pro-retinol 50 ml",
-      "price": "39900.00",
-      "link": "https://www.farmaonline.com/loreal-paris-8131202/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1361515/8131202_0.jpg?v=638907121591230000"
-    },
-    {
-      "name": "Serum colágeno puro",
-      "price": "31306.08",
-      "link": "https://www.farmaonline.com/bagovit-8131030/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1303018/8131030_0.jpg?v=638737829057400000"
     },
     {
       "name": "Shampoo en seco Original 108 gr",
@@ -949,18 +973,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1318254/8127984_0.jpg?v=638768870218970000"
     },
     {
-      "name": "Antitranspirante en aerosol clinical classic 150 ml",
-      "price": "3732.51",
-      "link": "https://www.farmaonline.com/rexona-8127946/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1349249/8127946_0.jpg?v=638882784699900000"
-    },
-    {
-      "name": "Aerosol deo íntimo 75 ml",
-      "price": "4578.51",
-      "link": "https://www.farmaonline.com/evagina-8127522/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1220831/8127522_0.jpg?v=638531307564600000"
-    },
-    {
       "name": "Repuesto máquina afeitar mach3 carbono (2 unidades)",
       "price": "9645.00",
       "link": "https://www.farmaonline.com/gillette-8127377/p",
@@ -971,12 +983,6 @@
       "price": "13293.00",
       "link": "https://www.farmaonline.com/vogue-8126669/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1223803/8126669_1.jpg?v=638532168394470000"
-    },
-    {
-      "name": "Labial líquido super stay vinyl ink",
-      "price": "27990.00",
-      "link": "https://www.farmaonline.com/maybelline-8126663/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1357531/8126664_0.jpg?v=638894121431970000"
     },
     {
       "name": "Cúrcuma y jengibre con pimienta 30 capsulas",
@@ -1019,6 +1025,12 @@
       "price": "7524.00",
       "link": "https://www.farmaonline.com/pantene-8124234/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1220818/8124234_0.jpg?v=638531307160130000"
+    },
+    {
+      "name": "Crema gel contorno de ojos ultra hidratación 15 gr",
+      "price": "15988.09",
+      "link": "https://www.farmaonline.com/dermaglos-8123712/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1228933/8123712_0.jpg?v=638533578323230000"
     },
     {
       "name": "Corrector colorstay skin awaken 5 en 1 8 ml",
@@ -1153,6 +1165,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1317121/8114975_0.jpg?v=638762619136870000"
     },
     {
+      "name": "Pasta dental Total encías saludables con flúor 90 gr",
+      "price": "5297.33",
+      "link": "https://www.farmaonline.com/colgate-pasta-dental-total-encas-saludables-con-flor-90-gr-8114973/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1319661/8114973_0.jpg?v=638772146044700000"
+    },
+    {
       "name": "Pañales premium care pants",
       "price": "16339.00",
       "link": "https://www.farmaonline.com/pampers-paales-premium-care-pants-8114683/p",
@@ -1207,6 +1225,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1233410/8110044_0.jpg?v=638534940913700000"
     },
     {
+      "name": "Corrector de ojos infaillible",
+      "price": "21443.50",
+      "link": "https://www.farmaonline.com/loreal-paris-corrector-de-ojos-infaillible-8110002/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1362132/8110001_0.jpg?v=638907729786300000"
+    },
+    {
       "name": "Pasta dental Total antisarro con flúor 90 gr",
       "price": "5297.33",
       "link": "https://www.farmaonline.com/colgate-pasta-dental-total-antisarro-con-flor-90-gr-8043401/p",
@@ -1223,6 +1247,12 @@
       "price": "5595.00",
       "link": "https://www.farmaonline.com/vitamin-way-suplemento-dietario-cabello-piel-y-uas-30-cpsulas-8040893/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1228774/8040893_0.jpg?v=638533537695830000"
+    },
+    {
+      "name": "Base de maquillaje resist",
+      "price": "16492.50",
+      "link": "https://www.farmaonline.com/vogue-base-de-maquillaje-resist-8040146/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1364568/8040141_0.jpg?v=638912089376570000"
     },
     {
       "name": "Pasta dental Total whitening con flúor 90g",
@@ -1345,16 +1375,22 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1288441/8022632_0.jpg?v=638677940730800000"
     },
     {
+      "name": "Desodorante femenino clinical clean fresh 48 gr",
+      "price": "7222.04",
+      "link": "https://www.farmaonline.com/rexona-desodorante-femenino-clinical-clean-fresh-48-gr-8022602/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1293636/8022602-0.jpg?v=638701407833700000"
+    },
+    {
       "name": "Facial gel limpieza purificante piel normal x 150 ml",
       "price": "11728.74",
       "link": "https://www.farmaonline.com/dermaglos-facial-gel-limpieza-purificante-piel-normal-x-150-ml-8021700/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1360058/8021700_0.jpg?v=638905164503270000"
     },
     {
-      "name": "Mascara de pestañas the colossal black wtp",
-      "price": "14394.00",
-      "link": "https://www.farmaonline.com/maybelline-mascara-de-pestaas-the-colossal-black-wtp-8020749/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1364363/8020749_0.jpg?v=638912085419800000"
+      "name": "Hidratante facial diario fps 15 118ml",
+      "price": "27762.34",
+      "link": "https://www.farmaonline.com/cetaphil-hidratante-facial-diario-fps-15-118ml-8021606/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1246149/8021606_0.jpg?v=638544262722970000"
     },
     {
       "name": "Shampoo colorvive 400 ml",
@@ -1435,12 +1471,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1209460/8003305_0.jpg?v=638528460913000000"
     },
     {
-      "name": "Mascara de pestañas great lash clear",
-      "price": "11334.00",
-      "link": "https://www.farmaonline.com/maybelline-mascara-de-pestaas-great-lash-clear-8000339/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1209127/8000339_0.jpg?v=638528388487100000"
-    },
-    {
       "name": "Protector labial humectante soft rosé para todo tipo de piel 4.8 grs",
       "price": "5694.63",
       "link": "https://www.farmaonline.com/nivea-protector-labial-humectante-soft-ros-para-todo-tipo-de-piel-4-8-grs-6530722/p",
@@ -1501,16 +1531,16 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1342338/10001007_0.jpg?v=638846486909900000"
     },
     {
+      "name": "Combo Reconstrucción Completa 400 ml",
+      "price": "11539.08",
+      "link": "https://www.farmaonline.com/combo-reconstruccion-completa-400-ml-10000993/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1296070/10000993_0.jpg?v=638725536169470000"
+    },
+    {
       "name": "Combo uniforme niacinamida",
       "price": "19541.19",
       "link": "https://www.farmaonline.com/combo-uniforme-niacinamida-10000915/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1270286/10000915_0.jpg?v=638616834324100000"
-    },
-    {
-      "name": "Combo shampoo + acondicionador + óleo bifásico  bond intense repair",
-      "price": "15559.55",
-      "link": "https://www.farmaonline.com/combo-shampoo---acondicionador---oleo-bifasico--bond-intense-repair-10000913/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1341590/Captura de pantalla 2025-05-30 080355.png?v=638842000791500000"
     },
     {
       "name": "Combo duo rutina diaria: serum revitalift + protector solar uv defender serum",
@@ -1531,22 +1561,34 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1342281/10000801_0.jpg?v=638846486308230000"
     },
     {
+      "name": "Combo máscaras de pestañas: cosmic sky high + sky high wtp",
+      "price": "40689.00",
+      "link": "https://www.farmaonline.com/combo-mascaras-de-pestañas--cosmic-sky-high---sky-high-wtp10000730/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1340150/10000730_0.jpg?v=638834563704730000"
+    },
+    {
       "name": "Combo cabello claro: shampoo y acondicionador cabello claro",
       "price": "11947.27",
       "link": "https://www.farmaonline.com/combo-cabello-claro--shampoo-y-acondicionador-cabello-claro-10000666/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1128918/10000666_0.jpg?v=638374836311400000"
     },
     {
+      "name": "Combo crecimiento",
+      "price": "11539.08",
+      "link": "https://www.farmaonline.com/combo-crecimiento10000562/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1095937/10000562_0.jpg?v=638253733412300000"
+    },
+    {
+      "name": "Combo de Maquillaje: mascara de pestañas sky high cosmic black + labial vinyl ink cheeky",
+      "price": "35739.00",
+      "link": "https://www.farmaonline.com/combo-de-maquillaje--mascara-de-pestañas-sky-high-cosmic-black---labial-vinyl-ink-cheeky10000541/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1340073/10000541_0.jpg?v=638834562851370000"
+    },
+    {
       "name": "Calendula crema 50 grs",
       "price": "6967.08",
       "link": "https://www.farmaonline.com/bushi-calendula-crema-50-grs-9999564/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1219807/9999564_0.jpg?v=638531088399970000"
-    },
-    {
-      "name": "Emulsión corporal hidratación esencial 300 grs",
-      "price": "11544.48",
-      "link": "https://www.farmaonline.com/dermaglos-emulsin-corporal-hidratacin-esencial-300-grs-9996083/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1219176/9996083_0.jpg?v=638530877769570000"
     },
     {
       "name": "Desodorante en Crema para Todo el Cuerpo All Body Deo Raspberry \u0026 Rose 75gr",
@@ -1603,16 +1645,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1361189/8138320_0.jpg?v=638906604486430000"
     },
     {
-      "name": "Desodorante serum cream piel sensible 50 gr",
-      "price": "3445.75",
-      "link": "https://www.farmaonline.com/dove-8138243/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1366734/8138243_0.jpg?v=638923537900730000"
-    },
-    {
-      "name": "Desodorante crema serum antitranspirante reparación diaria 50 gr",
-      "price": "3445.75",
-      "link": "https://www.farmaonline.com/dove-8138241/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1366035/8138241_0.jpg?v=638914908776130000"
+      "name": "Máscara de Pestañas Lash Sensational Firework Electro Black",
+      "price": "20394.00",
+      "link": "https://www.farmaonline.com/maybelline-8138201/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1355313/8138201_0.jpg?v=638888389869030000"
     },
     {
       "name": "Protector solar F50+ sun daily fluid tono claro 40 ml",
@@ -1639,12 +1675,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1342703/8137610_0.jpg?v=638848218080470000"
     },
     {
-      "name": "Gel limpiador espumoso refill 473 ml",
-      "price": "30505.80",
-      "link": "https://www.farmaonline.com/cerave-8137609/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1342702/8137609_0.jpg?v=638848218059470000"
-    },
-    {
       "name": "Crema facial humectante 100 ml",
       "price": "3855.06",
       "link": "https://www.farmaonline.com/algabo-8137598/p",
@@ -1661,12 +1691,6 @@
       "price": "7946.40",
       "link": "https://www.farmaonline.com/pampers-8137121/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1341547/8137121_0.jpg?v=638841696589500000"
-    },
-    {
-      "name": "Crema para peinar pro-v miracles biotinamina B3 300 ml",
-      "price": "4514.40",
-      "link": "https://www.farmaonline.com/pantene-8137105/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1335627/8137105_0.jpg?v=638820570104970000"
     },
     {
       "name": "Tonico capilar anticaida con biotinamina b3 52 ml",
@@ -1691,12 +1715,6 @@
       "price": "21600.00",
       "link": "https://www.farmaonline.com/bross-8136585/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1341580/8136585_0.jpg?v=638841948532600000"
-    },
-    {
-      "name": "Acondicionador probioticos fuerza 350 ml",
-      "price": "5800.00",
-      "link": "https://www.farmaonline.com/fructis-8136529/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1330798/8136529_0.jpg?v=638786947293730000"
     },
     {
       "name": "Shampoo anti resequedad 375 ml",
@@ -1783,10 +1801,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1367237/8135821_0.jpg?v=638926778844800000"
     },
     {
-      "name": "Aqua crema gel hidratante matificante facial 80 ml",
-      "price": "14470.87",
-      "link": "https://www.farmaonline.com/perpiel-8135568/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1295083/8135568_0.jpg?v=638720269156630000"
+      "name": "Crema para peinar pro-v miracles biotinamina B3 300 ml",
+      "price": "7524.00",
+      "link": "https://www.farmaonline.com/pantene-8137105/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1335627/8137105_0.jpg?v=638820570104970000"
     },
     {
       "name": "Esmalte efecto gel colección amazonia",
@@ -1831,10 +1849,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1367409/8134778_0.jpg?v=638926780551800000"
     },
     {
-      "name": "Crema dental proteccion anti-caries 70 gr",
-      "price": "2571.92",
-      "link": "https://www.farmaonline.com/close-up-8134436/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1275687/8134436_0.jpg?v=638641752368300000"
+      "name": "Lip oil brillo labial",
+      "price": "15471.74",
+      "link": "https://www.farmaonline.com/rimmel-8133873/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1281270/8133873_0.jpg?v=638653954799470000"
     },
     {
       "name": "Protector solar Hydro Boost sin Color Fps50 40ml",
@@ -1859,12 +1877,6 @@
       "price": "4413.46",
       "link": "https://www.farmaonline.com/dove-8133249/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1257335/8133249_0.jpg?v=638582028759600000"
-    },
-    {
-      "name": "Serum corporal niacinamida 200 ml",
-      "price": "6557.89",
-      "link": "https://www.farmaonline.com/dove-8133240/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1349357/8133240_0.jpg?v=638882785824600000"
     },
     {
       "name": "Crema para pieles acneicas effaclar duo + m 40 ml",
@@ -1945,12 +1957,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1248495/8132363_0.jpg?v=638554590214900000"
     },
     {
-      "name": "Jabón de tocador piel sensible 90 gr",
-      "price": "1608.57",
-      "link": "https://www.farmaonline.com/dove-8132292/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1244965/8132292_0.jpg?v=638543475594030000"
-    },
-    {
       "name": "Cepillo dental slim soft black",
       "price": "5546.64",
       "link": "https://www.farmaonline.com/colgate-8132173/p",
@@ -1961,12 +1967,6 @@
       "price": "2790.00",
       "link": "https://www.farmaonline.com/dots-8132110/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1361882/8132110_0.jpg?v=638907722772300000"
-    },
-    {
-      "name": "Protector labial frutillas con crema 5 gr",
-      "price": "2390.00",
-      "link": "https://www.farmaonline.com/dots-8132107/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1361881/8132107_0.jpg?v=638907722718400000"
     },
     {
       "name": "Protector labial frutos rojos 5 gr",
@@ -1985,6 +1985,12 @@
       "price": "3847.69",
       "link": "https://www.farmaonline.com/colgate-8132042/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1226779/8132042_0.jpg?v=638532996290400000"
+    },
+    {
+      "name": "Serum mela B3 30 ml",
+      "price": "90461.80",
+      "link": "https://www.farmaonline.com/la-roche-posay-8131880/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1237366/8131880_0.jpg?v=638536454851630000"
     },
     {
       "name": "Pañales deluxe protection",
@@ -2017,10 +2023,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1225233/8131560_0.jpg?v=638532565646730000"
     },
     {
-      "name": "Pañales baby dry hipoalergénico",
-      "price": "9878.40",
-      "link": "https://www.farmaonline.com/pampers-8131510/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1367043/8131508_0.jpg?v=638926776983200000"
+      "name": "Crema día revitalift pro-retinol 50 ml",
+      "price": "39900.00",
+      "link": "https://www.farmaonline.com/loreal-paris-8131202/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1361515/8131202_0.jpg?v=638907121591230000"
     },
     {
       "name": "Base de maquillaje en polvo resist hasta 12 hs",
@@ -2035,10 +2041,22 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1256690/8131128_0.jpg?v=638579602608870000"
     },
     {
+      "name": "Shampoo henna egipcia efecto anti canas 415 ml",
+      "price": "6293.02",
+      "link": "https://www.farmaonline.com/tio-nacho-8131101/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1333292/8131101_0.jpg?v=638796469979600000"
+    },
+    {
       "name": "Protector termico top finish 250 ml",
       "price": "10699.00",
       "link": "https://www.farmaonline.com/primont-8131042/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1225533/8131042_0.jpg?v=638532637047430000"
+    },
+    {
+      "name": "Serum colágeno puro",
+      "price": "31306.08",
+      "link": "https://www.farmaonline.com/bagovit-8131030/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1303018/8131030_0.jpg?v=638737829057400000"
     },
     {
       "name": "Suplemento dietario colágeno + calcio (60 cápsulas)",
@@ -2075,6 +2093,18 @@
       "price": "10204.14",
       "link": "https://www.farmaonline.com/tresemme-8129422/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1366283/8129422_0.jpg?v=638918265584370000"
+    },
+    {
+      "name": "Toallas xtra noches tranquilas suave  (16 Unidades)",
+      "price": "5070.10",
+      "link": "https://www.farmaonline.com/always-8129266/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1225172/8129266_0.jpg?v=638532532527500000"
+    },
+    {
+      "name": "Shampoo pro-v miracles detox 200 ml",
+      "price": "5328.00",
+      "link": "https://www.farmaonline.com/pantene-8129178/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1344256/8129178_0.jpg?v=638871698797230000"
     },
     {
       "name": "Toallas xtra noches tranquilas suave  (16 Unidades)",
@@ -2137,6 +2167,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1359444/8127875_1.jpg?v=638894865903000000"
     },
     {
+      "name": "Aerosol deo íntimo 75 ml",
+      "price": "4578.51",
+      "link": "https://www.farmaonline.com/evagina-8127522/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1220831/8127522_0.jpg?v=638531307564600000"
+    },
+    {
       "name": "Exfoliante suave kiwi y arroz 100 ml",
       "price": "9217.40",
       "link": "https://www.farmaonline.com/tortulan-8127396/p",
@@ -2147,6 +2183,12 @@
       "price": "32356.94",
       "link": "https://www.farmaonline.com/eucerin-8127334/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1288006/8127334_0.jpg?v=638672063722200000"
+    },
+    {
+      "name": "Labial paradise balm",
+      "price": "21790.00",
+      "link": "https://www.farmaonline.com/loreal-paris-8127224/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1276577/8127224_1.jpg?v=638646992429970000"
     },
     {
       "name": "Toallas Femeninas xtra doble protección suave (16 unidades)",
@@ -2161,6 +2203,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1223827/8126676_1.jpg?v=638532169143570000"
     },
     {
+      "name": "Labial líquido super stay vinyl ink",
+      "price": "27990.00",
+      "link": "https://www.farmaonline.com/maybelline-8126663/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1357531/8126664_0.jpg?v=638894121431970000"
+    },
+    {
       "name": "Crema gel hidratante facial piel sensible mixta 50 gr",
       "price": "31240.85",
       "link": "https://www.farmaonline.com/aveno-8126658/p",
@@ -2171,6 +2219,12 @@
       "price": "17548.00",
       "link": "https://www.farmaonline.com/rimmel-8126599/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1223115/8126599_0.jpg?v=638532025966130000"
+    },
+    {
+      "name": "Limpiador facial diario para piel grasa 300 ml",
+      "price": "27594.19",
+      "link": "https://www.farmaonline.com/cetaphil-8126400/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1245805/8126400_0.jpg?v=638544209295100000"
     },
     {
       "name": "Enjuague bucal plax odor control 250 ml",
@@ -2257,12 +2311,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1285315/8124055_0.jpg?v=638658218099300000"
     },
     {
-      "name": "Crema gel contorno de ojos ultra hidratación 15 gr",
-      "price": "15988.09",
-      "link": "https://www.farmaonline.com/dermaglos-8123712/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1228933/8123712_0.jpg?v=638533578323230000"
-    },
-    {
       "name": "Cepillo de dientes suave",
       "price": "2221.80",
       "link": "https://www.farmaonline.com/meraki-8123204/p",
@@ -2297,12 +2345,6 @@
       "price": "3747.39",
       "link": "https://www.farmaonline.com/estrella-toallas-hmedas-cuidado-relajante-50-unidades-8122177/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1273837/8122177_0.jpg?v=638633168326630000"
-    },
-    {
-      "name": "Toallitas húmedas humectación sensible (50 unidades)",
-      "price": "3747.39",
-      "link": "https://www.farmaonline.com/estrella-8122101/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1228772/8122101_0.jpg?v=638533537519530000"
     },
     {
       "name": "Protector labial humectante vainilla buttercream  todo tipo de piel 4.8 grs",
@@ -2363,18 +2405,6 @@
       "price": "22024.86",
       "link": "https://www.farmaonline.com/perpiel-crema-facial-antiage-80-ml-8119806/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1239582/8119806_0.jpg?v=638537101185900000"
-    },
-    {
-      "name": "Serum h ultra hydra b5 30 ml",
-      "price": "29400.00",
-      "link": "https://www.farmaonline.com/caviahue-serum-h-ultra-hydra-b5-30-ml-8119441/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1262023/8119441_0.jpg?v=638598510259970000"
-    },
-    {
-      "name": "Bandas de Limpieza Profunda Original (8 Unidades)",
-      "price": "10141.60",
-      "link": "https://www.farmaonline.com/biore-bandas-de-limpieza-profunda-original-8-unidades-8119406/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1222444/8119406_0.jpg?v=638531845765700000"
     },
     {
       "name": "Recarga serum reparador vol 2",
@@ -2467,18 +2497,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1231270/8116817_0.jpg?v=638534184377530000"
     },
     {
-      "name": "Crema con color bb cream tono medio con fps30 50 gr",
-      "price": "25213.96",
-      "link": "https://www.farmaonline.com/dermaglos-crema-con-color-bb-cream-tono-medio-con-fps30-50-gr-8116604/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1232920/8116604_0.jpg?v=638534760325070000"
-    },
-    {
-      "name": "Emulsión facial vitamina a 80 ml",
-      "price": "16119.39",
-      "link": "https://www.farmaonline.com/perpiel-emulsin-facial-vitamina-a-80-ml-8116501/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1211850/8116501_0.jpg?v=638529181586170000"
-    },
-    {
       "name": "Mascarilla  Hidra Hialuronico 300gr",
       "price": "8699.00",
       "link": "https://www.farmaonline.com/elvive-mascarilla--hidra-hialuronico-300gr-8116374/p",
@@ -2495,12 +2513,6 @@
       "price": "55898.05",
       "link": "https://www.farmaonline.com/la-roche-posay-effaclar-serum-diario-corrector-de-imperfecciones-30-ml-8115108/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1230803/8115108_0.jpg?v=638534076303970000"
-    },
-    {
-      "name": "Pasta dental Total encías saludables con flúor 90 gr",
-      "price": "5297.33",
-      "link": "https://www.farmaonline.com/colgate-pasta-dental-total-encas-saludables-con-flor-90-gr-8114973/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1319661/8114973_0.jpg?v=638772146044700000"
     },
     {
       "name": "Pro-v solutions restauración acondicionador 400 ml",
@@ -2531,12 +2543,6 @@
       "price": "12103.84",
       "link": "https://www.farmaonline.com/nature-s-bounty-biotina-1000-mcg-100-comprimidos-8112118/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1327818/8112118_0.jpg?v=638785070187100000"
-    },
-    {
-      "name": "Repuestos Para Afeitar 6 Un",
-      "price": "15744.00",
-      "link": "https://www.farmaonline.com/gillette-repuestos-para-afeitar-6-un-8112071/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1228716/8112071_0.jpg?v=638533505623970000"
     },
     {
       "name": "Body splash dieciocho for woman 100 ml",
@@ -2573,12 +2579,6 @@
       "price": "22483.50",
       "link": "https://www.farmaonline.com/loreal-paris-iluminador-lquido-glow-mon-amour-15-ml-8110011/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1361865/8110011_0.jpg?v=638907722297670000"
-    },
-    {
-      "name": "Corrector de ojos infaillible",
-      "price": "21443.50",
-      "link": "https://www.farmaonline.com/loreal-paris-corrector-de-ojos-infaillible-8110002/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1362132/8110001_0.jpg?v=638907729786300000"
     },
     {
       "name": "Base de maquillaje true match",
@@ -2635,18 +2635,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1328007/8041772_0.jpg?v=638785077695900000"
     },
     {
-      "name": "Mascarilla  Hair Food Aloe 350ml",
-      "price": "6427.85",
-      "link": "https://www.farmaonline.com/fructis-mascarilla--hair-food-aloe-350ml-8041744/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1364601/8041744_0.jpg?v=638912112930800000"
-    },
-    {
-      "name": "Crema gel ultra hidratación 300 gr",
-      "price": "13778.24",
-      "link": "https://www.farmaonline.com/dermaglos-8041345/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1213445/8041345_0.jpg?v=638529578709530000"
-    },
-    {
       "name": "Suplemento dietario spirulina siluett (30 cápsulas)",
       "price": "6588.00",
       "link": "https://www.farmaonline.com/vitamin-way-suplemento-dietario-spirulina-siluett-30-cpsulas-8040927/p",
@@ -2657,12 +2645,6 @@
       "price": "8388.00",
       "link": "https://www.farmaonline.com/vitamin-way-suplemento-dietario-colageno--calcio-30-cpsulas-8040898/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1228777/8040898_0.jpg?v=638533537958430000"
-    },
-    {
-      "name": "Suplemento dietario bronsol (30 cápsulas)",
-      "price": "12123.00",
-      "link": "https://www.farmaonline.com/vitamin-way-suplemento-dietario-bronsol-30-cpsulas-8040892/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1228773/8040892_0.jpg?v=638533537607770000"
     },
     {
       "name": "Gel hidratante vaginal 40 ml",
@@ -2791,12 +2773,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1218110/8034943_0.jpg?v=638530623461970000"
     },
     {
-      "name": "Spray facial hidratante hyaluron-filler + 3x effect piel sensible",
-      "price": "25073.28",
-      "link": "https://www.farmaonline.com/eucerin-spray-facial-hidratante-hyaluron-filler--3x-effect-piel-sensible-8034927/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1243506/8034927_0.jpg?v=638539944992770000"
-    },
-    {
       "name": "Cepillo dental classic 311 suave x 2",
       "price": "9447.77",
       "link": "https://www.farmaonline.com/gum-cepillo-dental-classic-311-suave-x-2-8034137/p",
@@ -2815,12 +2791,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1217572/8033669_0.jpg?v=638530479279500000"
     },
     {
-      "name": "Aceite reparador de cicatrices 125 ml",
-      "price": "32849.97",
-      "link": "https://www.farmaonline.com/bio-oil-aceite-reparador-de-cicatrices-125-ml-8033357/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1298081/8033357_0.jpg?v=638732566479900000"
-    },
-    {
       "name": "Aceite reparador de cicatrices 60 ml",
       "price": "16409.34",
       "link": "https://www.farmaonline.com/bio-oil-aceite-reparador-de-cicatrices-60-ml-8033356/p",
@@ -2831,12 +2801,6 @@
       "price": "8747.03",
       "link": "https://www.farmaonline.com/bio-oil-aceite-reparador-de-cicatrices-25-ml-8033355/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1298079/8033355_0.jpg?v=638732566370100000"
-    },
-    {
-      "name": "Esmalte base fortalecedora",
-      "price": "2010.00",
-      "link": "https://www.farmaonline.com/risque-esmalte-base-fortalecedora-8033191/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1217163/8033191_0.jpg?v=638530441077200000"
     },
     {
       "name": "Polvo antibacterial 200 gr",
@@ -2867,6 +2831,12 @@
       "price": "8247.95",
       "link": "https://www.farmaonline.com/colgate-pasta-dental-luminous-white-instant-70g-8031494/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1239152/8031494_0.jpg?v=638536994566570000"
+    },
+    {
+      "name": "Toallitas limpiadoras 3 en 1 MicellAir (25 unidades)",
+      "price": "6453.68",
+      "link": "https://www.farmaonline.com/nivea-toallitas-limpiadoras-3-en-1-micellair-25-unidades-8031392/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1336091/8031392_0.jpg?v=638820726531300000"
     },
     {
       "name": "Acondicionador goodbye daños 350 ml",
@@ -2977,22 +2947,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1359894/8025248_0.jpg?v=638901720214000000"
     },
     {
-      "name": "Desodorante femenino clinical clean fresh 48 gr",
-      "price": "7222.04",
-      "link": "https://www.farmaonline.com/rexona-desodorante-femenino-clinical-clean-fresh-48-gr-8022602/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1293636/8022602-0.jpg?v=638701407833700000"
-    },
-    {
       "name": "Crema para peinar pro-v repara 300 ml",
       "price": "7489.00",
       "link": "https://www.farmaonline.com/pantene-crema-para-peinar-pro-v-repara-300-ml-8022174/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1213254/8022174_0.jpg?v=638529541887270000"
-    },
-    {
-      "name": "Hidratante facial diario fps 15 118ml",
-      "price": "27762.34",
-      "link": "https://www.farmaonline.com/cetaphil-hidratante-facial-diario-fps-15-118ml-8021606/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1246149/8021606_0.jpg?v=638544262722970000"
     },
     {
       "name": "Toalla normal con alas 16 unidades",
@@ -3157,16 +3115,16 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1333552/8013428_0.jpg?v=638797110819670000"
     },
     {
+      "name": "Desmaquillante bifásico de ojos efecto dual para piel sensible 125 ml",
+      "price": "12170.26",
+      "link": "https://www.farmaonline.com/nivea-desmaquillante-bifsico-de-ojos-efecto-dual-para-piel-sensible-125-ml-8013304/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1210881/8013304_0.jpg?v=638528896777400000"
+    },
+    {
       "name": "Bronceador y protector solar sun protect and bronze fps30 200 ml",
       "price": "14182.56",
       "link": "https://www.farmaonline.com/nivea-bronceador-y-protector-solar-sun-protect-and-bronze-fps30-200-ml-8012595/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1272780/8012595_0.jpg?v=638628095263730000"
-    },
-    {
-      "name": "Toallitas con alas tanga (8 unidades)",
-      "price": "931.29",
-      "link": "https://www.farmaonline.com/doncella-toallitas-con-alas-tanga-8-unidades-8012312/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1210755/8012312_0.jpg?v=638528860082800000"
     },
     {
       "name": "Toallitas con alas extrasuave (16 unidades)",
@@ -3253,6 +3211,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1209313/8001509_0.jpg?v=638528425138030000"
     },
     {
+      "name": "Acondicionador hidratación 400 ml",
+      "price": "4503.60",
+      "link": "https://www.farmaonline.com/pantene-acondicionador-hidratacin-400-ml-8000772/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1344202/8000772_0.jpg?v=638870830487570000"
+    },
+    {
       "name": "Antitranspirante mujer original 150 ml",
       "price": "2986.31",
       "link": "https://www.farmaonline.com/dove-antitranspirante-mujer-original-150-ml-8000318/p",
@@ -3337,12 +3301,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1299902/6242318_0.jpg?v=638736112921730000"
     },
     {
-      "name": "Crema hidratante intensiva creme en lata para todo tipo de piel 60 ml",
-      "price": "3757.52",
-      "link": "https://www.farmaonline.com/nivea-crema-hidratante-intensiva-creme-en-lata-para-todo-tipo-de-piel-60-ml-6039003/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1207581/6039003_0.jpg?v=638527923680830000"
-    },
-    {
       "name": "Crema nutritiva noche con vitamina a y e 110 ml",
       "price": "5571.88",
       "link": "https://www.farmaonline.com/tortulan-crema-nutritiva-noche-con-vitamina-a-y-e-110-ml-6033226/p",
@@ -3385,12 +3343,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1342362/10001036_0.jpg?v=638846487139670000"
     },
     {
-      "name": "Combo Reconstrucción Completa 400 ml",
-      "price": "11539.08",
-      "link": "https://www.farmaonline.com/combo-reconstruccion-completa-400-ml-10000993/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1296070/10000993_0.jpg?v=638725536169470000"
-    },
-    {
       "name": "Combo protector solar facial control anti-brillo FPS 50 50 ml + serum antimanchas luminous 630 tratamiento avanzado 30 ml",
       "price": "30726.48",
       "link": "https://www.farmaonline.com/combo-protector-solar-facial-control-anti-brillo-fps-50-50-ml---serum-antimanchas-luminous-630-tratamiento-avanzado-30-ml10000985/p",
@@ -3409,22 +3361,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1342322/10000949_0.jpg?v=638846486744030000"
     },
     {
-      "name": "Combo desinfección completa del hogar",
-      "price": "8299.40",
-      "link": "https://www.farmaonline.com/combo-desinfeccion-completa-del-hogar10000842/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1196111/10000842_0.jpg?v=638503687379700000"
-    },
-    {
       "name": "Combo serum hialurónico + vitamina c + niacinamida",
       "price": "64456.00",
       "link": "https://www.farmaonline.com/combo-serum-hialuronico---vitamina-c---niacinamida-10000831/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1191983/10000831_0.jpg?v=638495628140230000"
-    },
-    {
-      "name": "Combo toallitas húmedas + espuma express",
-      "price": "10756.80",
-      "link": "https://www.farmaonline.com/combo-toallitas-humedas---espuma-express-10000826/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1191948/10000826_0.jpg?v=638495022143030000"
     },
     {
       "name": "Combo gel + espuma ph3.5",
@@ -3463,12 +3403,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1192847/10000810_0.jpg?v=638497374097000000"
     },
     {
-      "name": "Combo máscaras de pestañas: cosmic sky high + sky high wtp",
-      "price": "40689.00",
-      "link": "https://www.farmaonline.com/combo-mascaras-de-pestañas--cosmic-sky-high---sky-high-wtp10000730/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1340150/10000730_0.jpg?v=638834563704730000"
-    },
-    {
       "name": "Combo de maquillaje resist: máscara, plumón y labial",
       "price": "28905.50",
       "link": "https://www.farmaonline.com/combo-de-maquillaje-resist--mascara-plumon-y-labial10000725/p",
@@ -3491,24 +3425,6 @@
       "price": "11947.27",
       "link": "https://www.farmaonline.com/combo-original--shampoo-y-acondicionador-original-10000665/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1128910/10000665_0.jpg?v=638374836153170000"
-    },
-    {
-      "name": "Combo nude rosé",
-      "price": "5670.00",
-      "link": "https://www.farmaonline.com/combo-nude-rose10000617/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1108600/10000617_0.jpg?v=638298090490600000"
-    },
-    {
-      "name": "Combo crecimiento",
-      "price": "11539.08",
-      "link": "https://www.farmaonline.com/combo-crecimiento10000562/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1095937/10000562_0.jpg?v=638253733412300000"
-    },
-    {
-      "name": "Combo de Maquillaje: mascara de pestañas sky high cosmic black + labial vinyl ink cheeky",
-      "price": "35739.00",
-      "link": "https://www.farmaonline.com/combo-de-maquillaje--mascara-de-pestañas-sky-high-cosmic-black---labial-vinyl-ink-cheeky10000541/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1340073/10000541_0.jpg?v=638834562851370000"
     },
     {
       "name": "Combo capilar",
@@ -3541,6 +3457,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1272365/9999250_0.jpg?v=638623638529670000"
     },
     {
+      "name": "Antitranspirante en barra por 42 gr",
+      "price": "14882.39",
+      "link": "https://www.farmaonline.com/alumpak-antitranspirante-en-barra-por-42-gr-9997647/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1294334/9997647-0.jpg?v=638701550246170000"
+    },
+    {
       "name": "Colágeno hidrolizado + vitamina E (60 comprimidos)",
       "price": "9040.00",
       "link": "https://www.farmaonline.com/garden-house-colgeno-hidrolizado--vitamina-e-60-comprimidos-9997361/p",
@@ -3559,16 +3481,22 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1219183/9996085_0.jpg?v=638530908257730000"
     },
     {
-      "name": "Shampoo hidratante y emoliente 250ml",
-      "price": "15529.91",
-      "link": "https://www.farmaonline.com/aveno-shampoo-hidratante-y-emoliente-250ml-9994139/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1219745/9994139_0.jpg?v=638531055783100000"
-    },
-    {
       "name": "Autobronceante emulsion 130 ml",
       "price": "9746.10",
       "link": "https://www.farmaonline.com/rayito-de-sol-autobronceante-emulsion-130-ml-9931766/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1219037/9931766_0.jpg?v=638530837661600000"
+    },
+    {
+      "name": "Desodorante en crema para Todo el Cuerpo All Body Lavander \u0026 Camomile 75 gr",
+      "price": "5415.00",
+      "link": "https://www.farmaonline.com/dove-8138942/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1366243/8138942_0.jpg?v=638917291329200000"
+    },
+    {
+      "name": "Desodorante en Aerosol para Todo el Cuerpo All Body Deo Fig \u0026 Suede 150 ml",
+      "price": "4506.47",
+      "link": "https://www.farmaonline.com/dove-8138938/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1366224/8138938_0.jpg?v=638917290548830000"
     },
     {
       "name": "Desodorante men all body shea butter \u0026 cedar 150ml",
@@ -3625,10 +3553,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1361174/8138323_0.jpg?v=638906568708030000"
     },
     {
-      "name": "Máscara de Pestañas Lash Sensational Firework Electro Black",
-      "price": "20394.00",
-      "link": "https://www.farmaonline.com/maybelline-8138201/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1355313/8138201_0.jpg?v=638888389869030000"
+      "name": "Jabon vitamina E + glicerina 85 gr",
+      "price": "750.00",
+      "link": "https://www.farmaonline.com/protex-8138138/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1355601/8138138_0.jpg?v=638888569250370000"
     },
     {
       "name": "Protector solar F50+ sun daily fluid tono medio 40 ml",
@@ -3655,6 +3583,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1362328/8137710_0.jpg?v=638907736847200000"
     },
     {
+      "name": "Mascara paradise big deal black waterproof",
+      "price": "25193.00",
+      "link": "https://www.farmaonline.com/loreal-paris-8137709/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1362325/8137709_0.jpg?v=638907736775630000"
+    },
+    {
       "name": "Effaclar duo+M parches granos e imperfecciones (22 unidades)",
       "price": "38932.00",
       "link": "https://www.farmaonline.com/la-roche-posay-8137613/p",
@@ -3671,6 +3605,12 @@
       "price": "3700.83",
       "link": "https://www.farmaonline.com/algabo-8137594/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1342023/8137594_0.jpg?v=638845476138700000"
+    },
+    {
+      "name": "Agua micelar facial glow 200 ml",
+      "price": "3932.15",
+      "link": "https://www.farmaonline.com/algabo-8137572/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1342064/8137572_0.jpg?v=638845476825870000"
     },
     {
       "name": "Serum Ectoína 30 ml",
@@ -3757,6 +3697,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1330795/8136530_0.jpg?v=638786947237100000"
     },
     {
+      "name": "Acondicionador probioticos fuerza 350 ml",
+      "price": "5800.00",
+      "link": "https://www.farmaonline.com/fructis-8136529/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1330798/8136529_0.jpg?v=638786947293730000"
+    },
+    {
       "name": "Maquina de afeitar prestobarba 3 carbono (4 unidades)",
       "price": "9823.00",
       "link": "https://www.farmaonline.com/gillette-8136523/p",
@@ -3767,6 +3713,12 @@
       "price": "7516.20",
       "link": "https://www.farmaonline.com/pantene-8136515/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1330747/8136515_0.jpg?v=638786905452130000"
+    },
+    {
+      "name": "Máscara de tratamiento Luminous UV 300 gr",
+      "price": "3882.62",
+      "link": "https://www.farmaonline.com/sedal-8136451/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1348997/8136451_0.jpg?v=638882777457330000"
     },
     {
       "name": "Cepillo de dientes pro cuidado carbon (2 unidades)",
@@ -3815,6 +3767,12 @@
       "price": "23992.00",
       "link": "https://www.farmaonline.com/loreal-paris-8135893/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1360709/8135891_0.jpg?v=638906030158800000"
+    },
+    {
+      "name": "Enjuague bucal advanced antibacterial menta suave 500 ml",
+      "price": "6688.50",
+      "link": "https://www.farmaonline.com/gum-8135710/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1296566/8135710_0.jpg?v=638730631080800000"
     },
     {
       "name": "Carilinas box disney x 90",
@@ -3925,22 +3883,16 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1343411/8134490_0.jpg?v=638851692037500000"
     },
     {
+      "name": "Crema dental proteccion anti-caries 70 gr",
+      "price": "2571.92",
+      "link": "https://www.farmaonline.com/close-up-8134436/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1275687/8134436_0.jpg?v=638641752368300000"
+    },
+    {
       "name": "Serum rellenador de acido hialuronico expert filles 30 ml",
       "price": "18030.01",
       "link": "https://www.farmaonline.com/nivea-8134300/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1275750/8134300_0.jpg?v=638641860335600000"
-    },
-    {
-      "name": "Cepillo secador y voluminizador one step de pelo",
-      "price": "74399.20",
-      "link": "https://www.farmaonline.com/revlon-8134296/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1357449/8134296_0.jpg?v=638894091910230000"
-    },
-    {
-      "name": "Hairstick antifrizz oleo argan 12 ml",
-      "price": "16289.00",
-      "link": "https://www.farmaonline.com/biferdil-8134280/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1274040/8134280_0.jpg?v=638633874188300000"
     },
     {
       "name": "Gel transparente-eyebrow gel",
@@ -3949,10 +3901,16 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1278696/8134246_0.jpg?v=638648622324070000"
     },
     {
-      "name": "Vinagre de sidra de manzana (30 cápsulas)",
-      "price": "5478.00",
-      "link": "https://www.farmaonline.com/vitamin-way-8134222/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1273107/8134222_0.jpg?v=638630448533100000"
+      "name": "Rubor cremoso",
+      "price": "14500.00",
+      "link": "https://www.farmaonline.com/zaira-beauty-8134240/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1278760/8134240_0.jpg?v=638648670403400000"
+    },
+    {
+      "name": "Rubor cremoso",
+      "price": "14500.00",
+      "link": "https://www.farmaonline.com/zaira-beauty-8134240/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1278760/8134240_0.jpg?v=638648670403400000"
     },
     {
       "name": "Jabon liquido karite y aguacate doypack 220 ml",
@@ -3971,12 +3929,6 @@
       "price": "7474.68",
       "link": "https://www.farmaonline.com/viasek-8133963/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1278997/8133963_0.jpg?v=638651443118500000"
-    },
-    {
-      "name": "Lip oil brillo labial",
-      "price": "15471.74",
-      "link": "https://www.farmaonline.com/rimmel-8133873/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1281270/8133873_0.jpg?v=638653954799470000"
     },
     {
       "name": "Gel dental antibacterial 100 gr",
@@ -4037,12 +3989,6 @@
       "price": "13115.78",
       "link": "https://www.farmaonline.com/dove-8133241/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1258268/8133241_0.jpg?v=638586534524570000"
-    },
-    {
-      "name": "Jabon liquido coco hidrata y suaviza doypack 200 ml",
-      "price": "2517.00",
-      "link": "https://www.farmaonline.com/vn-8133068/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1256322/8133068_0.jpg?v=638578548342300000"
     },
     {
       "name": "Balsamo labial lip therapy original 4.8gr",
@@ -4111,12 +4057,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1288040/8132373_0.jpg?v=638672136301300000"
     },
     {
-      "name": "Jabón en barra piel sensible  90 gr (3 unidades)",
-      "price": "5418.55",
-      "link": "https://www.farmaonline.com/dove-8132294/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1244963/8132294_0.jpg?v=638543475490700000"
-    },
-    {
       "name": "Citrato de magnesio (60 cápsulas)",
       "price": "15300.00",
       "link": "https://www.farmaonline.com/ena-8132127/p",
@@ -4129,28 +4069,22 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1361878/8132108_0.jpg?v=638907722563970000"
     },
     {
+      "name": "Protector labial frutillas con crema 5 gr",
+      "price": "2390.00",
+      "link": "https://www.farmaonline.com/dots-8132107/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1361881/8132107_0.jpg?v=638907722718400000"
+    },
+    {
       "name": "Protector labial chicle globo 5 gr",
       "price": "2390.00",
       "link": "https://www.farmaonline.com/dots-8132106/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1361880/8132106_0.jpg?v=638907722660700000"
     },
     {
-      "name": "Mascarilla  Glycolic Gloss 300gr",
-      "price": "9569.00",
-      "link": "https://www.farmaonline.com/elvive-8131944/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1306387/8131944_0.jpg?v=638742999017130000"
-    },
-    {
-      "name": "Serum mela B3 30 ml",
-      "price": "90461.80",
-      "link": "https://www.farmaonline.com/la-roche-posay-8131880/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1237366/8131880_0.jpg?v=638536454851630000"
-    },
-    {
-      "name": "Toalla femenina  ultrafina puro y natural (10 unidades)",
-      "price": "2480.71",
-      "link": "https://www.farmaonline.com/kotex-8131847/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1260563/8131847_0.jpg?v=638593548111230000"
+      "name": "Jabón líquido bromelia doypack 220 ml",
+      "price": "2287.45",
+      "link": "https://www.farmaonline.com/lux-8131601/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1233570/8131601_0.jpg?v=638534976619100000"
     },
     {
       "name": "Crema tratamiento 2 en 1 mais lisos 1000 gr",
@@ -4171,16 +4105,16 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1275102/8131522_0.jpg?v=638635813084670000"
     },
     {
+      "name": "Pañales baby dry hipoalergénico",
+      "price": "9878.40",
+      "link": "https://www.farmaonline.com/pampers-8131510/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1367043/8131508_0.jpg?v=638926776983200000"
+    },
+    {
       "name": "Colágeno beauty sabor limón 120 gr",
       "price": "9877.70",
       "link": "https://www.farmaonline.com/vitamin-way-8131487/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1220043/8131487_0.jpg?v=638531128437800000"
-    },
-    {
-      "name": "Colágeno beauty + flex bebible polvo 360 gr",
-      "price": "35353.00",
-      "link": "https://www.farmaonline.com/vitamin-way-8131484/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1236877/8131484_0.jpg?v=638536273580700000"
     },
     {
       "name": "Sombra colorstay day to night stunning",
@@ -4199,12 +4133,6 @@
       "price": "6636.99",
       "link": "https://www.farmaonline.com/alfaparf-alta-moda-8131435/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1227437/8131435_0.jpg?v=638533144059630000"
-    },
-    {
-      "name": "Ampolla repair \u0026 defense 15 ml (3 unidades)",
-      "price": "5162.92",
-      "link": "https://www.farmaonline.com/alfaparf-alta-moda-8131431/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1226684/8131431_0.jpg?v=638532963400300000"
     },
     {
       "name": "Ampolla hidra save 15 ml (3 unidades)",
@@ -4261,12 +4189,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1272459/8131127_0.jpg?v=638623640131600000"
     },
     {
-      "name": "Shampoo henna egipcia efecto anti canas 415 ml",
-      "price": "6293.02",
-      "link": "https://www.farmaonline.com/tio-nacho-8131101/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1333292/8131101_0.jpg?v=638796469979600000"
-    },
-    {
       "name": "Portacepillos dental",
       "price": "1488.20",
       "link": "https://www.farmaonline.com/apper-8131015/p",
@@ -4285,16 +4207,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1299928/8130945_0.jpg?v=638736144778400000"
     },
     {
-      "name": "Refill emulsión humectante de uso diario 250 ml",
-      "price": "26687.82",
-      "link": "https://www.farmaonline.com/aveno-8130745/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1272526/8130745_0.jpg?v=638624504783930000"
-    },
-    {
-      "name": "Crema para manos hidratación esencial 100 gr",
-      "price": "9624.78",
-      "link": "https://www.farmaonline.com/dermaglos-8130743/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1226021/8130743_0.jpg?v=638532781191030000"
+      "name": "Crema para manos hidratación más regeneración",
+      "price": "8775.54",
+      "link": "https://www.farmaonline.com/dermaglos-8130738/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1226020/8130738_0.jpg?v=638532781098370000"
     },
     {
       "name": "Creatina micronizada sin sabor 150 gr",
@@ -4379,6 +4295,12 @@
       "price": "16378.56",
       "link": "https://www.farmaonline.com/nivea-8129254/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1353374/8129254_0.jpg?v=638887815618700000"
+    },
+    {
+      "name": "Protector solar humectante sun protect and hydrate fps50 200 ml",
+      "price": "15646.57",
+      "link": "https://www.farmaonline.com/nivea-8129253/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1274020/8129253_0.jpg?v=638633197653800000"
     },
     {
       "name": "Protector solar babies \u0026 kids fps 65 200 ml",
@@ -4597,12 +4519,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1208467/8127235_1.jpg?v=638528178032300000"
     },
     {
-      "name": "Labial paradise balm",
-      "price": "21790.00",
-      "link": "https://www.farmaonline.com/loreal-paris-8127224/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1276577/8127224_1.jpg?v=638646992429970000"
-    },
-    {
       "name": "Crema facial balansis derm 45 gr",
       "price": "24850.00",
       "link": "https://www.farmaonline.com/caviahue-8127124/p",
@@ -4613,6 +4529,12 @@
       "price": "2862.31",
       "link": "https://www.farmaonline.com/palmolive-8126924/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1303452/8126924_0.jpg?v=638739343069170000"
+    },
+    {
+      "name": "Crema hidratante para bebé   200 ml",
+      "price": "5099.62",
+      "link": "https://www.farmaonline.com/johnsons-baby-8126923/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1316564/8126923_0.jpg?v=638756846096600000"
     },
     {
       "name": "Contorno de ojos con vitamina k3 15 gr",
@@ -4639,12 +4561,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1235124/8126598_0.jpg?v=638535591665770000"
     },
     {
-      "name": "Limpiador facial diario para piel grasa 300 ml",
-      "price": "27594.19",
-      "link": "https://www.farmaonline.com/cetaphil-8126400/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1245805/8126400_0.jpg?v=638544209295100000"
-    },
-    {
       "name": "Contorno de ojos 15 gr",
       "price": "17000.00",
       "link": "https://www.farmaonline.com/clasica-by-caviahue-8126397/p",
@@ -4655,12 +4571,6 @@
       "price": "23895.42",
       "link": "https://www.farmaonline.com/neutrogena-8126353/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1335854/8126353_0.jpg?v=638820632893500000"
-    },
-    {
-      "name": "Tónico hidratante 180 ml",
-      "price": "15000.00",
-      "link": "https://www.farmaonline.com/clasica-by-caviahue-8126281/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1257191/8126281_0.jpg?v=638581392596030000"
     },
     {
       "name": "Labial liquido colorissimo extra brillo",
@@ -4831,6 +4741,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1241631/8122144_0.jpg?v=638537389445800000"
     },
     {
+      "name": "Toallitas húmedas humectación sensible (50 unidades)",
+      "price": "3747.39",
+      "link": "https://www.farmaonline.com/estrella-8122101/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1228772/8122101_0.jpg?v=638533537519530000"
+    },
+    {
       "name": "Delineador de Labios lasting finish",
       "price": "14000.00",
       "link": "https://www.farmaonline.com/rimmel-delineador-de-labios-lasting-finish-8121894/p",
@@ -4907,12 +4823,6 @@
       "price": "2351.11",
       "link": "https://www.farmaonline.com/calipso-protector-diario-respirable-50-unidades-8119824/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1315741/8119824_0.jpg?v=638756723438430000"
-    },
-    {
-      "name": "Sérum capilar coconut milk 118 ml",
-      "price": "20282.33",
-      "link": "https://www.farmaonline.com/ogx-srum-capilar-coconut-milk-118-ml-8119417/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1331695/8119417_0.jpg?v=638793043071030000"
     },
     {
       "name": "Bandas de Limpieza Facial Carbon Activado (6 Unidades)",
@@ -5047,6 +4957,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1233133/8116820_0.jpg?v=638534833449870000"
     },
     {
+      "name": "Crema con color bb cream tono medio con fps30 50 gr",
+      "price": "25213.96",
+      "link": "https://www.farmaonline.com/dermaglos-crema-con-color-bb-cream-tono-medio-con-fps30-50-gr-8116604/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1232920/8116604_0.jpg?v=638534760325070000"
+    },
+    {
       "name": "Crema con color bb cream tono claro con fps30 50 gr",
       "price": "25213.96",
       "link": "https://www.farmaonline.com/dermaglos-crema-con-color-bb-cream-tono-claro-con-fps30-50-gr-8116596/p",
@@ -5137,6 +5053,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1229208/8112260_0.jpg?v=638533648058130000"
     },
     {
+      "name": "Repuestos Para Afeitar 6 Un",
+      "price": "15744.00",
+      "link": "https://www.farmaonline.com/gillette-repuestos-para-afeitar-6-un-8112071/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1228716/8112071_0.jpg?v=638533505623970000"
+    },
+    {
       "name": "Jabón antibacterial cuida y protege 90 gr",
       "price": "1608.57",
       "link": "https://www.farmaonline.com/dove-jabn-antibacterial-cuida-y-protege-90-gr-8111456/p",
@@ -5209,6 +5131,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1301615/8042696_0.jpg?v=638737811937700000"
     },
     {
+      "name": "Desodorante antitranspirante fútbol fanaticas en aerosol 150 ml",
+      "price": "2511.76",
+      "link": "https://www.farmaonline.com/rexona-desodorante-antitranspirante-ftbol-fanaticas-en-aerosol-150-ml-8042278/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1294316/8042278-0.jpg?v=638701549751930000"
+    },
+    {
       "name": "Espuma de higiene íntima ph6.8 menopausia 75 ml",
       "price": "11998.80",
       "link": "https://www.farmaonline.com/viasek-espuma-de-higiene-ntima-ph6-8-menopausia-75-ml-8042190/p",
@@ -5237,6 +5165,12 @@
       "price": "24329.25",
       "link": "https://www.farmaonline.com/nature-s-bounty-aceite-fish-omega-3-y-omega-6-1200-mg-60-capsulas-8041775/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1327931/8041775_0.jpg?v=638785076552430000"
+    },
+    {
+      "name": "Mascarilla  Hair Food Aloe 350ml",
+      "price": "6427.85",
+      "link": "https://www.farmaonline.com/fructis-mascarilla--hair-food-aloe-350ml-8041744/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1364601/8041744_0.jpg?v=638912112930800000"
     },
     {
       "name": "Crema corporal hidratación + absorción inmediata 300 gr",
@@ -5275,12 +5209,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1301515/8041052_0.jpg?v=638737810720900000"
     },
     {
-      "name": "Suplemento dietario relax noche (20 cápsulas)",
-      "price": "7587.00",
-      "link": "https://www.farmaonline.com/vitamin-way-suplemento-dietario-relax-noche-20-cpsulas-8040925/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1228788/8040925_0.jpg?v=638533538643700000"
-    },
-    {
       "name": "Suplemento dietario multivitamínico (30 comprimidos)",
       "price": "17412.00",
       "link": "https://www.farmaonline.com/vitamin-way-suplemento-dietario-multivitamnico-30-comprimidos-8040919/p",
@@ -5293,10 +5221,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1228787/8040917_0.jpg?v=638533538555330000"
     },
     {
-      "name": "Cepillo dental classic 211 suave (2 unidades)",
-      "price": "9447.77",
-      "link": "https://www.farmaonline.com/gum-cepillo-dental-classic-211-suave-2-unidades-8040816/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1232786/8040816_0.jpg?v=638534692007230000"
+      "name": "Suplemento dietario bronsol (30 cápsulas)",
+      "price": "12123.00",
+      "link": "https://www.farmaonline.com/vitamin-way-suplemento-dietario-bronsol-30-cpsulas-8040892/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1228773/8040892_0.jpg?v=638533537607770000"
     },
     {
       "name": "Protector solar facial con color fps 45 50 gr",
@@ -5309,6 +5237,12 @@
       "price": "26186.09",
       "link": "https://www.farmaonline.com/dermaglos-protector-solar-facial-fps-50-crema-50-gr-8040374/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1291734/8040374_0.jpg?v=638696155481000000"
+    },
+    {
+      "name": "Polvo compacto resist 14 Gr",
+      "price": "8917.50",
+      "link": "https://www.farmaonline.com/vogue-polvo-compacto-resist-14-gr-8040138/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1296058/8040138_0.jpg?v=638725511759230000"
     },
     {
       "name": "Protectores diarios duo forma pocket sin perfume (20 u)",
@@ -5383,12 +5317,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1335763/8037935_0.jpg?v=638820631764230000"
     },
     {
-      "name": "Crema de manos y cuerpo hidratacion total 160 ml",
-      "price": "2317.90",
-      "link": "https://www.farmaonline.com/dermogreen-crema-de-manos-y-cuerpo-hidratacion-total-160-ml-8037482/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1230918/8037482_0.jpg?v=638534080857930000"
-    },
-    {
       "name": "Pomada reparadora aquaphor para piel seca",
       "price": "24557.32",
       "link": "https://www.farmaonline.com/eucerin-pomada-reparadora-aquaphor-para-piel-seca-8036873/p",
@@ -5435,6 +5363,12 @@
       "price": "14340.00",
       "link": "https://www.farmaonline.com/revlon-sombra-colorstay-eye-shadow-decadent-8034938/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1218108/8034938_0.jpg?v=638530623314300000"
+    },
+    {
+      "name": "Spray facial hidratante hyaluron-filler + 3x effect piel sensible",
+      "price": "25073.28",
+      "link": "https://www.farmaonline.com/eucerin-spray-facial-hidratante-hyaluron-filler--3x-effect-piel-sensible-8034927/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1243506/8034927_0.jpg?v=638539944992770000"
     },
     {
       "name": "Pasta dental periogard 90g",
@@ -5491,16 +5425,16 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1217573/8033670_0.jpg?v=638530479351730000"
     },
     {
-      "name": "Aceite capilar argan 60 ml",
-      "price": "2807.68",
-      "link": "https://www.farmaonline.com/bitter-aceite-capilar-argan-60-ml-8033668/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1217565/8033668_0.jpg?v=638530479037670000"
-    },
-    {
       "name": "Baby toallitas humedas (20 unidades)",
       "price": "1625.71",
       "link": "https://www.farmaonline.com/algabo-baby-toallitas-humedas-20-unidades-8033610/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1341949/8033610_0.jpg?v=638844911364330000"
+    },
+    {
+      "name": "Aceite reparador de cicatrices 125 ml",
+      "price": "32849.97",
+      "link": "https://www.farmaonline.com/bio-oil-aceite-reparador-de-cicatrices-125-ml-8033357/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1298081/8033357_0.jpg?v=638732566479900000"
     },
     {
       "name": "Crema anti age de dia 50 gr",
@@ -5569,10 +5503,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1366027/8031394_0.jpg?v=638914755074100000"
     },
     {
-      "name": "Toallitas limpiadoras 3 en 1 MicellAir (25 unidades)",
-      "price": "6453.68",
-      "link": "https://www.farmaonline.com/nivea-toallitas-limpiadoras-3-en-1-micellair-25-unidades-8031392/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1336091/8031392_0.jpg?v=638820726531300000"
+      "name": "Shampoo sports active fresh 3en1 400 ml",
+      "price": "4615.67",
+      "link": "https://www.farmaonline.com/dove-shampoo-sports-active-fresh-3en1-400-ml-8031371/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1216150/8031371_0.jpg?v=638530260630830000"
     },
     {
       "name": "Acondicionador ritual reparación con aceite de coco 400 ml",
@@ -5911,12 +5845,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1299673/8019169_0.jpg?v=638736107809100000"
     },
     {
-      "name": "Mascarilla rts keratin 300gr",
-      "price": "8699.00",
-      "link": "https://www.farmaonline.com/elvive-mascarilla-rts-keratin-300gr-8019119/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1216679/8019119_0.jpg?v=638530333549430000"
-    },
-    {
       "name": "Shampoo reparacion total keratin 400 ml",
       "price": "5279.40",
       "link": "https://www.farmaonline.com/elvive-shampoo-reparacion-total-keratin-400-ml-8018837/p",
@@ -6067,16 +5995,34 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1333546/8013427_0.jpg?v=638797110733400000"
     },
     {
-      "name": "Desmaquillante bifásico de ojos efecto dual para piel sensible 125 ml",
-      "price": "12170.26",
-      "link": "https://www.farmaonline.com/nivea-desmaquillante-bifsico-de-ojos-efecto-dual-para-piel-sensible-125-ml-8013304/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1210881/8013304_0.jpg?v=638528896777400000"
+      "name": "Autobronceante en spray 170 ml",
+      "price": "10245.90",
+      "link": "https://www.farmaonline.com/rayito-de-sol-autobronceante-en-spray-170-ml-8012791/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1277028/8012791_0.jpg?v=638647652245300000"
+    },
+    {
+      "name": "Desmaquillante Bifásico Oil Free 162 ml",
+      "price": "13183.55",
+      "link": "https://www.farmaonline.com/neutrogena-desmaquillante-bifsico-oil-free-162-ml-8012536/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1335221/8012536_0.jpg?v=638814429997900000"
     },
     {
       "name": "Delienador de ojos lasting drama gel",
       "price": "11814.00",
       "link": "https://www.farmaonline.com/maybelline-delienador-de-ojos-lasting-drama-gel-8012325/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1210759/8012325_0.jpg?v=638528860475530000"
+    },
+    {
+      "name": "Toallitas con alas tanga (8 unidades)",
+      "price": "931.29",
+      "link": "https://www.farmaonline.com/doncella-toallitas-con-alas-tanga-8-unidades-8012312/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1210755/8012312_0.jpg?v=638528860082800000"
+    },
+    {
+      "name": "Desodorante antitranspirante clinical men en crema 48 gr",
+      "price": "10231.22",
+      "link": "https://www.farmaonline.com/rexona-desodorante-antitranspirante-clinical-men-en-crema-48-gr-8012109/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1293392/8012109-0.jpg?v=638701370725200000"
     },
     {
       "name": "Pasta dental smiles barbie 100 gr (1 unidad)",
@@ -6127,6 +6073,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1210166/8009737_0.jpg?v=638528678276330000"
     },
     {
+      "name": "Desodorante roll on invisible for men 50 ml",
+      "price": "2463.92",
+      "link": "https://www.farmaonline.com/rexona-desodorante-roll-on-invisible-for-men-50-ml-8008484/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1344272/8008484_0.jpg?v=638872302697200000"
+    },
+    {
       "name": "Desodorante antitranspirante invisible en aerosol 150 ml",
       "price": "3864.26",
       "link": "https://www.farmaonline.com/rexona-desodorante-antitranspirante-invisible-en-aerosol-150-ml-8008483/p",
@@ -6143,12 +6095,6 @@
       "price": "2457.02",
       "link": "https://www.farmaonline.com/algabo-talco-para-pies-200-gr-8008157/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1341964/8008157_0.jpg?v=638844912096530000"
-    },
-    {
-      "name": "Jabón exfoliante  barra 100 g",
-      "price": "4450.62",
-      "link": "https://www.farmaonline.com/asepxia-jabn-exfoliante--barra-100-g-8007919/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1244817/8007919_0.jpg?v=638543438511830000"
     },
     {
       "name": "Aposito post parto (10 unidades)",
@@ -6175,6 +6121,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1299597/8003056_0.jpg?v=638736106429300000"
     },
     {
+      "name": "Loción tónica ortiga concentrada 60 ml",
+      "price": "5600.00",
+      "link": "https://www.farmaonline.com/capilatis-locin-tnica-ortiga-concentrada-60-ml-8002237/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1237983/8002237_0.jpg?v=638536669307030000"
+    },
+    {
       "name": "Polvo de almidon baby original 200 gr",
       "price": "6869.18",
       "link": "https://www.farmaonline.com/johnsons-baby-polvo-de-almidon-baby-original-200-gr-8001392/p",
@@ -6191,12 +6143,6 @@
       "price": "27000.00",
       "link": "https://www.farmaonline.com/paula-cahen-d-anvers-fragancia-paula-edt-for-woman-8001066/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1320809/8001066_0.jpg?v=638773944349630000"
-    },
-    {
-      "name": "Acondicionador hidratación 400 ml",
-      "price": "4503.60",
-      "link": "https://www.farmaonline.com/pantene-acondicionador-hidratacin-400-ml-8000772/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1344202/8000772_0.jpg?v=638870830487570000"
     },
     {
       "name": "Antitranspirante mujer go fresh pepino 150 ml",
@@ -6263,12 +6209,6 @@
       "price": "3918.00",
       "link": "https://www.farmaonline.com/ladysoft-toallitas-femeninas-ultradelgada-suave-con-alas-16-unidades-6310275/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1208758/6310275_0.jpg?v=638528283121300000"
-    },
-    {
-      "name": "Toallitas femeninas tela ultraseca con alas (16 unidades)",
-      "price": "4241.00",
-      "link": "https://www.farmaonline.com/ladysoft-toallitas-femeninas-tela-ultraseca-con-alas-16-unidades-6310274/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1208757/6310274_0.jpg?v=638528283026000000"
     },
     {
       "name": "Jabón barra de limpieza facial Deep Clean 80 gr",
@@ -6349,6 +6289,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1207601/6039277_0.jpg?v=638527924319300000"
     },
     {
+      "name": "Crema hidratante intensiva creme en lata para todo tipo de piel 60 ml",
+      "price": "3757.52",
+      "link": "https://www.farmaonline.com/nivea-crema-hidratante-intensiva-creme-en-lata-para-todo-tipo-de-piel-60-ml-6039003/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1207581/6039003_0.jpg?v=638527923680830000"
+    },
+    {
       "name": "Loción tónica ortiga 120 ml",
       "price": "5400.00",
       "link": "https://www.farmaonline.com/capilatis-locin-tnica-ortiga-120-ml-6034311/p",
@@ -6359,12 +6305,6 @@
       "price": "3963.75",
       "link": "https://www.farmaonline.com/issue-color-pack-keratina-6033432/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1350682/6033432_0.jpg?v=638887207367730000"
-    },
-    {
-      "name": "Coloración en pomo rapid",
-      "price": "3618.00",
-      "link": "https://www.farmaonline.com/inecto-coloracin-en-pomo-rapid-6033404/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1350561/6030468_0.jpg?v=638887204518530000"
     },
     {
       "name": "Fragancia edt pour femme 50 ml",
@@ -6457,6 +6397,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1286953/10000981_0.jpg?v=638660676999230000"
     },
     {
+      "name": "Combo anthelios uv mune fluido x2",
+      "price": "65549.00",
+      "link": "https://www.farmaonline.com/combo-anthelios-uv-mune-fluido-x2-10000936/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1283823/10000936_0.jpg?v=638657328140300000"
+    },
+    {
       "name": "Combo capilar para bebés y niños",
       "price": "31351.67",
       "link": "https://www.farmaonline.com/combo-capilar-para-bebes-y-niños-10000931/p",
@@ -6475,16 +6421,28 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1270307/10000916_0.jpg?v=638616840239670000"
     },
     {
-      "name": "Combo de maquillaje infalibles de kendall: máscara panorama + labial le matte resistance",
-      "price": "41988.00",
-      "link": "https://www.farmaonline.com/combo-de-maquillaje-infalibles-de-kendall--mascara-panorama---labial-le-matte-resistance10000871/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1254959/10000871_0.jpg?v=638566686369830000"
-    },
-    {
       "name": "Combo para pieles con tendencia al enrojecimiento",
       "price": "59001.78",
       "link": "https://www.farmaonline.com/combo-para-pieles-con-tendencia-al-enrojecimiento10000869/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1254825/10000869_0.jpg?v=638566536130500000"
+    },
+    {
+      "name": "Combo desinfección completa del hogar",
+      "price": "8299.40",
+      "link": "https://www.farmaonline.com/combo-desinfeccion-completa-del-hogar10000842/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1196111/10000842_0.jpg?v=638503687379700000"
+    },
+    {
+      "name": "Combo desinfectante de pisos + repuesto",
+      "price": "4675.38",
+      "link": "https://www.farmaonline.com/combo-desinfectante-de-pisos---repuesto-10000838/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1196057/10000838_0.jpg?v=638503686612170000"
+    },
+    {
+      "name": "Combo toallitas húmedas + espuma express",
+      "price": "10756.80",
+      "link": "https://www.farmaonline.com/combo-toallitas-humedas---espuma-express-10000826/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1191948/10000826_0.jpg?v=638495022143030000"
     },
     {
       "name": "Combo luminous con serum anti-edad",
@@ -6499,12 +6457,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1192803/10000809_0.jpg?v=638497344134530000"
     },
     {
-      "name": "Combo french",
-      "price": "13950.00",
-      "link": "https://www.farmaonline.com/combo-french10000784/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1167719/10000784_0.jpg?v=638467374203070000"
-    },
-    {
       "name": "Combo de cuidado diario para piel grasa con tendencia acneica",
       "price": "61586.99",
       "link": "https://www.farmaonline.com/combo-de-cuidado-diario-para-piel-grasa-con-tendencia-acneica10000763/p",
@@ -6515,12 +6467,6 @@
       "price": "14679.00",
       "link": "https://www.farmaonline.com/combo-de-esmaltes--uñas-fuertes10000724/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1342245/10000724_0.jpg?v=638846485918930000"
-    },
-    {
-      "name": "Combo tono 10 + hair food palta mascarilla",
-      "price": "13433.40",
-      "link": "https://www.farmaonline.com/combo-tono-10---hair-food-palta-mascarilla10000713/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1342227/10000713_0.jpg?v=638846485730430000"
     },
     {
       "name": "Combo tono 70 + hair food palta mascarilla",
@@ -6553,12 +6499,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1272361/9999248_0.jpg?v=638623638470200000"
     },
     {
-      "name": "Antitranspirante en barra por 42 gr",
-      "price": "14882.39",
-      "link": "https://www.farmaonline.com/alumpak-antitranspirante-en-barra-por-42-gr-9997647/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1294334/9997647-0.jpg?v=638701550246170000"
-    },
-    {
       "name": "Ginseng rojo coreano (50 comprimidos)",
       "price": "12272.00",
       "link": "https://www.farmaonline.com/garden-house-ginseng-rojo-coreano-50-comprimidos-9997523/p",
@@ -6587,18 +6527,6 @@
       "price": "20900.00",
       "link": "https://www.farmaonline.com/revlon-8139014/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1366654/8139014_0.jpg?v=638923500227070000"
-    },
-    {
-      "name": "Desodorante en crema para Todo el Cuerpo All Body Lavander \u0026 Camomile 75 gr",
-      "price": "5415.00",
-      "link": "https://www.farmaonline.com/dove-8138942/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1366243/8138942_0.jpg?v=638917291329200000"
-    },
-    {
-      "name": "Desodorante en Aerosol para Todo el Cuerpo All Body Deo Fig \u0026 Suede 150 ml",
-      "price": "4506.47",
-      "link": "https://www.farmaonline.com/dove-8138938/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1366224/8138938_0.jpg?v=638917290548830000"
     },
     {
       "name": "Desodorante en crema para todo el cuerpo All Body Deo Wild Rose 75 gr",
@@ -6661,12 +6589,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1359491/8138145_0.jpg?v=638895606239330000"
     },
     {
-      "name": "Jabon vitamina E + glicerina 85 gr",
-      "price": "750.00",
-      "link": "https://www.farmaonline.com/protex-8138138/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1355601/8138138_0.jpg?v=638888569250370000"
-    },
-    {
       "name": "Jabón liquido concentrado limpieza activa 800 ml",
       "price": "8173.08",
       "link": "https://www.farmaonline.com/skip-8138133/p",
@@ -6689,12 +6611,6 @@
       "price": "11905.48",
       "link": "https://www.farmaonline.com/perpiel-8137749/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1350042/8137749_0.jpg?v=638882916254570000"
-    },
-    {
-      "name": "Mascara paradise big deal black waterproof",
-      "price": "25193.00",
-      "link": "https://www.farmaonline.com/loreal-paris-8137709/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1362325/8137709_0.jpg?v=638907736775630000"
     },
     {
       "name": "Acondicionador dream liso 750 ml",
@@ -6763,12 +6679,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1342065/8137573_0.jpg?v=638845476839200000"
     },
     {
-      "name": "Agua micelar facial glow 200 ml",
-      "price": "3932.15",
-      "link": "https://www.farmaonline.com/algabo-8137572/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1342064/8137572_0.jpg?v=638845476825870000"
-    },
-    {
       "name": "Shampoo kids chicle 750 ml",
       "price": "3392.44",
       "link": "https://www.farmaonline.com/algabo-8137561/p",
@@ -6785,12 +6695,6 @@
       "price": "3546.65",
       "link": "https://www.farmaonline.com/algabo-8137536/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1342017/8137536_0.jpg?v=638845476038230000"
-    },
-    {
-      "name": "Antitranspirante roll-on fresh care durazno 50 ml",
-      "price": "2861.12",
-      "link": "https://www.farmaonline.com/dove-8137534/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1353761/8137534_0.jpg?v=638887959245170000"
     },
     {
       "name": "Antitranspirante sensitive care 72hs 150 ml",
@@ -6835,12 +6739,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1336097/8136852_0.jpg?v=638820744440770000"
     },
     {
-      "name": "Toallas ultrafina seca con alas (8 unidades)",
-      "price": "5021.00",
-      "link": "https://www.farmaonline.com/always-8136851/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1334246/8136851_0.jpg?v=638808360175170000"
-    },
-    {
       "name": "Toalla nocturna 3D (6 unidades)",
       "price": "2344.17",
       "link": "https://www.farmaonline.com/kotex-8136805/p",
@@ -6871,6 +6769,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1341676/8136612_0.jpg?v=638842416501830000"
     },
     {
+      "name": "Mascara morte subita 450 gr",
+      "price": "20690.00",
+      "link": "https://www.farmaonline.com/lola-8136600/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1341635/8136600_0.jpg?v=638842200576030000"
+    },
+    {
       "name": "Menocare gel 50 ml",
       "price": "14580.00",
       "link": "https://www.farmaonline.com/viasek-8136581/p",
@@ -6889,6 +6793,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1334553/8136553_0.jpg?v=638810304467930000"
     },
     {
+      "name": "Maquina de afeitar prestobarba 3 carbono (2 unidades)",
+      "price": "5458.00",
+      "link": "https://www.farmaonline.com/gillette-8136522/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1331529/8136522_0.jpg?v=638791278193800000"
+    },
+    {
       "name": "Shampoo anti resequedad 180 ml",
       "price": "4555.50",
       "link": "https://www.farmaonline.com/head---shoulders-8136518/p",
@@ -6899,12 +6809,6 @@
       "price": "3852.58",
       "link": "https://www.farmaonline.com/axe-8136453/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1349429/8136453_0.jpg?v=638882786520730000"
-    },
-    {
-      "name": "Máscara de tratamiento Luminous UV 300 gr",
-      "price": "3882.62",
-      "link": "https://www.farmaonline.com/sedal-8136451/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1348997/8136451_0.jpg?v=638882777457330000"
     },
     {
       "name": "Crema luminous white carbon activado 90 gr",
@@ -6931,22 +6835,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1328724/8136191_0.jpg?v=638785256905630000"
     },
     {
-      "name": "Aceite para pestañas 50 ml",
-      "price": "11484.00",
-      "link": "https://www.farmaonline.com/veganis-8136190/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1328708/8136190_0.jpg?v=638785256671800000"
-    },
-    {
       "name": "Serum cejas Oil 10 ml",
       "price": "11832.00",
       "link": "https://www.farmaonline.com/veganis-8136189/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1328687/8136189_0.jpg?v=638785256431570000"
-    },
-    {
-      "name": "Chupete ultra air deco 0-6m arco iris",
-      "price": "13999.00",
-      "link": "https://www.farmaonline.com/avent-8136025/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1313715/8136025_0.jpg?v=638754841375700000"
     },
     {
       "name": "Agua micelar hidratante facial 295 ml",
@@ -6985,12 +6877,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1296568/8135713_0.jpg?v=638730636498800000"
     },
     {
-      "name": "Enjuague bucal advanced antibacterial menta suave 500 ml",
-      "price": "6688.50",
-      "link": "https://www.farmaonline.com/gum-8135710/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1296566/8135710_0.jpg?v=638730631080800000"
-    },
-    {
       "name": "Pants premium xg (22 unidades)",
       "price": "12791.35",
       "link": "https://www.farmaonline.com/babysec-8135656/p",
@@ -7009,12 +6895,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1300355/8135637_0.jpg?v=638736720141870000"
     },
     {
-      "name": "Agua micelar + 200 ml",
-      "price": "9453.55",
-      "link": "https://www.farmaonline.com/perpiel-8135566/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1295074/8135566_0.jpg?v=638720268270470000"
-    },
-    {
       "name": "Kit frutastica morango (shampoo + enjuague) 325 ml",
       "price": "8990.00",
       "link": "https://www.farmaonline.com/skala-8135520/p",
@@ -7025,6 +6905,12 @@
       "price": "6190.00",
       "link": "https://www.farmaonline.com/skala-8135514/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1313642/8135514_0.jpg?v=638754823102900000"
+    },
+    {
+      "name": "Limpiador oil free 177 ml",
+      "price": "16666.28",
+      "link": "https://www.farmaonline.com/cetaphil-8135488/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1296481/8135488_0.jpg?v=638727259162830000"
     },
     {
       "name": "Intimy gel 100 ml",
@@ -7099,10 +6985,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1333419/8134944_0.jpg?v=638796471980730000"
     },
     {
-      "name": "Fotoprotector invisible stick spf50+ 10 gr",
-      "price": "39895.23",
-      "link": "https://www.farmaonline.com/isdin-8134837/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1295988/8134837_0.jpg?v=638723870211670000"
+      "name": "Spray capilar protector termico plex 190 ml",
+      "price": "12400.00",
+      "link": "https://www.farmaonline.com/capilatis-8134908/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1287788/8134908_0.jpg?v=638669491079300000"
     },
     {
       "name": "Socorro capilar tratamiento intensivo 60 gr",
@@ -7153,6 +7039,18 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1359449/8134348_0.jpg?v=638894866383230000"
     },
     {
+      "name": "Cepillo secador y voluminizador one step de pelo",
+      "price": "74399.20",
+      "link": "https://www.farmaonline.com/revlon-8134296/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1357449/8134296_0.jpg?v=638894091910230000"
+    },
+    {
+      "name": "Hairstick antifrizz oleo argan 12 ml",
+      "price": "16289.00",
+      "link": "https://www.farmaonline.com/biferdil-8134280/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1274040/8134280_0.jpg?v=638633874188300000"
+    },
+    {
       "name": "Protector solar fps 50 corporal emulsión 175 ml",
       "price": "20333.35",
       "link": "https://www.farmaonline.com/aveno-8134269/p",
@@ -7165,16 +7063,16 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1319716/8134265_0.jpg?v=638772180708500000"
     },
     {
-      "name": "Rubor cremoso",
-      "price": "14500.00",
-      "link": "https://www.farmaonline.com/zaira-beauty-8134240/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1278760/8134240_0.jpg?v=638648670403400000"
-    },
-    {
       "name": "Minerales Quelatados (30 cápsulas rígidas)",
       "price": "19661.00",
       "link": "https://www.farmaonline.com/vitamin-way-8134221/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1278837/8134221_0.jpg?v=638648784210530000"
+    },
+    {
+      "name": "Menocare gel 100 ml",
+      "price": "26406.00",
+      "link": "https://www.farmaonline.com/viasek-8134133/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1290292/8134133_0.jpg?v=638694369191300000"
     },
     {
       "name": "Fragancia nero riserva edp 100 ml",
@@ -7199,6 +7097,12 @@
       "price": "13974.00",
       "link": "https://www.farmaonline.com/cher-8133789/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1362510/8133789_0.jpg?v=638907744223230000"
+    },
+    {
+      "name": "Delineador lip liner forever",
+      "price": "13590.00",
+      "link": "https://www.farmaonline.com/cher-8133787/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1362683/8133787_0.jpg?v=638907749128100000"
     },
     {
       "name": "Polvo compacto perfecting powder compact",
@@ -7279,6 +7183,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1256323/8133072_0.jpg?v=638578548367670000"
     },
     {
+      "name": "Jabon liquido coco hidrata y suaviza doypack 200 ml",
+      "price": "2517.00",
+      "link": "https://www.farmaonline.com/vn-8133068/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1256322/8133068_0.jpg?v=638578548342300000"
+    },
+    {
       "name": "Protector solar protección y piel sensible fps 50 200 ml",
       "price": "16378.56",
       "link": "https://www.farmaonline.com/nivea-8133052/p",
@@ -7327,6 +7237,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1242199/8132325_0.jpg?v=638537607067730000"
     },
     {
+      "name": "Jabón en barra piel sensible  90 gr (3 unidades)",
+      "price": "5418.55",
+      "link": "https://www.farmaonline.com/dove-8132294/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1244963/8132294_0.jpg?v=638543475490700000"
+    },
+    {
       "name": "Jabón líquido con glicerina piel sensible 250 ml",
       "price": "3420.61",
       "link": "https://www.farmaonline.com/dove-8132293/p",
@@ -7357,6 +7273,18 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1348529/8132070_0.jpg?v=638882772331800000"
     },
     {
+      "name": "Mascarilla  Glycolic Gloss 300gr",
+      "price": "9569.00",
+      "link": "https://www.farmaonline.com/elvive-8131944/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1306387/8131944_0.jpg?v=638742999017130000"
+    },
+    {
+      "name": "Toalla femenina  ultrafina puro y natural (10 unidades)",
+      "price": "2480.71",
+      "link": "https://www.farmaonline.com/kotex-8131847/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1260563/8131847_0.jpg?v=638593548111230000"
+    },
+    {
       "name": "Citrato de magnesio 400 (30 comprimidos)",
       "price": "19772.44",
       "link": "https://www.farmaonline.com/quelat-8131831/p",
@@ -7375,28 +7303,28 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1359405/8131653_0.jpg?v=638894859566730000"
     },
     {
-      "name": "Máscara de tela ultra volumen + estructura 15 ml",
-      "price": "8547.24",
-      "link": "https://www.farmaonline.com/dermaglos-8131629/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1208176/8131629_0.jpg?v=638528104613030000"
-    },
-    {
       "name": "Máscara de tela ultra hidratación",
       "price": "6587.98",
       "link": "https://www.farmaonline.com/dermaglos-8131628/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1223012/8131628_0.jpg?v=638531991328970000"
     },
     {
-      "name": "Jabón líquido bromelia doypack 220 ml",
-      "price": "2287.45",
-      "link": "https://www.farmaonline.com/lux-8131601/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1233570/8131601_0.jpg?v=638534976619100000"
+      "name": "Jabón en barra orquidea negra 120 gr (3 unidades)",
+      "price": "3534.58",
+      "link": "https://www.farmaonline.com/lux-8131585/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1249811/8131585_0.jpg?v=638557992678100000"
     },
     {
       "name": "Suplemento Performance a base de vitaminas y magnesio (30 comp ef)",
       "price": "25602.48",
       "link": "https://www.farmaonline.com/supradyn-8131578/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1269187/8131578_0.jpg?v=638615821545230000"
+    },
+    {
+      "name": "Crema tratamiento 2 en 1 potao do amor 1000 gr",
+      "price": "6190.00",
+      "link": "https://www.farmaonline.com/skala-8131572/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1225256/8131572_0.jpg?v=638532566630700000"
     },
     {
       "name": "Crema tratamiento 2 en 1 amido de milho 1000 gr",
@@ -7417,6 +7345,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1236478/8131486_0.jpg?v=638536165292270000"
     },
     {
+      "name": "Colágeno beauty + flex bebible polvo 360 gr",
+      "price": "35353.00",
+      "link": "https://www.farmaonline.com/vitamin-way-8131484/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1236877/8131484_0.jpg?v=638536273580700000"
+    },
+    {
       "name": "Oleo capilar repair \u0026 defense 55 ml",
       "price": "6636.99",
       "link": "https://www.farmaonline.com/alfaparf-alta-moda-8131436/p",
@@ -7433,6 +7367,12 @@
       "price": "3481.44",
       "link": "https://www.farmaonline.com/alfaparf-alta-moda-8131415/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1221392/8131415_0.jpg?v=638531556915670000"
+    },
+    {
+      "name": "Shampoo perfect liss \u0026 long 300 ml",
+      "price": "3481.44",
+      "link": "https://www.farmaonline.com/alfaparf-alta-moda-8131403/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1221391/8131403_0.jpg?v=638531556833800000"
     },
     {
       "name": "Shampoo detox purify 300 ml",
@@ -7481,18 +7421,6 @@
       "price": "6979.00",
       "link": "https://www.farmaonline.com/primont-8131089/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1226434/8131089_0.jpg?v=638532891494300000"
-    },
-    {
-      "name": "Desenredante instantaneo top finish 250 ml",
-      "price": "8519.00",
-      "link": "https://www.farmaonline.com/primont-8131043/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1224611/8131043_0.jpg?v=638532385799730000"
-    },
-    {
-      "name": "Cepillo de espalda de madera",
-      "price": "6426.09",
-      "link": "https://www.farmaonline.com/apper-8131014/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1313601/8131014_0.jpg?v=638754763123170000"
     },
     {
       "name": "Cepillo dental multi-clean",
@@ -7549,10 +7477,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1349951/8130776_0.jpg?v=638882833530770000"
     },
     {
-      "name": "Crema para manos hidratación más regeneración",
-      "price": "8775.54",
-      "link": "https://www.farmaonline.com/dermaglos-8130738/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1226020/8130738_0.jpg?v=638532781098370000"
+      "name": "Refill emulsión humectante de uso diario 250 ml",
+      "price": "26687.82",
+      "link": "https://www.farmaonline.com/aveno-8130745/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1272526/8130745_0.jpg?v=638624504783930000"
     },
     {
       "name": "Fragancia incanto di fiore edt 100 ml",
@@ -7589,12 +7517,6 @@
       "price": "3175.00",
       "link": "https://www.farmaonline.com/roby-8130259/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1250117/8130259_0.jpg?v=638560440350430000"
-    },
-    {
-      "name": "Spray fijacion antifrizz 180 ml",
-      "price": "5905.00",
-      "link": "https://www.farmaonline.com/roby-8130257/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1250129/8130257_0.jpg?v=638560440563830000"
     },
     {
       "name": "Serum acneique 30 ml",
@@ -7669,12 +7591,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1224694/8129265_0.jpg?v=638532390298230000"
     },
     {
-      "name": "Protector solar humectante sun protect and hydrate fps50 200 ml",
-      "price": "15646.57",
-      "link": "https://www.farmaonline.com/nivea-8129253/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1274020/8129253_0.jpg?v=638633197653800000"
-    },
-    {
       "name": "Protector solar sun babies and kids sensitive 5 en 1 fps65 200 ml",
       "price": "16378.56",
       "link": "https://www.farmaonline.com/nivea-8129251/p",
@@ -7709,12 +7625,6 @@
       "price": "1490.26",
       "link": "https://www.farmaonline.com/suave-8129119/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1236305/8129119_0.jpg?v=638536057680630000"
-    },
-    {
-      "name": "Fragancia sofia atelier 2 edp 100 ml",
-      "price": "31492.50",
-      "link": "https://www.farmaonline.com/sarkany-8129016/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1323258/8129016_1.jpg?v=638775760037000000"
     },
     {
       "name": "Jabon liquido frutos rojos crema 220 ml",
@@ -7801,6 +7711,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1235845/8128334_0.jpg?v=638535877998270000"
     },
     {
+      "name": "Protector solar fps 50 250 ml",
+      "price": "16280.00",
+      "link": "https://www.farmaonline.com/vn-8128315/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1235855/8128315_0.jpg?v=638535878806500000"
+    },
+    {
       "name": "Protector solar fps 50 120 ml",
       "price": "10120.00",
       "link": "https://www.farmaonline.com/vn-8128313/p",
@@ -7811,12 +7727,6 @@
       "price": "74309.87",
       "link": "https://www.farmaonline.com/eucerin-8128233/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1333689/8128233_0.jpg?v=638798031796600000"
-    },
-    {
-      "name": "Body splash invencible men EDT 125 ml",
-      "price": "5546.37",
-      "link": "https://www.farmaonline.com/acqua-di-fiore-8128070/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1323010/8128070_0.jpg?v=638774738120600000"
     },
     {
       "name": "Body splash 202 men nyc 125 ml",
@@ -7975,12 +7885,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1262059/8127126_0.jpg?v=638598510805000000"
     },
     {
-      "name": "Crema hidratante para bebé   200 ml",
-      "price": "5099.62",
-      "link": "https://www.farmaonline.com/johnsons-baby-8126923/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1316564/8126923_0.jpg?v=638756846096600000"
-    },
-    {
       "name": "Pañales baby dry recién nacido rn+ (36 unidades)",
       "price": "20362.00",
       "link": "https://www.farmaonline.com/pampers-8126901/p",
@@ -8029,6 +7933,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1242849/8126398_0.jpg?v=638539757329570000"
     },
     {
+      "name": "Tónico hidratante 180 ml",
+      "price": "15000.00",
+      "link": "https://www.farmaonline.com/clasica-by-caviahue-8126281/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1257191/8126281_0.jpg?v=638581392596030000"
+    },
+    {
       "name": "Leche de limpieza facial 175 gr",
       "price": "15000.00",
       "link": "https://www.farmaonline.com/clasica-by-caviahue-8126279/p",
@@ -8059,12 +7969,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1232824/8125643_0.jpg?v=638534725095330000"
     },
     {
-      "name": "Suavizante Concentrado Brisa Elegante 500 ml",
-      "price": "5494.96",
-      "link": "https://www.farmaonline.com/comfort-8125501/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1361791/8125501_0.jpg?v=638907679579400000"
-    },
-    {
       "name": "Duo exfoliante para pies (exfoliante 7 grs + crema hidratante 7 grs)",
       "price": "2990.00",
       "link": "https://www.farmaonline.com/acf-8125375/p",
@@ -8087,12 +7991,6 @@
       "price": "21250.00",
       "link": "https://www.farmaonline.com/bor-8124897/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1313769/8124897_0.jpg?v=638754942825430000"
-    },
-    {
-      "name": "Shampoo reparación by medicasp 400 ml",
-      "price": "18989.99",
-      "link": "https://www.farmaonline.com/triatop-8124811/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1228172/8124811_0.jpg?v=638533358726200000"
     },
     {
       "name": "Suplemento dietario descanso (20 comprimidos)",
@@ -8167,6 +8065,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1221223/8123202_0.jpg?v=638531451277830000"
     },
     {
+      "name": "Crema repelente de insectos family 196 gr",
+      "price": "4776.58",
+      "link": "https://www.farmaonline.com/off-8123192/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1345964/8123192_0.jpg?v=638881208064500000"
+    },
+    {
       "name": "Crema hidratacion extrema 250 ml",
       "price": "5681.00",
       "link": "https://www.farmaonline.com/hinds-8123119/p",
@@ -8207,6 +8111,12 @@
       "price": "75467.60",
       "link": "https://www.farmaonline.com/vichy-neovadiol-post-menopausia-crema-da-50ml-8122750/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1232259/8122750_1.jpg?v=638534544396600000"
+    },
+    {
+      "name": "Toallas humedas la granja de zenon doypack (100 unidades)",
+      "price": "2273.23",
+      "link": "https://www.farmaonline.com/dispita-8122730/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1250628/8122730_0.jpg?v=638560590253270000"
     },
     {
       "name": "Esmalte top coat diamond gel",
@@ -8335,6 +8245,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1357363/8121372_0.jpg?v=638894046760230000"
     },
     {
+      "name": "Crema hidratante pies resecos 88 ml",
+      "price": "16927.95",
+      "link": "https://www.farmaonline.com/cerave-crema-hidratante-pies-resecos-88-ml-8121263/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1265426/8121263_0.jpg?v=638606420051300000"
+    },
+    {
       "name": "Crema Hidratante 340 ml",
       "price": "28878.85",
       "link": "https://www.farmaonline.com/cerave-crema-hidratante-340-ml-8121257/p",
@@ -8363,12 +8279,6 @@
       "price": "28467.00",
       "link": "https://www.farmaonline.com/rimmel-base-de-maquillaje-kind--free-skin-tint-8120917/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1278064/8120917_1.jpg?v=638647886140970000"
-    },
-    {
-      "name": "Sérum triple efecto dermopure oil control para manchas post acné",
-      "price": "53021.68",
-      "link": "https://www.farmaonline.com/eucerin-srum-triple-efecto-dermopure-oil-control-para-manchas-post-acn-8120810/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1312310/8120810_0.jpg?v=638748879602900000"
     },
     {
       "name": "Capillaire sh caspa g 190",
@@ -8455,6 +8365,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1321891/8119631_0.jpg?v=638774306186100000"
     },
     {
+      "name": "Sérum capilar coconut milk 118 ml",
+      "price": "20282.33",
+      "link": "https://www.farmaonline.com/ogx-srum-capilar-coconut-milk-118-ml-8119417/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1331695/8119417_0.jpg?v=638793043071030000"
+    },
+    {
       "name": "Óleo capilar Argan Oil Of Morocco 100 ml",
       "price": "20282.33",
       "link": "https://www.farmaonline.com/ogx-leo-capilar-argan-oil-of-morocco-100-ml-8119415/p",
@@ -8519,6 +8435,12 @@
       "price": "31531.00",
       "link": "https://www.farmaonline.com/centrum-suplemento-dietario-hombre-multivitamnico-60-comprimidos-8118936/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1274590/8118936_0.jpg?v=638634859765400000"
+    },
+    {
+      "name": "Protector solar fps 50 familiar 170 ml",
+      "price": "19200.00",
+      "link": "https://www.farmaonline.com/caviahue-protector-solar-fps-50-familiar-170-ml-8118718/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1222312/8118718_0.jpg?v=638531809077100000"
     },
     {
       "name": "Protector solar fps 50+ gluten free 150 gr",
@@ -8623,6 +8545,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1230829/8117618_0.jpg?v=638534077139470000"
     },
     {
+      "name": "Repelente de mosquitos extra duración aerosol 170 ml",
+      "price": "9358.06",
+      "link": "https://www.farmaonline.com/off-repelente-de-mosquitos-extra-duracin-aerosol-170-ml-8117608/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1275877/8117608_0.jpg?v=638645989629900000"
+    },
+    {
       "name": "Crema facial defensa am/pm by dadatina 50 gr",
       "price": "25900.00",
       "link": "https://www.farmaonline.com/acf-by-dadatina-crema-facial-defensa-ampm-by-dadatina-50-gr-8117584/p",
@@ -8647,12 +8575,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1228948/8117581_0.jpg?v=638533579701170000"
     },
     {
-      "name": "Activador y humidificador amo mis rulos 285 ml",
-      "price": "12790.00",
-      "link": "https://www.farmaonline.com/nic-activador-y-humidificador-amo-mis-rulos-285-ml-8117579/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1221018/8117579_0.jpg?v=638531378508570000"
-    },
-    {
       "name": "Gotas probióticas con vitamina D 5 ml",
       "price": "35527.68",
       "link": "https://www.farmaonline.com/biogaia-gotas-probiticas-con-vitamina-d-5-ml-8117488/p",
@@ -8669,12 +8591,6 @@
       "price": "5047.12",
       "link": "https://www.farmaonline.com/apper-set-corta-uas-para-beb--lima-8117305/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1219960/8117305_0.jpg?v=638531125209600000"
-    },
-    {
-      "name": "CEPILLO DE UÑAS",
-      "price": "1721.06",
-      "link": "https://www.farmaonline.com/apper-cepillo-de-uas-8117303/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1328333/8117303_0.jpg?v=638785188319300000"
     },
     {
       "name": "Hydraphase ha ligera facial hidratante 50 ml",
@@ -8705,12 +8621,6 @@
       "price": "4668.63",
       "link": "https://www.farmaonline.com/estrella-oleo-calcareo-con-manzanilla-250-ml-8116819/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1355640/8116819_0.jpg?v=638888604890500000"
-    },
-    {
-      "name": "Acondicionador hidra hialuronico 200 ml",
-      "price": "3800.30",
-      "link": "https://www.farmaonline.com/elvive-acondicionador-hidra-hialuronico-200-ml-8116372/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1226366/8116372_0.jpg?v=638532857518300000"
     },
     {
       "name": "Shampoo hidra hialuronico 200 ml",
@@ -8767,6 +8677,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1232028/8115416_0.jpg?v=638534473263600000"
     },
     {
+      "name": "Anthelios protección solar diaria age correct f50 50 ml",
+      "price": "47778.00",
+      "link": "https://www.farmaonline.com/la-roche-posay-anthelios-proteccin-solar-diaria-age-correct-f50-50-ml-8115415/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1224427/8115415_0.jpg?v=638532315018430000"
+    },
+    {
       "name": "Agua Micelar Humectante 600 ml",
       "price": "10199.77",
       "link": "https://www.farmaonline.com/teatrical-agua-micelar-humectante-600-ml-8115308/p",
@@ -8821,12 +8737,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1235187/8114420_0.jpg?v=638535627152700000"
     },
     {
-      "name": "Hidratación intensiva antiestrías corporal 400 ml",
-      "price": "9092.75",
-      "link": "https://www.farmaonline.com/cicatricure-hidratacin-intensiva-antiestras-corporal-400-ml-8114207/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1222725/8114207_0.jpg?v=638531918227870000"
-    },
-    {
       "name": "Hyalu-c concentré 15 ml",
       "price": "45900.00",
       "link": "https://www.farmaonline.com/eximia-hyalu-c-concentr-15-ml-8113932/p",
@@ -8873,12 +8783,6 @@
       "price": "7676.69",
       "link": "https://www.farmaonline.com/pampers-paal-splashers-para-agua-8112090/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1367325/8112090_0.jpg?v=638926779618030000"
-    },
-    {
-      "name": "Pincel blender de ojos",
-      "price": "5453.50",
-      "link": "https://www.farmaonline.com/fascino-pincel-blender-de-ojos-8112083/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1230284/8112083_0.jpg?v=638533901122500000"
     },
     {
       "name": "Serum reparador de puntas oleo de argán de morocco 30 ml",
@@ -8965,6 +8869,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1358825/8043111_0.jpg?v=638894222896100000"
     },
     {
+      "name": "Detergente active gel limon 500 ml",
+      "price": "2817.98",
+      "link": "https://www.farmaonline.com/cif-detergente-active-gel-limon-500-ml-8042865/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1359204/8042865_0.jpg?v=638894400673600000"
+    },
+    {
       "name": "Clorofila cleanse (30 cápsulas)",
       "price": "6572.30",
       "link": "https://www.farmaonline.com/vitamin-way-clorofila-cleanse-30-cpsulas-8042803/p",
@@ -9001,6 +8911,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1358931/8042649_0.jpg?v=638894258333770000"
     },
     {
+      "name": "Si-nails varnish fortalecedor de uñas 2.5 ml",
+      "price": "29373.67",
+      "link": "https://www.farmaonline.com/isdin-si-nails-varnish-fortalecedor-de-uas-2-5-ml-8042622/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1261771/8042622_0.jpg?v=638597689538030000"
+    },
+    {
       "name": "Laroche lipikar baume ap+m corporal piel extra seca 400 ml",
       "price": "72941.60",
       "link": "https://www.farmaonline.com/la-roche-posay-laroche-lipikar-baume-apm-corporal-piel-extra-seca-400-ml-8042458/p",
@@ -9011,12 +8927,6 @@
       "price": "9595.36",
       "link": "https://www.farmaonline.com/elmex-cepillo-de-dientes-ultrasuave-2-unidades-8042443/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1253690/8042443_0.jpg?v=638563963703870000"
-    },
-    {
-      "name": "Desodorante antitranspirante fútbol fanaticas en aerosol 150 ml",
-      "price": "2511.76",
-      "link": "https://www.farmaonline.com/rexona-desodorante-antitranspirante-ftbol-fanaticas-en-aerosol-150-ml-8042278/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1294316/8042278-0.jpg?v=638701549751930000"
     },
     {
       "name": "Acondicionador regeneración extrema 400 ml",
@@ -9073,12 +8983,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1234101/8041201_0.jpg?v=638535158588600000"
     },
     {
-      "name": "Toallas desmaquillantes agua micelar (25 unidades)",
-      "price": "4508.91",
-      "link": "https://www.farmaonline.com/q-soft-toallas-desmaquillantes-agua-micelar-25-unidades-8040942/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1223843/8040942_0.jpg?v=638532169762600000"
-    },
-    {
       "name": "Suplemento dietario spirulina (60 cápsulas)",
       "price": "4193.50",
       "link": "https://www.farmaonline.com/vitamin-way-suplemento-dietario-spirulina-60-cpsulas-8040933/p",
@@ -9089,6 +8993,12 @@
       "price": "3592.51",
       "link": "https://www.farmaonline.com/estrella-paales-premium-8040930/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1367425/8028976_0.jpg?v=638926780947770000"
+    },
+    {
+      "name": "Suplemento dietario relax noche (20 cápsulas)",
+      "price": "7587.00",
+      "link": "https://www.farmaonline.com/vitamin-way-suplemento-dietario-relax-noche-20-cpsulas-8040925/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1228788/8040925_0.jpg?v=638533538643700000"
     },
     {
       "name": "Suplemento dietario omega 3 duo (60 cápsulas)",
@@ -9125,6 +9035,12 @@
       "price": "13541.50",
       "link": "https://www.farmaonline.com/vitamin-way-suplemento-dietario-arandano-ury-estuche-60-cpsulas-8040890/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1228771/8040890_0.jpg?v=638533537432430000"
+    },
+    {
+      "name": "Cepillo dental classic 211 suave (2 unidades)",
+      "price": "9447.77",
+      "link": "https://www.farmaonline.com/gum-cepillo-dental-classic-211-suave-2-unidades-8040816/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1232786/8040816_0.jpg?v=638534692007230000"
     },
     {
       "name": "Crema facial antiarrugas reafirmante 50 gr",
@@ -9169,16 +9085,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1301590/8040306_0.jpg?v=638737811645900000"
     },
     {
-      "name": "Mascarilla para ojos naranja biodegradable (1 unidad)",
-      "price": "6230.00",
-      "link": "https://www.farmaonline.com/garnier-mascarilla-para-ojos-naranja-biodegradable-1-unidad-8040151/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1229508/8040151_0.jpg?v=638533752985700000"
-    },
-    {
-      "name": "Polvo compacto resist 14 Gr",
-      "price": "8917.50",
-      "link": "https://www.farmaonline.com/vogue-polvo-compacto-resist-14-gr-8040138/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1296058/8040138_0.jpg?v=638725511759230000"
+      "name": "CC cream facial pro bio 50 gr",
+      "price": "19019.87",
+      "link": "https://www.farmaonline.com/bagovit-cc-cream-facial-pro-bio-50-gr-8040108/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1301394/8040108_0.jpg?v=638737809310370000"
     },
     {
       "name": "Crema facial revitalizante de día 50 gr",
@@ -9241,12 +9151,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1341982/8039654_0.jpg?v=638844912922130000"
     },
     {
-      "name": "Multivitamínico a base de vitaminas - minerales y oligoelementos (30 comp)",
-      "price": "17030.52",
-      "link": "https://www.farmaonline.com/supradyn-multivitamnico-a-base-de-vitaminas---minerales-y-oligoelementos-30-comp-8039635/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1268704/8039635_0.jpg?v=638615815475630000"
-    },
-    {
       "name": "Ropa interior femme pant p/m (8 unidades)",
       "price": "20589.98",
       "link": "https://www.farmaonline.com/plenitud-ropa-interior-femme-pant-pm-8-unidades-8039609/p",
@@ -9271,6 +9175,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1234816/8039466_0.jpg?v=638535480751700000"
     },
     {
+      "name": "Acondicionador aloe hidra clean 200 ml",
+      "price": "2785.30",
+      "link": "https://www.farmaonline.com/fructis-acondicionador-aloe-hidra-clean-200-ml-8039205/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1284774/8039205_0.jpg?v=638658193546200000"
+    },
+    {
       "name": "Hydra légère crema facial hidratante 50 gr",
       "price": "37000.00",
       "link": "https://www.farmaonline.com/eximia-hydra-lgre-crema-facial-hidratante-50-gr-8039048/p",
@@ -9293,12 +9203,6 @@
       "price": "85555.40",
       "link": "https://www.farmaonline.com/la-roche-posay-pure-vitamin-c-10-serum-antioxidante-30-ml-8038971/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1230108/8038971_0.jpg?v=638533866113670000"
-    },
-    {
-      "name": "Palillos soft picks medium x 40u",
-      "price": "7115.14",
-      "link": "https://www.farmaonline.com/gum-palillos-soft-picks-medium-x-40u-8038946/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1239656/8038946_0.jpg?v=638537104197600000"
     },
     {
       "name": "Pasta dental kids paw patrol 100 gr",
@@ -9349,12 +9253,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1231430/8038803_0.jpg?v=638534224450200000"
     },
     {
-      "name": "Mascarilla Purificante carbón detox Peel Off 30 g",
-      "price": "12043.89",
-      "link": "https://www.farmaonline.com/asepxia-mascarilla-purificante-carbn-detox-peel-off-30-g-8038696/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1220992/8038696_0.jpg?v=638531377737570000"
-    },
-    {
       "name": "Fantasy 1 aro vibrador",
       "price": "16708.48",
       "link": "https://www.farmaonline.com/prime-fantasy-1-aro-vibrador-8038679/p",
@@ -9403,6 +9301,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1341940/8037815_0.jpg?v=638844910404770000"
     },
     {
+      "name": "Crema corporal maxima hidratacion 350 ml",
+      "price": "4544.66",
+      "link": "https://www.farmaonline.com/dermogreen-crema-corporal-maxima-hidratacion-350-ml-8037607/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1221023/8037607_0.jpg?v=638531378898630000"
+    },
+    {
       "name": "Gel para Cicatrices 60 g",
       "price": "18990.44",
       "link": "https://www.farmaonline.com/cicatricure-gel-para-cicatrices-60-g-8037581/p",
@@ -9419,6 +9323,12 @@
       "price": "2317.90",
       "link": "https://www.farmaonline.com/dermogreen-crema-de-manos-y-cuerpo-humectacion-total-160-ml-8037483/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1227677/8037483_0.jpg?v=638533214497500000"
+    },
+    {
+      "name": "Crema de manos y cuerpo hidratacion total 160 ml",
+      "price": "2317.90",
+      "link": "https://www.farmaonline.com/dermogreen-crema-de-manos-y-cuerpo-hidratacion-total-160-ml-8037482/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1230918/8037482_0.jpg?v=638534080857930000"
     },
     {
       "name": "Crema ph5 intensiva corporal para piel seca y sensible",
@@ -9511,6 +9421,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1311539/8035432_0.jpg?v=638748839661100000"
     },
     {
+      "name": "Crema facial para hombres 45 gr",
+      "price": "26950.00",
+      "link": "https://www.farmaonline.com/caviahue-crema-facial-para-hombres-45-gr-8035153/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1218269/8035153_0.jpg?v=638530661071600000"
+    },
+    {
       "name": "Agua micelar bifasica hidra total 200 ml",
       "price": "14900.00",
       "link": "https://www.farmaonline.com/loreal-paris-agua-micelar-bifasica-hidra-total-200-ml-8035145/p",
@@ -9557,6 +9473,12 @@
       "price": "5618.27",
       "link": "https://www.farmaonline.com/colgate-cepillo-de-dientes-periogard-extra-soft-1-unidad-8034849/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1317978/8034849_0.jpg?v=638763655508000000"
+    },
+    {
+      "name": "Suplemento dietario fibra (60 pastilla de goma)",
+      "price": "15709.99",
+      "link": "https://www.farmaonline.com/simple-suplemento-dietario-fibra-60-pastilla-de-goma-8034845/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1303029/8034845_0.jpg?v=638737829288330000"
     },
     {
       "name": "Suplemento dietario calcio + vitamina d (60 pastilla de goma)",
@@ -9611,6 +9533,12 @@
       "price": "1788.94",
       "link": "https://www.farmaonline.com/bitter-cera-capilar-argan-30-g-8033674/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1217577/8033674_0.jpg?v=638530480200230000"
+    },
+    {
+      "name": "Aceite capilar argan 60 ml",
+      "price": "2807.68",
+      "link": "https://www.farmaonline.com/bitter-aceite-capilar-argan-60-ml-8033668/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1217565/8033668_0.jpg?v=638530479037670000"
     },
     {
       "name": "Aceite capilar lino 100 ml",
@@ -9685,12 +9613,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1318078/8031395_0.jpg?v=638767843394070000"
     },
     {
-      "name": "Shampoo sports active fresh 3en1 400 ml",
-      "price": "4615.67",
-      "link": "https://www.farmaonline.com/dove-shampoo-sports-active-fresh-3en1-400-ml-8031371/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1216150/8031371_0.jpg?v=638530260630830000"
-    },
-    {
       "name": "Acondicionador goodbye daños 200 ml",
       "price": "2785.30",
       "link": "https://www.farmaonline.com/fructis-acondicionador-goodbye-daos-200-ml-8031054/p",
@@ -9713,12 +9635,6 @@
       "price": "2785.30",
       "link": "https://www.farmaonline.com/fructis-shampoo-recarga-nutritiva-200-ml-8031022/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1285110/8031022_0.jpg?v=638658207150300000"
-    },
-    {
-      "name": "Suplemento dietario magnesio (30 comprimidos)",
-      "price": "22989.02",
-      "link": "https://www.farmaonline.com/quelat-suplemento-dietario-magnesio-30-comprimidos-8030602/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1229122/8030602_0.jpg?v=638533644752830000"
     },
     {
       "name": "Suplemento dietario complex (30 comprimidos)",
@@ -9917,12 +9833,6 @@
       "price": "129975.16",
       "link": "https://www.farmaonline.com/ensure-suplemento-deportivo-advance-vainilla-lata-850-gr-8024339/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1213948/8024339_0.jpg?v=638529686991270000"
-    },
-    {
-      "name": "Foto ultra fusion fluid solar allergy spf 99+ 50 ml",
-      "price": "51121.74",
-      "link": "https://www.farmaonline.com/isdin-foto-ultra-fusion-fluid-solar-allergy-spf-99-50-ml-8024186/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1277049/8024186_0.jpg?v=638647707403000000"
     },
     {
       "name": "Aceite de ducha ph5 para piel sensible",
@@ -10141,10 +10051,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1212739/8020584_0.jpg?v=638529405921870000"
     },
     {
-      "name": "Crema corporal anti-celulitis 400 ml",
-      "price": "9348.40",
-      "link": "https://www.farmaonline.com/goicoechea-crema-corporal-anti-celulitis-400-ml-8019502/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1238562/8019502_0.jpg?v=638536849087330000"
+      "name": "Foto ultra fusion fluid spot prevent spf 99+ 50 ml",
+      "price": "50938.75",
+      "link": "https://www.farmaonline.com/isdin-foto-ultra-fusion-fluid-spot-prevent-spf-99-50-ml-8019649/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1277048/8019649_0.jpg?v=638647707238130000"
     },
     {
       "name": "Crema depilatoria axila y area de bikini piel sensible 100 ml",
@@ -10157,6 +10067,12 @@
       "price": "3905.02",
       "link": "https://www.farmaonline.com/dove-antitranspirante-invisible-dry-150-ml-8019452/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1293515/8019452-0.jpg?v=638701404754600000"
+    },
+    {
+      "name": "Protector solar fps 80 crema 90g",
+      "price": "23183.46",
+      "link": "https://www.farmaonline.com/dermaglos-protector-solar-fps-80-crema-90g-8019444/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1272381/8019444_0.jpg?v=638623638820130000"
     },
     {
       "name": "Polvo fecula bebe 180 gr",
@@ -10181,6 +10097,12 @@
       "price": "17200.00",
       "link": "https://www.farmaonline.com/cados-suplemento-dietrio-vitamina-k2-natural-30-comprimidos-8019151/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1228942/8019151_0.jpg?v=638533578923330000"
+    },
+    {
+      "name": "Mascarilla rts keratin 300gr",
+      "price": "8699.00",
+      "link": "https://www.farmaonline.com/elvive-mascarilla-rts-keratin-300gr-8019119/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1216679/8019119_0.jpg?v=638530333549430000"
     },
     {
       "name": "Mascarilla colorvive 300gr",
@@ -10345,16 +10267,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1294978/8013523-0.jpg?v=638718579452630000"
     },
     {
-      "name": "Autobronceante en spray 170 ml",
-      "price": "10245.90",
-      "link": "https://www.farmaonline.com/rayito-de-sol-autobronceante-en-spray-170-ml-8012791/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1277028/8012791_0.jpg?v=638647652245300000"
-    },
-    {
-      "name": "Desmaquillante Bifásico Oil Free 162 ml",
-      "price": "13183.55",
-      "link": "https://www.farmaonline.com/neutrogena-desmaquillante-bifsico-oil-free-162-ml-8012536/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1335221/8012536_0.jpg?v=638814429997900000"
+      "name": "Jabón de tocador avena 90 gr (3 unidades)",
+      "price": "2604.74",
+      "link": "https://www.farmaonline.com/protex-jabn-de-tocador-avena-90-gr-3-unidades-8012365/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1324149/8012365_0.jpg?v=638778374477730000"
     },
     {
       "name": "Rosaliac uv ligera fps15 40 ml",
@@ -10373,12 +10289,6 @@
       "price": "789.91",
       "link": "https://www.farmaonline.com/doncella-toallitas-con-alas-extrasuave-perfumadas-8-u-8012309/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1210752/8012309_0.jpg?v=638528859821070000"
-    },
-    {
-      "name": "Desodorante antitranspirante clinical men en crema 48 gr",
-      "price": "10231.22",
-      "link": "https://www.farmaonline.com/rexona-desodorante-antitranspirante-clinical-men-en-crema-48-gr-8012109/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1293392/8012109-0.jpg?v=638701370725200000"
     },
     {
       "name": "Desodorante rollon clean comfort 50 ml",
@@ -10483,16 +10393,16 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1321008/8008701_0.jpg?v=638773950407830000"
     },
     {
-      "name": "Desodorante roll on invisible for men 50 ml",
-      "price": "2463.92",
-      "link": "https://www.farmaonline.com/rexona-desodorante-roll-on-invisible-for-men-50-ml-8008484/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1344272/8008484_0.jpg?v=638872302697200000"
-    },
-    {
       "name": "Protector leve femme (14 unidades)",
       "price": "3294.05",
       "link": "https://www.farmaonline.com/plenitud-protector-leve-femme-14-unidades-8008339/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1260474/8008339_0.jpg?v=638593514064270000"
+    },
+    {
+      "name": "Jabón exfoliante  barra 100 g",
+      "price": "4450.62",
+      "link": "https://www.farmaonline.com/asepxia-jabn-exfoliante--barra-100-g-8007919/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1244817/8007919_0.jpg?v=638543438511830000"
     },
     {
       "name": "Desodorante aerosol black 250 ml",
@@ -10567,12 +10477,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1237040/8002588_0.jpg?v=638536344869030000"
     },
     {
-      "name": "Loción tónica ortiga concentrada 60 ml",
-      "price": "5600.00",
-      "link": "https://www.farmaonline.com/capilatis-locin-tnica-ortiga-concentrada-60-ml-8002237/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1237983/8002237_0.jpg?v=638536669307030000"
-    },
-    {
       "name": "Shampoo control de seborrea 250 ml",
       "price": "8700.00",
       "link": "https://www.farmaonline.com/koal-shampoo-control-de-seborrea-250-ml-8002137/p",
@@ -10603,12 +10507,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1209260/8001249_0.jpg?v=638528394049370000"
     },
     {
-      "name": "Ginkgo biloba 80 (30 comprimidos)",
-      "price": "5648.00",
-      "link": "https://www.farmaonline.com/garden-house-ginkgo-biloba-80-30-comprimidos-8001118/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1224723/8001118_0.jpg?v=638532420303030000"
-    },
-    {
       "name": "Emulsión corporal d3 400 gr",
       "price": "18137.29",
       "link": "https://www.farmaonline.com/perpiel-6710713/p",
@@ -10633,10 +10531,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1315859/6310403_0.jpg?v=638756737919500000"
     },
     {
-      "name": "Toallitas femeninas ultra delgadas tela seca con alas (8 unidades)",
-      "price": "2181.00",
-      "link": "https://www.farmaonline.com/ladysoft-6310272/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1224098/6310272_0.jpg?v=638532241434670000"
+      "name": "Toallitas femeninas tela ultraseca con alas (16 unidades)",
+      "price": "4241.00",
+      "link": "https://www.farmaonline.com/ladysoft-toallitas-femeninas-tela-ultraseca-con-alas-16-unidades-6310274/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1208757/6310274_0.jpg?v=638528283026000000"
     },
     {
       "name": "Body splash be good EDT for woman 125 ml",
@@ -10735,6 +10633,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1303337/6033472_0.jpg?v=638738628077130000"
     },
     {
+      "name": "Coloración en pomo rapid",
+      "price": "3618.00",
+      "link": "https://www.farmaonline.com/inecto-coloracin-en-pomo-rapid-6033404/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1350561/6030468_0.jpg?v=638887204518530000"
+    },
+    {
       "name": "Tinte para cabello",
       "price": "10833.45",
       "link": "https://www.farmaonline.com/soft-color-tinte-para-cabello-6031227/p",
@@ -10819,12 +10723,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1286937/10000980_0.jpg?v=638660676765770000"
     },
     {
-      "name": "Combo anthelios uv mune fluido x2",
-      "price": "65549.00",
-      "link": "https://www.farmaonline.com/combo-anthelios-uv-mune-fluido-x2-10000936/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1283823/10000936_0.jpg?v=638657328140300000"
-    },
-    {
       "name": "Combo rostro serum: true match serum + serum uv defender",
       "price": "50934.00",
       "link": "https://www.farmaonline.com/combo-rostro-serum--true-match-serum---serum-uv-defender10000922/p",
@@ -10849,6 +10747,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1256144/10000882_0.jpg?v=638574456101800000"
     },
     {
+      "name": "Combo de maquillaje infalibles de kendall: máscara panorama + labial le matte resistance",
+      "price": "41988.00",
+      "link": "https://www.farmaonline.com/combo-de-maquillaje-infalibles-de-kendall--mascara-panorama---labial-le-matte-resistance10000871/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1254959/10000871_0.jpg?v=638566686369830000"
+    },
+    {
       "name": "Combo facial  hombres rutina express",
       "price": "42017.90",
       "link": "https://www.farmaonline.com/combo-facial--hombres-rutina-express-10000860/p",
@@ -10867,12 +10771,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1202944/10000851_0.jpg?v=638519094121330000"
     },
     {
-      "name": "Combo desinfectante de pisos + repuesto",
-      "price": "4675.38",
-      "link": "https://www.farmaonline.com/combo-desinfectante-de-pisos---repuesto-10000838/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1196057/10000838_0.jpg?v=638503686612170000"
-    },
-    {
       "name": "Combo gel + espuma ph6.8",
       "price": "22334.40",
       "link": "https://www.farmaonline.com/combo-gel---espuma-ph6-8-10000824/p",
@@ -10883,12 +10781,6 @@
       "price": "15854.40",
       "link": "https://www.farmaonline.com/combo-gel---toallitas-humedas-10000822/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1190131/10000822_0.jpg?v=638494812102200000"
-    },
-    {
-      "name": "Combo limpieza: agua micelar bifásica + leche de limpieza",
-      "price": "17877.96",
-      "link": "https://www.farmaonline.com/combo-limpieza--agua-micelar-bifasica---leche-de-limpieza10000815/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1190240/10000815_0.jpg?v=638494836656570000"
     },
     {
       "name": "Combo Labial 16 hs intransferible",
@@ -10915,12 +10807,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1251224/10000772_0.jpg?v=638562324913200000"
     },
     {
-      "name": "Combo loción limpiadora piel grasa (2 unidades)",
-      "price": "51246.35",
-      "link": "https://www.farmaonline.com/combo-locion-limpiadora-piel-grasa--2-unidades-10000770/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1251216/10000770_0.jpg?v=638562324787470000"
-    },
-    {
       "name": "Combo espuma facial (2 unidades)",
       "price": "47585.63",
       "link": "https://www.farmaonline.com/combo-espuma-facial--2-unidades-10000768/p",
@@ -10937,6 +10823,12 @@
       "price": "19012.95",
       "link": "https://www.farmaonline.com/combo-creme-tono-6-rubio-oscuro---oleo-extraordinario-100-ml-10000715/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1342233/10000715_0.jpg?v=638846485798300000"
+    },
+    {
+      "name": "Combo tono 10 + hair food palta mascarilla",
+      "price": "13433.40",
+      "link": "https://www.farmaonline.com/combo-tono-10---hair-food-palta-mascarilla10000713/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1342227/10000713_0.jpg?v=638846485730430000"
     },
     {
       "name": "Combo limpieza y protección",
@@ -11021,6 +10913,12 @@
       "price": "6500.00",
       "link": "https://www.farmaonline.com/capilatis-locin-capilar-con-palo-amargo-lnea-piojos-100-ml-9999510/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1273015/9999510_0.jpg?v=638629566219630000"
+    },
+    {
+      "name": "Gel post solar refrescante 150g",
+      "price": "14456.62",
+      "link": "https://www.farmaonline.com/dermaglos-gel-post-solar-refrescante-150g-9995449/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1272345/9995449_0.jpg?v=638623638230600000"
     },
     {
       "name": "Pezonera siliconada (2 unidades)",
@@ -11167,6 +11065,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1342058/8137550_0.jpg?v=638845476736200000"
     },
     {
+      "name": "Antitranspirante roll-on fresh care durazno 50 ml",
+      "price": "2861.12",
+      "link": "https://www.farmaonline.com/dove-8137534/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1353761/8137534_0.jpg?v=638887959245170000"
+    },
+    {
       "name": "Labial reparador stick 4 gr",
       "price": "16904.61",
       "link": "https://www.farmaonline.com/isdin-8137530/p",
@@ -11177,12 +11081,6 @@
       "price": "4421.57",
       "link": "https://www.farmaonline.com/nosotras-8137511/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1341897/8137511_0.jpg?v=638844822091700000"
-    },
-    {
-      "name": "Sacapuntas universal points",
-      "price": "8025.00",
-      "link": "https://www.farmaonline.com/revlon-8137299/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1355231/8137299_0.jpg?v=638888352527930000"
     },
     {
       "name": "Crema hidratante nutritiva dermo protec 200 ml",
@@ -11221,10 +11119,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1341693/8136901_0.jpg?v=638842560494270000"
     },
     {
-      "name": "Removedor de vello (3 unidades)",
-      "price": "5645.46",
-      "link": "https://www.farmaonline.com/trim-8136850/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1334435/8136850_0.jpg?v=638809421209730000"
+      "name": "Toallas ultrafina seca con alas (8 unidades)",
+      "price": "5021.00",
+      "link": "https://www.farmaonline.com/always-8136851/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1334246/8136851_0.jpg?v=638808360175170000"
     },
     {
       "name": "Mascara colorstay full time",
@@ -11251,12 +11149,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1341675/8136610_0.jpg?v=638842380691270000"
     },
     {
-      "name": "Mascara morte subita 450 gr",
-      "price": "20690.00",
-      "link": "https://www.farmaonline.com/lola-8136600/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1341635/8136600_0.jpg?v=638842200576030000"
-    },
-    {
       "name": "Crema de peinar meu cacho minha vida 500 gr",
       "price": "18490.00",
       "link": "https://www.farmaonline.com/lola-8136595/p",
@@ -11279,12 +11171,6 @@
       "price": "5449.00",
       "link": "https://www.farmaonline.com/fructis-8136528/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1330815/8136528_0.jpg?v=638786976366430000"
-    },
-    {
-      "name": "Maquina de afeitar prestobarba 3 carbono (2 unidades)",
-      "price": "5458.00",
-      "link": "https://www.farmaonline.com/gillette-8136522/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1331529/8136522_0.jpg?v=638791278193800000"
     },
     {
       "name": "Desodorante aerosol Peach Infusion 150 ml",
@@ -11311,12 +11197,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1333570/8136352_0.jpg?v=638797122213970000"
     },
     {
-      "name": "Limpiador adhesivo para inodoro floral (3 unidades)",
-      "price": "2265.35",
-      "link": "https://www.farmaonline.com/pato-purific-8136255/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1360995/8136255_0.jpg?v=638906136653200000"
-    },
-    {
       "name": "Vitamina k2 de origen natural + Vit d3 (30 comprimidos)",
       "price": "25200.00",
       "link": "https://www.farmaonline.com/cados-8136249/p",
@@ -11327,6 +11207,12 @@
       "price": "2265.35",
       "link": "https://www.farmaonline.com/pato-purific-8136247/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1359015/8136247_0.jpg?v=638894293403670000"
+    },
+    {
+      "name": "Aceite para pestañas 50 ml",
+      "price": "11484.00",
+      "link": "https://www.farmaonline.com/veganis-8136190/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1328708/8136190_0.jpg?v=638785256671800000"
     },
     {
       "name": "Serum hyalu b5 15 ml",
@@ -11425,6 +11311,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1295078/8135567_0.jpg?v=638720268362470000"
     },
     {
+      "name": "Agua micelar + 200 ml",
+      "price": "9453.55",
+      "link": "https://www.farmaonline.com/perpiel-8135566/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1295074/8135566_0.jpg?v=638720268270470000"
+    },
+    {
       "name": "Crema tratamibneto frutastica melancia 1000 gr",
       "price": "6190.00",
       "link": "https://www.farmaonline.com/skala-8135543/p",
@@ -11447,12 +11339,6 @@
       "price": "8990.00",
       "link": "https://www.farmaonline.com/skala-8135517/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1313641/8135517_0.jpg?v=638754823087530000"
-    },
-    {
-      "name": "Limpiador oil free 177 ml",
-      "price": "16666.28",
-      "link": "https://www.farmaonline.com/cetaphil-8135488/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1296481/8135488_0.jpg?v=638727259162830000"
     },
     {
       "name": "Crema facial nutritiva con vitamina E y karite 50 gr",
@@ -11503,6 +11389,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1307881/8135314_0.jpg?v=638743693903800000"
     },
     {
+      "name": "Kit limpieza - hidratación",
+      "price": "52800.00",
+      "link": "https://www.farmaonline.com/caviahue-8135059/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1287857/8135059_0.jpg?v=638671020368500000"
+    },
+    {
       "name": "Protector solar mineral Tono Medio fps40 28 gr",
       "price": "17700.00",
       "link": "https://www.farmaonline.com/caviahue-8135058/p",
@@ -11533,10 +11425,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1287787/8134910_0.jpg?v=638669491053200000"
     },
     {
-      "name": "Spray capilar protector termico plex 190 ml",
-      "price": "12400.00",
-      "link": "https://www.farmaonline.com/capilatis-8134908/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1287788/8134908_0.jpg?v=638669491079300000"
+      "name": "Fotoprotector invisible stick spf50+ 10 gr",
+      "price": "39895.23",
+      "link": "https://www.farmaonline.com/isdin-8134837/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1295988/8134837_0.jpg?v=638723870211670000"
     },
     {
       "name": "Pompones de algodón 50 unidades",
@@ -11599,12 +11491,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1363551/8134602_0.jpg?v=638912076799670000"
     },
     {
-      "name": "Crema facial hidratante hyalu-cica moisture cream 75ml",
-      "price": "49999.20",
-      "link": "https://www.farmaonline.com/skin-1004-8134592/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1324858/8134592_0.jpg?v=638779175877930000"
-    },
-    {
       "name": "Base primer multi tasker",
       "price": "37990.00",
       "link": "https://www.farmaonline.com/rimmel-8134511/p",
@@ -11641,22 +11527,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1275753/8134282_0.jpg?v=638645079315170000"
     },
     {
-      "name": "Labial hyaluronic gloss",
-      "price": "15300.00",
-      "link": "https://www.farmaonline.com/zaira-beauty-8134242/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1278458/8134242_0.jpg?v=638648568536600000"
-    },
-    {
       "name": "Balsamo labial hyaluronic vitamina C",
       "price": "15300.00",
       "link": "https://www.farmaonline.com/zaira-beauty-8134234/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1278440/8134234_0.jpg?v=638648568313100000"
-    },
-    {
-      "name": "Menocare gel 100 ml",
-      "price": "26406.00",
-      "link": "https://www.farmaonline.com/viasek-8134133/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1290292/8134133_0.jpg?v=638694369191300000"
     },
     {
       "name": "Mousse espuma modeladora 195 ml",
@@ -11707,10 +11581,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1362367/8133793_0.jpg?v=638907738434000000"
     },
     {
-      "name": "Delineador lip liner forever",
-      "price": "13590.00",
-      "link": "https://www.farmaonline.com/cher-8133787/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1362683/8133787_0.jpg?v=638907749128100000"
+      "name": "Base nude skin foundation",
+      "price": "19434.00",
+      "link": "https://www.farmaonline.com/cher-8133771/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1362483/8133771_0.jpg?v=638907743660930000"
     },
     {
       "name": "Crema de peinar bomba de vitaminas 3 en 1 250 gr",
@@ -11923,22 +11797,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1231693/8131832_0.jpg?v=638534365353430000"
     },
     {
-      "name": "Canasta Sólida para Inodoro Marina aparato + Repuesto 27.5gr",
-      "price": "1936.58",
-      "link": "https://www.farmaonline.com/pato-purific-8131672/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1358785/8131672_0.jpg?v=638894222034730000"
-    },
-    {
-      "name": "Jabón en barra orquidea negra 120 gr (3 unidades)",
-      "price": "3534.58",
-      "link": "https://www.farmaonline.com/lux-8131585/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1249811/8131585_0.jpg?v=638557992678100000"
-    },
-    {
-      "name": "Crema tratamiento 2 en 1 potao do amor 1000 gr",
-      "price": "6190.00",
-      "link": "https://www.farmaonline.com/skala-8131572/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1225256/8131572_0.jpg?v=638532566630700000"
+      "name": "Máscara de tela ultra volumen + estructura 15 ml",
+      "price": "8547.24",
+      "link": "https://www.farmaonline.com/dermaglos-8131629/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1208176/8131629_0.jpg?v=638528104613030000"
     },
     {
       "name": "Crema tratamiento 2 en 1 mais crespos afro 1000 gr",
@@ -12025,12 +11887,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1221411/8131407_0.jpg?v=638531558124030000"
     },
     {
-      "name": "Shampoo perfect liss \u0026 long 300 ml",
-      "price": "3481.44",
-      "link": "https://www.farmaonline.com/alfaparf-alta-moda-8131403/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1221391/8131403_0.jpg?v=638531556833800000"
-    },
-    {
       "name": "Shampoo keratin impact 300 ml",
       "price": "3481.44",
       "link": "https://www.farmaonline.com/alfaparf-alta-moda-8131401/p",
@@ -12049,6 +11905,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1221387/8131399_0.jpg?v=638531556504570000"
     },
     {
+      "name": "Shampoo hidra save 300 ml",
+      "price": "3481.44",
+      "link": "https://www.farmaonline.com/alfaparf-alta-moda-8131397/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1208459/8131397_0.jpg?v=638528177650800000"
+    },
+    {
       "name": "Gel de limpieza facial dermatoclean con ácido hialurónico piel sensible",
       "price": "34699.37",
       "link": "https://www.farmaonline.com/eucerin-8131391/p",
@@ -12059,6 +11921,12 @@
       "price": "4815.73",
       "link": "https://www.farmaonline.com/axe-8131217/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1348565/8131217_0.jpg?v=638882772716470000"
+    },
+    {
+      "name": "Shampoo hair food cacao 300 ml",
+      "price": "5478.85",
+      "link": "https://www.farmaonline.com/fructis-8131204/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1286285/8131204_0.jpg?v=638658278754900000"
     },
     {
       "name": "Shampoo control caspa 350 ml",
@@ -12079,10 +11947,22 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1226429/8131046_0.jpg?v=638532891268630000"
     },
     {
+      "name": "Desenredante instantaneo top finish 250 ml",
+      "price": "8519.00",
+      "link": "https://www.farmaonline.com/primont-8131043/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1224611/8131043_0.jpg?v=638532385799730000"
+    },
+    {
       "name": "Optimal Hydration Water Gel Restaurador x 48 gr",
       "price": "33553.35",
       "link": "https://www.farmaonline.com/cetaphil-8131023/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1254741/8131023_0.jpg?v=638564147345570000"
+    },
+    {
+      "name": "Cepillo de espalda de madera",
+      "price": "6426.09",
+      "link": "https://www.farmaonline.com/apper-8131014/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1313601/8131014_0.jpg?v=638754763123170000"
     },
     {
       "name": "Lima doble faz estampada",
@@ -12109,28 +11989,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1299919/8130942_0.jpg?v=638736144531370000"
     },
     {
-      "name": "Gel para peinar expert styling 280 gr",
-      "price": "5569.85",
-      "link": "https://www.farmaonline.com/lord-cheseline-8130937/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1242159/8130937_0.jpg?v=638537605221700000"
-    },
-    {
       "name": "Gel para peinar expert styling 150 gr",
       "price": "3125.94",
       "link": "https://www.farmaonline.com/lord-cheseline-8130936/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1242153/8130936_0.jpg?v=638537604802770000"
-    },
-    {
-      "name": "Limpiador Líquido Desinfectante de Superficies Original 380 ml",
-      "price": "1933.85",
-      "link": "https://www.farmaonline.com/cif-8130929/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1360561/8130929_0.jpg?v=638905848817930000"
-    },
-    {
-      "name": "Agua de sándalo hidratante purificante 100 ml",
-      "price": "8999.00",
-      "link": "https://www.farmaonline.com/sri-sri-8130919/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1222959/8130919_0.jpg?v=638531989201930000"
     },
     {
       "name": "Agua de jazmin revitalizante descongestiva 100 ml",
@@ -12185,6 +12047,12 @@
       "price": "8667.00",
       "link": "https://www.farmaonline.com/roby-8130258/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1250123/8130258_0.jpg?v=638560440461770000"
+    },
+    {
+      "name": "Spray fijacion antifrizz 180 ml",
+      "price": "5905.00",
+      "link": "https://www.farmaonline.com/roby-8130257/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1250129/8130257_0.jpg?v=638560440563830000"
     },
     {
       "name": "Crema corporal hidratación express piel normal a seca 125 ml",
@@ -12349,6 +12217,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1231600/8128504_0.jpg?v=638534329899170000"
     },
     {
+      "name": "Aromatizante de Ambientes Aceites Naturales Aparato + Repuesto 21ml",
+      "price": "15611.78",
+      "link": "https://www.farmaonline.com/glade-8128420/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1358901/8128420_0.jpg?v=638894257763470000"
+    },
+    {
       "name": "Aromatizante Aceites Naturales Tropical Floral Repuesto x2 21ml",
       "price": "16237.69",
       "link": "https://www.farmaonline.com/glade-8128418/p",
@@ -12379,22 +12253,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1275471/8128323_1.jpg?v=638640915451000000"
     },
     {
-      "name": "Protector solar fps 50 250 ml",
-      "price": "16280.00",
-      "link": "https://www.farmaonline.com/vn-8128315/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1235855/8128315_0.jpg?v=638535878806500000"
-    },
-    {
       "name": "Protector solar FPS 30 50 ml",
       "price": "6000.00",
       "link": "https://www.farmaonline.com/vn-8128310/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1235836/8128310_0.jpg?v=638535877473130000"
-    },
-    {
-      "name": "Fórmula láctea en polvo para lactantes etapa 3 (1 kg)",
-      "price": "19969.30",
-      "link": "https://www.farmaonline.com/vital-8128253/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1276946/8128253_0.jpg?v=638647051672100000"
     },
     {
       "name": "Fórmula láctea profutura para lactantes etapa 1 (brick 200 ml)",
@@ -12413,6 +12275,12 @@
       "price": "13023.00",
       "link": "https://www.farmaonline.com/claridge-8128088/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1235946/8128088_0.jpg?v=638535915106770000"
+    },
+    {
+      "name": "Body splash invencible men EDT 125 ml",
+      "price": "5546.37",
+      "link": "https://www.farmaonline.com/acqua-di-fiore-8128070/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1323010/8128070_0.jpg?v=638774738120600000"
     },
     {
       "name": "Body splash 202 nyc edt for woman 125 ml",
@@ -12523,6 +12391,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1357360/8127014_0.jpg?v=638894046617830000"
     },
     {
+      "name": "Floss pick triple clean 150 unidades",
+      "price": "9386.32",
+      "link": "https://www.farmaonline.com/dentek-8126852/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1366560/8126852_0.jpg?v=638919936598100000"
+    },
+    {
       "name": "Gel de limpieza skin secrets 200 ml",
       "price": "11688.75",
       "link": "https://www.farmaonline.com/dg-8126778/p",
@@ -12557,12 +12431,6 @@
       "price": "8200.00",
       "link": "https://www.farmaonline.com/capilatis-8126167/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1233644/8126167_0.jpg?v=638534979541130000"
-    },
-    {
-      "name": "Fragancia fame recargable edp 200 ml",
-      "price": "135337.50",
-      "link": "https://www.farmaonline.com/rabanne-8126163/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1322228/8126163_0.jpg?v=638774450928370000"
     },
     {
       "name": "Ampolla royal elixir 15 ml",
@@ -12611,6 +12479,12 @@
       "price": "2960.30",
       "link": "https://www.farmaonline.com/millefiori-8125537/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1222787/8125537_0.jpg?v=638531920759270000"
+    },
+    {
+      "name": "Suavizante Concentrado Brisa Elegante 500 ml",
+      "price": "5494.96",
+      "link": "https://www.farmaonline.com/comfort-8125501/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1361791/8125501_0.jpg?v=638907679579400000"
     },
     {
       "name": "Suavizante fiber protect repuesto 1L",
@@ -12695,6 +12569,12 @@
       "price": "18989.99",
       "link": "https://www.farmaonline.com/triatop-8124812/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1228445/8124812_0.jpg?v=638533430040100000"
+    },
+    {
+      "name": "Shampoo reparación by medicasp 400 ml",
+      "price": "18989.99",
+      "link": "https://www.farmaonline.com/triatop-8124811/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1228172/8124811_0.jpg?v=638533358726200000"
     },
     {
       "name": "Gel voluminizador para cejas y pestañas",
@@ -12787,12 +12667,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1299843/8124074_0.jpg?v=638736110448130000"
     },
     {
-      "name": "Jabón íntimo esencias delicadas jazmín blanco 354 ml",
-      "price": "10449.00",
-      "link": "https://www.farmaonline.com/dermo-vagisil-8123819/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1240290/8123819_0.jpg?v=638537317138230000"
-    },
-    {
       "name": "Desodorante íntimo esencias delicadas jazmín blanco 45 gr",
       "price": "5249.00",
       "link": "https://www.farmaonline.com/dermo-vagisil-8123818/p",
@@ -12859,12 +12733,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1232684/8123233_0.jpg?v=638534656296900000"
     },
     {
-      "name": "Crema repelente de insectos family 196 gr",
-      "price": "4776.58",
-      "link": "https://www.farmaonline.com/off-8123192/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1345964/8123192_0.jpg?v=638881208064500000"
-    },
-    {
       "name": "Fórmula láctea advanced 3 800 grs",
       "price": "34806.54",
       "link": "https://www.farmaonline.com/sancor-bebe-8123178/p",
@@ -12907,12 +12775,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1313782/8122906_0.jpg?v=638754943221730000"
     },
     {
-      "name": "Limpiador multisuperficies y electrónicos citrus repuesto 450 ml",
-      "price": "1724.74",
-      "link": "https://www.farmaonline.com/blem-8122896/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1358940/8122896_0.jpg?v=638894258508430000"
-    },
-    {
       "name": "Limpiador multisuperficies y electrónicos citrus gatillo 500 ml",
       "price": "3895.33",
       "link": "https://www.farmaonline.com/blem-8122895/p",
@@ -12931,22 +12793,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1358980/8122891_0.jpg?v=638894292567430000"
     },
     {
-      "name": "Toallas humedas la granja de zenon doypack (100 unidades)",
-      "price": "2273.23",
-      "link": "https://www.farmaonline.com/dispita-8122730/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1250628/8122730_0.jpg?v=638560590253270000"
-    },
-    {
       "name": "Esmalte insta dri",
       "price": "7300.00",
       "link": "https://www.farmaonline.com/sally-hansen-esmalte-insta-dri-8122665/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1288770/8122665_0.jpg?v=638681417723300000"
-    },
-    {
-      "name": "Delineador lasting finish auto lip liner",
-      "price": "16550.00",
-      "link": "https://www.farmaonline.com/rimmel-delineador-lasting-finish-auto-lip-liner-8122610/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1231721/8122610_0.jpg?v=638534366745370000"
     },
     {
       "name": "Sérum de ojos optimal hydration 15ml",
@@ -13015,10 +12865,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1313028/8121577_0.jpg?v=638751620408770000"
     },
     {
-      "name": "Crema hidratante pies resecos 88 ml",
-      "price": "16927.95",
-      "link": "https://www.farmaonline.com/cerave-crema-hidratante-pies-resecos-88-ml-8121263/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1265426/8121263_0.jpg?v=638606420051300000"
+      "name": "Crema Rosa Beauty 250 ml",
+      "price": "3638.05",
+      "link": "https://www.farmaonline.com/hinds-crema-rosa-beauty-250-ml-8121443/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1224438/8121443_0.jpg?v=638532315778770000"
     },
     {
       "name": "Aceite facial reparador renovación volumen 3 30 ml",
@@ -13055,6 +12905,12 @@
       "price": "17550.00",
       "link": "https://www.farmaonline.com/rimmel-polvo-compacto-kind--free-powder-8120922/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1257040/8120922_1.jpg?v=638581253096400000"
+    },
+    {
+      "name": "Sérum triple efecto dermopure oil control para manchas post acné",
+      "price": "53021.68",
+      "link": "https://www.farmaonline.com/eucerin-srum-triple-efecto-dermopure-oil-control-para-manchas-post-acn-8120810/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1312310/8120810_0.jpg?v=638748879602900000"
     },
     {
       "name": "Acneique Gel 450 gr",
@@ -13129,10 +12985,22 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1275185/8120063_0.jpg?v=638635814170170000"
     },
     {
+      "name": "Shampoo para la caspa limpieza intensa 165 ml",
+      "price": "10990.44",
+      "link": "https://www.farmaonline.com/triatop-shampoo-para-la-caspa-limpieza-intensa-165-ml-8119483/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1222513/8119483_0.jpg?v=638531848927230000"
+    },
+    {
       "name": "Necesser love (edt 60 ml + deo)",
       "price": "18800.00",
       "link": "https://www.farmaonline.com/ciel-necesser-love-edt-60-ml--deo-8119436/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1321858/8119436_0.jpg?v=638774304590730000"
+    },
+    {
+      "name": "Hidratación corporal 250 ml",
+      "price": "22160.96",
+      "link": "https://www.farmaonline.com/bio-oil-hidratacin-corporal-250-ml-8119412/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1298082/8119412_0.jpg?v=638732566550230000"
     },
     {
       "name": "Crema depilatoria para hombre piel normal 200 ml",
@@ -13223,12 +13091,6 @@
       "price": "9225.00",
       "link": "https://www.farmaonline.com/unifresh-solucin-oftalmolgica-lgrima-lubricante-15-ml-8118736/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1241708/8118736_0.jpg?v=638537425714300000"
-    },
-    {
-      "name": "Protector solar fps 50 familiar 170 ml",
-      "price": "19200.00",
-      "link": "https://www.farmaonline.com/caviahue-protector-solar-fps-50-familiar-170-ml-8118718/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1222312/8118718_0.jpg?v=638531809077100000"
     },
     {
       "name": "Protector solar fps 70+ pediátrico 90 gr",
@@ -13327,12 +13189,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1311657/8118072_0.jpg?v=638748841300530000"
     },
     {
-      "name": "Fragancia phantom for men edt",
-      "price": "100680.00",
-      "link": "https://www.farmaonline.com/rabanne-fragancia-phantom-for-men-edt-8117972/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1360234/8117972_0.jpg?v=638905416676630000"
-    },
-    {
       "name": "Leche hidratante carton tube 50+ 250 ml",
       "price": "52554.45",
       "link": "https://www.farmaonline.com/la-roche-posay-leche-hidratante-carton-tube-50-250-ml-8117930/p",
@@ -13381,10 +13237,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1319776/8117623_0.jpg?v=638772223802370000"
     },
     {
-      "name": "Repelente de mosquitos extra duración aerosol 170 ml",
-      "price": "9358.06",
-      "link": "https://www.farmaonline.com/off-repelente-de-mosquitos-extra-duracin-aerosol-170-ml-8117608/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1275877/8117608_0.jpg?v=638645989629900000"
+      "name": "Activador y humidificador amo mis rulos 285 ml",
+      "price": "12790.00",
+      "link": "https://www.farmaonline.com/nic-activador-y-humidificador-amo-mis-rulos-285-ml-8117579/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1221018/8117579_0.jpg?v=638531378508570000"
     },
     {
       "name": "Mascara restauradora re viviendo 250 ml",
@@ -13405,16 +13261,16 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1207665/8117569_0.jpg?v=638527958291900000"
     },
     {
+      "name": "CEPILLO DE UÑAS",
+      "price": "1721.06",
+      "link": "https://www.farmaonline.com/apper-cepillo-de-uas-8117303/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1328333/8117303_0.jpg?v=638785188319300000"
+    },
+    {
       "name": "CORTACUTICULA Y REPUJADOR",
       "price": "1721.06",
       "link": "https://www.farmaonline.com/apper-cortacuticula-y-repujador-8117302/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1328332/8117302_0.jpg?v=638785188249000000"
-    },
-    {
-      "name": "Gel lubricante 40 ml",
-      "price": "14074.55",
-      "link": "https://www.farmaonline.com/femigel-gel-lubricante-40-ml-8117289/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1224615/8117289_0.jpg?v=638532385947970000"
     },
     {
       "name": "Hydraphase ha rich facial hidratante 50 ml",
@@ -13459,10 +13315,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1213422/8116375_0.jpg?v=638529577637030000"
     },
     {
-      "name": "Bolsa para agua caliente reforzada con tapa a rosca con funda",
-      "price": "7275.29",
-      "link": "https://www.farmaonline.com/rodymus-bolsa-para-agua-caliente-reforzada-con-tapa-a-rosca-con-funda-8116353/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1360317/8116353_0.jpg?v=638905489312800000"
+      "name": "Acondicionador hidra hialuronico 200 ml",
+      "price": "3800.30",
+      "link": "https://www.farmaonline.com/elvive-acondicionador-hidra-hialuronico-200-ml-8116372/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1226366/8116372_0.jpg?v=638532857518300000"
     },
     {
       "name": "Apósitos surtidos transpiel resistentes al agua",
@@ -13531,18 +13387,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1240022/8115661_0.jpg?v=638537212628530000"
     },
     {
-      "name": "Suplemento deportivo colágeno Complex sabor Limón 270 gr",
-      "price": "23880.00",
-      "link": "https://www.farmaonline.com/enaccion-suplemento-deportivo-colgeno-complex-sabor-limn-270-gr-8115565/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1226379/8115565_0.jpg?v=638532858314830000"
-    },
-    {
-      "name": "Anthelios protección solar diaria age correct f50 50 ml",
-      "price": "47778.00",
-      "link": "https://www.farmaonline.com/la-roche-posay-anthelios-proteccin-solar-diaria-age-correct-f50-50-ml-8115415/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1224427/8115415_0.jpg?v=638532315018430000"
-    },
-    {
       "name": "Effaclar gel microexfoliante 400 ml",
       "price": "62869.80",
       "link": "https://www.farmaonline.com/la-roche-posay-effaclar-gel-microexfoliante-400-ml-8115414/p",
@@ -13577,12 +13421,6 @@
       "price": "2517.50",
       "link": "https://www.farmaonline.com/vitamin-way-suplemento-dietario-spirulina-sport-30-cpsulas-8115055/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1222894/8115055_0.jpg?v=638531955837800000"
-    },
-    {
-      "name": "Crema corporal 10% Urea 250 g",
-      "price": "14599.73",
-      "link": "https://www.farmaonline.com/cicatricure-crema-corporal-10-urea-250-g-8114932/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1239659/8114932_0.jpg?v=638537104389800000"
     },
     {
       "name": "Desodorante en aerosol magic 186 ml",
@@ -13649,6 +13487,12 @@
       "price": "24569.45",
       "link": "https://www.farmaonline.com/cicatricure-maquillaje-gold-lift-30-ml-8113966/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1362184/8113964_0.jpg?v=638907730783430000"
+    },
+    {
+      "name": "Spray fijador fuerte 390 ml",
+      "price": "8667.00",
+      "link": "https://www.farmaonline.com/roby-spray-fijador-fuerte-390-ml-8113846/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1250121/8113846_0.jpg?v=638560440428830000"
     },
     {
       "name": "Suplemento dietario con vitamina b12 (15 comprimidos)",
@@ -13775,6 +13619,12 @@
       "price": "6057.09",
       "link": "https://www.farmaonline.com/glade-aromatizante-de-ambientes-automtico-lavanda-y-vainilla-repuesto-170ml-8111593/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1359281/8111593_0.jpg?v=638894437090500000"
+    },
+    {
+      "name": "Fotoprotector fusion water urban spf30 50 ml",
+      "price": "39176.23",
+      "link": "https://www.farmaonline.com/isdin-fotoprotector-fusion-water-urban-spf30-50-ml-8111011/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1295572/8111011_0.jpg?v=638723850863100000"
     },
     {
       "name": "Crema de manos antiarrugas q10 3 en 1 para piel normal a seca 100 ml",
@@ -13915,12 +13765,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1359065/8043123_0.jpg?v=638894294430000000"
     },
     {
-      "name": "Detergente active gel limon 500 ml",
-      "price": "2817.98",
-      "link": "https://www.farmaonline.com/cif-detergente-active-gel-limon-500-ml-8042865/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1359204/8042865_0.jpg?v=638894400673600000"
-    },
-    {
       "name": "Detergente Bioactive Lima Botella 500 ml",
       "price": "2817.98",
       "link": "https://www.farmaonline.com/cif-detergente-bioactive-lima-botella-500-ml-8042864/p",
@@ -13939,10 +13783,10 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1224976/8042716_0.jpg?v=638532493120570000"
     },
     {
-      "name": "Si-nails varnish fortalecedor de uñas 2.5 ml",
-      "price": "29373.67",
-      "link": "https://www.farmaonline.com/isdin-si-nails-varnish-fortalecedor-de-uas-2-5-ml-8042622/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1261771/8042622_0.jpg?v=638597689538030000"
+      "name": "Jabón líquido baja espuma perfect results repuesto 3 l",
+      "price": "10897.11",
+      "link": "https://www.farmaonline.com/skip-jabn-lquido-baja-espuma-perfect-results-repuesto-3-l-8042653/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1358943/8042653_0.jpg?v=638894258589670000"
     },
     {
       "name": "Jabón bicarbonato de sodio 100 gr",
@@ -14017,6 +13861,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1311394/8040956_0.jpg?v=638748837709400000"
     },
     {
+      "name": "Toallas desmaquillantes agua micelar (25 unidades)",
+      "price": "4508.91",
+      "link": "https://www.farmaonline.com/q-soft-toallas-desmaquillantes-agua-micelar-25-unidades-8040942/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1223843/8040942_0.jpg?v=638532169762600000"
+    },
+    {
       "name": "Suplemento dietario spirulina siluett (60 cápsulas)",
       "price": "12213.00",
       "link": "https://www.farmaonline.com/vitamin-way-suplemento-dietario-spirulina-siluett-60-cpsulas-8040931/p",
@@ -14071,22 +13921,16 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1341979/8040307_0.jpg?v=638844912781700000"
     },
     {
-      "name": "CC cream facial pro bio 50 gr",
-      "price": "19019.87",
-      "link": "https://www.farmaonline.com/bagovit-cc-cream-facial-pro-bio-50-gr-8040108/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1301394/8040108_0.jpg?v=638737809310370000"
+      "name": "Mascarilla para ojos naranja biodegradable (1 unidad)",
+      "price": "6230.00",
+      "link": "https://www.farmaonline.com/garnier-mascarilla-para-ojos-naranja-biodegradable-1-unidad-8040151/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1229508/8040151_0.jpg?v=638533752985700000"
     },
     {
       "name": "Crema facial regenerativa de noche 55 gr",
       "price": "19811.77",
       "link": "https://www.farmaonline.com/bagovit-crema-facial-regenerativa-de-noche-55-gr-8040107/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1301426/8040107_0.jpg?v=638737809664800000"
-    },
-    {
-      "name": "Toallas femeninas Especial seca con alas (16 unidades)",
-      "price": "5409.63",
-      "link": "https://www.farmaonline.com/siempre-libre-toallas-femeninas-especial-seca-con-alas-16-unidades-8040094/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1335104/8040094_0.jpg?v=638812108764730000"
     },
     {
       "name": "Tampones Ob Mini (8 unidades)",
@@ -14167,6 +14011,12 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1322437/8039643_0.jpg?v=638774521353800000"
     },
     {
+      "name": "Multivitamínico a base de vitaminas - minerales y oligoelementos (30 comp)",
+      "price": "17030.52",
+      "link": "https://www.farmaonline.com/supradyn-multivitamnico-a-base-de-vitaminas---minerales-y-oligoelementos-30-comp-8039635/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1268704/8039635_0.jpg?v=638615815475630000"
+    },
+    {
       "name": "Acneique mat piel grasa 40 gr",
       "price": "33500.00",
       "link": "https://www.farmaonline.com/cepage-acneique-mat-piel-grasa-40-gr-8039539/p",
@@ -14185,16 +14035,16 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1229138/8039420_0.jpg?v=638533645558870000"
     },
     {
-      "name": "Acondicionador aloe hidra clean 200 ml",
-      "price": "2785.30",
-      "link": "https://www.farmaonline.com/fructis-acondicionador-aloe-hidra-clean-200-ml-8039205/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1284774/8039205_0.jpg?v=638658193546200000"
-    },
-    {
       "name": "Jabón en barra glicerina neutro 90 gr",
       "price": "1426.24",
       "link": "https://www.farmaonline.com/rexona-jabn-en-barra-glicerina-neutro-90-gr-8039169/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1245079/8039169_0.jpg?v=638543511293100000"
+    },
+    {
+      "name": "Fotoprotector gel cream fps50 250 ml",
+      "price": "50539.60",
+      "link": "https://www.farmaonline.com/isdin-fotoprotector-gel-cream-fps50-250-ml-8039130/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1261799/8039130_0.jpg?v=638597695527970000"
     },
     {
       "name": "Preservativos super fino (6 unidades)",
@@ -14209,6 +14059,18 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1239601/8038998_1.jpg?v=638537101955530000"
     },
     {
+      "name": "Palillos soft picks medium x 40u",
+      "price": "7115.14",
+      "link": "https://www.farmaonline.com/gum-palillos-soft-picks-medium-x-40u-8038946/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1239656/8038946_0.jpg?v=638537104197600000"
+    },
+    {
+      "name": "Crema de noche anti-pigment con thiamidol y dexpantenol",
+      "price": "76504.60",
+      "link": "https://www.farmaonline.com/eucerin-crema-de-noche-anti-pigment-con-thiamidol-y-dexpantenol-8038902/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1254705/8038902_0.jpg?v=638564100574100000"
+    },
+    {
       "name": "Anti-pigment crema facial de día todo tipo de piel fps 30 50 ml",
       "price": "76504.60",
       "link": "https://www.farmaonline.com/eucerin-anti-pigment-crema-facial-de-da-todo-tipo-de-piel-fps-30-50-ml-8038901/p",
@@ -14219,6 +14081,12 @@
       "price": "5541.84",
       "link": "https://www.farmaonline.com/colgate-cepillo-de-dientes-orthogard-1-unidad-8038698/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1239634/8038698_0.jpg?v=638537103621800000"
+    },
+    {
+      "name": "Mascarilla Purificante carbón detox Peel Off 30 g",
+      "price": "12043.89",
+      "link": "https://www.farmaonline.com/asepxia-mascarilla-purificante-carbn-detox-peel-off-30-g-8038696/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1220992/8038696_0.jpg?v=638531377737570000"
     },
     {
       "name": "Shampoo proteccion coco y karite 1 lt",
@@ -14315,12 +14183,6 @@
       "price": "10356.11",
       "link": "https://www.farmaonline.com/off-repelente-de-mosquitos-defense-extreme-spray-100ml-8037689/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1296562/8037689_0.jpg?v=638730038775600000"
-    },
-    {
-      "name": "Crema corporal maxima hidratacion 350 ml",
-      "price": "4544.66",
-      "link": "https://www.farmaonline.com/dermogreen-crema-corporal-maxima-hidratacion-350-ml-8037607/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1221023/8037607_0.jpg?v=638531378898630000"
     },
     {
       "name": "Crema corporal humectacion profunda 350 ml",
@@ -14425,12 +14287,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1244872/8035216_0.jpg?v=638543441236000000"
     },
     {
-      "name": "Crema facial para hombres 45 gr",
-      "price": "26950.00",
-      "link": "https://www.farmaonline.com/caviahue-crema-facial-para-hombres-45-gr-8035153/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1218269/8035153_0.jpg?v=638530661071600000"
-    },
-    {
       "name": "Crema facial antiarrugas 200 gr",
       "price": "6499.74",
       "link": "https://www.farmaonline.com/teatrical-crema-facial-antiarrugas-200-gr-8035124/p",
@@ -14449,12 +14305,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1218178/8035109_0.jpg?v=638530658260270000"
     },
     {
-      "name": "Vaso con boquilla easy sip cup 200ml scf551/03",
-      "price": "24299.00",
-      "link": "https://www.farmaonline.com/avent-vaso-con-boquilla-easy-sip-cup-200ml-scf55103-8035072/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1218146/8035072_0.jpg?v=638530656787400000"
-    },
-    {
       "name": "Anthelios xl fps 50+ crema color bb confort 50ml",
       "price": "43869.80",
       "link": "https://www.farmaonline.com/la-roche-posay-anthelios-xl-fps-50-crema-color-bb-confort-50ml-8034898/p",
@@ -14465,12 +14315,6 @@
       "price": "23059.85",
       "link": "https://www.farmaonline.com/simple-suplemento-dietario-vitalidad-60-pastilla-de-goma-8034847/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1303052/8034847_0.jpg?v=638737829568070000"
-    },
-    {
-      "name": "Suplemento dietario fibra (60 pastilla de goma)",
-      "price": "15709.99",
-      "link": "https://www.farmaonline.com/simple-suplemento-dietario-fibra-60-pastilla-de-goma-8034845/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1303029/8034845_0.jpg?v=638737829288330000"
     },
     {
       "name": "Suplemento deportivo carnitina pro burn x 60 capsulas",
@@ -14531,12 +14375,6 @@
       "price": "3900.00",
       "link": "https://www.farmaonline.com/ciel-aerosol-noir-180-ml-8034454/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1294489/8034454-0.jpg?v=638702235134170000"
-    },
-    {
-      "name": "Pinza depilar oblicua negra hs031-1",
-      "price": "3297.20",
-      "link": "https://www.farmaonline.com/lisfar-pinza-depilar-oblicua-negra-hs031-1-8034222/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1217818/8034222_0.jpg?v=638530549461870000"
     },
     {
       "name": "Arqueador de pestañas he113",
@@ -14695,18 +14533,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1208194/8031217_0.jpg?v=638528136183370000"
     },
     {
-      "name": "Gel fijador normal 150 gr",
-      "price": "3175.00",
-      "link": "https://www.farmaonline.com/roby-gel-fijador-normal-150-gr-8031197/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1250111/8031197_0.jpg?v=638560440232630000"
-    },
-    {
-      "name": "Lambdapil shampoo anticaída 200ml",
-      "price": "26348.73",
-      "link": "https://www.farmaonline.com/isdin-lambdapil-shampoo-anticada-200ml-8031105/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1261934/8031105_0.jpg?v=638597782126830000"
-    },
-    {
       "name": "Fotoprotector fusion fluid mineral pediatrics baby fps 50+ 50ml",
       "price": "40204.72",
       "link": "https://www.farmaonline.com/isdin-fotoprotector-fusion-fluid-mineral-pediatrics-baby-fps-50-50ml-8031103/p",
@@ -14717,6 +14543,12 @@
       "price": "9987.00",
       "link": "https://www.farmaonline.com/sensodyne-cepillo-dental-multi-proteccion-3-unidades-8031005/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1215843/8031005_0.jpg?v=638530191987600000"
+    },
+    {
+      "name": "Suplemento dietario magnesio (30 comprimidos)",
+      "price": "22989.02",
+      "link": "https://www.farmaonline.com/quelat-suplemento-dietario-magnesio-30-comprimidos-8030602/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1229122/8030602_0.jpg?v=638533644752830000"
     },
     {
       "name": "Emulsión con efecto seda 350 ml",
@@ -14971,12 +14803,6 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1295611/8014640_0.jpg?v=638723856450500000"
     },
     {
-      "name": "Eryfotona ak-nmsc fluido 50ml",
-      "price": "68965.53",
-      "link": "https://www.farmaonline.com/isdin-eryfotona-ak-nmsc-fluido-50ml-8025012/p",
-      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1305138/8025012_0.jpg?v=638742732253970000"
-    },
-    {
       "name": "Nutratopic pro-amp crema facial 50ml",
       "price": "41309.70",
       "link": "https://www.farmaonline.com/isdin-nutratopic-pro-amp-crema-facial-50ml-8025010/p",
@@ -15001,10 +14827,184 @@
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1295683/8024187_0.jpg?v=638723857240270000"
     },
     {
+      "name": "Foto ultra fusion fluid solar allergy spf 99+ 50 ml",
+      "price": "51121.74",
+      "link": "https://www.farmaonline.com/isdin-foto-ultra-fusion-fluid-solar-allergy-spf-99-50-ml-8024186/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1277049/8024186_0.jpg?v=638647707403000000"
+    },
+    {
       "name": "Crema facial humectante y refrescante aquaporin active piel seca",
       "price": "72073.66",
       "link": "https://www.farmaonline.com/eucerin-crema-facial-humectante-y-refrescante-aquaporin-active-piel-seca-8024175/p",
       "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1244346/8024175_0.jpg?v=638543394486600000"
+    },
+    {
+      "name": "Adhesivo para prótesis dentales ultra crema sin sabor 70 gr",
+      "price": "12618.00",
+      "link": "https://www.farmaonline.com/corega-adhesivo-para-prtesis-dentales-ultra-crema-sin-sabor-70-gr-8024110/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1213897/8024110_0.jpg?v=638529658490000000"
+    },
+    {
+      "name": "Kit coloración en crema",
+      "price": "8190.00",
+      "link": "https://www.farmaonline.com/capilatis-kit-coloracin-en-crema-8023862/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1351892/8023857_0.jpg?v=638887418423600000"
+    },
+    {
+      "name": "Roll on Ojos 15 ml",
+      "price": "24989.91",
+      "link": "https://www.farmaonline.com/cicatricure-roll-on-ojos-15-ml-8023740/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1281435/8023740_0.jpg?v=638653989321000000"
+    },
+    {
+      "name": "Protector mamario (12 unidades)",
+      "price": "1569.70",
+      "link": "https://www.farmaonline.com/doncella-protector-mamario-12-unidades-8023711/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1213734/8023711_0.jpg?v=638529650025530000"
+    },
+    {
+      "name": "Mamaderas natural response 125 ml",
+      "price": "33199.00",
+      "link": "https://www.farmaonline.com/avent-mamaderas-natural-response-125-ml-8023420/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1250864/8023420_0.jpg?v=638562174345000000"
+    },
+    {
+      "name": "LÁPIZ CORRECTOR HIDE THE BLEMISH 4.5 GRAMOS",
+      "price": "16000.00",
+      "link": "https://www.farmaonline.com/rimmel-lpiz-corrector-hide-the-blemish-4-5-gramos-8023354/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1213692/8008569_0.jpg?v=638529619042730000"
+    },
+    {
+      "name": "Mascara wonderfull",
+      "price": "22959.70",
+      "link": "https://www.farmaonline.com/rimmel-mascara-wonderfull-8023321/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1213656/8023321_0.jpg?v=638529617814300000"
+    },
+    {
+      "name": "Fragancia iv edp for women",
+      "price": "22650.00",
+      "link": "https://www.farmaonline.com/prune-fragancia-iv-edp-for-women-8023141/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1321282/8023141_0.jpg?v=638774052846130000"
+    },
+    {
+      "name": "Crema Corporal Anti-celulitis 200 ml",
+      "price": "7648.86",
+      "link": "https://www.farmaonline.com/goicoechea-crema-corporal-anti-celulitis-200-ml-8023133/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1239785/8023133_0.jpg?v=638537139633600000"
+    },
+    {
+      "name": "Cepillo para mamaderas philips avent scf145/06",
+      "price": "16999.00",
+      "link": "https://www.farmaonline.com/avent-cepillo-para-mamaderas-philips-avent-scf14506-8023103/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1213591/8023103_0.jpg?v=638529614023770000"
+    },
+    {
+      "name": "Acondicionador para niños Gotas de Brillo 400 ml",
+      "price": "9647.55",
+      "link": "https://www.farmaonline.com/johnsons-baby-acondicionador-para-nios-gotas-de-brillo-400-ml-8022815/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1343698/8022815_0.jpg?v=638857608917370000"
+    },
+    {
+      "name": "Crema alta exigencia 50 gr",
+      "price": "28209.30",
+      "link": "https://www.farmaonline.com/formuly-piel-crema-alta-exigencia-50-gr-8022623/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1232763/8022623_0.jpg?v=638534690669230000"
+    },
+    {
+      "name": "Loción tratante 120 ml",
+      "price": "15591.86",
+      "link": "https://www.farmaonline.com/megacistin-locin-tratante-120-ml-8022525/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1213481/8022525_0.jpg?v=638529580055930000"
+    },
+    {
+      "name": "Fórmula láctea profutura en polvo para lactantes etapa 4 (lata 800 grs)",
+      "price": "24868.35",
+      "link": "https://www.farmaonline.com/nutrilon-frmula-lctea-profutura-en-polvo-para-lactantes-etapa-4-lata-800-grs-8022466/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1277005/8022466_0.jpg?v=638647055875170000"
+    },
+    {
+      "name": "Toalla femenina  extra protección nocturna con alas (16 unidades)",
+      "price": "6401.32",
+      "link": "https://www.farmaonline.com/kotex-toalla-femenina--extra-proteccin-nocturna-con-alas-16-unidades-8022383/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1260513/8022383_0.jpg?v=638593515602400000"
+    },
+    {
+      "name": "Enjuague bucal cool mint Frescura Intensa 500 ml",
+      "price": "8085.28",
+      "link": "https://www.farmaonline.com/listerine-enjuague-bucal-cool-mint-frescura-intensa-500-ml-8022362/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1316059/8022362_0.jpg?v=638756773909800000"
+    },
+    {
+      "name": "Acondicionador Herbolaria Milenaria v2 415 ml",
+      "price": "6293.02",
+      "link": "https://www.farmaonline.com/tio-nacho-acondicionador-herbolaria-milenaria-v2-415-ml-8022276/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1283590/8022276_0.jpg?v=638657151583830000"
+    },
+    {
+      "name": "Protectores diarios Todos Los Días Compact (20 unidades)",
+      "price": "2558.34",
+      "link": "https://www.farmaonline.com/carefree-protectores-diarios-todos-los-das-compact-20-unidades-8022245/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1335110/8022245_0.jpg?v=638812110077230000"
+    },
+    {
+      "name": "Desodorante bodyspray aerosol black bzrp remixed 150 ml",
+      "price": "3772.09",
+      "link": "https://www.farmaonline.com/axe-desodorante-bodyspray-aerosol-black-bzrp-remixed-150-ml-8022221/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1293626/8022221-0.jpg?v=638701407399100000"
+    },
+    {
+      "name": "Desodorante aerosol apollo 150 ml",
+      "price": "3772.09",
+      "link": "https://www.farmaonline.com/axe-desodorante-aerosol-apollo-150-ml-8022217/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1293620/8022217-0.jpg?v=638701407265830000"
+    },
+    {
+      "name": "Desodorante aerosol dark temptation 150 ml",
+      "price": "3772.09",
+      "link": "https://www.farmaonline.com/axe-desodorante-aerosol-dark-temptation-150-ml-8022215/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1293614/8022215-0.jpg?v=638701407128300000"
+    },
+    {
+      "name": "Protectores anatomicos pocket sin perfume (20 u)",
+      "price": "1058.47",
+      "link": "https://www.farmaonline.com/doncella-protectores-anatomicos-pocket-sin-perfume-20-u-8022203/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1213282/8022203_0.jpg?v=638529542837200000"
+    },
+    {
+      "name": "Jabón líquido para bebé  Recién Nacido   200 ml",
+      "price": "6281.84",
+      "link": "https://www.farmaonline.com/johnsons-baby-jabn-lquido-para-beb-recin-nacido---200-ml-8022083/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1316003/8022083_0.jpg?v=638756773361300000"
+    },
+    {
+      "name": "Cepillo dental para problemas de encias cerdas suaves",
+      "price": "5240.00",
+      "link": "https://www.farmaonline.com/parodontax-cepillo-dental-para-problemas-de-encias-cerdas-suaves-8022059/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1213191/8022059_0.jpg?v=638529511503930000"
+    },
+    {
+      "name": "Cepillo dental multi protection soft",
+      "price": "4991.00",
+      "link": "https://www.farmaonline.com/sensodyne-cepillo-dental-multi-protection-soft-8021811/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1238634/8021811_0.jpg?v=638536852913400000"
+    },
+    {
+      "name": "Gel lubricante sensual hot pleasure 22 gr",
+      "price": "4559.59",
+      "link": "https://www.farmaonline.com/prime-gel-lubricante-sensual-hot-pleasure-22-gr-8021787/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1299639/8021787_0.jpg?v=638736107191570000"
+    },
+    {
+      "name": "Gel lubricante sensual natural 22 gr",
+      "price": "4559.59",
+      "link": "https://www.farmaonline.com/prime-gel-lubricante-sensual-natural-22-gr-8021786/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1299637/8021786_0.jpg?v=638736107131930000"
+    },
+    {
+      "name": "Bandas depilatorias axila y bikini piel sensible (16 unidades)",
+      "price": "7442.10",
+      "link": "https://www.farmaonline.com/veet-bandas-depilatorias-axila-y-bikini-piel-sensible-16-unidades-8021781/p",
+      "image": "https://farmaonline.vteximg.com.br/arquivos/ids/1238632/8021781_0.jpg?v=638536852814870000"
     }
   ]
 }
