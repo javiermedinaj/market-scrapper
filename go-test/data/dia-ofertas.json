@@ -169,12 +169,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/343490/Manteca-La-Serenisima-200-Gr-_1.jpg?v=638732574938170000"
     },
     {
-      "name": "Mayonesa Natura 500 Ml.",
-      "price": "2310.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/mayonesa-natura-500-ml-5527/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/306990/Mayonesa-Natura-500-Ml-_1.jpg?v=638599324417500000"
-    },
-    {
       "name": "Leche Entera DIA Larga Vida 1 Lt.",
       "price": "1550.00",
       "link": "https://diaonline.supermercadosdia.com.ar/leche-entera-dia-larga-vida-1-lt-608/p",
@@ -625,12 +619,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/354375/Brocoli-Congelado-Dia-300-Gr-_1.jpg?v=638882966601030000"
     },
     {
-      "name": "Espinaca Congelada Dia 400 Gr.",
-      "price": "1717.50",
-      "link": "https://diaonline.supermercadosdia.com.ar/espinaca-congelada-dia-400-gr-24131/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/354359/Espinaca-Congelada-Dia-400-Gr-_1.jpg?v=638882966415000000"
-    },
-    {
       "name": "Lavandina Ayudín Original 1 Lt.",
       "price": "1269.00",
       "link": "https://diaonline.supermercadosdia.com.ar/lavandina-ayudin-original-1-lt-15128/p",
@@ -665,6 +653,12 @@
       "price": "4200.00",
       "link": "https://diaonline.supermercadosdia.com.ar/repelente-para-mosquitos-off--family-aerosol-165-cc-6338/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/307051/Repelente-para-Mosquitos-OFF--Family-Aerosol-165-cc_1.jpg?v=638599325204870000"
+    },
+    {
+      "name": "Mayonesa Natura 500 Ml.",
+      "price": "2310.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/mayonesa-natura-500-ml-5527/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/306990/Mayonesa-Natura-500-Ml-_1.jpg?v=638599324417500000"
     },
     {
       "name": "Cerveza Lata Corona 473 Ml.",
@@ -1051,12 +1045,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/349315/Galletita-de-Agua-Cracker-Dia-101-Gr-_1.jpg?v=638805048649170000"
     },
     {
-      "name": "Lentejas Dia 400 Gr.",
-      "price": "2100.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/lentejas-dia-400-gr-292388/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/344537/Lentejas-Dia-400-Gr-_1.jpg?v=638739136262270000"
-    },
-    {
       "name": "Sifon Soda Rio Claro 1,75 Lt.",
       "price": "1000.00",
       "link": "https://diaonline.supermercadosdia.com.ar/sifon-soda-rio-claro-175-lt-289580/p",
@@ -1169,12 +1157,6 @@
       "price": "2620.00",
       "link": "https://diaonline.supermercadosdia.com.ar/lavandina-en-gel-ayudin-citrica-700-ml-276039/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/323620/Lavandina-en-Gel-Ayudin-Citrica-700-Ml-_1.jpg?v=638599558236830000"
-    },
-    {
-      "name": "Galletitas Sonrisas Frambuesa 108 Gr.",
-      "price": "1272.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/galletitas-sonrisas-frambuesa-108-gr-275784/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/323416/Galletitas-Sonrisas-Frambuesa-108-Gr-_1.jpg?v=638599556012670000"
     },
     {
       "name": "Leche Descremada Tregar Larga Vida 1 Lt.",
@@ -1291,28 +1273,10 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/321503/Galletitas-Oreo-Rellenas-con-Crema-Sabor-Original-Menos-sodio-118-Gr-_1.jpg?v=638785955554270000"
     },
     {
-      "name": "Jamón Cocido Lario Feteado 150 Gr.",
-      "price": "3979.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/jamon-cocido-lario-feteado-150-gr-270905/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/321149/Jamon-Cocido-Lario-Feteado-150-Gr-_1.jpg?v=638599527230500000"
-    },
-    {
-      "name": "Ricotta DIA Descremada 500 Gr.",
-      "price": "2990.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/ricotta-dia-descremada-500-gr-269892/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/346396/Ricotta-DIA-Descremada-500-Gr-_1.jpg?v=638755555511900000"
-    },
-    {
       "name": "Yerba Mate Playadito Suave 500 Gr.",
       "price": "2500.00",
       "link": "https://diaonline.supermercadosdia.com.ar/yerba-mate-playadito-suave-500-gr-269578/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/320685/Yerba-Mate-Playadito-Suave-500-Gr-_1.jpg?v=638599521311600000"
-    },
-    {
-      "name": "Trapo Rejilla Dia Multiuso Ecoamigable 1 Ud.",
-      "price": "1475.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/trapo-rejilla-dia-multiuso-ecoamigable-1-ud-269121/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341694/Trapo-Rejilla-Dia-Multiuso-Ecoamigable-1-Ud-_1.jpg?v=638708908959030000"
     },
     {
       "name": "Arroz Molinos Ala Integral 1 Kg.",
@@ -1687,12 +1651,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/333990/Agua-Sin-Gas-Naranja-Vds-Levite-225-Lt-_1.jpg?v=638630268694700000"
     },
     {
-      "name": "Cerveza Corona Botella No Retornable 330 Ml.",
-      "price": "3618.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/cerveza-corona-botella-no-retornable-330-ml-115202/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/311155/Cerveza-Corona-Botella-No-Retornable-330-Ml-_1.jpg?v=638846571202930000"
-    },
-    {
       "name": "Huevo Blanco Extragrande Opi 6 Ud.",
       "price": "2190.00",
       "link": "https://diaonline.supermercadosdia.com.ar/huevo-blanco-extragrande-opi-6-ud-114868/p",
@@ -1727,18 +1685,6 @@
       "price": "1625.00",
       "link": "https://diaonline.supermercadosdia.com.ar/donuts-bonafide-chocolate-78-gr-107601/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/310839/Donuts-Bonafide-Chocolate-78-Gr-_1.jpg?v=638599378516500000"
-    },
-    {
-      "name": "Mostachol N 52 Matarazzo 500 Gr.",
-      "price": "1709.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/mostachol-n-52-matarazzo-500-gr-99941/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/310532/Mostachol-N-52-Matarazzo-500-Gr-_1.jpg?v=638877774761370000"
-    },
-    {
-      "name": "Fideos Caseritos Don Vicente 500 Gr.",
-      "price": "3150.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/fideos-caseritos-don-vicente-500-gr-99900/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/310527/Fideos-Caseritos-Don-Vicente-500-Gr-_1.jpg?v=638599374180530000"
     },
     {
       "name": "Galletitas Pepas DIA 500 Gr.",
@@ -1823,12 +1769,6 @@
       "price": "3790.00",
       "link": "https://diaonline.supermercadosdia.com.ar/jamon-cocido-fetas-finas-dia-200-gr-62988/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/338999/Jamon-Cocido-Fetas-Finas-Dia-200-Gr-_1.jpg?v=638685563187930000"
-    },
-    {
-      "name": "Crema De Leche Tradicional Tonadita 350 Cc.",
-      "price": "3560.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/crema-de-leche-tradicional-tonadita-350-cc-59898/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341311/Crema-De-Leche-Tradicional-Tonadita-350-Cc-_1.jpg?v=638863011641700000"
     },
     {
       "name": "Atún Desmenuzado Al Natural Dia 170 Gr.",
@@ -1963,12 +1903,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/356080/Lomitos-de-Atun-en-Aceite-Dia-354-Gr-_1.jpg?v=638943174710700000"
     },
     {
-      "name": "Fideos Penne Rigate N45 Luchetti 500 Gr.",
-      "price": "1500.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/fideos-penne-rigate-n45-luchetti-500-gr-40878/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/308822/Fideos-Penne-Rigate-N45-Luchetti-500-Gr-_1.jpg?v=638599348939900000"
-    },
-    {
       "name": "Esponja Salvauñas Dia 1 Ud.",
       "price": "850.00",
       "link": "https://diaonline.supermercadosdia.com.ar/esponja-salvaunas-dia-1-ud-40507/p",
@@ -2071,12 +2005,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/343842/Ravioles-Pollo-y-Espinaca-Dia-500-Gr-_1.jpg?v=638736547934270000"
     },
     {
-      "name": "Hamburguesas de Carne Clásicas Dia x 20 Ud.",
-      "price": "24270.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/hamburguesas-de-carne-clasicas-dia-x-20-ud-24139/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/343711/Hamburguesas-de-Carne-Clasicas-Dia-x-20-Ud-_1.jpg?v=638735751436300000"
-    },
-    {
       "name": "Hamburguesas de Carne ClÃ¡sicas Dia x 12 Ud.",
       "price": "14290.00",
       "link": "https://diaonline.supermercadosdia.com.ar/hamburguesas-de-carne-clasicas-dia-x-12-ud-24138/p",
@@ -2087,6 +2015,12 @@
       "price": "5490.00",
       "link": "https://diaonline.supermercadosdia.com.ar/hamburguesas-de-carne-clasicas-dia-x-4-ud-24137/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/345558/Hamburguesas-de-Carne-Clasicas-Dia-x-4-Ud-_1.jpg?v=638745183774400000"
+    },
+    {
+      "name": "Espinaca Congelada Dia 400 Gr.",
+      "price": "1717.50",
+      "link": "https://diaonline.supermercadosdia.com.ar/espinaca-congelada-dia-400-gr-24131/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/354359/Espinaca-Congelada-Dia-400-Gr-_1.jpg?v=638882966415000000"
     },
     {
       "name": "Aceite de Girasol Dia 1,5 Lt.",
@@ -2129,18 +2063,6 @@
       "price": "2400.00",
       "link": "https://diaonline.supermercadosdia.com.ar/obleas-opera-original-220-gr-14927/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/307398/Obleas-Opera-Original-220-Gr-_1.jpg?v=638599329850400000"
-    },
-    {
-      "name": "Avena Instantanea Exlusivo 400 Gr.",
-      "price": "1367.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/avena-instantanea-exlusivo-400-gr-14855/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/345921/Avena-Instantanea-Exlusivo-400-Gr-_1.jpg?v=638750367004300000"
-    },
-    {
-      "name": "Atún al Natural La Campagnola 170 Gr.",
-      "price": "5050.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/atun-al-natural-la-campagnola-170-gr-14797/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/307365/Atun-al-Natural-La-Campagnola-170-Gr-_1.jpg?v=638823927890470000"
     },
     {
       "name": "Galletitas Maná Vainilla 393 Gr.",
@@ -2297,12 +2219,6 @@
       "price": "2390.00",
       "link": "https://diaonline.supermercadosdia.com.ar/detergente-para-ropa-limpieza-profunda-ariel-800-ml-307478/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/350782/Detergente-Para-Ropa-Limpieza-Profunda-Ariel-800-Ml-_1.jpg?v=638828993505970000"
-    },
-    {
-      "name": "Mix de Especias Sabor Hongos Knorr 24 Gr.",
-      "price": "1180.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/mix-de-especias-sabor-hongos-knorr-24-gr-307327/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/350382/Mix-de-Especias-Sabor-Hongos-Knorr-24-Gr-_1.jpg?v=638822086611470000"
     },
     {
       "name": "Polenta Molinos Ala 500 Gr.",
@@ -2531,12 +2447,6 @@
       "price": "5790.00",
       "link": "https://diaonline.supermercadosdia.com.ar/acondicionador-tresemme-keratina-antifrizz-500-ml-300049/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/353783/Acondicionador-Tresemme-Keratina-Antifrizz-500-Ml-_1.jpg?v=638871335875300000"
-    },
-    {
-      "name": "Shampoo Tresemme Keratina Antifrizz 500 Ml.",
-      "price": "5790.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/shampoo-tresemme-keratina-antifrizz-500-ml-300045/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/353765/Shampoo-Tresemme-Keratina-Antifrizz-500-Ml-_1.jpg?v=638871335658100000"
     },
     {
       "name": "Postre Chocolate La Serenísima Clásico 95 Gr.",
@@ -2911,10 +2821,22 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/359747/Nuggets-de-Pollo-Granja-del-Sol-400-Gr-_1.jpg?v=638962906775770000"
     },
     {
+      "name": "Bombo Mousse Chocolate Smack 16 Gr.",
+      "price": "300.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/bombo-mousse-chocolate-smack-16-gr-293747/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341898/Bombo-Mousse-Chocolate-Smack-16-Gr-_1.jpg?v=638708911599630000"
+    },
+    {
       "name": "Acondicionador SEDAL Crema Balance Toque de Seda 340 Ml.",
       "price": "4020.50",
       "link": "https://diaonline.supermercadosdia.com.ar/acondicionador-sedal-crema-balance-toque-de-seda-340-ml-293001/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/356407/Acondicionador-SEDAL-Crema-Balance-Toque-de-Seda-340-Ml-_1.jpg?v=638911941462670000"
+    },
+    {
+      "name": "Lentejas Dia 400 Gr.",
+      "price": "2100.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/lentejas-dia-400-gr-292388/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/344537/Lentejas-Dia-400-Gr-_1.jpg?v=638739136262270000"
     },
     {
       "name": "Puré Chef X 100 Gr.",
@@ -3019,12 +2941,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/360854/Jabon-De-Tocador-Palmolive-Naturals-Karite-Y-Vitamina-E-90-G-3-Ud-_1.jpg?v=638969830255800000"
     },
     {
-      "name": "Cerveza Rubia Salta Cautiva en lata 473 Ml.",
-      "price": "1987.50",
-      "link": "https://diaonline.supermercadosdia.com.ar/cerveza-rubia-salta-cautiva-en-lata-473-ml-279836/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/324679/Cerveza-Rubia-Salta-Cautiva-en-lata-473-Ml-_1.jpg?v=638599571693430000"
-    },
-    {
       "name": "Pan con Cereales y Semillas Fargo 400 Gr.",
       "price": "5165.00",
       "link": "https://diaonline.supermercadosdia.com.ar/pan-con-cereales-y-semillas-fargo-400-gr-279835/p",
@@ -3121,6 +3037,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/334967/Galletitas-Cracker-5-Semillas-Dia-250-Gr-_1.jpg?v=638641020817230000"
     },
     {
+      "name": "Galletitas Sonrisas Frambuesa 108 Gr.",
+      "price": "1272.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/galletitas-sonrisas-frambuesa-108-gr-275784/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/323416/Galletitas-Sonrisas-Frambuesa-108-Gr-_1.jpg?v=638599556012670000"
+    },
+    {
       "name": "Leche Entera Tregar Larga Vida 1 Lt.",
       "price": "2040.00",
       "link": "https://diaonline.supermercadosdia.com.ar/leche-entera-tregar-larga-vida-1-lt-275781/p",
@@ -3167,6 +3089,12 @@
       "price": "1511.00",
       "link": "https://diaonline.supermercadosdia.com.ar/lavandina-ayudin-triple-accion-1-lt-274341/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/322800/Lavandina-Ayudin-Triple-Accion-1-Lt-_1.jpg?v=638599547932100000"
+    },
+    {
+      "name": "Lavandina Ayudín Triple Poder 2 Lt.",
+      "price": "2016.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/lavandina-ayudin-triple-poder-2-lt-274339/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/339949/Lavandina-Ayudin-Triple-Poder-2-Lt-_1.jpg?v=638689890477900000"
     },
     {
       "name": "Desodorante Dove Original 50 Ml.",
@@ -3253,12 +3181,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/352276/Queso-Untable-Finlandia-180-Gr-_1.jpg?v=638851462553430000"
     },
     {
-      "name": "Jamón Cocido Paladini Feteado Fino 200 Gr.",
-      "price": "5190.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/jamon-cocido-paladini-feteado-fino-200-gr-273198/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/322146/Jamon-Cocido-Paladini-Feteado-Fino-200-Gr-_1.jpg?v=638599540171100000"
-    },
-    {
       "name": "Yerba Mate La Tranquera Selección Especial 500 Gr.",
       "price": "2045.00",
       "link": "https://diaonline.supermercadosdia.com.ar/yerba-mate-la-tranquera-seleccion-especial-500-gr-272320/p",
@@ -3283,6 +3205,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/321319/Criollitas-499-Gr-_1.jpg?v=638599529305870000"
     },
     {
+      "name": "Jamón Cocido Lario Feteado 150 Gr.",
+      "price": "3979.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/jamon-cocido-lario-feteado-150-gr-270905/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/321149/Jamon-Cocido-Lario-Feteado-150-Gr-_1.jpg?v=638599527230500000"
+    },
+    {
       "name": "Tabletas Insecticidas Raid Moscas y Mosquitos x 12 Ud.",
       "price": "3290.00",
       "link": "https://diaonline.supermercadosdia.com.ar/tabletas-insecticidas-raid-moscas-y-mosquitos-x-12-ud-270481/p",
@@ -3293,6 +3221,12 @@
       "price": "3969.00",
       "link": "https://diaonline.supermercadosdia.com.ar/jamon-cocido-paladini-feteado-bajo-sodio-150-gr-270316/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/340135/Jamon-Cocido-Paladini-Feteado-bajo-sodio-150-Gr-_1.jpg?v=638695179488370000"
+    },
+    {
+      "name": "Ricotta DIA Descremada 500 Gr.",
+      "price": "2990.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/ricotta-dia-descremada-500-gr-269892/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/346396/Ricotta-DIA-Descremada-500-Gr-_1.jpg?v=638755555511900000"
     },
     {
       "name": "Alcohol Etílico Purocol 70° Con Glicerina 500 Ml.",
@@ -3317,6 +3251,12 @@
       "price": "1200.00",
       "link": "https://diaonline.supermercadosdia.com.ar/leche-ultrapasteurizada-2--dia-1-lt-269231/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/344153/Leche-Ultrapasteurizada-2--Dia-1-Lt-_1.jpg?v=638736551498170000"
+    },
+    {
+      "name": "Trapo Rejilla Dia Multiuso Ecoamigable 1 Ud.",
+      "price": "1475.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/trapo-rejilla-dia-multiuso-ecoamigable-1-ud-269121/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341694/Trapo-Rejilla-Dia-Multiuso-Ecoamigable-1-Ud-_1.jpg?v=638708908959030000"
     },
     {
       "name": "Milanesa de Soja Vegetalex Tradicional 340 Gr.",
@@ -3443,12 +3383,6 @@
       "price": "1655.00",
       "link": "https://diaonline.supermercadosdia.com.ar/salchichas-swift-kids-sin-piel-190-gr-262337/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/319049/Salchichas-Swift-Kids-Sin-Piel-190-Gr_1.jpg?v=638823933496200000"
-    },
-    {
-      "name": "Tortillas Light Rapiditas 10 Ud.",
-      "price": "3710.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/tortillas-light-rapiditas-10-ud-261335/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/354759/Tortillas-Light-Rapiditas-10-Ud-_1.jpg?v=638887749050600000"
     },
     {
       "name": "Coca Cola Zero 1,25 Lt.",
@@ -3623,12 +3557,6 @@
       "price": "6680.00",
       "link": "https://diaonline.supermercadosdia.com.ar/suavizante-concentrado-comfort-brisa-elegante-500-ml-226291/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/359349/Suavizante-Concentrado-Comfort-Brisa-Elegante-500-Ml-_1.jpg?v=638955134802370000"
-    },
-    {
-      "name": "Pan Blanco Artesano con Masa Madre 500 Gr.",
-      "price": "7640.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/pan-blanco-artesano-con-masa-madre-500-gr-222898/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/358736/Pan-Blanco-Artesano-con-Masa-Madre-500-Gr-_1.jpg?v=638951681996830000"
     },
     {
       "name": "Pasta Dental Oral-B 123 Anti Caries Menta Suave 70 Gr.",
@@ -4003,10 +3931,16 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/357931/Jugo-Cepita-Del-Valle-Naranja-Tentacion-1-Lt-_1.jpg?v=638939019328200000"
     },
     {
-      "name": "Esponja Lisa Virulana Fibra 1 Ud.",
-      "price": "699.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/esponja-lisa-virulana-fibra-1-ud-110806/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/310950/Esponja-Lisa-Virulana-Fibra_1.jpg?v=638822378672430000"
+      "name": "Cerveza Corona Botella No Retornable 330 Ml.",
+      "price": "3618.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/cerveza-corona-botella-no-retornable-330-ml-115202/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/311155/Cerveza-Corona-Botella-No-Retornable-330-Ml-_1.jpg?v=638846571202930000"
+    },
+    {
+      "name": "Mayonesa Pouch Danica 500 Gr.",
+      "price": "1655.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/mayonesa-pouch-danica-500-gr-112459/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/311011/Mayonesa-Pouch-Danica-500-Gr-_1.jpg?v=638599380902100000"
     },
     {
       "name": "Queso Untable Gruyere Dia 180 Gr.",
@@ -4057,6 +3991,18 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/344506/Garbanzos-Dia-400-Gr-_1.jpg?v=638739135914300000"
     },
     {
+      "name": "Mostachol N 52 Matarazzo 500 Gr.",
+      "price": "1709.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/mostachol-n-52-matarazzo-500-gr-99941/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/310532/Mostachol-N-52-Matarazzo-500-Gr-_1.jpg?v=638877774761370000"
+    },
+    {
+      "name": "Fideos Caseritos Don Vicente 500 Gr.",
+      "price": "3150.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/fideos-caseritos-don-vicente-500-gr-99900/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/310527/Fideos-Caseritos-Don-Vicente-500-Gr-_1.jpg?v=638599374180530000"
+    },
+    {
       "name": "Leche en polvo Descremada Dia 400 Gr.",
       "price": "4400.00",
       "link": "https://diaonline.supermercadosdia.com.ar/leche-en-polvo-descremada-dia-400-gr-99442/p",
@@ -4085,12 +4031,6 @@
       "price": "2190.00",
       "link": "https://diaonline.supermercadosdia.com.ar/mandarina-x-1-kg-90119/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/310405/Mandarina-x-1-Kg-_1.jpg?v=638599371323230000"
-    },
-    {
-      "name": "Ajo X 2 Ud.",
-      "price": "2490.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/ajo-x-2-ud-90086/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341333/Ajo-X-2-Ud-_1.jpg?v=638708904422200000"
     },
     {
       "name": "Limpiador Para Baño Cif Expert Doypack 450 Ml.",
@@ -4171,6 +4111,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/340807/Obleas-Limon-Dia-100-Gr-_1.jpg?v=638706305003400000"
     },
     {
+      "name": "Crema De Leche Tradicional Tonadita 350 Cc.",
+      "price": "3560.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/crema-de-leche-tradicional-tonadita-350-cc-59898/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341311/Crema-De-Leche-Tradicional-Tonadita-350-Cc-_1.jpg?v=638863011641700000"
+    },
+    {
       "name": "Aceite de Girasol Legítimo 900 Ml.",
       "price": "3100.00",
       "link": "https://diaonline.supermercadosdia.com.ar/aceite-de-girasol-legitimo-900-ml-56453/p",
@@ -4193,12 +4139,6 @@
       "price": "1600.00",
       "link": "https://diaonline.supermercadosdia.com.ar/sal-gruesa-dia-1-kg-55539/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/340474/Sal-Gruesa-DIA-1-Kg-_1.jpg?v=638943321994200000"
-    },
-    {
-      "name": "Tostaditas Clásicas Dia 140 Gr.",
-      "price": "1740.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/tostaditas-clasicas-dia-140-gr-55527/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/355845/Tostaditas-Clasicas-Dia-140-Gr-_1.jpg?v=638903296362700000"
     },
     {
       "name": "Galletitas Chocolate Rellena Rumba 110 Gr.",
@@ -4315,6 +4255,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/308856/Limpiador-Liquido-Aromatizante-Poett-Suavidad-de-Bebe-Botella-900-Ml-_1.jpg?v=638599349382000000"
     },
     {
+      "name": "Fideos Penne Rigate N45 Luchetti 500 Gr.",
+      "price": "1500.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/fideos-penne-rigate-n45-luchetti-500-gr-40878/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/308822/Fideos-Penne-Rigate-N45-Luchetti-500-Gr-_1.jpg?v=638599348939900000"
+    },
+    {
       "name": "Pate de Foie Swift 90 Gr.",
       "price": "979.00",
       "link": "https://diaonline.supermercadosdia.com.ar/pate-de-foie-swift-90-gr-40782/p",
@@ -4399,12 +4345,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/308611/Gillette-Mach3--Repuestos-de-Afeitar-2-Ud-_1.jpg?v=638599346097600000"
     },
     {
-      "name": "Tomate Perita Pelado Dia 400 Gr.",
-      "price": "1190.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/tomate-perita-pelado-dia-400-gr-34596/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/340306/Tomate-Perita-Pelado-Dia-400-Gr-_1.jpg?v=638786813171570000"
-    },
-    {
       "name": "Pate de Foie DIA 90 Gr.",
       "price": "820.00",
       "link": "https://diaonline.supermercadosdia.com.ar/pate-de-foie-dia-90-gr-34434/p",
@@ -4445,12 +4385,6 @@
       "price": "2190.00",
       "link": "https://diaonline.supermercadosdia.com.ar/huevo-blanco-grande-6-ud-31924/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341207/Huevo-Blanco-Grande-6-Ud-_1.jpg?v=638708903061800000"
-    },
-    {
-      "name": "Puré de Tomate Salsati 520 Gr.",
-      "price": "1170.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/pure-de-tomate-salsati-520-gr-31444/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/308414/Pure-de-Tomate-Salsati-520-Gr-_1.jpg?v=638786811982300000"
     },
     {
       "name": "Bastón de Merluza Rebozado Dia 500 Gr.",
@@ -4543,6 +4477,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/356191/Margarina-Pan-Margadan-200-Gr_1.jpg?v=638911939366900000"
     },
     {
+      "name": "Hamburguesas de Carne Clásicas Dia x 20 Ud.",
+      "price": "24270.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/hamburguesas-de-carne-clasicas-dia-x-20-ud-24139/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/343711/Hamburguesas-de-Carne-Clasicas-Dia-x-20-Ud-_1.jpg?v=638735751436300000"
+    },
+    {
       "name": "Chaucha Congelada Dia 350 Gr.",
       "price": "1642.50",
       "link": "https://diaonline.supermercadosdia.com.ar/chaucha-congelada-dia-350-gr-24136/p",
@@ -4603,12 +4543,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/344735/Desodorante-Rexona-Nutritive-Women-150-Ml-_1.jpg?v=638744390625370000"
     },
     {
-      "name": "Patitas Rebozadas de Pollo Originales 400 Gr.",
-      "price": "7605.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/patitas-rebozadas-de-pollo-originales-400-gr-20331/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/344294/Patitas-Rebozadas-de-Pollo-Originales-400-Gr-_1.jpg?v=638737527930500000"
-    },
-    {
       "name": "Jabón Liquido Para Manos Lux Botanic Orquidea Negra Doypack 220 Ml.",
       "price": "2390.00",
       "link": "https://diaonline.supermercadosdia.com.ar/jabon-liquido-para-manos-lux-botanic-orquidea-negra-doypack-220-ml-20114/p",
@@ -4651,6 +4585,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/307394/Pure-de-Tomate-La-Campagnola-520-Gr-_1.jpg?v=638786810303800000"
     },
     {
+      "name": "Avena Instantanea Exlusivo 400 Gr.",
+      "price": "1367.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/avena-instantanea-exlusivo-400-gr-14855/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/345921/Avena-Instantanea-Exlusivo-400-Gr-_1.jpg?v=638750367004300000"
+    },
+    {
       "name": "Gaseosa Sprite Lima-Limón 2,25 Lt.",
       "price": "4800.00",
       "link": "https://diaonline.supermercadosdia.com.ar/gaseosa-sprite-lima-limon-225-lt-14847/p",
@@ -4661,6 +4601,12 @@
       "price": "6440.00",
       "link": "https://diaonline.supermercadosdia.com.ar/aperitivo-americano-gancia-950-ml-14830/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/307372/Aperitivo-Americano-Gancia-950-ml-_1.jpg?v=638599329522570000"
+    },
+    {
+      "name": "Atún al Natural La Campagnola 170 Gr.",
+      "price": "5050.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/atun-al-natural-la-campagnola-170-gr-14797/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/307365/Atun-al-Natural-La-Campagnola-170-Gr-_1.jpg?v=638823927890470000"
     },
     {
       "name": "Salchichas 6 Unidades Paladini 225 Gr.",
@@ -4735,12 +4681,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/356940/Queso-Blanco-Balance-Casancrem-500-Gr-_1.jpg?v=638918861505970000"
     },
     {
-      "name": "Leche Condensada Dia 395 Gr.",
-      "price": "3100.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/leche-condensada-dia-395-gr-1665/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/345543/Leche-Condensada-Dia-395-Gr-_1.jpg?v=638745183614230000"
-    },
-    {
       "name": "Postre DIA Chocolate 100 Gr.",
       "price": "625.00",
       "link": "https://diaonline.supermercadosdia.com.ar/postre-dia-chocolate-100-gr-1451/p",
@@ -4787,18 +4727,6 @@
       "price": "3990.00",
       "link": "https://diaonline.supermercadosdia.com.ar/desodorante-all-body-deo-wild-rose-rexona-150-ml-309159/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/358019/Desodorante-All-Body-Deo-Wild-Rose-Rexona-150-Ml-_1.jpg?v=638941439117000000"
-    },
-    {
-      "name": "Alfajor Con Relleno De Dulce De Leche y Rhum 9 De Oro 46 Gr.",
-      "price": "450.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/alfajor-con-relleno-de-dulce-de-leche-y-rhum-9-de-oro-46-gr-309153/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/357338/Alfajor-Con-Relleno-De-Dulce-De-Leche-y-Rhum-9-De-Oro-46-Gr-_1.jpg?v=638931177509130000"
-    },
-    {
-      "name": "Alfajor con Relleno De Dulce de Leche y Banana 9 De Oro 46 Gr.",
-      "price": "450.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/alfajor-con-relleno-de-dulce-de-leche-y-banana-9-de-oro-46-gr-309152/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/357336/Alfajor-con-Relleno-De-Dulce-de-Leche-y-Banana-9-De-Oro-46-Gr-_1.jpg?v=638931177188030000"
     },
     {
       "name": "Galletitas Con Chips Kukinas 50 Gr.",
@@ -4963,6 +4891,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/350383/Mix-De-Especias-Sabor-Mediterraneo-Knorr-24-Gr-_1.jpg?v=638822086625830000"
     },
     {
+      "name": "Mix de Especias Sabor Hongos Knorr 24 Gr.",
+      "price": "1180.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/mix-de-especias-sabor-hongos-knorr-24-gr-307327/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/350382/Mix-de-Especias-Sabor-Hongos-Knorr-24-Gr-_1.jpg?v=638822086611470000"
+    },
+    {
       "name": "Mix De Especias Sabor Puerro Knorr 24 Gr.",
       "price": "1180.00",
       "link": "https://diaonline.supermercadosdia.com.ar/mix-de-especias-sabor-puerro-knorr-24-gr-307325/p",
@@ -5101,6 +5035,18 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/330955/Chocolate-Taza-Billiken-100-Gr-_1.jpg?v=638599655832030000"
     },
     {
+      "name": "Gaseosa Pomelo Dia 1,5 Lt.",
+      "price": "1515.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/gaseosa-pomelo-dia-15-lt-304200/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/346189/Gaseosa-Pomelo-Dia-15-Lt-_1.jpg?v=638889692866130000"
+    },
+    {
+      "name": "Cerveza Isenbeck 473 Ml.",
+      "price": "1563.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/cerveza-isenbeck-473-ml-304199/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/334655/Cerveza-Isenbeck-473-Ml-_1.jpg?v=638902600179630000"
+    },
+    {
       "name": "Desodorante En Talco Rexona Efficient Original 100 Gr.",
       "price": "2990.00",
       "link": "https://diaonline.supermercadosdia.com.ar/desodorante-en-talco-rexona-efficient-original-100-gr-304125/p",
@@ -5143,6 +5089,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/330795/Alfajor-Chocolate-Negro-Sol-Serrano-Tm-40-Gr-_1.jpg?v=638599654014270000"
     },
     {
+      "name": "Alfajor Fantoche Triple Night 85 Gr.",
+      "price": "1000.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/alfajor-fantoche-triple-night-85-gr-302341/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/330749/Alfajor-Fantoche-Triple-Night-85-Gr-_1.jpg?v=638599653362530000"
+    },
+    {
       "name": "Aerosol Desinfectante de Ambientes y Superficies Cif Frescura Cítrica 260 Gr.",
       "price": "3580.00",
       "link": "https://diaonline.supermercadosdia.com.ar/aerosol-desinfectante-de-ambientes-y-superficies-cif-frescura-citrica-260-gr-302335/p",
@@ -5171,12 +5123,6 @@
       "price": "922.00",
       "link": "https://diaonline.supermercadosdia.com.ar/bicarbonato-la-parmesana-50-gr-301982/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/330678/Bicarbonato-La-Parmesana-50-Gr-_1.jpg?v=638599652526800000"
-    },
-    {
-      "name": "Agua Tonica Indian Tonic Cunnington 3 Lt.",
-      "price": "2404.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/agua-tonica-indian-tonic-cunnington-3-lt-301459/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/330635/Agua-Tonica-Indian-Tonic-Cunnington-3-Lt-_1.jpg?v=638936495687370000"
     },
     {
       "name": "Pizza Mozzarella Clasica Sibarita 470 Gr.",
@@ -5255,6 +5201,12 @@
       "price": "5790.00",
       "link": "https://diaonline.supermercadosdia.com.ar/acondicionador-liso-efecto-botox-tresemme-500-ml-300048/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/353779/Acondicionador-Liso-Efecto-Botox-Tresemme-500-Ml-_1.jpg?v=638871335827170000"
+    },
+    {
+      "name": "Shampoo Tresemme Keratina Antifrizz 500 Ml.",
+      "price": "5790.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/shampoo-tresemme-keratina-antifrizz-500-ml-300045/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/353765/Shampoo-Tresemme-Keratina-Antifrizz-500-Ml-_1.jpg?v=638871335658100000"
     },
     {
       "name": "Shampoo Liso Efecto Botox Tresemme 500 Ml.",
@@ -5359,6 +5311,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/329680/Toallita-Nocturna-Con-Alas-Bonte-8-Ud-_1.jpg?v=638599638921200000"
     },
     {
+      "name": "Turron Mousse Fulbito 25 Gr.",
+      "price": "300.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/turron-mousse-fulbito-25-gr-299081/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/329669/Turron-Mousse-Fulbito-25-Gr-_1.jpg?v=638599638749600000"
+    },
+    {
       "name": "Toallas Femeninas Normales Con Alas Bonte 8 Ud.",
       "price": "1030.00",
       "link": "https://diaonline.supermercadosdia.com.ar/toallas-femeninas-normales-con-alas-bonte-8-ud-299074/p",
@@ -5395,24 +5353,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/329578/Cerveza-Stella-Artois-Lata-473-Ml-_1.jpg?v=638925152284670000"
     },
     {
-      "name": "Agua Con Gas Villavicencio 1,5 Lt.",
-      "price": "1547.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/agua-con-gas-villavicencio-15-lt-298972/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/332059/Agua-Con-Gas-Villavicencio-15-Lt-_1.jpg?v=638616524121330000"
-    },
-    {
-      "name": "Cerveza Stella Artois Lata 473 Ml.",
-      "price": "1875.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/cerveza-stella-artois-lata-473-ml-298987/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/329578/Cerveza-Stella-Artois-Lata-473-Ml-_1.jpg?v=638925152284670000"
-    },
-    {
-      "name": "Agua Con Gas Villavicencio 1,5 Lt.",
-      "price": "1547.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/agua-con-gas-villavicencio-15-lt-298972/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/332059/Agua-Con-Gas-Villavicencio-15-Lt-_1.jpg?v=638616524121330000"
-    },
-    {
       "name": "Cerveza Budweiser Lata 710 Ml.",
       "price": "2692.50",
       "link": "https://diaonline.supermercadosdia.com.ar/cerveza-budweiser-lata-710-ml-298960/p",
@@ -5441,6 +5381,12 @@
       "price": "1272.00",
       "link": "https://diaonline.supermercadosdia.com.ar/galletitas-rellenas-frutillas-merengadas-88-gr-298666/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/329322/Galletitas-Rellenas-Frutillas-Merengadas-88-Gr-_1.jpg?v=638823329596770000"
+    },
+    {
+      "name": "Shampoo Elvive RT5 Keratin 400 Ml.",
+      "price": "5394.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/shampoo-elvive-rt5-keratin-400-ml-298657/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/332877/Shampoo-Elvive-RT5-Keratin-400-Ml-_1.jpg?v=638936502645300000"
     },
     {
       "name": "Nestlé Bananita Dolca X 30 Gr.",
@@ -5581,6 +5527,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/344278/Barras-Sabor-Frutilla-Con-Yogurt-X-3-Ud-Dia-75-Gr-_1.jpg?v=638736552929370000"
     },
     {
+      "name": "Maní Japonés Jamón Dia 65 Gr.",
+      "price": "1755.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/mani-japones-jamon-dia-65-gr-296591/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/350892/Mani-Japones-Jamon-Dia-65-Gr-_1.jpg?v=638943326614800000"
+    },
+    {
       "name": "Queso Untable Clasico Dia 180 Gr.",
       "price": "1790.00",
       "link": "https://diaonline.supermercadosdia.com.ar/queso-untable-clasico-dia-180-gr-296484/p",
@@ -5681,12 +5633,6 @@
       "price": "3490.00",
       "link": "https://diaonline.supermercadosdia.com.ar/chipa-congelado-dia-300-gr-295380/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/344232/Chipa-Congelado-Dia-300-Gr-_1.jpg?v=638736552374300000"
-    },
-    {
-      "name": "Jabón En Barra Rexona Fresh 3X90 Gr.",
-      "price": "2590.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/jabon-en-barra-rexona-fresh-3x90-gr-295362/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/342115/Jabon-En-Barra-Rexona-Fresh-3X90-Gr-_1.jpg?v=638708914069330000"
     },
     {
       "name": "Queso Tybo Feteado Gran Aldea 180 Gr.",
@@ -5837,12 +5783,6 @@
       "price": "9390.00",
       "link": "https://diaonline.supermercadosdia.com.ar/supremas-de-pollo-granja-del-sol-360-gr-293858/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/359745/Supremas-de-Pollo-Granja-del-Sol-360-Gr-_1.jpg?v=638962906747330000"
-    },
-    {
-      "name": "Bombo Mousse Chocolate Smack 16 Gr.",
-      "price": "300.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/bombo-mousse-chocolate-smack-16-gr-293747/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341898/Bombo-Mousse-Chocolate-Smack-16-Gr-_1.jpg?v=638708911599630000"
     },
     {
       "name": "Pan Multicereal Con Semillas Regina 450 Gr.",
@@ -6055,10 +5995,22 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/358547/Te-Clasico-La-Virginia-Naturalidad-Intacta-25-Ud-_1.jpg?v=638949951107600000"
     },
     {
+      "name": "Cerveza Rubia Salta Cautiva en lata 473 Ml.",
+      "price": "1987.50",
+      "link": "https://diaonline.supermercadosdia.com.ar/cerveza-rubia-salta-cautiva-en-lata-473-ml-279836/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/324679/Cerveza-Rubia-Salta-Cautiva-en-lata-473-Ml-_1.jpg?v=638599571693430000"
+    },
+    {
       "name": "Mermelada BC Ciruela 390 Gr.",
       "price": "3430.00",
       "link": "https://diaonline.supermercadosdia.com.ar/mermelada-bc-ciruela-390-gr-279723/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/324638/Mermelada-BC-Ciruela-390-Gr-_1.jpg?v=638599571243370000"
+    },
+    {
+      "name": "Roast Beef en Churrasco Envasado al Vacío x Kg.",
+      "price": "13500.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/roast-beef-en-churrasco-envasado-al-vacio-x-kg-279524/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/338720/Roast-Beef-en-Churrasco-Envasado-al-Vacio-x-Kg-_1.jpg?v=638677892300070000"
     },
     {
       "name": "Milanesa Bola de Lomo Envasado al Vacío x Kg.",
@@ -6229,12 +6181,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/346801/Queso-Cremoso-Gran-Aldea-260-Gr-_1.jpg?v=638760741003330000"
     },
     {
-      "name": "Limpiador Desinfectante Ayudín Lavanda 900 Ml.",
-      "price": "2225.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/limpiador-desinfectante-ayudin-lavanda-900-ml-274908/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/323078/Limpiador-Desinfectante-Ayudin-Lavanda-900-Ml-_1.jpg?v=638599551604670000"
-    },
-    {
       "name": "Oblea Tita Chocolate 19 Gr.",
       "price": "1060.00",
       "link": "https://diaonline.supermercadosdia.com.ar/oblea-tita-chocolate-19-gr-274902/p",
@@ -6257,12 +6203,6 @@
       "price": "1290.00",
       "link": "https://diaonline.supermercadosdia.com.ar/te-boldo-dia-en-saquitos-25-ud-274840/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341751/Te-Boldo-Dia-En-Saquitos-25-Ud-_1.jpg?v=638708909674770000"
-    },
-    {
-      "name": "Alfajor Oreo Triple 56 Gr.",
-      "price": "1880.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/alfajor-oreo-triple-56-gr-274632/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/322966/Alfajor-Oreo-Triple-56-Gr-_1.jpg?v=638827518677100000"
     },
     {
       "name": "Queso Untable Jamón Dia 180 Gr.",
@@ -6305,12 +6245,6 @@
       "price": "1520.00",
       "link": "https://diaonline.supermercadosdia.com.ar/limpiador-liquido-aromatizante-poett-flores-de-primavera--botella--900-ml-274343/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/322807/Limpiador-Liquido-Aromatizante-Poett-Flores-de-Primavera-Botella-900-Ml-_1.jpg?v=638599548008530000"
-    },
-    {
-      "name": "Lavandina Ayudín Triple Poder 2 Lt.",
-      "price": "2016.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/lavandina-ayudin-triple-poder-2-lt-274339/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/339949/Lavandina-Ayudin-Triple-Poder-2-Lt-_1.jpg?v=638689890477900000"
     },
     {
       "name": "Galletitas Dulces Variedad Terrabusi Mix Chocolate Tamaño Familiar 300 Gr.",
@@ -6379,12 +6313,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/322551/Jugo-En-Polvo-Tang-Naranja-15-Gr-_1.jpg?v=638599545202600000"
     },
     {
-      "name": "Yerba Mate Unión 4 Flex 1 Kg.",
-      "price": "4950.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/yerba-mate-union-4-flex-1-kg-274177/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/322545/Yerba-Mate-Union-4-Flex-1-Kg-_1.jpg?v=638893983793330000"
-    },
-    {
       "name": "Leche En Polvo La Serenisima Descremada 200 Gr.",
       "price": "3235.00",
       "link": "https://diaonline.supermercadosdia.com.ar/leche-en-polvo-la-serenisima-descremada-200-gr-273683/p",
@@ -6397,16 +6325,16 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/352285/Queso-Reggianito-rallado-La-Serenisima-130-Gr-_1.jpg?v=638851462679030000"
     },
     {
-      "name": "Snack Pep Rueditas Pizza 120 Gr.",
-      "price": "2800.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/snack-pep-rueditas-pizza-120-gr-273113/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/358780/Snack-Pep-Rueditas-Pizza-120-Gr-_1.png?v=638951682652800000"
+      "name": "Jamón Cocido Paladini Feteado Fino 200 Gr.",
+      "price": "5190.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/jamon-cocido-paladini-feteado-fino-200-gr-273198/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/322146/Jamon-Cocido-Paladini-Feteado-Fino-200-Gr-_1.jpg?v=638599540171100000"
     },
     {
-      "name": "Palitos Salados Sabor Panceta Pep X 120 Gr.",
-      "price": "2800.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/palitos-salados-sabor-panceta-pep-x-120-gr-273112/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/346840/Palitos-Salados-Sabor-Panceta-Pep-X-120-Gr-_1.jpg?v=638761617190370000"
+      "name": "Snack Pep Rueditas Pizza 120 Gr.",
+      "price": "1680.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/snack-pep-rueditas-pizza-120-gr-273113/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/358780/Snack-Pep-Rueditas-Pizza-120-Gr-_1.png?v=638951682652800000"
     },
     {
       "name": "Chizitos De Maíz Pehuamar Maicitos X 125 Gr.",
@@ -6673,6 +6601,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/359009/Pan-de-molde-Multicereal-390-Gr-_1.jpg?v=638954271126600000"
     },
     {
+      "name": "Tortillas Light Rapiditas 10 Ud.",
+      "price": "3710.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/tortillas-light-rapiditas-10-ud-261335/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/354759/Tortillas-Light-Rapiditas-10-Ud-_1.jpg?v=638887749050600000"
+    },
+    {
       "name": "Yerba Tradicional Cruz de Malta sin tacc 500 Gr.",
       "price": "2360.00",
       "link": "https://diaonline.supermercadosdia.com.ar/yerba-tradicional-cruz-de-malta-sin-tacc-500-gr-260948/p",
@@ -6713,12 +6647,6 @@
       "price": "4522.50",
       "link": "https://diaonline.supermercadosdia.com.ar/cepillo-de-dientes-colgate-360°-luminous-white-2-ud-259436/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/360814/Cepillo-De-Dientes-Colgate-360°-Luminous-White-2-Ud-_1.jpg?v=638969829812300000"
-    },
-    {
-      "name": "Gaseosa Schweppes Pomelo Zero 2.25 Lt.",
-      "price": "4800.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/gaseosa-schweppes-pomelo-zero-225-lt-259397/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/318602/Gaseosa-Schweppes-Pomelo-Zero-2-25-Lt-_1.jpg?v=638599491889630000"
     },
     {
       "name": "Gaseosa Coca-Cola Sin Azúcar 1,75 Lt.",
@@ -6853,12 +6781,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/354747/Pan-Salvado-Lactal-560-Gr-_1.jpg?v=638887748918630000"
     },
     {
-      "name": "Cerveza Lata Grolsch 473 Cc.",
-      "price": "2145.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/cerveza-lata-grolsch-473-cc-241795/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/347257/Cerveza-Lata-Grolsch-473-Cc-_1.jpg?v=638785256951530000"
-    },
-    {
       "name": "Limpiador Líquido para Pisos Procenex Marina 900 Ml.",
       "price": "1274.00",
       "link": "https://diaonline.supermercadosdia.com.ar/limpiador-liquido-para-pisos-procenex-marina-900-ml-241500/p",
@@ -6983,6 +6905,12 @@
       "price": "5190.00",
       "link": "https://diaonline.supermercadosdia.com.ar/crema-facial-7en1-nivea-cuidado-nutritivo-para-todo-tipo-de-piel-100-ml-224114/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/359518/Crema-facial-7en1-Nivea-Cuidado-Nutritivo-para-todo-tipo-de-piel-100-Ml-_1.jpg?v=638959638587930000"
+    },
+    {
+      "name": "Pan Blanco Artesano con Masa Madre 500 Gr.",
+      "price": "7640.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/pan-blanco-artesano-con-masa-madre-500-gr-222898/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/358736/Pan-Blanco-Artesano-con-Masa-Madre-500-Gr-_1.jpg?v=638951681996830000"
     },
     {
       "name": "Galletitas Avena con Chips de Chocolate Dia 100 Gr.",
@@ -7279,12 +7207,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/353471/La-Lechera-Nutrifuerza-X-800-Gr-_1.jpg?v=638871332079170000"
     },
     {
-      "name": "Pan de molde Doble Integral DIA 540 Gr.",
-      "price": "3675.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/pan-de-molde-doble-integral-dia-540-gr-168146/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/340357/Pan-de-molde-Doble-Integral-DIA-540-Gr-_1.jpg?v=638696796438700000"
-    },
-    {
       "name": "Galletitas Rellenas DIA Vainilla 97 Gr.",
       "price": "695.00",
       "link": "https://diaonline.supermercadosdia.com.ar/galletitas-rellenas-dia-vainilla-97-gr-168119/p",
@@ -7489,12 +7411,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/312403/Cafe-Torrado-Cabrales-La-Planta-de-Cafe-500-Gr-_1.jpg?v=638599400051130000"
     },
     {
-      "name": "Jabón De Tocador Lavanda Plusbelle 120 Gr.",
-      "price": "1190.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/jabon-de-tocador-lavanda-plusbelle-120-gr-141419/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/354963/Jabon-De-Tocador-Lavanda-Plusbelle-120-Gr-_1.jpg?v=638889472947900000"
-    },
-    {
       "name": "Café Clásico La Morenita 500 Gr.",
       "price": "11890.00",
       "link": "https://diaonline.supermercadosdia.com.ar/cafe-clasico-la-morenita-500-gr-140812/p",
@@ -7589,12 +7505,6 @@
       "price": "1540.00",
       "link": "https://diaonline.supermercadosdia.com.ar/galletitas-dia-vainilla-rellenas-con-chocolate-140-gr-127974/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/340847/Galletitas-DIA-Vainilla-rellenas-con-Chocolate-140-Gr-_1.jpg?v=638706305467100000"
-    },
-    {
-      "name": "Galletitas Dulces DIA Frutilla 140 Gr.",
-      "price": "1540.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/galletitas-dulces-dia-frutilla-140-gr-127973/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/340845/Galletitas-Dulces-DIA-Frutilla-140-Gr-_1.jpg?v=638706305444900000"
     },
     {
       "name": "Acodicionador Elvive Hidra Hialuronico 400 Ml.",
@@ -7729,10 +7639,10 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/343752/Agua-DIA-Mineralizada-2-Lt-_1.jpg?v=638735751918530000"
     },
     {
-      "name": "Mayonesa Pouch Danica 500 Gr.",
-      "price": "1655.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/mayonesa-pouch-danica-500-gr-112459/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/311011/Mayonesa-Pouch-Danica-500-Gr-_1.jpg?v=638599380902100000"
+      "name": "Esponja Lisa Virulana Fibra 1 Ud.",
+      "price": "350.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/esponja-lisa-virulana-fibra-1-ud-110806/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/310950/Esponja-Lisa-Virulana-Fibra_1.jpg?v=638822378672430000"
     },
     {
       "name": "Alfajor Milka Simple Mousse 42 Gr.",
@@ -7849,28 +7759,22 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/335909/Pera-x-1-Kg-_1.jpg?v=638653936539200000"
     },
     {
-      "name": "Manzana Verde x 1 Kg.",
-      "price": "4290.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/manzana-verde-x-1-kg-90112/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/310398/Manzana-Verde-x-1-Kg-_1.jpg?v=638599371199600000"
-    },
-    {
       "name": "Papa Blanca en malla x Kg.",
       "price": "2290.00",
       "link": "https://diaonline.supermercadosdia.com.ar/papa-blanca-en-malla-x-kg-90090/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/353421/Papa-Blanca-en-malla-x-Kg-_1.jpg?v=638871331462900000"
     },
     {
+      "name": "Ajo X 2 Ud.",
+      "price": "2490.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/ajo-x-2-ud-90086/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341333/Ajo-X-2-Ud-_1.jpg?v=638708904422200000"
+    },
+    {
       "name": "Lechuga x Kg.",
       "price": "4790.00",
       "link": "https://diaonline.supermercadosdia.com.ar/lechuga-x-kg-90079/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/349712/Lechuga-x-Kg-_1.jpg?v=638816899679630000"
-    },
-    {
-      "name": "Tomate Perita x 1 Kg.",
-      "price": "5990.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/tomate-perita-x-1-kg-90074/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/310387/Tomate-Perita-x-1-Kg-_1.jpg?v=638599370964000000"
     },
     {
       "name": "Manzana Roja x 1 Kg.",
@@ -8054,7 +7958,7 @@
     },
     {
       "name": "Esponja De Acero Inoxidable Virulana 1 Ud.",
-      "price": "862.00",
+      "price": "430.00",
       "link": "https://diaonline.supermercadosdia.com.ar/esponja-de-acero-inoxidable-virulana-1-ud-56331/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341309/Esponja-De-Acero-Inoxidable-Virulana-1-Ud-_1.jpg?v=638708904127800000"
     },
@@ -8093,6 +7997,12 @@
       "price": "845.00",
       "link": "https://diaonline.supermercadosdia.com.ar/sal-entrefina-dia-parrillera-500-gr-55546/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/340476/Sal-Entrefina-DIA-Parrillera-500-Gr-_1.jpg?v=638943322110630000"
+    },
+    {
+      "name": "Tostaditas Clásicas Dia 140 Gr.",
+      "price": "1740.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/tostaditas-clasicas-dia-140-gr-55527/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/355845/Tostaditas-Clasicas-Dia-140-Gr-_1.jpg?v=638903296362700000"
     },
     {
       "name": "Amargo Terma Limón Cero 1,35 Lt.",
@@ -8161,14 +8071,8 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/350267/Yogur-Bebible-Ser-PRO--Con-Proteinas-Sabor-Vainilla-190-Gr-_1.jpg?v=638822085301700000"
     },
     {
-      "name": "Acondicionador Brillo Lamelar Tresemme 500 Ml.",
-      "price": "5790.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/acondicionador-brillo-lamelar-tresemme-500-ml-46974/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/353375/Acondicionador-Brillo-Lamelar-Tresemme-500-Ml-_1.jpg?v=638871330921000000"
-    },
-    {
       "name": "Palitos Salados Sabor Quesp Pep X 84 Gr.",
-      "price": "1800.00",
+      "price": "1080.00",
       "link": "https://diaonline.supermercadosdia.com.ar/palitos-salados-sabor-quesp-pep-x-84-gr-46579/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/346817/Palitos-Salados-Sabor-Quesp-Pep-X-84-Gr-_1.jpg?v=638761616892100000"
     },
@@ -8305,6 +8209,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/308590/Nuggets-Pollo-Crocante-Naahguets-Grangy-s-400-Gr-_1.jpg?v=638599345826700000"
     },
     {
+      "name": "Tomate Perita Pelado Dia 400 Gr.",
+      "price": "1190.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/tomate-perita-pelado-dia-400-gr-34596/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/340306/Tomate-Perita-Pelado-Dia-400-Gr-_1.jpg?v=638786813171570000"
+    },
+    {
       "name": "Palitos Salados Krachitos 110 Gr.",
       "price": "1320.00",
       "link": "https://diaonline.supermercadosdia.com.ar/palitos-salados-krachitos-110-gr-34440/p",
@@ -8401,6 +8311,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/342730/Desodorante-femenino-Nivea-Pearl---Beauty-Roll-On-50-ml_1.jpg?v=638719462524230000"
     },
     {
+      "name": "Puré de Tomate Salsati 520 Gr.",
+      "price": "1170.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/pure-de-tomate-salsati-520-gr-31444/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/308414/Pure-de-Tomate-Salsati-520-Gr-_1.jpg?v=638786811982300000"
+    },
+    {
       "name": "Jugo de Limón Minerva 500 ml.",
       "price": "2575.00",
       "link": "https://diaonline.supermercadosdia.com.ar/jugo-de-limon-minerva-500-ml-30582/p",
@@ -8467,18 +8383,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/308300/Desodorante-Cotton-Dry-Women-Rexona-150-Ml-_1.jpg?v=638599341611770000"
     },
     {
-      "name": "Rollito De Acero Virulana X 10 Ud.",
-      "price": "2245.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/rollito-de-acero-virulana-x-10-ud-28231/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341199/Rollito-De-Acero-Virulana-X-10-Ud-_1.jpg?v=638828519916100000"
-    },
-    {
-      "name": "Papas Fritas Sabor Crema \u0026 Cebolla Pringles 109 Gr.",
-      "price": "5165.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/papas-fritas-sabor-crema---cebolla-pringles-109-gr-28212/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/308293/Papas-Fritas-Sabor-Crema---Cebolla-Pringles-109-Gr-_1.jpg?v=638862998936070000"
-    },
-    {
       "name": "Barra Proteica Maní y Chocolate Integra 45 Gr.",
       "price": "2000.00",
       "link": "https://diaonline.supermercadosdia.com.ar/barra-proteica-mani-y-chocolate-integra-45-gr-27905/p",
@@ -8528,7 +8432,7 @@
     },
     {
       "name": "Snack Sabor Queso Crema Cheetos 85 Gr.",
-      "price": "2240.00",
+      "price": "2016.00",
       "link": "https://diaonline.supermercadosdia.com.ar/snack-sabor-queso-crema-cheetos-85-gr-24822/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/308115/Snack-Sabor-Queso-Crema-Cheetos-85-Gr-_1.jpg?v=638599339144000000"
     },
@@ -8581,12 +8485,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/331991/Alfajor-Con-Mani-Shot-Triple-60-Gr-_1.jpg?v=638827527937170000"
     },
     {
-      "name": "Alfajor Pepitos Triple 57 Gr.",
-      "price": "1880.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/alfajor-pepitos-triple-57-gr-23430/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/307968/Alfajor-Pepitos-Triple-57-Gr-_1.jpg?v=638827522607500000"
-    },
-    {
       "name": "Alfajor Triple Milka Dulce De Leche 70 Gr.",
       "price": "1980.00",
       "link": "https://diaonline.supermercadosdia.com.ar/alfajor-triple-milka-dulce-de-leche-70-gr-23428/p",
@@ -8623,12 +8521,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/349703/Shampoo-Biotinamina-Pantene-300-Ml-_1.jpg?v=638816899555730000"
     },
     {
-      "name": "Desodorante Bamboo Y Aloe Women Rexona 150 Ml.",
-      "price": "4090.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/desodorante-bamboo-y-aloe-women-rexona-150-ml-21569/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/332400/Desodorante-Bamboo-Y-Aloe-Women-Rexona-150-Ml-_1.jpg?v=638619039205400000"
-    },
-    {
       "name": "Detergente Ultra Marina Magistral 500 Ml.",
       "price": "4100.00",
       "link": "https://diaonline.supermercadosdia.com.ar/detergente-ultra-marina-magistral-500-ml-21295/p",
@@ -8645,6 +8537,12 @@
       "price": "1500.00",
       "link": "https://diaonline.supermercadosdia.com.ar/mayonesa-dia-500-ml-20490/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/307675/Mayonesa-DIA-500-Ml-_1.jpg?v=638599333298430000"
+    },
+    {
+      "name": "Patitas Rebozadas de Pollo Originales 400 Gr.",
+      "price": "7605.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/patitas-rebozadas-de-pollo-originales-400-gr-20331/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/344294/Patitas-Rebozadas-de-Pollo-Originales-400-Gr-_1.jpg?v=638737527930500000"
     },
     {
       "name": "Copos de Maíz DIA 400 Gr.",
@@ -8743,12 +8641,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/307371/Vermouth-Rosso-Martini-995-Ml-_1.jpg?v=638599329507630000"
     },
     {
-      "name": "Mermelada Bc Naranja 390 Gr.",
-      "price": "3430.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/mermelada-bc-naranja-390-gr-14793/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/307360/Mermelada-Bc-Naranja-390-Gr-_1.jpg?v=638599329342030000"
-    },
-    {
       "name": "Pan Lacteado Blanco Rey Oro 360 Gr.",
       "price": "2265.00",
       "link": "https://diaonline.supermercadosdia.com.ar/pan-lacteado-blanco-rey-oro-360-gr-14769/p",
@@ -8789,12 +8681,6 @@
       "price": "1200.00",
       "link": "https://diaonline.supermercadosdia.com.ar/alfajor-terrabusi-blanco-glaseado-38-gr-12481/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/358622/Alfajor-Terrabusi-Blanco-Glaseado-38-Gr-_1.jpg?v=638951680404300000"
-    },
-    {
-      "name": "Pasta Dental Close Up Dientes + Blancos 90 Gr.",
-      "price": "2910.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/pasta-dental-close-up-dientes--blancos-90-gr-10557/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/338780/Pasta-Dental-Close-Up-Dientes---Blancos-90-Gr-_1.jpg?v=638681480478570000"
     },
     {
       "name": "Mermelada Tradicional Arcor Frutilla 454 Gr.",
@@ -8881,12 +8767,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/348204/Queso-Untable-Light-La-Serenisima-60-Gr-_1.jpg?v=638799022509200000"
     },
     {
-      "name": "Nachos Sweet Chilli Doritos 74 Gr.",
-      "price": "3200.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/nachos-sweet-chilli-doritos-74-gr-5505/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/345969/Nachos-Sweet-Chilli-Doritos-74-Gr-_1.jpg?v=638786783445800000"
-    },
-    {
       "name": "Bombón Crocante Dia Crema Americana y Maní x 6 Ud.",
       "price": "5490.00",
       "link": "https://diaonline.supermercadosdia.com.ar/bombon-crocante-dia-crema-americana-y-mani-x-6-ud-4764/p",
@@ -8941,6 +8821,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/347440/Desinfectante-de-Ambientes-y-Elimina-Olores-Lysoform-Lavanda-en-Aerosol-495-Ml-_1.jpg?v=638780676381330000"
     },
     {
+      "name": "Leche Condensada Dia 395 Gr.",
+      "price": "3100.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/leche-condensada-dia-395-gr-1665/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/345543/Leche-Condensada-Dia-395-Gr-_1.jpg?v=638745183614230000"
+    },
+    {
       "name": "Bizcochuelo Chocolate Morixe 540 Gr.",
       "price": "3300.00",
       "link": "https://diaonline.supermercadosdia.com.ar/bizcochuelo-chocolate-morixe-540-gr-1072/p",
@@ -8989,16 +8875,22 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/359510/Abd-Deo-Oceanrush-12X150Ml-Rexona-150-Ml-_1.jpg?v=638955995611570000"
     },
     {
-      "name": "Desodorante Raspberry Dove 150 Ml.",
-      "price": "6490.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/desodorante-raspberry-dove-150-ml-309157/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/357675/Desodorante-Raspberry-Dove-150-Ml-_1.jpg?v=638933535492600000"
-    },
-    {
       "name": "Chocolate Semi Amargo Nestle 50 Gr.",
       "price": "1990.00",
       "link": "https://diaonline.supermercadosdia.com.ar/chocolate-semi-amargo-nestle-50-gr-309155/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/357342/Chocolate-Semi-Amargo-Nestle-50-Gr-_1.jpg?v=638931178183000000"
+    },
+    {
+      "name": "Alfajor Con Relleno De Dulce De Leche y Rhum 9 De Oro 46 Gr.",
+      "price": "450.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/alfajor-con-relleno-de-dulce-de-leche-y-rhum-9-de-oro-46-gr-309153/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/357338/Alfajor-Con-Relleno-De-Dulce-De-Leche-y-Rhum-9-De-Oro-46-Gr-_1.jpg?v=638931177509130000"
+    },
+    {
+      "name": "Alfajor con Relleno De Dulce de Leche y Banana 9 De Oro 46 Gr.",
+      "price": "450.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/alfajor-con-relleno-de-dulce-de-leche-y-banana-9-de-oro-46-gr-309152/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/357336/Alfajor-con-Relleno-De-Dulce-de-Leche-y-Banana-9-De-Oro-46-Gr-_1.jpg?v=638931177188030000"
     },
     {
       "name": "Hamburguesa 20 Ud X 85 Gr. Union Ganadera 1,6 Kg.",
@@ -9011,12 +8903,6 @@
       "price": "3185.00",
       "link": "https://diaonline.supermercadosdia.com.ar/yogur-griego-con-cereales-yogurisimo-166-gr-308931/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/357036/Yogur-Griego-Con-Cereales-Yogurisimo-166-Gr-_1.jpg?v=638918862569170000"
-    },
-    {
-      "name": "Tubitos Extreme Frut Mogul 15 Gr.",
-      "price": "540.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/tubitos-extreme-frut-mogul-15-gr-308914/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/355884/Tubitos-Extreme-Frut-Mogul-15-Gr-_1.jpg?v=638903296896370000"
     },
     {
       "name": "Tubitos Extreme Tutti Frutti Mogul 15 Gr.",
@@ -9053,6 +8939,12 @@
       "price": "1000.00",
       "link": "https://diaonline.supermercadosdia.com.ar/papas-fritas-clasica-papax-70-gr-308526/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/356599/Papas-Fritas-Clasica-Papax-70-Gr-_1.jpg?v=638912806647530000"
+    },
+    {
+      "name": "Jabon Liquido Concentrado Skip Para Ciclo Corto Cuidado Activo Botella 800 Ml.",
+      "price": "6890.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/jabon-liquido-concentrado-skip-para-ciclo-corto-cuidado-activo-botella-800-ml-308462/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/359451/Jabon-Liquido-Concentrado-Skip-Para-Ciclo-Corto-Cuidado-Activo-Botella-800-Ml-_1.jpg?v=638955136087100000"
     },
     {
       "name": "Tampon Super Nosotras 8 Ud.",
@@ -9167,12 +9059,6 @@
       "price": "2470.00",
       "link": "https://diaonline.supermercadosdia.com.ar/leche-con-prebioticos-laser-1-lt-307493/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/349773/Leche-Con-Prebioticos-Laser-1-Lt-_1.jpg?v=638882738168330000"
-    },
-    {
-      "name": "Fideos Tirabuzon Don Bernabeu 500 Gr.",
-      "price": "815.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/fideos-tirabuzon-don-bernabeu-500-gr-307394/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/352741/Fideos-Tirabuzon-Don-Bernabeu-500-Gr-_1.jpg?v=638863556107200000"
     },
     {
       "name": "Galletitas Pensamientos Con Sabor a Miel Solitas 350 Gr.",
@@ -9295,18 +9181,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/338411/Jugo-En-Polvo-Naranja-Y-Mango-Arcor-15-Gr-_1.jpg?v=638677068790730000"
     },
     {
-      "name": "Rapiditas XXL 8 Ud.",
-      "price": "7595.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/rapiditas-xxl-8-ud-305563/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/354806/Rapiditas-XXL-8-Ud-_1.jpg?v=638887749619730000"
-    },
-    {
-      "name": "Hummus Remolacha Kyros 230 Gr.",
-      "price": "3990.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/hummus-remolacha-kyros-230-gr-305561/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/338988/Hummus-Remolacha-Kyros-230-Gr-_1.jpg?v=638786868871230000"
-    },
-    {
       "name": "Toallitas Para Noche Always 16 Ud.",
       "price": "7240.00",
       "link": "https://diaonline.supermercadosdia.com.ar/toallitas-para-noche-always-16-ud-305559/p",
@@ -9397,12 +9271,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/360941/Jabon-De-Tocador-Protex-Aloe-90-G-3-Ud-_1.jpg?v=638969831260870000"
     },
     {
-      "name": "Pasta Cabello De Angel Matarazzo 500 Gr.",
-      "price": "2828.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/pasta-cabello-de-angel-matarazzo-500-gr-304511/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/332082/Pasta-Cabello-De-Angel-Matarazzo-500-Gr-_1.jpg?v=638616524422800000"
-    },
-    {
       "name": "Yogur Firme Frutilla Milkaut 180 Gr.",
       "price": "1450.00",
       "link": "https://diaonline.supermercadosdia.com.ar/yogur-firme-frutilla-milkaut-180-gr-304510/p",
@@ -9475,12 +9343,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/330755/Alfajor-Fantoche-Triple-Day-85-Gr-_1.jpg?v=638599653440500000"
     },
     {
-      "name": "Alfajor Fantoche Triple Night 85 Gr.",
-      "price": "1000.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/alfajor-fantoche-triple-night-85-gr-302341/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/330749/Alfajor-Fantoche-Triple-Night-85-Gr-_1.jpg?v=638599653362530000"
-    },
-    {
       "name": "Acondicionador Almendras \u0026 Miel Hadibell 950 Ml.",
       "price": "2155.00",
       "link": "https://diaonline.supermercadosdia.com.ar/acondicionador-almendras---miel-hadibell-950-ml-302176/p",
@@ -9497,6 +9359,12 @@
       "price": "4110.00",
       "link": "https://diaonline.supermercadosdia.com.ar/rollo-cocina-doble-hoja-con-extracto-algodon-elite-3-ud-301672/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/330646/Rollo-Cocina-Doble-Hoja-Con-Extracto-Algodon-Elite-3-Ud-_1.jpg?v=638875154477470000"
+    },
+    {
+      "name": "Agua Tonica Indian Tonic Cunnington 3 Lt.",
+      "price": "2404.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/agua-tonica-indian-tonic-cunnington-3-lt-301459/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/330635/Agua-Tonica-Indian-Tonic-Cunnington-3-Lt-_1.jpg?v=638936495687370000"
     },
     {
       "name": "Galletitas Polvorone Celosas 120 Gr.",
@@ -9539,12 +9407,6 @@
       "price": "5290.00",
       "link": "https://diaonline.supermercadosdia.com.ar/jamon-crudo-tradicional-el-artesano-100-gr-301004/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/330546/Jamon-Crudo-Tradicional-El-Artesano-100-Gr-_1.jpg?v=638599650667370000"
-    },
-    {
-      "name": "Semola Nutritiv Max Vitina 500 Gr.",
-      "price": "3035.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/semola-nutritiv-max-vitina-500-gr-301002/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/330543/Semola-Nutritiv-Max-Vitina-500-Gr-_1.jpg?v=638599650629400000"
     },
     {
       "name": "Bizcochuelo Chocolate Fort Exquisita 540 Gr.",
@@ -9763,6 +9625,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/329699/Jabon-Liquido-Skincare-Espadol-220-Ml-_1.jpg?v=638599639200100000"
     },
     {
+      "name": "Snacks De Arroz Pizza Dia 50 Gr.",
+      "price": "1100.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/snacks-de-arroz-pizza-dia-50-gr-299309/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/340993/Snacks-De-Arroz-Pizza-Dia-50-Gr-_1.jpg?v=638706307182630000"
+    },
+    {
       "name": "Risotto de Hongos Dia 200 Gr.",
       "price": "2700.00",
       "link": "https://diaonline.supermercadosdia.com.ar/risotto-de-hongos-dia-200-gr-299300/p",
@@ -9773,12 +9641,6 @@
       "price": "2100.00",
       "link": "https://diaonline.supermercadosdia.com.ar/premezcla-torta-frita-luchetti-500-gr-299141/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/329682/Premezcla-Torta-Frita-Luchetti-500-Gr-_1.jpg?v=638917444362700000"
-    },
-    {
-      "name": "Turron Mousse Fulbito 25 Gr.",
-      "price": "300.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/turron-mousse-fulbito-25-gr-299081/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/329669/Turron-Mousse-Fulbito-25-Gr-_1.jpg?v=638599638749600000"
     },
     {
       "name": "Protector Diario Femenino Bonte 20 Ud.",
@@ -9799,16 +9661,16 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/332060/Agua-Pet-Sin-Gas-Villavicencio-15-Lt-_1.jpg?v=638616524137900000"
     },
     {
+      "name": "Agua Con Gas Villavicencio 1,5 Lt.",
+      "price": "1547.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/agua-con-gas-villavicencio-15-lt-298972/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/332059/Agua-Con-Gas-Villavicencio-15-Lt-_1.jpg?v=638616524121330000"
+    },
+    {
       "name": "Pionono Tradicional 150 Gr.",
       "price": "1850.00",
       "link": "https://diaonline.supermercadosdia.com.ar/pionono-tradicional-150-gr-298932/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/329532/Pionono-Tradicional-150-Gr-_1.jpg?v=638599637045000000"
-    },
-    {
-      "name": "Cerveza Warsteiner 473 Ml.",
-      "price": "1859.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/cerveza-warsteiner-473-ml-298887/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/347266/Cerveza-Warsteiner-473-Ml-_1.jpg?v=638937179246730000"
     },
     {
       "name": "Shampoo Bomba Jazmin Suave 930 Ml.",
@@ -9859,14 +9721,8 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/332886/Acondicionador-Elvive-RT5-Keratin-400-Ml-_1.jpg?v=638936503136370000"
     },
     {
-      "name": "Shampoo Elvive RT5 Keratin 400 Ml.",
-      "price": "5394.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/shampoo-elvive-rt5-keratin-400-ml-298657/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/332877/Shampoo-Elvive-RT5-Keratin-400-Ml-_1.jpg?v=638936502645300000"
-    },
-    {
       "name": "Toallas Femeninas Tanga Suave C/Alas X 8 Ud.",
-      "price": "2940.00",
+      "price": "1764.00",
       "link": "https://diaonline.supermercadosdia.com.ar/toallas-femeninas-tanga-suave-calas-x-8-ud-298624/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/360009/Toallas-Femeninas-Tanga-Suave-CAlas-X-8-Ud-_1.jpg?v=638968098564670000"
     },
@@ -9887,12 +9743,6 @@
       "price": "705.00",
       "link": "https://diaonline.supermercadosdia.com.ar/copo-maiz-tres-arroyos-150-gr-298473/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/329189/Copo-Maiz-Tres-Arroyos-150-Gr-_1.jpg?v=638599632587500000"
-    },
-    {
-      "name": "Yogur Bebible Vainilla Yogurisimo 900 Gr.",
-      "price": "5375.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/yogur-bebible-vainilla-yogurisimo-900-gr-298471/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/329185/Yogur-Bebible-Vainilla-Yogurisimo-900-Gr-_1.jpg?v=638599632541600000"
     },
     {
       "name": "Ghee Manteca Clarificada Dia 150 Gr.",
@@ -10009,12 +9859,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/333440/Tratamiento-Shock-Keratina-Bonte-20-Gr-_1.jpg?v=638622728996700000"
     },
     {
-      "name": "Barras de Maní y Cacao Zafran 4 Ud.",
-      "price": "4450.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/barras-de-mani-y-cacao-zafran-4-ud-296690/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/339993/Barras-de-Mani-y-Cacao-Zafran-4-Ud-_1.jpg?v=638689891080900000"
-    },
-    {
       "name": "Barras de Almendra y Coco Zafran 4 Ud.",
       "price": "4450.00",
       "link": "https://diaonline.supermercadosdia.com.ar/barras-de-almendra-y-coco-zafran-4-ud-296689/p",
@@ -10043,12 +9887,6 @@
       "price": "1700.00",
       "link": "https://diaonline.supermercadosdia.com.ar/merengue-mediano-blanco-130-gr-296628/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/328742/Merengue-Mediano-Blanco-130-Gr-_1.jpg?v=638599626117170000"
-    },
-    {
-      "name": "Maní Japonés Jamón Dia 65 Gr.",
-      "price": "1755.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/mani-japones-jamon-dia-65-gr-296591/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/350892/Mani-Japones-Jamon-Dia-65-Gr-_1.jpg?v=638943326614800000"
     },
     {
       "name": "Maní Japonés Limon\u0026Pimienta Dia 65 Gr.",
@@ -10193,6 +10031,12 @@
       "price": "3490.00",
       "link": "https://diaonline.supermercadosdia.com.ar/jabon-de-tocador-cotton-fresh-120-gr-rexona-3-ud-295408/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/358910/Jabon-De-Tocador-Cotton-Fresh-120-Gr-Rexona-3-Ud-_1.jpg?v=638951684134470000"
+    },
+    {
+      "name": "Jabón En Barra Rexona Fresh 3X90 Gr.",
+      "price": "2590.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/jabon-en-barra-rexona-fresh-3x90-gr-295362/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/342115/Jabon-En-Barra-Rexona-Fresh-3X90-Gr-_1.jpg?v=638708914069330000"
     },
     {
       "name": "Detergente Líquido Ala + Concentrado Océano 500 Ml.",
@@ -10454,7 +10298,7 @@
     },
     {
       "name": "Avena Integral Instantánea Quaker X 500 Gr.",
-      "price": "4050.00",
+      "price": "3645.00",
       "link": "https://diaonline.supermercadosdia.com.ar/avena-integral-instantanea-quaker-x-500-gr-292386/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/326991/Avena-Integral-Instantanea-Quaker-X-500-Gr-_1.jpg?v=638599602790600000"
     },
@@ -10615,12 +10459,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/325867/Vino-Tinto-Nicasia-Vineyards-Malbec-750-Ml-_1.jpg?v=638599586788200000"
     },
     {
-      "name": "Café Molido Cabrales Super 125 Gr.",
-      "price": "6880.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/cafe-molido-cabrales-super-125-gr-284446/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/325818/Cafe-Molido-Cabrales-Super-125-Gr-_1.jpg?v=638816223668270000"
-    },
-    {
       "name": "Arvejas Inalpa secas remojadas 300 Gr.",
       "price": "790.00",
       "link": "https://diaonline.supermercadosdia.com.ar/arvejas-inalpa-secas-remojadas-300-gr-284112/p",
@@ -10747,12 +10585,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/338729/Tapa-de-Nalga-Envasado-al-Vacio-x-Kg-_1.jpg?v=638677892439970000"
     },
     {
-      "name": "Roast Beef en Churrasco Envasado al Vacío x Kg.",
-      "price": "13500.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/roast-beef-en-churrasco-envasado-al-vacio-x-kg-279524/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/338720/Roast-Beef-en-Churrasco-Envasado-al-Vacio-x-Kg-_1.jpg?v=638677892300070000"
-    },
-    {
       "name": "Gel Piernas Cansadas Con Centella Asiatica Y Gingko Biloba Bonte 150 Ml.",
       "price": "1900.00",
       "link": "https://diaonline.supermercadosdia.com.ar/gel-piernas-cansadas-con-centella-asiatica-y-gingko-biloba-bonte-150-ml-279343/p",
@@ -10817,12 +10649,6 @@
       "price": "5500.00",
       "link": "https://diaonline.supermercadosdia.com.ar/edulcorante-stevia-forte-hileret-200-ml-277350/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/323898/Edulcorante-Stevia-Forte-Hileret-200-Ml-_1.jpg?v=638599561931430000"
-    },
-    {
-      "name": "Amargo Terma Pomelo Rosado 1,35 Lt.",
-      "price": "1885.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/amargo-terma-pomelo-rosado-135-lt-277342/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/339954/Amargo-Terma-Pomelo-Rosado-135-Lt-_1.jpg?v=638689890538600000"
     },
     {
       "name": "Desinfectante Lysoform Aerosol Original 55 Ml.",
@@ -10903,28 +10729,22 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341756/Gaseosa-Paso-De-Los-Toros-Tonica-269-Cc-_1.jpg?v=638804132718630000"
     },
     {
-      "name": "Anchoas DIA 90 Gr.",
-      "price": "5990.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/anchoas-dia-90-gr-275721/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/323395/Anchoas-DIA-90-Gr-_1.jpg?v=638599555735900000"
-    },
-    {
       "name": "Arroz Ita Caabo Largo Fino Molinos 1 Kg",
       "price": "1490.00",
       "link": "https://diaonline.supermercadosdia.com.ar/arroz-ita-caabo-largo-fino-molinos-1-kg-275460/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/332624/Arroz-Ita-Caabo-Largo-Fino-Molinos-1-Kg_1.jpg?v=638937195148000000"
     },
     {
-      "name": "Mayonesa Menoyo Original Sin Tacc 500 Gr.",
-      "price": "1650.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/mayonesa-menoyo-original-sin-tacc-500-gr-274915/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/323094/Mayonesa-Menoyo-Original-Sin-Tacc-500-Gr-_1.jpg?v=638599551793870000"
-    },
-    {
       "name": "Mayonesa Light Menoyo sin tacc 470 Gr.",
       "price": "1700.00",
       "link": "https://diaonline.supermercadosdia.com.ar/mayonesa-light-menoyo-sin-tacc-470-gr-274912/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/323091/Mayonesa-Light-Menoyo-sin-tacc-470-Gr-_1.jpg?v=638599551749700000"
+    },
+    {
+      "name": "Limpiador Desinfectante Ayudín Lavanda 900 Ml.",
+      "price": "2225.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/limpiador-desinfectante-ayudin-lavanda-900-ml-274908/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/323078/Limpiador-Desinfectante-Ayudin-Lavanda-900-Ml-_1.jpg?v=638599551604670000"
     },
     {
       "name": "Choclo Cremoso La Campagnola 300 Gr.",
@@ -10937,6 +10757,12 @@
       "price": "890.00",
       "link": "https://diaonline.supermercadosdia.com.ar/te-dia-hierbas-sin-tacc-25-ud-274835/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341750/Te-Dia-Hierbas-Sin-Tacc-25-Ud-_1.jpg?v=638708909660100000"
+    },
+    {
+      "name": "Alfajor Oreo Triple 56 Gr.",
+      "price": "1880.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/alfajor-oreo-triple-56-gr-274632/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/322966/Alfajor-Oreo-Triple-56-Gr-_1.jpg?v=638827518677100000"
     },
     {
       "name": "Alimento Untable Manty 0% Grasas Trans 200 Gr.",
@@ -10963,6 +10789,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/339951/Lavandina-Ayudin-Pureza-del-Glaciar-Triple-Poder-2-Lt-_1.jpg?v=638689890501500000"
     },
     {
+      "name": "Yerba Mate Unión 4 Flex 1 Kg.",
+      "price": "4950.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/yerba-mate-union-4-flex-1-kg-274177/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/322545/Yerba-Mate-Union-4-Flex-1-Kg-_1.jpg?v=638893983793330000"
+    },
+    {
       "name": "Alfajor de Arroz Chocoarroz con Dulce de Leche 22 Gr.",
       "price": "845.00",
       "link": "https://diaonline.supermercadosdia.com.ar/alfajor-de-arroz-chocoarroz-con-dulce-de-leche-22-gr-274176/p",
@@ -10985,6 +10817,12 @@
       "price": "3025.00",
       "link": "https://diaonline.supermercadosdia.com.ar/queso-reggianito-rallado-la-serenisima-70-gr-273229/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/352282/Queso-Reggianito-rallado-La-Serenisima-70-Gr-_1.jpg?v=638851462636500000"
+    },
+    {
+      "name": "Palitos Salados Sabor Panceta Pep X 120 Gr.",
+      "price": "1680.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/palitos-salados-sabor-panceta-pep-x-120-gr-273112/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/346840/Palitos-Salados-Sabor-Panceta-Pep-X-120-Gr-_1.jpg?v=638761617190370000"
     },
     {
       "name": "Fideos Knorr Spaghetti 500 Gr.",
@@ -11287,10 +11125,10 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/346834/Palitos-Sabor-A-Queso-Pehuamar-X-165-Gr-_1.jpg?v=638761617117400000"
     },
     {
-      "name": "Pan Mignon X 1 Ud.",
-      "price": "115.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/pan-mignon-x-1-ud-259356/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341616/Pan-Mignon-X-1-Ud-_1.jpg?v=638708907928230000"
+      "name": "Gaseosa Schweppes Pomelo Zero 2.25 Lt.",
+      "price": "4800.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/gaseosa-schweppes-pomelo-zero-225-lt-259397/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/318602/Gaseosa-Schweppes-Pomelo-Zero-2-25-Lt-_1.jpg?v=638599491889630000"
     },
     {
       "name": "Yerba Mate Romance Suave 1 Kg.",
@@ -11401,22 +11239,16 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/317156/Mani-Pelado-Salado-Krachitos-70-Gr-_1.jpg?v=638599469949970000"
     },
     {
+      "name": "Cerveza Lata Grolsch 473 Cc.",
+      "price": "2145.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/cerveza-lata-grolsch-473-cc-241795/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/347257/Cerveza-Lata-Grolsch-473-Cc-_1.jpg?v=638785256951530000"
+    },
+    {
       "name": "Pan de Pancho Bimbo Artesano 6 Ud.",
       "price": "3860.00",
       "link": "https://diaonline.supermercadosdia.com.ar/pan-de-pancho-bimbo-artesano-6-ud-241399/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/354741/Pan-de-Pancho-Bimbo-Artesano-6-Ud-_1.jpg?v=638887748862370000"
-    },
-    {
-      "name": "Agua Saborizada Aquarius Sin Azúcares Pomelo 2,25 Lt.",
-      "price": "2800.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/agua-saborizada-aquarius-sin-azucares-pomelo-225-lt-240306/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/354174/Agua-Saborizada-Aquarius-Sin-Azucares-Pomelo-225-Lt-_1.jpg?v=638879104428130000"
-    },
-    {
-      "name": "Pasta Dental Oral-B 4En1 Con Flúor 70 Gr.",
-      "price": "2760.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/pasta-dental-oral-b-4en1-con-fluor-70-gr-239719/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/333238/Pasta-Dental-OralB-4En1-Con-Fluor-70-Gr-_1.jpg?v=638620966412300000"
     },
     {
       "name": "Snack De Arroz Jamon Dia 50 Gr.",
@@ -11447,12 +11279,6 @@
       "price": "7260.00",
       "link": "https://diaonline.supermercadosdia.com.ar/espuma-para-afeitar-nivea-200-ml-239114/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/354566/Espuma-Para-Afeitar-Nivea-200-Ml-_1.jpg?v=638884499315600000"
-    },
-    {
-      "name": "Oblea Kitkat White 4 Fingers X 41.5 Gr.",
-      "price": "2010.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/oblea-kitkat-white-4-fingers-x-415-gr-238922/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/353484/Oblea-Kitkat-White-4-Fingers-X-41-5-Gr-_1.jpg?v=638871332233430000"
     },
     {
       "name": "Postre Dulce de Leche Dia x 230 Gr.",
@@ -11501,12 +11327,6 @@
       "price": "1494.00",
       "link": "https://diaonline.supermercadosdia.com.ar/galletitas-mini-pitusas-chocolate-160-gr-231936/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/316310/Galletitas-Mini-Pitusas-Chocolate-160-Gr-_1.jpg?v=638828521590130000"
-    },
-    {
-      "name": "Galletitas Mini Pitusas Frutilla 160 Gr.",
-      "price": "1494.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/galletitas-mini-pitusas-frutilla-160-gr-231934/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/316308/Galletitas-Mini-Pitusas-Frutilla-160-Gr-_1.jpg?v=638828521966170000"
     },
     {
       "name": "Bebida Isotónica Powerade Mountain Blast 1,5 Lt.",
@@ -11575,12 +11395,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/343772/Gaseosa-Cola-Dia-Cero-Azucar-225-Lt-_1.jpg?v=638735752142030000"
     },
     {
-      "name": "Bebida isotónica Powerade manzana 995 Ml.",
-      "price": "1600.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/bebida-isotonica-powerade-manzana-995-ml-220864/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/315722/Bebida-isotonica-Powerade-manzana-995-Ml-_1.jpg?v=638599445941830000"
-    },
-    {
       "name": "Limpiahorno Mr. Músculo en Aerosol 360 Ml.",
       "price": "6600.00",
       "link": "https://diaonline.supermercadosdia.com.ar/limpiahorno-mr-musculo-en-aerosol-360-ml-220672/p",
@@ -11621,6 +11435,12 @@
       "price": "6680.00",
       "link": "https://diaonline.supermercadosdia.com.ar/suavizante-concentrado-comfort-energia-floral-500-ml-210548/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/359329/Suavizante-Concentrado-Comfort-Energia-Floral-500-Ml-_1.jpg?v=638960486766630000"
+    },
+    {
+      "name": "Papas Tradicional Mccain 1,5 Kg.",
+      "price": "7080.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/papas-tradicional-mccain-1-5-kg-206613/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/358000/Papas-Tradicional-Mccain-15-Kg-_1.jpg?v=638941435939170000"
     },
     {
       "name": "Premezcla para Pizza Integral Pureza 550 Gr.",
@@ -11863,6 +11683,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/334642/Suavizante-Concentrado-Para-Ropa-Downy-450-Ml-_1.jpg?v=638635545285470000"
     },
     {
+      "name": "Pan de molde Doble Integral DIA 540 Gr.",
+      "price": "3675.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/pan-de-molde-doble-integral-dia-540-gr-168146/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/340357/Pan-de-molde-Doble-Integral-DIA-540-Gr-_1.jpg?v=638696796438700000"
+    },
+    {
       "name": "Galletitas Dulces DIA Vainilla 140 Gr.",
       "price": "1540.00",
       "link": "https://diaonline.supermercadosdia.com.ar/galletitas-dulces-dia-vainilla-140-gr-168135/p",
@@ -11995,12 +11821,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/353453/Nescafe-Dolca-Cookies---Cream-X-125-Gr-_1.jpg?v=638871331859970000"
     },
     {
-      "name": "Nuggets Pollo Tiras Naahguets Grangy's 400 Gr.",
-      "price": "5990.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/nuggets-pollo-tiras-naahguets-grangy-s-400-gr-147535/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/312683/Nuggets-Pollo-Tiras-Naahguets-Grangy-s-400-Gr-_1.jpg?v=638599403931270000"
-    },
-    {
       "name": "Postre Sensación Chocolate Dia 230 Gr.",
       "price": "1120.00",
       "link": "https://diaonline.supermercadosdia.com.ar/postre-sensacion-chocolate-dia-230-gr-147497/p",
@@ -12019,12 +11839,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/352734/Dulce-De-Batata-Esnaola-500-Gr-_1.jpg?v=638863556009570000"
     },
     {
-      "name": "Isotónica Gatorade Naranja Botella 1,25 Lt.",
-      "price": "1912.50",
-      "link": "https://diaonline.supermercadosdia.com.ar/isotonica-gatorade-naranja-botella-125-lt-144293/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/312544/Isotonica-Gatorade-Naranja-Botella-125-Lt-_1.jpg?v=638822261808770000"
-    },
-    {
       "name": "Pañal Classic G Huggies 36 Ud.",
       "price": "10812.00",
       "link": "https://diaonline.supermercadosdia.com.ar/panal-classic-g-huggies-36-ud-144286/p",
@@ -12041,6 +11855,12 @@
       "price": "1400.00",
       "link": "https://diaonline.supermercadosdia.com.ar/alimento-untable-opi-100-gr-141581/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/312404/Alimento-Untable-Opi-100-Gr-_1.jpg?v=638599400064570000"
+    },
+    {
+      "name": "Jabón De Tocador Lavanda Plusbelle 120 Gr.",
+      "price": "1190.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/jabon-de-tocador-lavanda-plusbelle-120-gr-141419/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/354963/Jabon-De-Tocador-Lavanda-Plusbelle-120-Gr-_1.jpg?v=638889472947900000"
     },
     {
       "name": "Pan de molde Salvado DIA 360 Gr.",
@@ -12083,12 +11903,6 @@
       "price": "2100.00",
       "link": "https://diaonline.supermercadosdia.com.ar/shock-reparador-intensivo-con-keratina-x-50-gr-137196/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341400/Shock-Reparador-Intensivo-Con-Keratina-X-50-Gr-_1.jpg?v=638708905242630000"
-    },
-    {
-      "name": "Insecticida para Casa y Jardín DIA 360 Ml.",
-      "price": "3350.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/insecticida-para-casa-y-jardin-dia-360-ml-136764/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/312183/Insecticida-para-Casa-y-Jardin-DIA-360-Ml-_1.jpg?v=638599396909000000"
     },
     {
       "name": "Suavizante Concentrado Para Ropa Brisa De Verano Downy 500 Ml.",
@@ -12175,6 +11989,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/332505/Shampoo-Brillo-Dove-400-Ml-_1.jpg?v=638619040280300000"
     },
     {
+      "name": "Galletitas Dulces DIA Frutilla 140 Gr.",
+      "price": "1540.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/galletitas-dulces-dia-frutilla-140-gr-127973/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/340845/Galletitas-Dulces-DIA-Frutilla-140-Gr-_1.jpg?v=638706305444900000"
+    },
+    {
       "name": "Desodorante Antitranspirante Femenino Nivea Fresh Citrus Sin Siliconas X 150 Ml.",
       "price": "3580.00",
       "link": "https://diaonline.supermercadosdia.com.ar/desodorante-antitranspirante-femenino-nivea-fresh-citrus-sin-siliconas-x-150-ml-127215/p",
@@ -12209,12 +12029,6 @@
       "price": "1590.00",
       "link": "https://diaonline.supermercadosdia.com.ar/jabon-liquido-para-manos-suave-flor-naranja-y-miel-220-ml-123645/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/348615/Jabon-Liquido-Para-Manos-Suave-Flor-Naranja-Y-Miel-220-Ml-_1.jpg?v=638794440955100000"
-    },
-    {
-      "name": "Rebozador DIA 500 Gr.",
-      "price": "1120.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/rebozador-dia-500-gr-122400/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/311481/Rebozador-DIA-500-Gr-_1.jpg?v=638599387071870000"
     },
     {
       "name": "Gaseosa 7 Up Botella 3 Lt.",
@@ -12421,6 +12235,18 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/340710/Naranja-Ombligo-x-1-Kg-_1.jpg?v=638701985890970000"
     },
     {
+      "name": "Manzana Verde x 1 Kg.",
+      "price": "4290.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/manzana-verde-x-1-kg-90112/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/310398/Manzana-Verde-x-1-Kg-_1.jpg?v=638599371199600000"
+    },
+    {
+      "name": "Tomate Perita x 1 Kg.",
+      "price": "5990.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/tomate-perita-x-1-kg-90074/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/310387/Tomate-Perita-x-1-Kg-_1.jpg?v=638599370964000000"
+    },
+    {
       "name": "Tostadas Sin Sal Con Vitaminas Molinos Ala 150 Gr.",
       "price": "2315.00",
       "link": "https://diaonline.supermercadosdia.com.ar/tostadas-sin-sal-con-vitaminas-molinos-ala-150-gr-88197/p",
@@ -12548,7 +12374,7 @@
     },
     {
       "name": "Bolsas para Freezer DIA 20 Ud.",
-      "price": "2790.00",
+      "price": "1395.00",
       "link": "https://diaonline.supermercadosdia.com.ar/bolsas-para-freezer-dia-20-ud-71148/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/309788/Bolsas-para-Freezer-DIA-20-Ud-_1.jpg?v=638599362433800000"
     },
@@ -12572,7 +12398,7 @@
     },
     {
       "name": "Esponja Salvauñas Virulana 1 Ud.",
-      "price": "821.00",
+      "price": "410.00",
       "link": "https://diaonline.supermercadosdia.com.ar/esponja-salvaunas-virulana-1-ud-65849/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341320/Esponja-Salvauñas-Virulana-1-Ud-_1.jpg?v=638708904250370000"
     },
@@ -12733,12 +12559,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/309153/Dulce-de-Batata-Emeth-con-Chocolate-500-Gr-_1.jpg?v=638862995734730000"
     },
     {
-      "name": "Te De Manzanilla Saint Gottard 10 Ud.",
-      "price": "1260.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/te-de-manzanilla-saint-gottard-10-ud-49389/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/335997/Te-De-Manzanilla-Saint-Gottard-10-Ud-_1.jpg?v=638653938268200000"
-    },
-    {
       "name": "Aceite de Girasol Cocinero 900 Ml.",
       "price": "3205.00",
       "link": "https://diaonline.supermercadosdia.com.ar/aceite-de-girasol-cocinero-900-ml-48605/p",
@@ -12749,6 +12569,12 @@
       "price": "4914.00",
       "link": "https://diaonline.supermercadosdia.com.ar/mascara-de-tratamiento-oleo-nutricion-ultra-cuidado-dove-300-gr-47329/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/309062/Mascara-de-Tratamiento-Oleo-Nutricion-Ultra-Cuidado-Dove-300-Gr-_1.jpg?v=638599351879500000"
+    },
+    {
+      "name": "Acondicionador Brillo Lamelar Tresemme 500 Ml.",
+      "price": "5790.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/acondicionador-brillo-lamelar-tresemme-500-ml-46974/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/353375/Acondicionador-Brillo-Lamelar-Tresemme-500-Ml-_1.jpg?v=638871330921000000"
     },
     {
       "name": "Mayonesa Hellmanns Liviana Doypack 237 Gr.",
@@ -12907,6 +12733,18 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341201/Edulcorante-En-Polvo-Dia-100-Ud-_1.jpg?v=638708902975470000"
     },
     {
+      "name": "Rollito De Acero Virulana X 10 Ud.",
+      "price": "2245.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/rollito-de-acero-virulana-x-10-ud-28231/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341199/Rollito-De-Acero-Virulana-X-10-Ud-_1.jpg?v=638828519916100000"
+    },
+    {
+      "name": "Papas Fritas Sabor Crema \u0026 Cebolla Pringles 109 Gr.",
+      "price": "5165.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/papas-fritas-sabor-crema---cebolla-pringles-109-gr-28212/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/308293/Papas-Fritas-Sabor-Crema---Cebolla-Pringles-109-Gr-_1.jpg?v=638862998936070000"
+    },
+    {
       "name": "Jabón de Tocador Dove Exfoliante 90 Gr.",
       "price": "1567.50",
       "link": "https://diaonline.supermercadosdia.com.ar/jabon-de-tocador-dove-exfoliante-90-gr-28180/p",
@@ -13027,6 +12865,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/307990/Oblea-Bon-o-Bon-Chocolate-30-Gr-_1.jpg?v=638599337153200000"
     },
     {
+      "name": "Alfajor Pepitos Triple 57 Gr.",
+      "price": "1880.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/alfajor-pepitos-triple-57-gr-23430/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/307968/Alfajor-Pepitos-Triple-57-Gr-_1.jpg?v=638827522607500000"
+    },
+    {
       "name": "Alfajor Terrabusi Triple Torta 70 Gr.",
       "price": "1880.00",
       "link": "https://diaonline.supermercadosdia.com.ar/alfajor-terrabusi-triple-torta-70-gr-23426/p",
@@ -13075,6 +12919,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/349660/Jabon-Liquido-Corporal-Dove-Humectacion-Enriquecida-Refill-180-Ml-_1.jpg?v=638816036292530000"
     },
     {
+      "name": "Desodorante Bamboo Y Aloe Women Rexona 150 Ml.",
+      "price": "4090.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/desodorante-bamboo-y-aloe-women-rexona-150-ml-21569/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/332400/Desodorante-Bamboo-Y-Aloe-Women-Rexona-150-Ml-_1.jpg?v=638619039205400000"
+    },
+    {
       "name": "Shampoo Probioticos Fructis 350 Ml.",
       "price": "6090.00",
       "link": "https://diaonline.supermercadosdia.com.ar/shampoo-probioticos-fructis-350-ml-21556/p",
@@ -13105,16 +12955,16 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/359954/Shampoo-Original-Johnsons-Baby-200-Ml-_1.jpg?v=638968097866770000"
     },
     {
+      "name": "Mayonesa DIA 220 Ml.",
+      "price": "790.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/mayonesa-dia-220-ml-20489/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/307674/Mayonesa-DIA-220-Ml-_1.jpg?v=638599333277600000"
+    },
+    {
       "name": "Enjuague Bucal Plax Ice Infinity 500X350 Ml.",
       "price": "5373.75",
       "link": "https://diaonline.supermercadosdia.com.ar/enjuague-bucal-plax-ice-infinity-500x350-ml-20372/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/360538/Enjuague-Bucal-Plax-Ice-Infinity-500X350-Ml-_1.jpg?v=638969826600700000"
-    },
-    {
-      "name": "Patitas de Pollo Granja del Sol 1,1 Kg.",
-      "price": "22450.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/patitas-de-pollo-granja-del-sol-11-kg-20328/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/307655/Patitas-de-Pollo-Granja-del-Sol-11-Kg-_1.jpg?v=638599333037100000"
     },
     {
       "name": "Cereales Copos de Maíz DIA Azucarados 200 Gr.",
@@ -13195,6 +13045,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/346338/Atun-en-Aceite-La-Campagnola-170-Gr-_1.jpg?v=638755554851400000"
     },
     {
+      "name": "Mermelada Bc Naranja 390 Gr.",
+      "price": "3430.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/mermelada-bc-naranja-390-gr-14793/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/307360/Mermelada-Bc-Naranja-390-Gr-_1.jpg?v=638599329342030000"
+    },
+    {
       "name": "Caballa al Natural La Campagnola 300 Gr.",
       "price": "3240.00",
       "link": "https://diaonline.supermercadosdia.com.ar/caballa-al-natural-la-campagnola-300-gr-14756/p",
@@ -13243,6 +13099,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/357684/Limpiador-Inodoro-Adhesivo-Pato-Encanto-Floral-24-Gr-_1.jpg?v=638936133282470000"
     },
     {
+      "name": "Pasta Dental Close Up Dientes + Blancos 90 Gr.",
+      "price": "2910.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/pasta-dental-close-up-dientes--blancos-90-gr-10557/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/338780/Pasta-Dental-Close-Up-Dientes---Blancos-90-Gr-_1.jpg?v=638681480478570000"
+    },
+    {
       "name": "Mermelada Light DIA Ciruelas 390 Gr.",
       "price": "2160.00",
       "link": "https://diaonline.supermercadosdia.com.ar/mermelada-light-dia-ciruelas-390-gr-10505/p",
@@ -13265,12 +13127,6 @@
       "price": "1055.00",
       "link": "https://diaonline.supermercadosdia.com.ar/mani-tostado-pelado-sin-sal-dia-105-gr-7126/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/344465/Mani-Tostado-Pelado-Sin-Sal-Dia-105-Gr-_1.jpg?v=638739135412370000"
-    },
-    {
-      "name": "Desinfectante Lysoform Ultraliviano Aerosol Lavanda 315 Ml.",
-      "price": "4160.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/desinfectante-lysoform-ultraliviano-aerosol-lavanda-315-ml-6943/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/353876/Desinfectante-Lysoform-Ultraliviano-Aerosol-Lavanda-315-Ml-_1.jpg?v=638872281641270000"
     },
     {
       "name": "Galletitas dulces Cerealitas Granola 170 Gr.",
@@ -13315,16 +13171,16 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/358029/Yogur-Firme-vainilla-Yogurisimo-190-Gr-_1.jpg?v=638942305939530000"
     },
     {
+      "name": "Nachos Sweet Chilli Doritos 74 Gr.",
+      "price": "3200.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/nachos-sweet-chilli-doritos-74-gr-5505/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/345969/Nachos-Sweet-Chilli-Doritos-74-Gr-_1.jpg?v=638786783445800000"
+    },
+    {
       "name": "Shampoo Bond Intense Repair Dove 200 Ml.",
       "price": "3294.00",
       "link": "https://diaonline.supermercadosdia.com.ar/shampoo-bond-intense-repair-dove-200-ml-4473/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/306927/Shampoo-Bond-Intense-Repair-Dove-200-Ml-_1.jpg?v=638599323610500000"
-    },
-    {
-      "name": "Agua Sin Gas Saborizada Pomelo Dia 1,5 Lt.",
-      "price": "1300.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/agua-sin-gas-saborizada-pomelo-dia-15-lt-3945/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/306913/Agua-Sin-Gas-Saborizada-Pomelo-Dia-15-Lt-_1.jpg?v=638599323372130000"
     },
     {
       "name": "Sal Entrefina Paquete Celusal 500 Gr.",
@@ -13337,12 +13193,6 @@
       "price": "2550.00",
       "link": "https://diaonline.supermercadosdia.com.ar/yerba-mate-con-hierbas-buenas-y-santas-500-gr-3131/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/338138/Yerba-Mate-Con-Hierbas-Buenas-Y-Santas-500-Gr-_1.jpg?v=638671879001470000"
-    },
-    {
-      "name": "Yogur Firme frutilla Yogurisimo 190 Gr.",
-      "price": "2470.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/yogur-firme-frutilla-yogurisimo-190-gr-3123/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/358350/Yogur-Firme-frutilla-Yogurisimo-190-Gr-_1.jpg?v=638949090892870000"
     },
     {
       "name": "Toalla Higiénica Lina Esencial Con Alas x 16 Ud.",
@@ -13417,16 +13267,34 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/358198/309164_1.jpg?v=638943358619100000"
     },
     {
+      "name": "Desodorante Raspberry Dove 150 Ml.",
+      "price": "6490.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/desodorante-raspberry-dove-150-ml-309157/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/357675/Desodorante-Raspberry-Dove-150-Ml-_1.jpg?v=638933535492600000"
+    },
+    {
       "name": "Chocolate Con Leche Suave y Cremoso Nestle 45 Gr.",
       "price": "1750.00",
       "link": "https://diaonline.supermercadosdia.com.ar/chocolate-con-leche-suave-y-cremoso-nestle-45-gr-309154/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/357340/Chocolate-Con-Leche-Suave-y-Cremoso-Nestle-45-Gr-_1.jpg?v=638931177827670000"
     },
     {
+      "name": "Tubitos Extreme Frut Mogul 15 Gr.",
+      "price": "540.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/tubitos-extreme-frut-mogul-15-gr-308914/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/355884/Tubitos-Extreme-Frut-Mogul-15-Gr-_1.jpg?v=638903296896370000"
+    },
+    {
       "name": "Caramelos Mentalyptus Halls 25 Gr.",
       "price": "930.00",
       "link": "https://diaonline.supermercadosdia.com.ar/caramelos-mentalyptus-halls-25-gr-308911/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/355881/Caramelos-Mentalyptus-Halls-25-Gr-_1.jpg?v=638903296850600000"
+    },
+    {
+      "name": "Obleas Frutilla Zupay 100 Gr.",
+      "price": "709.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/obleas-frutilla-zupay-100-gr-308875/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/355878/Obleas-Frutilla-Zupay-100-Gr-_1.jpg?v=638903296806400000"
     },
     {
       "name": "Chocman Coco Bonafide 35 Gr.",
@@ -13451,6 +13319,12 @@
       "price": "1800.00",
       "link": "https://diaonline.supermercadosdia.com.ar/pep-rueditas-picantes-flamin-hot-71-gr-308801/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/355869/Pep-Rueditas-Flamin-Hot-71-Gr-_1.jpg?v=638903296690170000"
+    },
+    {
+      "name": "Gaseosa Coca-Cola Sabor Liviano 600 Ml.",
+      "price": "2000.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/gaseosa-coca-cola-sabor-liviano-600-ml-308795/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/357994/Gaseosa-CocaCola-Sabor-Liviano-600-Ml-_1.jpg?v=638939019950200000"
     },
     {
       "name": "Gaseosa Sprite Lima-LimÃ³n 600 Ml.",
@@ -13513,12 +13387,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/359457/Jabon-Liquido-Concentrado-Skip-Para-Ciclo-Corto-Limpieza-Activa-Doypack-800-Ml-_1.jpg?v=638955136164970000"
     },
     {
-      "name": "Jabon Liquido Concentrado Skip Para Ciclo Corto Cuidado Activo Botella 800 Ml.",
-      "price": "6890.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/jabon-liquido-concentrado-skip-para-ciclo-corto-cuidado-activo-botella-800-ml-308462/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/359451/Jabon-Liquido-Concentrado-Skip-Para-Ciclo-Corto-Cuidado-Activo-Botella-800-Ml-_1.jpg?v=638955136087100000"
-    },
-    {
       "name": "Jabon Liquido Concentrado Skip Para Ciclo Corto Cuidado Activo Doypack 800 Ml.",
       "price": "9050.00",
       "link": "https://diaonline.supermercadosdia.com.ar/jabon-liquido-concentrado-skip-para-ciclo-corto-cuidado-activo-doypack-800-ml-308461/p",
@@ -13553,12 +13421,6 @@
       "price": "1758.25",
       "link": "https://diaonline.supermercadosdia.com.ar/tampon-regular-nosotras-8-ud-308301/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/356590/Tampon-Regular-Nosotras-8-Ud-_1.jpg?v=638912806516530000"
-    },
-    {
-      "name": "Protectores Multiestilo Nosotras 20 Ud.",
-      "price": "1911.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/protectores-multiestilo-nosotras-20-ud-308245/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/356589/Protectores-Multiestilo-Nosotras-20-Ud-_1.jpg?v=638912806500070000"
     },
     {
       "name": "Barra 48% Cacao Cereal Mix 38 Gr.",
@@ -13711,6 +13573,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/360968/Cepillo-De-Dientes-Colgate-Slim-Soft-Charcoal-1-Ud-_1.jpg?v=638969831595900000"
     },
     {
+      "name": "Pan de Pancho Fargo 6 Ud.",
+      "price": "2895.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/pan-de-pancho-fargo-6-ud-307494/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/354821/Pan-de-Pancho-Fargo-6-Ud-_1.jpg?v=638887749782630000"
+    },
+    {
       "name": "Postre Chocolate Danette Pack x 4 380 Gr.",
       "price": "5610.00",
       "link": "https://diaonline.supermercadosdia.com.ar/postre-chocolate-danette-pack-x-4-380-gr-307487/p",
@@ -13739,6 +13607,12 @@
       "price": "1330.00",
       "link": "https://diaonline.supermercadosdia.com.ar/budin-con-chips-zupay-170-gr-307468/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/350778/Budin-Con-Chips-Zupay-170-Gr-_1.jpg?v=638828993445200000"
+    },
+    {
+      "name": "Fideos Tirabuzon Don Bernabeu 500 Gr.",
+      "price": "815.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/fideos-tirabuzon-don-bernabeu-500-gr-307394/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/352741/Fideos-Tirabuzon-Don-Bernabeu-500-Gr-_1.jpg?v=638863556107200000"
     },
     {
       "name": "Fideos Mostachol Donbernabeu 500 Gr.",
@@ -13843,6 +13717,18 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/340085/Aceitunas-Verdes-Descarozadas-Castell-110-Gr-_1.jpg?v=638786870091770000"
     },
     {
+      "name": "Rapiditas XXL 8 Ud.",
+      "price": "7595.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/rapiditas-xxl-8-ud-305563/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/354806/Rapiditas-XXL-8-Ud-_1.jpg?v=638887749619730000"
+    },
+    {
+      "name": "Hummus Remolacha Kyros 230 Gr.",
+      "price": "3990.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/hummus-remolacha-kyros-230-gr-305561/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/338988/Hummus-Remolacha-Kyros-230-Gr-_1.jpg?v=638786868871230000"
+    },
+    {
       "name": "Postre Helado Chocotorta Arcor 637 Gr.",
       "price": "7530.00",
       "link": "https://diaonline.supermercadosdia.com.ar/postre-helado-chocotorta-arcor-637-gr-305367/p",
@@ -13853,12 +13739,6 @@
       "price": "690.00",
       "link": "https://diaonline.supermercadosdia.com.ar/caramelos-confitados-bubbaloo-24-gr-305305/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/337300/Caramelos-Confitados-Bubbaloo-24-Gr-_1.jpg?v=638661374552070000"
-    },
-    {
-      "name": "Gomitas Mix Acidos Bubbaloo 16,5 Gr.",
-      "price": "460.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/gomitas-mix-acidos-bubbaloo-165-gr-305304/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/337298/Gomitas-Mix-Acidos-Bubbaloo-165-Gr-_1.jpg?v=638661374528030000"
     },
     {
       "name": "Barra Frutilla Con Yogurt Cereal Mix 156 Gr.",
@@ -13909,6 +13789,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/332090/Shampoo-Anti-Comezon-Head-Shoulders-375-Ml-_1.jpg?v=638616524539000000"
     },
     {
+      "name": "Pasta Cabello De Angel Matarazzo 500 Gr.",
+      "price": "2828.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/pasta-cabello-de-angel-matarazzo-500-gr-304511/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/332082/Pasta-Cabello-De-Angel-Matarazzo-500-Gr-_1.jpg?v=638616524422800000"
+    },
+    {
       "name": "Hilo Dental Oral B 1 Ud.",
       "price": "4975.00",
       "link": "https://diaonline.supermercadosdia.com.ar/hilo-dental-oral-b-1-ud-304309/p",
@@ -13925,12 +13811,6 @@
       "price": "3414.00",
       "link": "https://diaonline.supermercadosdia.com.ar/acondicionador-hidratacion-hialuronico-elvive-200-ml-304166/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/330893/Acondicionador-Hidratacion-Hialuronico-Elvive-200-Ml-_1.jpg?v=638599655167700000"
-    },
-    {
-      "name": "Nachos Sabor Calabaza Y Mostaza Dia 70 Gr.",
-      "price": "2000.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/nachos-sabor-calabaza-y-mostaza-dia-70-gr-304140/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/340577/Nachos-Sabor-Calabaza-Y-Mostaza-Dia-70-Gr-_1.jpg?v=638732354009670000"
     },
     {
       "name": "Crema Para Cocinar La Serenisima 520 Gr.",
@@ -14041,6 +13921,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/330562/Toallas-Humedas-Huggies-Edicion-Limitada-Sirenita-x-48-Ud-_1.jpg?v=638599650887500000"
     },
     {
+      "name": "Semola Nutritiv Max Vitina 500 Gr.",
+      "price": "3035.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/semola-nutritiv-max-vitina-500-gr-301002/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/330543/Semola-Nutritiv-Max-Vitina-500-Gr-_1.jpg?v=638599650629400000"
+    },
+    {
       "name": "Pan Arabe Salvado Delipan 300 Gr.",
       "price": "2210.00",
       "link": "https://diaonline.supermercadosdia.com.ar/pan-arabe-salvado-delipan-300-gr-300967/p",
@@ -14129,12 +14015,6 @@
       "price": "1890.00",
       "link": "https://diaonline.supermercadosdia.com.ar/polvo-de-cacao-chocolate-chocodia-300-gr-300515/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341002/Polvo-de-Cacao-Chocolate-Chocodia-300-Gr-_1.jpg?v=638706307287200000"
-    },
-    {
-      "name": "Pasta Dental 3D White Brilliant Fresh Oral-B 90 Gr.",
-      "price": "5195.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/pasta-dental-3d-white-brilliant-fresh-oral-b-90-gr-300408/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/332940/Pasta-Dental-3D-White-Brilliant-Fresh-OralB-90-Gr-_1.jpg?v=638619044943400000"
     },
     {
       "name": "Jabón Humectante Creme Care Nivea Para Todo Tipo de Piel 1 x 125 Gr.",
@@ -14245,12 +14125,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/349497/Guiso-de-Lentejas-Dia-200-Gr-_1.jpg?v=638810847779170000"
     },
     {
-      "name": "Snacks De Arroz Pizza Dia 50 Gr.",
-      "price": "1100.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/snacks-de-arroz-pizza-dia-50-gr-299309/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/340993/Snacks-De-Arroz-Pizza-Dia-50-Gr-_1.jpg?v=638706307182630000"
-    },
-    {
       "name": "Cebada Torrada Dia 100 Gr.",
       "price": "1650.00",
       "link": "https://diaonline.supermercadosdia.com.ar/cebada-torrada-dia-100-gr-299299/p",
@@ -14261,12 +14135,6 @@
       "price": "1570.00",
       "link": "https://diaonline.supermercadosdia.com.ar/toallita-femenina-ultra-delgada-bonte-8-ud-299076/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/329659/Toallita-Femenina-Ultra-Delgada-Bonte-8-Ud-_1.jpg?v=638599638617170000"
-    },
-    {
-      "name": "Vino Malbec Chacabuco 750 Ml.",
-      "price": "3890.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/vino-malbec-chacabuco-750-ml-299054/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/329610/Vino-Malbec-Chacabuco-750-Ml-_1.jpg?v=638599638088770000"
     },
     {
       "name": "Jugo de Naranja 100 % Fruta Dia 1 Lt.",
@@ -14297,6 +14165,12 @@
       "price": "3438.50",
       "link": "https://diaonline.supermercadosdia.com.ar/mascara-de-tratamiento-sedal-colageno--vitamina-c-300-gr-298929/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/356439/Mascara-de-Tratamiento-sedal-Colageno---Vitamina-C-300-Gr-_1.jpg?v=638911941770400000"
+    },
+    {
+      "name": "Cerveza Warsteiner 473 Ml.",
+      "price": "1859.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/cerveza-warsteiner-473-ml-298887/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/347266/Cerveza-Warsteiner-473-Ml-_1.jpg?v=638937179246730000"
     },
     {
       "name": "Acondicionador Jazmin Suave 930 Ml.",
@@ -14351,6 +14225,12 @@
       "price": "1850.00",
       "link": "https://diaonline.supermercadosdia.com.ar/pickles-doypack-dia-140-gr-298499/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/340570/Pickles-Doypack-Dia-140-Gr-_1.jpg?v=638701121657100000"
+    },
+    {
+      "name": "Yogur Bebible Vainilla Yogurisimo 900 Gr.",
+      "price": "5375.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/yogur-bebible-vainilla-yogurisimo-900-gr-298471/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/329185/Yogur-Bebible-Vainilla-Yogurisimo-900-Gr-_1.jpg?v=638599632541600000"
     },
     {
       "name": "Redonditos de Chocolate Tres Arroyos 210 Gr.",
@@ -14521,16 +14401,16 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/349137/Energizante-Dia-269-Ml-_1.jpg?v=638800483581270000"
     },
     {
-      "name": "Lavavajilla Plus Colageno Heroe 750 Ml.",
-      "price": "1390.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/lavavajilla-plus-colageno-heroe-750-ml-297107/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/350895/Lavavajilla-Plus-Colageno-Heroe-750-Ml-_1.jpg?v=638833325460070000"
-    },
-    {
       "name": "Vino Tardío Dulce Finca Natalina Autentico 750 Ml.",
       "price": "3890.00",
       "link": "https://diaonline.supermercadosdia.com.ar/vino-tardio-dulce-finca-natalina-autentico-750-ml-297052/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/328828/Vino-Tardio-Dulce-Finca-Natalina-Autentico-750-Ml-_1.jpg?v=638599627377970000"
+    },
+    {
+      "name": "Barras de Maní y Cacao Zafran 4 Ud.",
+      "price": "4450.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/barras-de-mani-y-cacao-zafran-4-ud-296690/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/339993/Barras-de-Mani-y-Cacao-Zafran-4-Ud-_1.jpg?v=638689891080900000"
     },
     {
       "name": "Nachos De Maíz Tostitos X 77 Gr.",
@@ -14791,12 +14671,6 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/340933/Barra-de-Arroz-Mani---Miel-x-3-Ud-Dia-60-gr-_1.jpg?v=638706306463600000"
     },
     {
-      "name": "Barra de Arroz Tradicional x 3Ud Dia 60 Gr.",
-      "price": "1850.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/barra-de-arroz-tradicional-x-3ud-dia-60-gr-293004/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/340929/Barra-de-Arroz-Tradicional-x-3Ud-Dia-60-Gr-_1.jpg?v=638706306420730000"
-    },
-    {
       "name": "Shampoo SEDAL Carbón Activado y Peonias 340 Ml.",
       "price": "2250.00",
       "link": "https://diaonline.supermercadosdia.com.ar/shampoo-sedal-carbon-activado-y-peonias-340-ml-292955/p",
@@ -14846,7 +14720,7 @@
     },
     {
       "name": "Avena Integral Tradicional Quaker X 550 Gr.",
-      "price": "4250.00",
+      "price": "3825.00",
       "link": "https://diaonline.supermercadosdia.com.ar/avena-integral-tradicional-quaker-x-550-gr-292387/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/326993/Avena-Integral-Tradicional-Quaker-X-550-Gr-_1.jpg?v=638599602821070000"
     },
@@ -15031,6 +14905,12 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/347395/Desinfectante-Limpiador-Marina-Ayudin-900-Ml-_1.jpg?v=638779746721670000"
     },
     {
+      "name": "Café Molido Cabrales Super 125 Gr.",
+      "price": "6880.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/cafe-molido-cabrales-super-125-gr-284446/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/325818/Cafe-Molido-Cabrales-Super-125-Gr-_1.jpg?v=638816223668270000"
+    },
+    {
       "name": "Lentejas Inalpa Secas Remojadas 300 Gr.",
       "price": "990.00",
       "link": "https://diaonline.supermercadosdia.com.ar/lentejas-inalpa-secas-remojadas-300-gr-284109/p",
@@ -15187,10 +15067,22 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/323996/Edulcorante-Liquido-Dietetico-Sucralosa-Dia-500-Ml-_1.jpg?v=638599563205670000"
     },
     {
+      "name": "Alimento Para Gato Pescado y Salmon Gati x 3 Kg.",
+      "price": "12610.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/alimento-para-gato-pescado-y-salmon-gati-x-3-kg-277851/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/323964/Alimento-Para-Gato-Pescado-y-Salmon-Gati-x-3-Kg-_1.jpg?v=638599562806900000"
+    },
+    {
       "name": "Relleno Untable Águila Nut 290 Gr.",
       "price": "5330.00",
       "link": "https://diaonline.supermercadosdia.com.ar/relleno-untable-aguila-nut-290-gr-277706/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/323940/Relleno-Untable-Aguila-Nut-290-Gr-_1.jpg?v=638599562493470000"
+    },
+    {
+      "name": "Amargo Terma Pomelo Rosado 1,35 Lt.",
+      "price": "1885.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/amargo-terma-pomelo-rosado-135-lt-277342/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/339954/Amargo-Terma-Pomelo-Rosado-135-Lt-_1.jpg?v=638689890538600000"
     },
     {
       "name": "Crema Dental Gum Blanqueadora 150 Gr.",
@@ -15227,6 +15119,12 @@
       "price": "740.00",
       "link": "https://diaonline.supermercadosdia.com.ar/gelatina-frutilla-dia-25-gr-276344/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/358799/Gelatina-Frutilla-Dia-25-Gr-_1.jpg?v=638951682880300000"
+    },
+    {
+      "name": "Gelatina Frambuesa Dia 25 Gr.",
+      "price": "740.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/gelatina-frambuesa-dia-25-gr-276343/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/358795/Gelatina-Frambuesa-Dia-25-Gr-_1.jpg?v=638951682837600000"
     },
     {
       "name": "Gelatina Cereza Dia 25 Gr.",
@@ -15289,22 +15187,124 @@
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/323397/Toalla-Higienica-Kotex-Extra-Proteccion-x-16-Ud-_1.jpg?v=638599555759570000"
     },
     {
+      "name": "Anchoas DIA 90 Gr.",
+      "price": "5990.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/anchoas-dia-90-gr-275721/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/323395/Anchoas-DIA-90-Gr-_1.jpg?v=638599555735900000"
+    },
+    {
       "name": "Lavandina DIA Tradicional 4 Lt.",
       "price": "3690.00",
       "link": "https://diaonline.supermercadosdia.com.ar/lavandina-dia-tradicional-4-lt-275523/p",
       "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/323354/Lavandina-DIA-Tradicional-4-Lt-_1.jpg?v=638599555160100000"
     },
     {
-      "name": "Chocolate Vizzio con Leche y Maní 165 Gr.",
-      "price": "3300.00",
-      "link": "https://diaonline.supermercadosdia.com.ar/chocolate-vizzio-con-leche-y-mani-165-gr-275234/p",
-      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/323223/Chocolate-Vizzio-con-Leche-y-Mani-165-Gr-_1.jpg?v=638599553429930000"
+      "name": "Granas DIA Rosa 50 Gr.",
+      "price": "460.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/granas-dia-rosa-50-gr-275211/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/323216/Granas-DIA-Rosa-50-Gr-_1.jpg?v=638599553290970000"
+    },
+    {
+      "name": "Mayonesa Menoyo Original Sin Tacc 500 Gr.",
+      "price": "1650.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/mayonesa-menoyo-original-sin-tacc-500-gr-274915/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/323094/Mayonesa-Menoyo-Original-Sin-Tacc-500-Gr-_1.jpg?v=638599551793870000"
+    },
+    {
+      "name": "Yerba Mate Dia con Palo 500 Gr.",
+      "price": "1690.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/yerba-mate-dia-con-palo-500-gr-274841/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/323030/Yerba-Mate-Dia-con-Palo-500-Gr-_1.jpg?v=638599550997470000"
+    },
+    {
+      "name": "Boniato x 1 Kg.",
+      "price": "3490.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/boniato-x-1-kg-274807/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/323023/Boniato-x-1-Kg-_1.jpg?v=638599550881370000"
+    },
+    {
+      "name": "Shampoo Head \u0026 Shoulders Efecto Antioxidante Desde Raíz 375 Ml.",
+      "price": "10290.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/shampoo-head---shoulders-efecto-antioxidante-desde-raiz-375-ml-274548/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/322918/Shampoo-Head---Shoulders-Efecto-Antioxidante-Desde-Raiz-375-Ml-_1.jpg?v=638599549417000000"
+    },
+    {
+      "name": "Jugo Del Valle Multifruta 1 Lt.",
+      "price": "1644.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/jugo-del-valle-multifruta-1-lt-274155/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/322533/Jugo-Del-Valle-Multifruta-1-Lt-_1.jpg?v=638599544968600000"
+    },
+    {
+      "name": "Bolsas Herméticas Ziploc para Conservar Medianas 12 Ud.",
+      "price": "4290.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/bolsas-hermeticas-ziploc-para-conservar-medianas-12-ud-273710/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/347578/Bolsas-Hermeticas-Ziploc-para-Conservar-Medianas-12-Ud-_1.jpg?v=638780677931130000"
+    },
+    {
+      "name": "Obleas Clásicas Dia 200 Gr.",
+      "price": "1450.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/obleas-clasicas-dia-200-gr-273629/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/340889/Obleas-Clasicas-Dia-200-Gr-_1.jpg?v=638706305951970000"
+    },
+    {
+      "name": "Té La Morenita Común 50 Ud.",
+      "price": "1650.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/te-la-morenita-comun-50-ud-273325/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/341731/Te-La-Morenita-Comun-50-Ud-_1.jpg?v=638708909445430000"
+    },
+    {
+      "name": "Bombones Surtidos Arcor El Kiosco 246 Gr.",
+      "price": "9650.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/bombones-surtidos-arcor-el-kiosco-246-gr-273222/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/322151/Bombones-Surtidos-Arcor-El-Kiosco-246-Gr-_1.jpg?v=638842225396370000"
+    },
+    {
+      "name": "Pastillas Menthoplus Menta 30 Gr.",
+      "price": "550.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/pastillas-menthoplus-menta-30-gr-272998/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/322023/Pastillas-Menthoplus-Menta-30-Gr-_1.jpg?v=638599538680930000"
+    },
+    {
+      "name": "Fideos Knorr Tirabuzon 500 Gr.",
+      "price": "900.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/fideos-knorr-tirabuzon-500-gr-272894/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/321954/Fideos-Knorr-Tirabuzon-500-Gr-_1.jpg?v=638599537810200000"
+    },
+    {
+      "name": "Arroz Largo Fino Maximo 1 Kg.",
+      "price": "1525.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/arroz-largo-fino-maximo-1-kg-272642/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/332618/Arroz-Largo-Fino-Maximo-1-Kg-_1.jpg?v=638619041475800000"
+    },
+    {
+      "name": "Dr. Lemon Limón lata 473 Ml.",
+      "price": "1830.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/dr-lemon-limon-lata-473-ml-272640/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/321882/Dr--Lemon-Limon-lata-473-Ml-_1.jpg?v=638599536785730000"
+    },
+    {
+      "name": "Yerba Mate Natura Suave 500 Gr.",
+      "price": "1940.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/yerba-mate-natura-suave-500-gr-272636/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/321881/Yerba-Mate-Natura-Suave-500-Gr-_1.jpg?v=638599536769900000"
+    },
+    {
+      "name": "Arroz Largo Fino Máximo 500 Gr.",
+      "price": "800.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/arroz-largo-fino-maximo-500-gr-272633/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/321879/Arroz-Largo-Fino-Maximo-500-Gr-_1.jpg?v=638599536740330000"
+    },
+    {
+      "name": "Madalenas DIA con Vainilla 200 Gr.",
+      "price": "1920.00",
+      "link": "https://diaonline.supermercadosdia.com.ar/madalenas-dia-con-vainilla-200-gr-272352/p",
+      "image": "https://ardiaprod.vteximg.com.br/arquivos/ids/321836/Madalenas-DIA-con-Vainilla-200-Gr-_1.jpg?v=638599536107170000"
     }
   ],
-  "date": "2025-10-26",
-  "lastUpdate": "2025-10-26T02:27:46Z",
+  "date": "2025-10-27",
+  "lastUpdate": "2025-10-27T02:45:09Z",
   "store": "dia",
-  "time": "02-27-46",
-  "timestamp": "2025-10-26T02:27:46Z",
+  "time": "02-45-09",
+  "timestamp": "2025-10-27T02:45:09Z",
   "totalProducts": 2550
 }
