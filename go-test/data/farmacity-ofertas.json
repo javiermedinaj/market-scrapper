@@ -1,14 +1,14 @@
 {
-  "timestamp": "2025-11-13T02:31:29Z",
-  "date": "2025-11-13",
-  "time": "02:31:29",
+  "timestamp": "2025-11-14T02:29:12Z",
+  "date": "2025-11-14",
+  "time": "02:29:12",
   "store": "Farmacity",
   "totalProducts": 2500,
-  "lastUpdate": "2025-11-13T02:31:29Z",
+  "lastUpdate": "2025-11-14T02:29:12Z",
   "data": [
     {
       "name": "Oleo Extraordinario Elvive x 100 ml",
-      "price": "17510.00",
+      "price": "11381.00",
       "link": "https://www.farmacity.com/oleo-extraordinario-x-100-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/230686/137831_oleo-extraordinario-x-100-ml_imagen-1.jpg?v=638024798167600000"
     },
@@ -182,7 +182,7 @@
     },
     {
       "name": "Sérum Elvive Glycolic Gloss x 100 ml",
-      "price": "17509.00",
+      "price": "11381.00",
       "link": "https://www.farmacity.com/serum-elvive-glyco-gloss-x-100-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/259041/240019_serum-elvive-glyco-gloss-x-100-ml_imagen--1.jpg?v=638578524389470000"
     },
@@ -493,6 +493,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/282433/246628_desodorante-antitranspirante-en-gel-secret-coco-x-45-g_imagen-1.jpg?v=638944288785300000"
     },
     {
+      "name": "Desodorante Antitranspirante en Gel Secret Algodon x 45 g",
+      "price": "6175.00",
+      "link": "https://www.farmacity.com/desodorante-antitranspirante-en-gel-secret-algodon-x-45-g/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/282431/246627_desodorante-antitranspirante-en-gel-secret-algodon-x-45-g_imagen-1.jpg?v=638944288776530000"
+    },
+    {
       "name": "Desodorante Antitranspirante en Gel Secret pH Balanced Lavanda x 45 g",
       "price": "6175.00",
       "link": "https://www.farmacity.com/desodorante-antitranspirante-en-gel-secret-ph-balanced-lavanda-x-45-g/p",
@@ -548,7 +554,7 @@
     },
     {
       "name": "Protector Térmico Get The Look x 125 ml",
-      "price": "2950.00",
+      "price": "3100.00",
       "link": "https://www.farmacity.com/protector-termico-get-the-look-x-125-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/275570/245036_protector-termico-get-the-look-x-125-ml_Imagen-1.jpg?v=638875136386130000"
     },
@@ -613,12 +619,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/264266/243777_gel-limpiador-espumoso-cerave-x-473-ml_imagen-1.jpg.jpg?v=638756550184700000"
     },
     {
-      "name": "Rubor Líquido Maybelline Sunkisser",
-      "price": "19438.00",
-      "link": "https://www.farmacity.com/rubor-maybelline-sunkisser/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/269676/243581_rubor-maybelline-sunkisser_imagen-1.jpg?v=638823944263600000"
-    },
-    {
       "name": "Pasta Dental Colgate Total Control Sarro x 90 g",
       "price": "5456.00",
       "link": "https://www.farmacity.com/crema-dental-colgate-total-control-sarro-x-90-gr/p",
@@ -637,16 +637,16 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/262802/242765_combo-garnier-skin-active-gel-facial-anti-acne-express-aclara-x-200-ml-serum-anti-imperfecciones-x-30-ml_imagen-1.jpg?v=638683174448500000"
     },
     {
+      "name": "Base Primer Rimmel 3 En 1 Multi Tasker x 30 ml",
+      "price": "24694.00",
+      "link": "https://www.farmacity.com/base-rimmel-3-en-1-multi-tasker-x-30-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/261542/242305_base-rimmel-3-en-1-multi-tasker-x-30-ml_imagen-1.jpg?v=638647832037670000"
+    },
+    {
       "name": "Sérum Anti-Manchas L'Oréal París Glycolic Bright",
       "price": "24102.00",
       "link": "https://www.farmacity.com/serum-anti-manchas-loreal-paris-glycolic-bright-x-30-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/261410/242166_serum-loreal-paris-glycolic-bright-x-30-ml_imagen-1.jpg?v=638645156466600000"
-    },
-    {
-      "name": "Crema de Día L'Oréal París Glycolic Bright Anti-Manchas Fps 30",
-      "price": "37078.00",
-      "link": "https://www.farmacity.com/crema-facial-anti-manchas-loreal-paris-glycolic-bright-fps-30-dia-x-50-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/261405/242165_crema-loreal-paris-glycolic-bright-dia-x-50-ml_imagen-1.jpg?v=638645154687970000"
     },
     {
       "name": "Base de Maquillaje Maybelline Superstay Lumi-Matte",
@@ -715,9 +715,9 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/284976/240128_agua-micelar-skin-garnier-con-acido-salicilico-x-400-ml_imagen-1.jpg?v=638972751484900000"
     },
     {
-      "name": "Creatina Pure Wellness Power Monohidrato x 250 gr",
+      "name": "Suplemento Dietario Pure Wellness Creatina Power Monohidrato x 250 g",
       "price": "32900.00",
-      "link": "https://www.farmacity.com/power-creatine-monohid-pure-wellness-x-250-gr/p",
+      "link": "https://www.farmacity.com/power-creatine-monohid-pure-wellness-x-250-g/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/254556/239561_power-creatine-monohid-pure-wellness-x-250-gr_imagen-1.jpg?v=638494949183430000"
     },
     {
@@ -1075,12 +1075,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/231299/201358_crema-dental-sensodyne-limpieza-profunda-x-90-gr_imagen-1.jpg?v=638034358069530000"
     },
     {
-      "name": "Crema Hidratante La Roche Posay Toleriane Sensitive Hidratante x 40 ml",
-      "price": "64150.00",
-      "link": "https://www.farmacity.com/toleriane-sensitive-hidratante-x-40-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/284595/209165_toleriane-sensitive-hidratante-x-40-ml_imagen-1.jpg?v=638968384878400000"
-    },
-    {
       "name": "Delineador Líquido Revlon Colorstay Blackest Black",
       "price": "28600.00",
       "link": "https://www.farmacity.com/delineador-liquido-revlon-colorstay-blackest-black/p",
@@ -1103,12 +1097,6 @@
       "price": "5785.00",
       "link": "https://www.farmacity.com/kit-de-coloracion-colorsilk-3d-beautiful-color/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/193457/210872_kit-coloracion-revlon-colorsilk-3d-technology_imagen-1.jpg?v=637152371092430000"
-    },
-    {
-      "name": "Pañales Pampers Deluxe Protection",
-      "price": "43274.00",
-      "link": "https://www.farmacity.com/panales-premium-care-suave-hiperpack/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/254035/153121_panal-pampers-deluxe-prot-g-44-un_imagen-1.jpg?v=638481800178570000"
     },
     {
       "name": "Pasta Dental Colgate Luminous White Instant x 70 g",
@@ -1435,10 +1423,16 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/264265/243776_limpiador-hidratante-cerave-x-473-ml_imagen-1.jpg.jpg?v=638756546217830000"
     },
     {
-      "name": "Magnesio 400 Pure Wellness x 30 comp",
+      "name": "Suplemento Dietario Pure Wellness Magnesio 400 x 30 Comp",
       "price": "7500.00",
       "link": "https://www.farmacity.com/magnesio-400-pure-wellness-x-30-comp/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/267657/243652_magnesio-400-pure-wellness-x-30-comp-imagen-1.jpg.jpg?v=638809231158900000"
+    },
+    {
+      "name": "Rubor Líquido Maybelline Sunkisser",
+      "price": "19438.00",
+      "link": "https://www.farmacity.com/rubor-maybelline-sunkisser/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/269676/243581_rubor-maybelline-sunkisser_imagen-1.jpg?v=638823944263600000"
     },
     {
       "name": "Iluminador Líquido L'Oréal Paris Lumi Glotion",
@@ -1453,22 +1447,16 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/267936/243602_kit-serums-vitamina-c-de-garnier-serum-de-dia-serum-de-noche__imagen-1.jpg.jpg?v=638848107786330000"
     },
     {
-      "name": "Pasta Dental Sri Sri Tattva Sudanta Ultra Blanqueadora x 100 g",
-      "price": "6179.00",
-      "link": "https://www.farmacity.com/pasta-dental-sri-sri-tattva-sudanta-ultra-blanqueadora-x-100-g/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/264412/243284_pasta-dental-sri-sri-tattva-sudanta-ultra-blanqueadora-x-100-g_imagen-1.jpg.jpg?v=638760957935630000"
-    },
-    {
-      "name": "Base Primer Rimmel 3 En 1 Multi Tasker x 30 ml",
-      "price": "24694.00",
-      "link": "https://www.farmacity.com/base-rimmel-3-en-1-multi-tasker-x-30-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/261542/242305_base-rimmel-3-en-1-multi-tasker-x-30-ml_imagen-1.jpg?v=638647832037670000"
-    },
-    {
       "name": "Gel Crema L'Oréal París Glycolic Bright Anti-Manchas Noche x 50 ml",
       "price": "37078.00",
       "link": "https://www.farmacity.com/gel-crema-facial-anti-manchas-loreal-paris-glycolic-bright-noche-x-50-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/261417/242167_crema-loreal-paris-glycolic-bright-fps30-noche-x-50-ml_imagen-1.jpg?v=638663431407000000"
+    },
+    {
+      "name": "Crema de Día L'Oréal París Glycolic Bright Anti-Manchas Fps 30",
+      "price": "37078.00",
+      "link": "https://www.farmacity.com/crema-facial-anti-manchas-loreal-paris-glycolic-bright-fps-30-dia-x-50-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/261405/242165_crema-loreal-paris-glycolic-bright-dia-x-50-ml_imagen-1.jpg?v=638645154687970000"
     },
     {
       "name": "Kit Capilar Dove Regeneración Extrema",
@@ -1693,12 +1681,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/281610/237396_protector-solar-loreal-paris-uv-defender-fps-50-fluido-tono-claro-x-40-g__imagen-1.jpg?v=638937122216100000"
     },
     {
-      "name": "Barra Protéica Pure Wellness Sabor Cookies and Cream x 46 g",
-      "price": "2350.00",
-      "link": "https://www.farmacity.com/barra-proteica-pure-wellness-sabor-cookies-and-cream-x-46-gr/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/249565/237371_barra-proteica-pure-wellness-sabor-cookies-and-cream-x-46-gr_imagen-1.jpg?v=638362761999800000"
-    },
-    {
       "name": "Óleo TRESemmé Finisher Textura Liviana x 60 ml",
       "price": "7242.00",
       "link": "https://www.farmacity.com/oleo-tresemme-finisher-textura-liviana-x-60-ml/p",
@@ -1789,6 +1771,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/253068/234312_kit-tratamiento-completo-triple-serum-loreal-paris-serum-retinol-serum-acido-hialuronico-y-serum-ojos_imagen--1.jpg?v=638460182018800000"
     },
     {
+      "name": "Shampoo Pantene Pro-V Miracles Hidrata y Fortalece x 400 ml",
+      "price": "5307.00",
+      "link": "https://www.farmacity.com/shampoo-pantene-pro-v-miracles-hidrata-y-fortalece-x-400-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/262688/234282_shampoo-pantene-pro-v-miracles-hidrata-y-fortalece-x-400-ml__imagen--1.jpg?v=638677020126770000"
+    },
+    {
       "name": "Kit Tintura Excellence Creme Triple Cuidado x 47 g",
       "price": "13229.00",
       "link": "https://www.farmacity.com/kit-tintura-excellence-creme-triple-cuidado-x-47-g/p",
@@ -1867,19 +1855,13 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/265904/232032_gel-de-limpiza-facial-neutrogena-deep-clean-intensive-x-150-g__imagen-1.jpg.jpg?v=638787837778000000"
     },
     {
-      "name": "Crema Facial Adermicina Humectante x 100 g",
-      "price": "7200.00",
-      "link": "https://www.farmacity.com/crema-facial-adermicina-humectant-x-90-g/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/284359/7796285298258-1.jpg?v=638966442948700000"
-    },
-    {
       "name": "Geniol Plus Paracetamol x 12 Cáps",
       "price": "2610.00",
       "link": "https://www.farmacity.com/geniol-plus-paracetamol-x-12-caps/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/271017/231850_geniol-plus-paracetamol-x-12-caps_imagen-1.jpg.jpg?v=638833463810470000"
     },
     {
-      "name": "Suplemento Deportivo Pure Wellness Magnesio Complex x 30 comprimidos",
+      "name": "Suplemento Deportivo Pure Wellness Magnesio Complex x 30 Comprimidos",
       "price": "8900.00",
       "link": "https://www.farmacity.com/suplemento-deportivo-pure-wellness-magnesio-complex-x-30-comprimidos/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/239353/230881_suplemento-deportivo-pure-wellness-magnesio-complex-x-30-comprimidos_imagen-1.jpg?v=638150967049430000"
@@ -2027,12 +2009,6 @@
       "price": "7563.00",
       "link": "https://www.farmacity.com/gel-intimo-evagina-hidratante-y-lubricante-x-50-g/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/218988/225857_gel-intimo-evagina-hidratante-y-lubricante-x-50-g_imagen-1.jpg?v=637776162010930000"
-    },
-    {
-      "name": "Crema Corporal Ratisalil Cbd x 150 g",
-      "price": "12253.00",
-      "link": "https://www.farmacity.com/crema-corporal-ratisalil-cbd-x-150-g/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/219121/225795_crema-corporal-ratisalil-cbd-x-150-g_imagen-1.jpg?v=637786265937070000"
     },
     {
       "name": "Base en Polvo Compacto L'oréal Paris Infaillible Fresh Wear x 9 g",
@@ -2240,7 +2216,7 @@
     },
     {
       "name": "Limpiador Inodoro Bloque para Mochila Pato Marina Pack x 2 un x 40g",
-      "price": "4990.00",
+      "price": "5439.00",
       "link": "https://www.farmacity.com/pastilla-para-mochila-de-inodoro-pato-pack-x-2un-x-40g/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/276587/218881_pastilla-para-mochila-de-inodoro-pato-pack-x-2un-x-40g_imagen-1.jpg?v=638887164906100000"
     },
@@ -2327,12 +2303,6 @@
       "price": "29870.00",
       "link": "https://www.farmacity.com/agua-termal-volcanica-caviahue-x-170-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/244611/214647_agua-termal-volcanica-caviahue-x-170-ml_imagen-1.jpg?v=638246824398330000"
-    },
-    {
-      "name": "Crema Corporal Dermaglós Hidratación Inmediata x 300 gr",
-      "price": "16362.00",
-      "link": "https://www.farmacity.com/crema-corporal-dermaglos-hidratacion-inmediata-x-300-gr/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/281731/214510_crema-corporal-dermaglos-hidratacion-inmediata-x-300-gr_Imagen-1.jpg.jpg?v=638937262069100000"
     },
     {
       "name": "Delineador Labial Get The Look Long Wear Lip Crayon 1,2 g",
@@ -2437,25 +2407,19 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/195804/210780_solucion-salina-farmacity-x-60-ml_imagen-1.jpg?v=637184872752000000"
     },
     {
-      "name": "Caja de Pañuelos Descartables Farmacity x 100 un",
-      "price": "1848.00",
-      "link": "https://www.farmacity.com/panuelos-descartables-farmacity-box-x-100-un/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/267879/210725_panuelos-descartables-farmacity-box-x-100-un_imagen-1.jpg.jpg?v=638809409733200000"
-    },
-    {
       "name": "Suplemento Dietario Pure Wellness Omega Dual x 2000 g x 60 un",
       "price": "29900.00",
       "link": "https://www.farmacity.com/suplemento-dietario-en-capsulas-blandas-pure-wellness-omega-dual-x-60-un/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/187290/209308_suplemento-dietario-en-capsulas-blandas-pure-wellness-omega-dual-x-60-un_imagen-1.jpg?v=637002053382800000"
     },
     {
-      "name": "Suplemento Dietario Pure Wellness Omega3 Fish Oil x 1000 g x 50 cápsulas blandas",
+      "name": "Suplemento Dietario Pure Wellness Omega3 Fish Oil x 1000 g x 50 Cápsulas Blandas",
       "price": "14940.00",
       "link": "https://www.farmacity.com/suplemento-dietario-en-capsulas-pure-wellness-omega3-fish-oil-x-50-un/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/187294/209307_suplemento-dietario-en-capsulas-pure-wellness-omega3-fish-oil-x-50-un_imagen-1.jpg?v=637002053397700000"
     },
     {
-      "name": "Suplemento Dietario Pure Wellness Omega3 Fish Oil x 1000 g x 20 cápsulas blandas",
+      "name": "Suplemento Dietario Pure Wellness Omega3 Fish Oil x 1000 g x 20 Cápsulas Blandas",
       "price": "8340.00",
       "link": "https://www.farmacity.com/suplemento-dietario-en-capsulas-pure-wellness-omega3-fish-oil-x-20-un/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/187293/209306_suplemento-dietario-en-capsulas-pure-wellness-omega3-fish-oil-x-20-un_imagen-1.jpg?v=637002053394830000"
@@ -2587,6 +2551,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/233642/201525_antigripal-isagrip-4-x-10-comprimidos_imagen-1.jpg?v=638077692907070000"
     },
     {
+      "name": "Crema Hidratante La Roche Posay Toleriane Sensitive Hidratante x 40 ml",
+      "price": "64150.00",
+      "link": "https://www.farmacity.com/toleriane-sensitive-hidratante-x-40-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/284595/209165_toleriane-sensitive-hidratante-x-40-ml_imagen-1.jpg?v=638968384878400000"
+    },
+    {
       "name": "Aceite Tratamiento Bio-Oil Cicatrices y Estrías x 25 ml",
       "price": "11335.00",
       "link": "https://www.farmacity.com/aceite-tratamiento-bio-oil-x-25-ml/p",
@@ -2647,6 +2617,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/262723/163571_protector-solar-invisible-en-spray-continuo-dermaglos-fps-50-x-170-ml__imagen--1.jpg?v=638677972089800000"
     },
     {
+      "name": "Gel Post-Solar Dermaglós Refrescante x 300 g",
+      "price": "19911.00",
+      "link": "https://www.farmacity.com/gel-refrescante-post-solar-dermaglos-x-300-gr/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/251580/163569_gel-refrescante-post-solar-dermaglos-x-300-gr__imagen--1.jpg?v=638418013313070000"
+    },
+    {
       "name": "Jabón de Tocador Dove Leche de Coco x 90 g",
       "price": "2151.00",
       "link": "https://www.farmacity.com/jabon-coco-y-flor-de-jazmin-pastilla-x-90-gr/p",
@@ -2677,9 +2653,9 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/233680/161119_loratadina-algistop-x-15-comprimidos_imagen-1.jpg?v=638077706121130000"
     },
     {
-      "name": "Discos Desmaquillates Farmacity x 80 un",
+      "name": "Discos Desmaquillantes Farmacity x 80 un",
       "price": "2070.00",
-      "link": "https://www.farmacity.com/discos-desmaquillates-farmacity-x-80-un/p",
+      "link": "https://www.farmacity.com/discos-desmaquillantes-farmacity-x-80-un-1/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/276659/156203_discos-desmaquillates-farmacity-x-80-un__imagen-1.jpg?v=638887283771100000"
     },
     {
@@ -2735,6 +2711,12 @@
       "price": "10580.00",
       "link": "https://www.farmacity.com/inductor-del-sueno-buenas-noches-x-30-comprimidos/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/263144/17448_inductor-del-sueno-buenas-noches-x-30-comprimidos__imagen-1.jpg?v=638699773427070000"
+    },
+    {
+      "name": "Pañales Pampers Deluxe Protection",
+      "price": "43274.00",
+      "link": "https://www.farmacity.com/panales-premium-care-suave-hiperpack/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/254035/153121_panal-pampers-deluxe-prot-g-44-un_imagen-1.jpg?v=638481800178570000"
     },
     {
       "name": "Toalla Femenina Nosotras Nocturna Suave x 16 un",
@@ -2869,6 +2851,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/285495/127455_gel-limpiador-la-roche-posay-effaclar-purificante-para-piel-grasa-x-400-ml_imagen-1.jpg?v=638979648412930000"
     },
     {
+      "name": "Desodorante Nivea Men Protect \u0026 Care Max sin Siliconas en Aerosol x 150 ml",
+      "price": "2912.00",
+      "link": "https://www.farmacity.com/antitranspirante-masculino-protect-care-x-150-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/260087/158915_antitranspirante-masculino-protect-care-x-150-ml_imagen-1.jpg?v=638612277474470000"
+    },
+    {
       "name": "Enjuague Bucal Listerine Cuidado Total Frescura Suave Sin Alcohol x 500 ml",
       "price": "6684.00",
       "link": "https://www.farmacity.com/enjuague-bucal-cuidado-total-zero-x-500-ml/p",
@@ -2951,12 +2939,6 @@
       "price": "5849.00",
       "link": "https://www.farmacity.com/acondicionador-oleo-extraordinario-nutricion-universal-x-400-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/237621/147256_acondicionador-oleo-extraordinario-nutricion-universal-x-400-ml__imagen-1.jpg?v=638120673182700000"
-    },
-    {
-      "name": "Emulsión Autobronceante Bagóvit Hidratante Vitamina A x 200 g",
-      "price": "12701.00",
-      "link": "https://www.farmacity.com/emulsion-autobronceante-hidratante-con-vitamina-a-x-200-gr/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/224010/124439_emulsion-autobronceante-hidratante-con-vitamina-a-x-200-gr_imagen-1.jpg?v=637907318029030000"
     },
     {
       "name": "Cepillo Dental Colgate 360º Luminous White x 2 un",
@@ -3277,12 +3259,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/277210/245765_enjuague-bucal-listerine-frescura-suave-sandia-y-melancia-x-500-ml_imagen-1.jpg?v=638889859020900000"
     },
     {
-      "name": "Iluminador en Barra L'Oréal Paris Lumi Le Glow x 5 g",
-      "price": "24219.00",
-      "link": "https://www.farmacity.com/iluminador-en-barra-loreal-paris-lumi-le-glow-x-5-g/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/275617/245581_iluminador-en-barra-loreal-paris-lumi-le-glow-x-5-g_imagen_1.jpg?v=638875825747030000"
-    },
-    {
       "name": "Sérum La Roche Posay Pure Vitamin C12 x 30 ml",
       "price": "137396.00",
       "link": "https://www.farmacity.com/serum-la-roche-posay-pure-vitamin-c12-x-30-ml/p",
@@ -3344,7 +3320,7 @@
     },
     {
       "name": "Cera Capilar Get The Look x 75 g",
-      "price": "4675.00",
+      "price": "5060.00",
       "link": "https://www.farmacity.com/cera-capilar-get-the-look-x-75-g/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/280162/245148_cera-capilar-get-the-look-x-75-g_imagen-1.jpg?v=638906203528300000"
     },
@@ -3362,7 +3338,7 @@
     },
     {
       "name": "Desenredante Capilar Get The Look Hidratación y Suavidad x 125 ml",
-      "price": "3450.00",
+      "price": "3625.00",
       "link": "https://www.farmacity.com/desenredante-capilar-get-the-look-hidratacion-y-suavidad-x-125-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/275569/245035_desenredante-capilar-get-the-look-hidratacion-y-suavidad-x-125-ml_Imagen-1.jpg?v=638875136382570000"
     },
@@ -3413,6 +3389,12 @@
       "price": "12903.00",
       "link": "https://www.farmacity.com/shampoo-pantene-colageno-x-510-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/268162/244539_shampoo-pantene-colageno-x-510-ml_imagen-1.jpg?v=638811981135630000"
+    },
+    {
+      "name": "Toallas Femeninas Nocturna Nosotras Buenas Noches x 30 un",
+      "price": "8802.00",
+      "link": "https://www.farmacity.com/toallas-femeninas-nocturna-nosotras-buenas-noches-x-30-un/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/267147/244374_toallas-femeninas-nocturna-nosotras-buenas-noches-x-30-un_imagen-1.jpg.jpg?v=638803237333170000"
     },
     {
       "name": "Máscara de Tratamiento Tresemmé Keratina Antifrizz x 300 g",
@@ -3503,6 +3485,12 @@
       "price": "2095.00",
       "link": "https://www.farmacity.com/esmalte-studio-9-tratamiento-calcio-fortalecedor/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/269877/243451_esmalte-studio-9-tratamiento-calcio-fortalecedor_imagen-1.jpg.jpg.jpg?v=638826626562130000"
+    },
+    {
+      "name": "Pasta Dental Sri Sri Tattva Sudanta Ultra Blanqueadora x 100 g",
+      "price": "6179.00",
+      "link": "https://www.farmacity.com/pasta-dental-sri-sri-tattva-sudanta-ultra-blanqueadora-x-100-g/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/264412/243284_pasta-dental-sri-sri-tattva-sudanta-ultra-blanqueadora-x-100-g_imagen-1.jpg.jpg?v=638760957935630000"
     },
     {
       "name": "Barrita Not Protein Notco Choco Brownie x 45 g",
@@ -3739,12 +3727,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/258929/240692_pasta-dental-sensodyne-proteccion-completa-anti-sarro-x-90-g_imagen-1.jpg?v=638572700209800000"
     },
     {
-      "name": "Máscara de Pestañas L'Oréal París Panorama Black Waterproof",
-      "price": "30281.00",
-      "link": "https://www.farmacity.com/mascara-de-pestanas-loreal-paris-vol-panorama-black-wtp-x-9-9-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/258048/240630_mascara-de-pestanas-loreal-paris-vol-panorama-black-wtp-x-9-9-ml_imagen--1.jpg?v=638557983565830000"
-    },
-    {
       "name": "Máscara de Pestañas L'Oréal París Panorama Black Washable",
       "price": "30281.00",
       "link": "https://www.farmacity.com/mascara-de-pestanas-loreal-paris-panorama-black-x-9-9-ml/p",
@@ -3979,7 +3961,7 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/257529/238882_shampoo-pantene-pro-v-miracles-liso-infinito-x-400-ml_imagen--1.jpg?v=638544076948000000"
     },
     {
-      "name": "Suplemento Dietario Pure Wellness Zinc + Selenio x 30",
+      "name": "Suplemento Dietario Pure Wellness Zinc + Selenio x 30 Comprimidos",
       "price": "13500.00",
       "link": "https://www.farmacity.com/suplemento-dietario-pure-wellness-zinc-selenio-x-30/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/251685/238620_suplemento-dietario-pure-wellness-zinc-selenio-x-30_imagen-1.jpg?v=638424058568370000"
@@ -3991,9 +3973,9 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/251687/238619_suplemento-dietario-pure-wellness-b12-plus-x-30_imagen-1.jpg?v=638424059530600000"
     },
     {
-      "name": "Suplemento Dietario Pure Wellness Cúrcuma x 30",
+      "name": "Suplemento Dietario Pure Wellness Cúrcuma x 30 Cáps",
       "price": "5940.00",
-      "link": "https://www.farmacity.com/suplemento-dietario-pure-wellness-curcuma-x-30/p",
+      "link": "https://www.farmacity.com/suplemento-dietario-pure-wellness-curcuma-x-30-caps/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/251689/238618_suplemento-dietario-pure-wellness-curcuma-x-30_imagen-1.jpg?v=638424064450700000"
     },
     {
@@ -4147,12 +4129,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/247184/235831_bano-de-crema-farmacity-coco-x-300-ml_imagen-1.jpg?v=638312673324270000"
     },
     {
-      "name": "Cepillo Dental Meraki Bambú Suave",
-      "price": "3700.00",
-      "link": "https://www.farmacity.com/cepillo-dental-meraki-bambu-suave/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/267975/235451_cepillo-dental-meraki-bambu-suave_Imagen-1.jpg.jpg.jpg?v=638810305554230000"
-    },
-    {
       "name": "Base Líquida Maybelline Fit Me Fresh Tint Spf 50 x 30 ml",
       "price": "18842.00",
       "link": "https://www.farmacity.com/base-liquida-maybelline-fit-me-fresh-tint-spf-50/p",
@@ -4193,12 +4169,6 @@
       "price": "5307.00",
       "link": "https://www.farmacity.com/acondicionador-pantene-pro-v-miracles-hidrata-y-fortalece-x-400-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/257510/234285_acondicionador-pantene-pro-v-miracles-hidrata-y-fortalece-x-400-ml__imagen--1.jpg?v=638544037653030000"
-    },
-    {
-      "name": "Shampoo Pantene Pro-V Miracles Hidrata y Fortalece x 400 ml",
-      "price": "5307.00",
-      "link": "https://www.farmacity.com/shampoo-pantene-pro-v-miracles-hidrata-y-fortalece-x-400-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/262688/234282_shampoo-pantene-pro-v-miracles-hidrata-y-fortalece-x-400-ml__imagen--1.jpg?v=638677020126770000"
     },
     {
       "name": "Jabón Líquido Enjoy Higiene Íntima con Ácido Hialurónico x 250 ml",
@@ -4265,12 +4235,6 @@
       "price": "23790.00",
       "link": "https://www.farmacity.com/crema-gel-facial-aveno-piel-seca-x-50-g/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/239455/232456_crema-gel-facial-aveno-piel-seca-x-50-g_imagen-2.jpg?v=638156043723170000"
-    },
-    {
-      "name": "Jabón de Tocador Palmolive Naturals Frambuesa y Mora x 90 g x 3 un",
-      "price": "3250.00",
-      "link": "https://www.farmacity.com/jabon-palmoliver-naturals-frambuesa-y-mora-x-90-g-x-3-un/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/272743/232270_jabon-palmoliver-naturals-frambuesa-y-mora-x-90-g-x-3-un_Imagen-1.jpf.jpg?v=638841450298000000"
     },
     {
       "name": "Paletas de Sombras Get The Look Pro Master",
@@ -4403,12 +4367,6 @@
       "price": "18990.00",
       "link": "https://www.farmacity.com/eau-de-toillette-home-spa-queen-x-50-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/231232/230099_edt-home-spa-queen-x-50-ml_imagen-2.jpg?v=638034303001330000"
-    },
-    {
-      "name": "Exfoliante Corporal Acf by Dadatina Body Solutions x 250 g",
-      "price": "16300.00",
-      "link": "https://www.farmacity.com/tonico-exfoliante-acf-by-dadatina-x-200-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/269652/230063_tonico-exfoliante-acf-by-dadatina-x-200-ml_imagen-1.jpg.jpg?v=638823164366030000"
     },
     {
       "name": "Shampoo Tío Nacho Engrosador V2 x 415 ml",
@@ -4567,12 +4525,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/221764/227613_toallitas-ayudin-desinfectantes-x-24-un_imagen-1.jpg?v=637867500108730000"
     },
     {
-      "name": "Rubor en Polvo Revlon Powder Blush",
-      "price": "24900.00",
-      "link": "https://www.farmacity.com/rubor-revlon-powder-blush/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/221138/226908_rubor-revlon-powder-blush_imagen-1.jpg?v=637846796781200000"
-    },
-    {
       "name": "Tratamiento Capilar Farmacity Intensivo 10 en 1 x 20 g",
       "price": "594.00",
       "link": "https://www.farmacity.com/tratamiento-capilar-farmacity-intensivo-10-en-1-x-20-g/p",
@@ -4631,6 +4583,12 @@
       "price": "15290.00",
       "link": "https://www.farmacity.com/balsamo-labial-extreme-juicy-lip/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/210570/220270_balsamo-labial-extreme-juicy-nude_imagen-1.jpg?v=637583451218100000"
+    },
+    {
+      "name": "Crema Corporal Ratisalil Cbd x 150 g",
+      "price": "12253.00",
+      "link": "https://www.farmacity.com/crema-corporal-ratisalil-cbd-x-150-g/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/219121/225795_crema-corporal-ratisalil-cbd-x-150-g_imagen-1.jpg?v=637786265937070000"
     },
     {
       "name": "Fluído Facial La Roche Posay Toleriane Dermallergo x 40 ml",
@@ -4807,7 +4765,7 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/244297/223769_crema-facial-nivea-rose-care-hidratante-en-gel-x-50-ml__imagen-2.jpg?v=638236566724900000"
     },
     {
-      "name": "Suplemento Dietario Pure Wellness Vitamina C 1000 MG x 30 comp",
+      "name": "Suplemento Dietario Pure Wellness Vitamina C 1000 mg x 30 Comp",
       "price": "14900.00",
       "link": "https://www.farmacity.com/suplemento-dietario-pure-wellness-vitamina-c-1000-mg-x-30-comp/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/214480/223718_suplemento-dietario-pure-wellness-vitamina-c-1000-mg-x-30-comp_imagen-1.jpg?v=637662961974070000"
@@ -4871,12 +4829,6 @@
       "price": "11435.00",
       "link": "https://www.farmacity.com/maquina-de-afeitar-gillette-venus-desechable-tropical-para-mujer-x-3-un/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/237030/222387_maquina-de-afeitar-gillette-venus-desechable-tropical-para-mujer-x-3-un__imagen-1.jpg?v=638113889839030000"
-    },
-    {
-      "name": "Protector Diario Nosotras Normal con Caléndula x 100 un",
-      "price": "10121.00",
-      "link": "https://www.farmacity.com/protectores-diarios-nosotras-normales-x-100-un/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/264049/222318_protectores-diarios-nosotras-normales-x-100-un_imagen-1.jpg.jpg?v=638747943673600000"
     },
     {
       "name": "Toallas Femeninas Nosotras Nocturnas Suave x 8 un",
@@ -5119,6 +5071,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/259600/217780_cepillo-dental-elmex-ultra-soft-x-2-un_imagen--1.jpg?v=638605390001000000"
     },
     {
+      "name": "Acondicionador Garnier Fructis Hair Food Palta x 300 ml",
+      "price": "5850.00",
+      "link": "https://www.farmacity.com/acondicionador-fructis-hair-food-aguacate-x-300-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/231602/217210_acondicionador-fructis-hair-food-aguacate-x-300-ml_imagen-1.jpg?v=638037733421370000"
+    },
+    {
       "name": "Shampoo Garnier Fructis Hair Food Palta x 300 ml",
       "price": "5850.00",
       "link": "https://www.farmacity.com/shampoo-fructis-hair-food-aguacate-x-300-ml/p",
@@ -5177,6 +5135,12 @@
       "price": "5401.00",
       "link": "https://www.farmacity.com/acondicionador-dove-regeneracion-extrema-x-400-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/281711/7791293047522_2.jpg?v=638937233109830000"
+    },
+    {
+      "name": "Crema Corporal Dermaglós Hidratación Inmediata x 300 gr",
+      "price": "16362.00",
+      "link": "https://www.farmacity.com/crema-corporal-dermaglos-hidratacion-inmediata-x-300-gr/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/281731/214510_crema-corporal-dermaglos-hidratacion-inmediata-x-300-gr_Imagen-1.jpg.jpg?v=638937262069100000"
     },
     {
       "name": "Polvo Bronceador Revlon Skinlights x 7,1 g",
@@ -5281,6 +5245,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/252698/211227_bano-de-crema-hair-farmacity-reparacion-profunda-x-300-ml_imagen-2.jpg?v=638452828586970000"
     },
     {
+      "name": "Caja de Pañuelos Descartables Farmacity x 100 un",
+      "price": "1848.00",
+      "link": "https://www.farmacity.com/panuelos-descartables-farmacity-box-x-100-un/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/267879/210725_panuelos-descartables-farmacity-box-x-100-un_imagen-1.jpg.jpg?v=638809409733200000"
+    },
+    {
       "name": "Crema Exfoliante Home Spa Tilo x 230 ml",
       "price": "4796.00",
       "link": "https://www.farmacity.com/crema-exfoliante-home-spa-tilo-x-230-ml/p",
@@ -5317,7 +5287,7 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/193202/209300_suplemento-dietario-spirulina-pure-wellness-500-gr-x-60-comprimidos_imagen-1.jpg?v=637141748079400000"
     },
     {
-      "name": "Toallitas Desmaquillantes Farmacity Skin Anti-Age x 25 Un",
+      "name": "Toallitas Desmaquillantes Farmacity Skin Anti-Age x 25 un",
       "price": "4490.00",
       "link": "https://www.farmacity.com/toallitas-desmaquillantes-farmacity-skin-anti-age-x-25-un/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/188223/209149_toallitas-desmaquillantes-farmacity-skin-anti-age-x-25-un_imagen-1.jpg?v=637032043745030000"
@@ -5345,6 +5315,12 @@
       "price": "2650.00",
       "link": "https://www.farmacity.com/protectores-diarios-enjoy-respirable-x-20-un/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/186350/208676_protectores-diarios-enjoy-respirable-x-20-un_imagen-1.jpg?v=638968471275700000"
+    },
+    {
+      "name": "Crema Facial Dermaglós para Rojeces FPS 30 x 50 ml",
+      "price": "23488.00",
+      "link": "https://www.farmacity.com/emulsion-facial-dermaglos-para-rojeces-x-50-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/281726/208561_emulsion-facial-dermaglos-para-rojeces-x-50-ml_Imagen-1.jpg.jpg?v=638937260536700000"
     },
     {
       "name": "Máquina de Afeitar Enjoy Lady 4 filos",
@@ -5462,7 +5438,7 @@
     },
     {
       "name": "Suplemento Dietario Simple Calcio y Vitamina D x 60 gomitas sabor frutos rojos",
-      "price": "25334.00",
+      "price": "25917.00",
       "link": "https://www.farmacity.com/suplemento-dietario-simple-calcio-y-vitamina-d-x-60-gomitas-sabor-frutos-rojos/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/242584/203173_suplemento-dietario-simple-bago-vitamina-d-x-60.jpg?v=638198402864330000"
     },
@@ -5557,12 +5533,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/264028/164451_protectores-largos-nosotras-x-50-un_imagen-1_.jpg?v=638745395823070000"
     },
     {
-      "name": "Pasta Dental Gum sensitive care x 90 Gr",
-      "price": "6346.00",
-      "link": "https://www.farmacity.com/crema-dental-gum-sensitive-care-x-90-gr/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/244353/164150_crema-dental-gum-sensitive-care-x-90-gr_imagen-1.jpg?v=638240974930870000"
-    },
-    {
       "name": "Agua Micelar Farmacity Desmaquillante x 200 ml",
       "price": "9590.00",
       "link": "https://www.farmacity.com/agua-micelar-locion-desmaquillante-x-200-ml/p",
@@ -5573,12 +5543,6 @@
       "price": "3990.00",
       "link": "https://www.farmacity.com/toallitas-desmaquillantes-nutritivas-con-avena-y-provitamina-b5-x-10-un/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/180651/164075_toallitas-desmaquillantes-nutritivas-con-avena-y-provitamina-b5-x-10-un_imagen-1.jpg?v=636740113158300000"
-    },
-    {
-      "name": "Gel Post-Solar Dermaglós Refrescante x 300 g",
-      "price": "19911.00",
-      "link": "https://www.farmacity.com/gel-refrescante-post-solar-dermaglos-x-300-gr/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/251580/163569_gel-refrescante-post-solar-dermaglos-x-300-gr__imagen--1.jpg?v=638418013313070000"
     },
     {
       "name": "Toallitas Húmedas de Bolsillo para Manos y Rostro Wav x 10 un",
@@ -5599,7 +5563,13 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/264830/161625_crema-dental-colgate-kids-frutilla-50-gr_imagen-1.jpg.jpg?v=638775554679200000"
     },
     {
-      "name": "Barra de Cereales Nat sabor Coco y Chocolate x 21 g",
+      "name": "Ibupirac Fem x 10 Comp",
+      "price": "4020.00",
+      "link": "https://www.farmacity.com/analgesico-ibupirac-fem-x-10-comprimidos/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/233638/154430_analgesico-ibupirac-fem-x-10-comprimidos_imagen-1.jpg?v=638077692892570000"
+    },
+    {
+      "name": "Barra de Cereales Nat Sabor Coco y Chocolate x 21 g",
       "price": "990.00",
       "link": "https://www.farmacity.com/barra-de-cereales-sabor-coco-y-chocolate-x-21-gr-152239/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/166693/152239_barra-de-cereales-sabor-coco-y-chocolate-x-21-gr_imagen-1.jpg?v=636670342273730000"
@@ -5705,6 +5675,12 @@
       "price": "6561.00",
       "link": "https://www.farmacity.com/gel-dental-fluorogel-original-sabor-menta-x-60-gr/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/273037/26826_gel-dental-fluorogel-original-sabor-menta-x-60-gr_Imagen-1.jpg.jpg?v=638842260340800000"
+    },
+    {
+      "name": "Turrón \u0026 Maní Arcor x 25 g",
+      "price": "440.00",
+      "link": "https://www.farmacity.com/turron-y-mani-arcor-x-25-g/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/240003/26819_turron-de-mani-arcor-x-25-gr_imagen-1.jpg?v=638163022327670000"
     },
     {
       "name": "Actron Ibuprofeno 400 mg x 20 Cáps",
@@ -5825,6 +5801,12 @@
       "price": "6783.00",
       "link": "https://www.farmacity.com/crema-facial-nivea-7-en-1-cuidado-nutritivo-x-100-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/283783/156797_crema-facial-nivea-7-en-1-cuidado-nutritivo-x-100-ml_imagen-1.jpg?v=638959642792300000"
+    },
+    {
+      "name": "Crema Facial Cicatricure Beauty Care Fps 50 x 50 g",
+      "price": "25760.00",
+      "link": "https://www.farmacity.com/crema-facial-cicatricure-beatu-care-fps-50-x-50-g/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/283939/145720_crema-facial-cicatricure-beatu-care-fps-50-x-50-g_Imagen-1.jpg.jpg?v=638961301612970000"
     },
     {
       "name": "Crema Protectora Facial Dermaglós Hidratante Matificante Fps 30+ x 50 g",
@@ -6007,12 +5989,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/251878/107065_lubricante-en-gel-uso-intimo-x-100-gr__imagen-1.jpg?v=638431021173870000"
     },
     {
-      "name": "Lubricante Íntimo KY en Gel x 100 g",
-      "price": "18463.00",
-      "link": "https://www.farmacity.com/lubricante-en-gel-uso-intimo-x-100-gr/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/251878/107065_lubricante-en-gel-uso-intimo-x-100-gr__imagen-1.jpg?v=638431021173870000"
-    },
-    {
       "name": "Lubricante en Gel puro placer x 50 gr",
       "price": "8200.00",
       "link": "https://www.farmacity.com/lubricante-en-gel-puro-placer-x-50-gr/p",
@@ -6059,12 +6035,6 @@
       "price": "90924.00",
       "link": "https://www.farmacity.com/crema-de-noche-para-pieles-maduras-elasticity-filler-x-50-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/262025/160252_crema-de-noche-para-pieles-maduras-elasticity-filler-x-50-ml__imagen-1.jpg?v=638696134326370000"
-    },
-    {
-      "name": "Desodorante Nivea Men Protect \u0026 Care Max sin Siliconas en Aerosol x 150 ml",
-      "price": "2912.00",
-      "link": "https://www.farmacity.com/antitranspirante-masculino-protect-care-x-150-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/260087/158915_antitranspirante-masculino-protect-care-x-150-ml_imagen-1.jpg?v=638612277474470000"
     },
     {
       "name": "Acondicionador Elvive Óleo Extraordinario Rizos x 400 ml",
@@ -6211,6 +6181,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/256109/143509_acondicionador-reparacion-total-extreme-x-400-ml_imagen-1.jpg?v=638525906925100000"
     },
     {
+      "name": "Enjuague Bucal Colgate Plax Menta Fresca x 500 ml",
+      "price": "7381.00",
+      "link": "https://www.farmacity.com/enjuague-bucal-plax-fresh-mint-x-500-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/240444/143298_enjuague-bucal-plax-fresh-mint-x-500-ml___imagen-1.jpg?v=638170750835300000"
+    },
+    {
       "name": "Apósitos Farmacity Incontinencia Fuerte Unisex x 10 un",
       "price": "6160.00",
       "link": "https://www.farmacity.com/apositos-para-incontinencia-fuerte-unisex-talle-unico-x-10-un/p",
@@ -6329,12 +6305,6 @@
       "price": "17694.00",
       "link": "https://www.farmacity.com/delineador-liquido-de-ojos-black-x-2-5-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/238632/122213_delineador-liquido-de-ojos-black-x-2-5-ml__imagen-2.jpg?v=638139612523630000"
-    },
-    {
-      "name": "Mascara de Pestañas Maybelline Great Lash Big Blackest Black x 10 ml",
-      "price": "12654.00",
-      "link": "https://www.farmacity.com/mascara-de-pestanas-maybelline-great-lash-big-blackest-black-x-10-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/159963/128557_mascara-de-pestanas-great-lash-big-blackest-black-x-10-ml_imagen-1.jpg?v=636670316334370000"
     },
     {
       "name": "Loción Micelar Limpiadora 3 en 1 Eucerin Dermatoclean con Ácido Hialurónico x 200 ml",
@@ -6565,6 +6535,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/280667/246309_pasta-dental-oral-b-3d-white-x-70-g_Imagen-1.jpg?v=638920777203730000"
     },
     {
+      "name": "Cepillo Dental Oral B Complete x 2 un",
+      "price": "4529.00",
+      "link": "https://www.farmacity.com/cepillo-dental-oral-b-complete-x-2-un/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/280662/246305_cepillo-dental-oral-b-complete-x-2-un_Imagen-1.jpg?v=638920777179000000"
+    },
+    {
       "name": "Pasta Dental Oral B 100% x 175 g",
       "price": "7244.00",
       "link": "https://www.farmacity.com/pasta-dental-oral-b-100-x-175-g/p",
@@ -6587,6 +6563,12 @@
       "price": "63832.00",
       "link": "https://www.farmacity.com/fotoprotector-isdin-stick-pediatrics-spf-50-x-20-g/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/280312/246171_fotoprotector-isdin-stick-pediatrics-spf-50-x-20-g_imagen-1.jpg?v=638914833297100000"
+    },
+    {
+      "name": "Sérum Facial Get The Look Lumiglow y Vitamina E x 30 ml",
+      "price": "11694.00",
+      "link": "https://www.farmacity.com/serum-facial-get-the-look-lumiglow-y-vitamina-e-x-30-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/281458/246121_serum-facial-get-the-look-lumiglow-y-vitamina-e-x-30-ml_imagen-1.jpg?v=638931277998400000"
     },
     {
       "name": "Sérum Sedal Toque de Seda x 100 ml",
@@ -6632,7 +6614,7 @@
     },
     {
       "name": "Desinfectante Lysoform Aerosol Frutos del Bosque x 360 ml",
-      "price": "4340.00",
+      "price": "4731.00",
       "link": "https://www.farmacity.com/desinfectante-lysoform-aerosol-frutos-del-bosque-x-360-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/279508/245900_desinfectante-lysoform-aerosol-frutos-del-bosque-x-360-ml_Imagen-1.png?v=638896531853670000"
     },
@@ -6685,6 +6667,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/276565/245682_crema-limpiadora-cetaphil-espuma-hidratante-x-473-ml_imagen-1.jpg?v=638887081696600000"
     },
     {
+      "name": "Iluminador en Barra L'Oréal Paris Lumi Le Glow x 5 g",
+      "price": "24219.00",
+      "link": "https://www.farmacity.com/iluminador-en-barra-loreal-paris-lumi-le-glow-x-5-g/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/275617/245581_iluminador-en-barra-loreal-paris-lumi-le-glow-x-5-g_imagen_1.jpg?v=638875825747030000"
+    },
+    {
       "name": "Limpiador CeraVe Air Foam Reequilibrante x 148 ml",
       "price": "41344.00",
       "link": "https://www.farmacity.com/limpiador-cerave-air-foam-reequilibrante-x-148-ml/p",
@@ -6728,13 +6716,13 @@
     },
     {
       "name": "Sérum Capilar Get The Look Ácido Hialurónico x 30 ml",
-      "price": "4995.00",
+      "price": "5195.00",
       "link": "https://www.farmacity.com/serum-capilar-get-the-look-acido-hialuronico-x-30-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/276678/245033_serum-capilar-get-the-look-acido-hialuronico-x-30-ml_imagen-1.jpg?v=638887875156400000"
     },
     {
       "name": "Ampolla Tratamiento Capilar Get The Look Hidratación Profunda Ácido Hialurónico y Vitamina C x 15 ml",
-      "price": "4190.00",
+      "price": "4400.00",
       "link": "https://www.farmacity.com/ampolla-tratamiento-capilar-get-the-look-hidratacion-profunda-acido-hialuronico-y-vitamina-c-x-15-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/276660/245032_ampolla-tratamiento-capilar-get-the-look-hidratacion-profunda-acido-hialuronico-y-vitamina-c-x-15-ml_imagen-2.jpg?v=638887850667430000"
     },
@@ -6839,12 +6827,6 @@
       "price": "31500.00",
       "link": "https://www.farmacity.com/mascara-de-pestanas-revlon-colorstay-full-time-nwp-x-7-5-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/267138/244362_mascara-de-pestanas-revlon-colorstay-full-time-nwp-blackest-black-x-7-5-ml_imagen-1.jpg.jpg?v=638803227893070000"
-    },
-    {
-      "name": "Toallas Femeninas Nocturna Nosotras Buenas Noches x 30 un",
-      "price": "8802.00",
-      "link": "https://www.farmacity.com/toallas-femeninas-nocturna-nosotras-buenas-noches-x-30-un/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/267147/244374_toallas-femeninas-nocturna-nosotras-buenas-noches-x-30-un_imagen-1.jpg.jpg?v=638803237333170000"
     },
     {
       "name": "Desodorante en Barra Dove Vitamin Care+ Raspberry \u0026 Rose x 74 g",
@@ -6961,16 +6943,10 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/265488/243662_edp-sarkany-dragoness-sublime-x-100-ml_imagen-1.jpg?v=638781741517870000"
     },
     {
-      "name": "Colágeno 500 pure wellness x 30 comp",
+      "name": "Suplemento Dietario Pure Wellness Colágeno 500 x 30 Comp",
       "price": "10500.00",
-      "link": "https://www.farmacity.com/colageno-500-pure-wellness-x-30-comp/p",
+      "link": "https://www.farmacity.com/suplemento-dietario-pure-wellness-colageno-500-x-30-comp/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/267656/243653_colageno-500-pure-wellness-x-30-comp_imagen-1.jpg?v=638809225337830000"
-    },
-    {
-      "name": "Combo Dove Baby Rutina de Baño Humectación y Cuidado",
-      "price": "15251.00",
-      "link": "https://www.farmacity.com/combo-dove-baby-rutina-de-bano-humectacion-y-cuidado/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/263980/243603_combo-dove-baby-rutina-de-bano-humectacion-y-cuidado_imagen-1.jpg.jpg?v=638744468024300000"
     },
     {
       "name": "Limpiador Desmaquillante Cetaphil Oil Free x 177 ml",
@@ -7141,6 +7117,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/260381/242057_protector-solar-corporal-aveno-emulsion-fps-50-x-175-ml_imagen-1.jpg?v=638627103626200000"
     },
     {
+      "name": "Kit Tio Nacho Anticanas Shampoo x 415 ml + Acondicionador x 415 ml",
+      "price": "11100.00",
+      "link": "https://www.farmacity.com/combo-tio-nacho-anticanas-shampoo-x-415-ml-acondicionador-x-415-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/261852/241957_combo-tio-nacho-anticanas-shampoo-x-415-ml-acondicionador-x-415-ml__imagen-1.jpg?v=638653892203670000"
+    },
+    {
       "name": "Café en Cápsulas Bonafide Espresso x 50 g",
       "price": "11718.00",
       "link": "https://www.farmacity.com/cafe-en-capsulas-bonafide-espresso-x-50-g/p",
@@ -7195,6 +7177,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/259875/241618_combo-dove-serum-corporal-tono-uniforme-niacinamida-x-400-ml--serum-corporal-concentrado-x-100-ml.jpg?v=638608999632500000"
     },
     {
+      "name": "Kit Shampoo y Acondicionador Tío Nacho Herbolaria Milenaria x 415 ml",
+      "price": "11100.00",
+      "link": "https://www.farmacity.com/combo-shampoo-y-acondicionador-tio-nacho-herbolaria-milenaria-x-415-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/259493/241608_combo-shampoo-y-acondicionador-tio-nacho-herbolaria-milenaria-x-415-ml_imagen-1.jpg?v=638600353323330000"
+    },
+    {
       "name": "Iluminador en Polvo Summer Extreme Stardust Highlighter",
       "price": "10945.00",
       "link": "https://www.farmacity.com/iluminador-en-polvo-summer-extreme/p",
@@ -7237,13 +7225,19 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/261288/241328_crema-corporal-get-the-look-iluminadora-glow-x-100-ml_imagen-1.jpg?v=638641834448030000"
     },
     {
+      "name": "Máquina de Afeitar Enjoy 3 Filos x 4 un",
+      "price": "5274.00",
+      "link": "https://www.farmacity.com/maquina-de-afeitar-enjoy-3-filos-x-4-un/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/263196/241326_maquina-de-afeitar-enjoy-3-filos-x-4-un_imagen-1.jpg?v=638702353782970000"
+    },
+    {
       "name": "Pañales para Adultos Farmacity Unisex Anatómicos",
       "price": "16090.00",
       "link": "https://www.farmacity.com/panales-para-adultos-unisex-anatomicos-x-8-un/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/192826/134887_panales-para-adultos-unisex-anatomicos-xg-x-8-un_imagen-1.png?v=637130586661330000"
     },
     {
-      "name": "Planchita de Pelo Glam Shine Studio 9 Professional",
+      "name": "Planchita de Pelo Studio 9 Professional Glam Shine",
       "price": "27594.00",
       "link": "https://www.farmacity.com/planchita-de-pelo-glam-shine-studio-9-professional/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/266114/241292_planchita-de-pelo-glam-shine-studio-9-professional_imagen-1.jpg.jpg?v=638793019321270000"
@@ -7325,12 +7319,6 @@
       "price": "11196.00",
       "link": "https://www.farmacity.com/balsamo-dove-concentrado-talon-agrietado-x-90-g/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/259094/240715_balsamo-dove-concentrado-talon-agrietado-x-90-g_imagen-1.jpg?v=638580347237100000"
-    },
-    {
-      "name": "Sérum Corporal Dove Concentrado x 100 ml",
-      "price": "11195.00",
-      "link": "https://www.farmacity.com/serum-dove-corporal-concentrado-x-100-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/259091/240714_serum-dove-corporal-concentrado-x-100-ml_imagen-1.jpg?v=638580346158800000"
     },
     {
       "name": "Sérum Corporal Dove Piel Extra Seca Pro Ceramidas x 400 ml",
@@ -7489,12 +7477,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/257024/239256_lapiz-de-cejas-maybelline-tattoo-brow-pencil-36h_imagen-1.jpg?v=638537080499100000"
     },
     {
-      "name": "Sérum Anti-Manchas Nivea Luminous 360 Anti-Edad x 30 ml",
-      "price": "21297.00",
-      "link": "https://www.farmacity.com/serum-nivea-luminous-anti-manchas-antiedad-x-30-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/284897/239422_serum-nivea-luminous-anti-manchas-antiedad-x-30-ml_imagen-2.jpg?v=638972689234270000"
-    },
-    {
       "name": "Sérum Anti-Manchas Nivea Luminous 630 Anti-Imperfecciones x 30 ml",
       "price": "21297.00",
       "link": "https://www.farmacity.com/serum-nivea-luminous-anti-manchas-antiacne-x-30-ml/p",
@@ -7553,6 +7535,18 @@
       "price": "8486.00",
       "link": "https://www.farmacity.com/fecula-johnson-baby-original-rosa-x-200-g/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/250902/238278_fecula-johnson-baby-original-rosa-x-200-g_imagen-1.jpg?v=638392089783300000"
+    },
+    {
+      "name": "Delineador De Ojos Liquido Maybelline Tattoo Liner Dip In 48H",
+      "price": "14299.00",
+      "link": "https://www.farmacity.com/delineador-de-ojos-liquido-maybelline-tattoo-liner-dip-in-48h/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/250361/238084_delineador-de-ojos-liquido-maybelline-tattoo-liner-dip-in-48h_imagene-1.jpg?v=638379902897630000"
+    },
+    {
+      "name": "Preservativos Prime Skyn Extra Large x 6 un",
+      "price": "12112.00",
+      "link": "https://www.farmacity.com/preservativos-prime-skyn-extra-large-x-6-un/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/254206/238041_preservativos-prime-skyn-extra-large-x-6-un_imagen-2.jpg?v=638483783816970000"
     },
     {
       "name": "Aceite Corporal Home Spa Lavender x 35 ml",
@@ -7631,12 +7625,6 @@
       "price": "39990.00",
       "link": "https://www.farmacity.com/edp-sarkany-why-not-2-x-100-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/249910/237287_edp-sarkany-why-not-2-x-100-ml_imagen-1.jpg?v=638368633926770000"
-    },
-    {
-      "name": "Crema para Peinar Garnier Fructis Hydra Liss x 250 ml",
-      "price": "5899.00",
-      "link": "https://www.farmacity.com/crema-para-peinar-fructis-hydra-liss-x-250-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/248630/237267_crema-para-peinar-fructis-hydra-liss-x-250-ml_imagen-1.jpg?v=638342929842200000"
     },
     {
       "name": "Shampoo Vichy Dercos Anti-Caspa x 2 un x 200 ml c/u",
@@ -7769,6 +7757,12 @@
       "price": "37790.00",
       "link": "https://www.farmacity.com/edp-tucci-anima-x-100-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/245054/235511_edp-tucci-anima-x-100-ml_imagen-2.jpg?v=638255522390930000"
+    },
+    {
+      "name": "Cepillo Dental Meraki Bambú Suave",
+      "price": "3700.00",
+      "link": "https://www.farmacity.com/cepillo-dental-meraki-bambu-suave/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/267975/235451_cepillo-dental-meraki-bambu-suave_Imagen-1.jpg.jpg.jpg?v=638810305554230000"
     },
     {
       "name": "Kit Dermaglós Hombres Rutina Facial Limpieza + Hidratación",
@@ -7949,6 +7943,12 @@
       "price": "2716.00",
       "link": "https://www.farmacity.com/crema-corporal-home-spa-curcuma-x-140-g/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/243442/232384_crema-corporal-home-spa-curcuma-x-140-g_imagen-1.jpg?v=638221747997600000"
+    },
+    {
+      "name": "Jabón de Tocador Palmolive Naturals Frambuesa y Mora x 90 g x 3 un",
+      "price": "3250.00",
+      "link": "https://www.farmacity.com/jabon-palmoliver-naturals-frambuesa-y-mora-x-90-g-x-3-un/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/272743/232270_jabon-palmoliver-naturals-frambuesa-y-mora-x-90-g-x-3-un_Imagen-1.jpf.jpg?v=638841450298000000"
     },
     {
       "name": "Servilletas de Papel Farmacity x 70 un",
@@ -8263,7 +8263,7 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/226800/229043_crema-corporal-hinds-hidratacion-extrema-x-250-ml_imagen-1.jpg?v=637962674138630000"
     },
     {
-      "name": "Suplemento Dietario Pure Wellness Vitamina E x 30 caps",
+      "name": "Suplemento Dietario Pure Wellness Vitamina E x 30 Cáps",
       "price": "8340.00",
       "link": "https://www.farmacity.com/suplemento-dietario-pure-wellness-vitamina-e-x-30-caps-x-400-g-c-u/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/225841/229024_suplemento-dietario-pure-wellness-vitamina-e-x-30-caps-x-400-g-c-u_imagen-1.jpg?v=637949730272230000"
@@ -8425,6 +8425,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/219963/226257_crema-corporal-hinds-rosa-x-350-ml_imagen-1.jpg?v=637818240518170000"
     },
     {
+      "name": "Crema Facial Nivea Q10 Energy Noche x 50 ml",
+      "price": "15110.00",
+      "link": "https://www.farmacity.com/crema-facial-nivea-q10-energy-noche-x-40-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/284048/226254_crema-facial-nivea-q10-energy-noche-x-40-ml_imagen-1.jpg?v=638963027460200000"
+    },
+    {
       "name": "Kit Capilar Bebes y Niños Aveno Shampoo y Acondicionador",
       "price": "34102.00",
       "link": "https://www.farmacity.com/combo-aveno-shampoo-infantil-x-250-ml-acondicionador-infantil-x-250-ml/p",
@@ -8468,7 +8474,7 @@
     },
     {
       "name": "Limpiador Desinfectante para Inodoro Pato Purific 100% Destructor de Sarro Marina x 500 ml",
-      "price": "5790.00",
+      "price": "6311.00",
       "link": "https://www.farmacity.com/limpiador-para-inodoro-pato-purific-100-destructor-de-sarro-marina-x-500-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/219291/225984_limpiador-para-inodoro-pato-purific-100-destructor-de-sarro-marina-x-500-ml_imagen-1.jpg?v=637798330505070000"
     },
@@ -8491,6 +8497,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/231718/225709_serum-caviahue-nz-seboregulador-x-30-ml_imagen-1.jpg?v=638040562750500000"
     },
     {
+      "name": "Lima Eléctrica Studio 9 Professional para Pies",
+      "price": "17994.00",
+      "link": "https://www.farmacity.com/lima-electrica-studio-9-professional-para-pies/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/233714/225667_lima-electrica-studio-9-professional-para-pies_imagen-1.jpg?v=638078448685570000"
+    },
+    {
       "name": "Pila de Litio Simplicity CR2032",
       "price": "968.00",
       "link": "https://www.farmacity.com/pila-de-litio-simplicity-cr2032/p",
@@ -8501,6 +8513,12 @@
       "price": "26108.00",
       "link": "https://www.farmacity.com/suplemento-dietario-curflex-plus-x-30-comprimidos/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/227365/225629_suplemento-dietario-curflex-Plus-x-30-comprimidos_imagen-1.jpg?v=637971221233230000"
+    },
+    {
+      "name": "Suplemento Dietario Centrum Silver Hombre x 60 comprimidos",
+      "price": "34968.00",
+      "link": "https://www.farmacity.com/suplemento-dietario-centrum-silver-hombre-x-60-comprimidos/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/260736/225627_suplemento-dietario-centrum-silver-hombre-x-60-comprimidos_imagen--6.jpg?v=638630577848730000"
     },
     {
       "name": "Suplemento Dietario Centrum Silver x 60 comprimidos",
@@ -8797,6 +8815,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/211181/222376_jabon-en-barra-farmacity-antibacterial-x-90-g_imagen-1.jpg?v=637592968018400000"
     },
     {
+      "name": "Protector Diario Nosotras Normal con Caléndula x 100 un",
+      "price": "10121.00",
+      "link": "https://www.farmacity.com/protectores-diarios-nosotras-normales-x-100-un/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/264049/222318_protectores-diarios-nosotras-normales-x-100-un_imagen-1.jpg.jpg?v=638747943673600000"
+    },
+    {
       "name": "Copa Menstrual Enjoy Talle 2",
       "price": "13790.00",
       "link": "https://www.farmacity.com/copa-menstrual-enjoy-talle-2/p",
@@ -8888,7 +8912,7 @@
     },
     {
       "name": "Suplemento Dietario Simple Vitamina C + D + Zinc x 60 un",
-      "price": "20921.00",
+      "price": "21402.00",
       "link": "https://www.farmacity.com/suplemento-dietario-simple-vitamina-c-d-zinc-x-60-un/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/284057/221676_suplemento-dietario-simple-vitamina-c-d-zinc-x-60-un_imagen-1.jpg?v=638963037678800000"
     },
@@ -8915,6 +8939,12 @@
       "price": "2616.00",
       "link": "https://www.farmacity.com/jabon-liquido-protex-balance-para-manos-x-250-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/252884/221570_jabon-liquido-protex-balance-para-manos-x-250-ml__imagen-1.jpg?v=638458514564030000"
+    },
+    {
+      "name": "Guantes de Látex Mapa Plissé Satinado Talle M x 2 un",
+      "price": "4431.00",
+      "link": "https://www.farmacity.com/guantes-de-latex-mapa-plisse-satinado-talle-m-x-2-un/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/209280/221567_guantes-de-latex-mapa-plisse-satinado-talle-m-x-2-un_imagen-1.jpg?v=637547084236100000"
     },
     {
       "name": "Suplemento Dietario Gravitón Multivitamínico y Multimineral x 30 un",
@@ -9152,13 +9182,13 @@
     },
     {
       "name": "Aromatizante de Ambientes Automático Glade Lavanda y Vainilla Repuesto 170ml",
-      "price": "5390.00",
+      "price": "5875.00",
       "link": "https://www.farmacity.com/repuesto-aromatizador-glade-automatico-lavanda-vainilla-x-110-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/283379/218884_repuesto-aromatizador-glade-automatico-lavanda-vainilla-x-110-ml_Imagen-1.jpg.jpg?v=638953625200270000"
     },
     {
       "name": "Canasta Líquida para Inodoro Pato Marina Aparato + Repuesto x 50 ml",
-      "price": "5490.00",
+      "price": "5984.00",
       "link": "https://www.farmacity.com/canasta-liquida-pato-purific-full-marina-x-50-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/204336/218880_canasta-liquida-pato-purific-full-marina-x-50-ml_imagen-1.png?v=637389196451400000"
     },
@@ -9221,12 +9251,6 @@
       "price": "2151.00",
       "link": "https://www.farmacity.com/jabon-en-barra-dove-antibacterial-x-90-g/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/202689/217257_jabon-en-barra-dove-antibacterial-x-90-g_imagen-1.jpg?v=637345014196930000"
-    },
-    {
-      "name": "Acondicionador Garnier Fructis Hair Food Palta x 300 ml",
-      "price": "5850.00",
-      "link": "https://www.farmacity.com/acondicionador-fructis-hair-food-aguacate-x-300-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/231602/217210_acondicionador-fructis-hair-food-aguacate-x-300-ml_imagen-1.jpg?v=638037733421370000"
     },
     {
       "name": "Shampoo Garnier Fructis Hair Food Coco x 300 ml",
@@ -9397,6 +9421,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/233429/214104_removedor-de-puntos-negros-studio-9-professional_imagen-1.jpg?v=638074074976730000"
     },
     {
+      "name": "Cepillo Dental Farmacity Limpieza Total 360 Ultrafino",
+      "price": "2899.00",
+      "link": "https://www.farmacity.com/cepillo-dental-farmacity-limpieza-total-360-ultrafino-x-1-un/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/204334/214097_cepillo-dental-farmacity-limpieza-total-360-ultrafino-x-1-un_imagen-1.jpg?v=637389188120470000"
+    },
+    {
       "name": "Enterogermina Plus Ampollas de 5 ml x 5 un",
       "price": "32436.00",
       "link": "https://www.farmacity.com/ampollas-enterogermina-plus-x-5-ml-x-5-un/p",
@@ -9407,6 +9437,12 @@
       "price": "8095.00",
       "link": "https://www.farmacity.com/cepillo-de-cabello-studio-9-paleta-flexible-linea-negra-x-1-un/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/211234/213759_cepillo-de-cabello-studio-9-paleta-flexible-linea-negra-x-1-un_imagen-1.jpg?v=637593665931100000"
+    },
+    {
+      "name": "Crema Facial Bagóvit Pro Bio Noche Nutritiva y Regeneradora Celular x 55 g",
+      "price": "29951.00",
+      "link": "https://www.farmacity.com/crema-facial-bagovit-pro-bio-noche-nutritiva-y-regeneradora-celular-x-55-gr/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/223945/212711_crema-facial-bagovit-pro-bio-noche-nutritiva-y-regeneradora-celular-x-55-gr_imagen-1.jpg?v=637907225184170000"
     },
     {
       "name": "Acelerador de Bronceado en Spray Bagóvit Solar Fps 30 x 200 ml",
@@ -9434,19 +9470,19 @@
     },
     {
       "name": "Suplemento dietario Bagó Chía plus x 30 caps",
-      "price": "17536.00",
+      "price": "17939.00",
       "link": "https://www.farmacity.com/suplemento-dietario-bago-chia-plus-x-30-caps/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/244493/212335_suplemento-dietario-bago-chia-plus-x-30-caps_imagen-1.jpg?v=638243348454330000"
     },
     {
       "name": "Ampolla Capilar Farmacity Nutrición Intensa x 10 ml",
-      "price": "1554.00",
+      "price": "1620.00",
       "link": "https://www.farmacity.com/ampolla-capilar-farmacity-nutricion-intensa-x-10-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/252663/212301_ampolla-capilar-farmacity-hair-nutricion-intensa-x-10-ml_imagen-2.jpg?v=638452812630170000"
     },
     {
       "name": "Ampolla Capilar Farmacity Reparación Profunda x 10 ml",
-      "price": "1554.00",
+      "price": "1620.00",
       "link": "https://www.farmacity.com/ampolla-capilar-farmacity-reparacion-profunda-x-10-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/252664/212300_ampolla-capilar-farmacity-hair-reparacion-profunda-x-10-ml_imagen-2.jpg?v=638452813299700000"
     },
@@ -9499,7 +9535,7 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/190494/211485_aceite-corporal-home-spa-natural-beauty-x-110-ml_imagen-1.jpg?v=637068259730670000"
     },
     {
-      "name": "Suplemento Dietario Pure Wellness Probiotics Daily Care x 30 caps",
+      "name": "Suplemento Dietario Pure Wellness Probiotics Daily Care x 30 Cáps",
       "price": "21500.00",
       "link": "https://www.farmacity.com/suplemento-dietario-pure-wellness-probiotics-daily-care-x-30-capsulas/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/188815/211454_probiotics-daily-care-pure-wellness-x-30-cap_imagen-1.jpg?v=637038298408070000"
@@ -9559,10 +9595,16 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/251152/211083.jpg?v=638399743872230000"
     },
     {
-      "name": "Barra de Cereales Nat sabor Chocolate y Naranja x 21 g",
+      "name": "Barra de Cereales Nat Sabor Chocolate y Naranja x 21 g",
       "price": "990.00",
       "link": "https://www.farmacity.com/barra-de-cereales-nat-sabor-chocolate-y-naranja-x-21-gr/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/193484/210811_barra-de-cereales-nat-sabor-chocolate-y-naranja-x-21-gr_imagen-1.jpg?v=637152371242600000"
+    },
+    {
+      "name": "Jabón de Glicerina en Barra Rexona Neutro Multipack x 90 g x 3 un",
+      "price": "4050.00",
+      "link": "https://www.farmacity.com/jabon-de-glicerina-en-barra-rexona-neutro-multipack-x-90-g-x-3-un/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/241645/210108_jabon-de-glicerina-rexona-neutro-3-un-x-90-gr___imagen-1.jpg?v=638187237454800000"
     },
     {
       "name": "Desodorante Antitranspirante Dove Men Sport en Aerosol x 89 g",
@@ -9631,19 +9673,19 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/260679/209465_cepillo-dental-colgate-orthogard__imagen--1.jpg?v=638630389833630000"
     },
     {
-      "name": "Suplemento Dietario Pure Wellness Chía Oil x 1000 g x 60 cápsulas blandas",
+      "name": "Suplemento Dietario Pure Wellness Chía Oil x 1000 g x 60 Cápsulas Blandas",
       "price": "14940.00",
       "link": "https://www.farmacity.com/suplemento-dietario-en-capsulas-blandas-pure-wellness-chia-oil-x-60-un/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/187292/209310_suplemento-dietario-en-capsulas-blandas-pure-wellness-chia-oil-x-60-un_imagen-1.jpg?v=637002053391800000"
     },
     {
-      "name": "Suplemento Dietario Pure Wellness Ginkgo 80 Forte x 30 comprimidos",
+      "name": "Suplemento Dietario Pure Wellness Ginkgo 80 Forte x 30 Comprimidos",
       "price": "5340.00",
       "link": "https://www.farmacity.com/suplemento-dietario-pure-wellness-ginkgo-80-forte-x-30-un/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/187304/209304_suplemento-dietario-pure-wellness-ginkgo-80-forte-x-30-un_imagen-1.jpg?v=637002053431930000"
     },
     {
-      "name": "Suplemento Dietario Pure Wellness Resveratrol Vid x 500 g x 60 comprimidos",
+      "name": "Suplemento Dietario Pure Wellness Resveratrol Vid x 500 g x 60 Comprimidos",
       "price": "26400.00",
       "link": "https://www.farmacity.com/suplemento-dietario-pure-wellness-resveratrol-vid-x-60-comprimidos/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/187300/209302_suplemento-dietario-pure-wellness-resveratrol-vid-x-60-un_imagen-1.jpg?v=637002053418630000"
@@ -9665,12 +9707,6 @@
       "price": "9588.00",
       "link": "https://www.farmacity.com/crema-corporal-dermaglos-hidratacion-profunda-x-100-gr/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/283485/208562_crema-corporal-dermaglos-hidratacion-profunda-x-100-gr_imagen-1.jpg?v=638955440429970000"
-    },
-    {
-      "name": "Crema Facial Dermaglós para Rojeces FPS 30 x 50 ml",
-      "price": "23488.00",
-      "link": "https://www.farmacity.com/emulsion-facial-dermaglos-para-rojeces-x-50-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/281726/208561_emulsion-facial-dermaglos-para-rojeces-x-50-ml_Imagen-1.jpg.jpg?v=638937260536700000"
     },
     {
       "name": "Recortador Eléctrico Studio 9 Professional",
@@ -9907,6 +9943,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/187078/164174_protectores-diarios-enjoy-dual-x-60-un_imagen-1.jpg?v=636995744857000000"
     },
     {
+      "name": "Pasta Dental Gum sensitive care x 90 Gr",
+      "price": "6346.00",
+      "link": "https://www.farmacity.com/crema-dental-gum-sensitive-care-x-90-gr/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/244353/164150_crema-dental-gum-sensitive-care-x-90-gr_imagen-1.jpg?v=638240974930870000"
+    },
+    {
       "name": "Jugo Exprimido Pura Frutta de Manzana Roja x 1 l",
       "price": "3536.00",
       "link": "https://www.farmacity.com/jugo-exprimido-pura-frutta-de-manzana-roja-x-1-l/p",
@@ -9965,12 +10007,6 @@
       "price": "4540.00",
       "link": "https://www.farmacity.com/sertal-x-10-comprimidos-recubiertos/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/260662/155438_sertal-x-10-comprimidos-recubiertos_imagen-1.jpg?v=638629740290000000"
-    },
-    {
-      "name": "Ibupirac Fem x 10 Comp",
-      "price": "4020.00",
-      "link": "https://www.farmacity.com/analgesico-ibupirac-fem-x-10-comprimidos/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/233638/154430_analgesico-ibupirac-fem-x-10-comprimidos_imagen-1.jpg?v=638077692892570000"
     },
     {
       "name": "Atomo Desinflamante Clásico x 110 g",
@@ -10043,6 +10079,12 @@
       "price": "9610.00",
       "link": "https://www.farmacity.com/esmalte-fortalecedor-para-unas-x-13-3-ml-131401-131401/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/234966/131401_esmalte-fortalecedor-para-unas-x-13-3-ml-131401_imagen-1.jpg?v=638089801046800000"
+    },
+    {
+      "name": "Pervinox Incoloro en Spray x 40 ml",
+      "price": "12083.00",
+      "link": "https://www.farmacity.com/solucion-pervinox-incoloro-en-spray-x-40-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/234231/131191_solucion-pervinox-incoloro-en-spray-x-40-ml_imagen-1.jpg?v=638085319907300000"
     },
     {
       "name": "Bicarbonato de Sodio Farmacity Caja x 100 g",
@@ -10237,12 +10279,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/227361/155806_102-años-plus_imagen-1.jpg?v=637971189734400000"
     },
     {
-      "name": "Crema Facial Cicatricure Beauty Care Fps 50 x 50 g",
-      "price": "25760.00",
-      "link": "https://www.farmacity.com/crema-facial-cicatricure-beatu-care-fps-50-x-50-g/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/283939/145720_crema-facial-cicatricure-beatu-care-fps-50-x-50-g_Imagen-1.jpg.jpg?v=638961301612970000"
-    },
-    {
       "name": "Crema Nutritiva Bagóvit A Classic x 200 g",
       "price": "21322.00",
       "link": "https://www.farmacity.com/crema-nutritiva-bagovit-a-classic-x-200-gr/p",
@@ -10273,7 +10309,7 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/224008/15189_crema-nutritiva-humectante-x-100-gr_imagen-1.jpg?v=637907317285170000"
     },
     {
-      "name": "Barra de Cereales Nat sabor Manzana x 21 g",
+      "name": "Barra de Cereales Nat Sabor Manzana x 21 g",
       "price": "990.00",
       "link": "https://www.farmacity.com/barra-de-cereales-sabor-manzana-x-21-gr/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/166701/152242_barra-de-cereales-sabor-manzana-x-21-gr_imagen-1.jpg?v=636670342318330000"
@@ -10442,7 +10478,7 @@
     },
     {
       "name": "Gel Lubricante Multi O Saborizado Frutilla x 50 g",
-      "price": "8234.00",
+      "price": "8399.00",
       "link": "https://www.farmacity.com/lubricante-en-gel-para-uso-intimo-sabor-frutilla-x-50-gr/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/241772/146468_lubricante-en-gel-para-uso-intimo-sabor-frutilla-x-50-gr__imagen-1.jpg?v=638188202326200000"
     },
@@ -10454,7 +10490,7 @@
     },
     {
       "name": "Suplemento Dietario Aceite de Chía 1000 mg x 30 un",
-      "price": "16030.00",
+      "price": "16399.00",
       "link": "https://www.farmacity.com/suplemento-dietario-aceite-de-chia-1000-mg-x-30-un/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/244490/141112_suplemento-dietario-aceite-de-chia-1000-mg-x-30-un_imagen-1.jpg?v=638243343830600000"
     },
@@ -10472,7 +10508,7 @@
     },
     {
       "name": "Gel Lubricante Multi O Hot x 50 g",
-      "price": "8234.00",
+      "price": "8399.00",
       "link": "https://www.farmacity.com/lubricante-en-gel-efecto-caliente-x-50-gr/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/241777/137977_lubricante-en-gel-efecto-caliente-x-50-gr__imagen-1.jpg?v=638188205662470000"
     },
@@ -10693,12 +10729,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/263548/150453_desodorante-femenino-nivea-protect--care-roll-on-x-50-ml_imagen-1.jpg?v=638729823582030000"
     },
     {
-      "name": "Protectores Diarios Carefree Compact Todos los Días x 80 un",
-      "price": "7409.00",
-      "link": "https://www.farmacity.com/protectores-diarios-sin-perfume-x-80-un/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/282715/151077_protectores-diarios-sin-perfume-x-80-un_imagen-1.jpg?v=638945155487170000"
-    },
-    {
       "name": "Protectores Diarios Carefree Protección Original x 60 un",
       "price": "8064.00",
       "link": "https://www.farmacity.com/protectores-diarios-sin-perfume-x-60-un-151075/p",
@@ -10753,12 +10783,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/251952/143506_shampoo-reparacion-total-extreme-x-400-ml_imagen-1.jpg?v=638436272364870000"
     },
     {
-      "name": "Mascarilla Elvive RT Extreme x 300 g",
-      "price": "9270.00",
-      "link": "https://www.farmacity.com/crema-de-tratamiento-reparacion-total-extreme-x-300-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/251147/143512_crema-de-tratamiento-reparacion-total-extreme-x-300-ml__imagen--1.jpg?v=638399741596870000"
-    },
-    {
       "name": "Desodorante Rexona Antitranspirante Men Fútbol Fanatics x 150 ml",
       "price": "4096.00",
       "link": "https://www.farmacity.com/antitranspirante-masculino-rexona-fanatics-aerosol-x-150-ml/p",
@@ -10769,12 +10793,6 @@
       "price": "7215.00",
       "link": "https://www.farmacity.com/desodorante-antitranspirante-hombre-endurance-cool-wave-en-barra-x-82-gr/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/187047/144338_desodorante-antitranspirante-hombre-endurance-cool-wave-en-barra-x-82-gr_imagen-1.jpg?v=636995109501700000"
-    },
-    {
-      "name": "Enjuague Bucal Colgate Plax Menta Fresca x 500 ml",
-      "price": "7381.00",
-      "link": "https://www.farmacity.com/enjuague-bucal-plax-fresh-mint-x-500-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/240444/143298_enjuague-bucal-plax-fresh-mint-x-500-ml___imagen-1.jpg?v=638170750835300000"
     },
     {
       "name": "Cepillo Interdental Proxabrush 0.8 mm x 4 un",
@@ -10793,12 +10811,6 @@
       "price": "8310.00",
       "link": "https://www.farmacity.com/shampoo-dove-men-fuerza-extrema-botella-x-400-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/162764/142448_shampoo-dove-men-fuerza-extrema-botella-x-400-ml_imagen-1.jpg?v=636670324990870000"
-    },
-    {
-      "name": "Mascarilla Elvive RT 5 Keratin x 300 g",
-      "price": "9270.00",
-      "link": "https://www.farmacity.com/mascarilla-elvive-rt-5-keratin-x-300-g/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/256860/140576_crema-para-tratamiento-reparacion-total-5-x-250-ml__imagen---1.jpg?v=638532100008700000"
     },
     {
       "name": "Protector Solar Dermaglós Fps 80 x 90 g",
@@ -11035,16 +11047,22 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/259923/112805_acondicionador-restaurador-x-420-ml_imagen--1.jpg?v=638609827142870000"
     },
     {
+      "name": "Sombra en Barra Extreme Matte Eyeshadow",
+      "price": "15990.00",
+      "link": "https://www.farmacity.com/sombra-en-barra-matte-eyeshadow/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/267164/243732_sombra-en-barra-matte-eyeshadow_imagen-1.jpg.jpg?v=638803241387700000"
+    },
+    {
       "name": "Combo Desodorante Dove Original + Desodorante Dove All Body Body Raspberry",
       "price": "7916.00",
       "link": "https://www.farmacity.com/combo-desodorante-dove-original-desodorante-dove-all-body/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/283826/246870_combo-desodorante-dove-original-desodorante-dove-all-body_Imagen-1.jpg.jpg?v=638959863965530000"
     },
     {
-      "name": "Crema de Noche Eucerin Hyaluron Filler Elasticity Repuesto x 50 ml",
+      "name": "Crema Facial Antiedad de Noche Eucerin Hyaluron-Filler + Elasticity Todo Tipo de Piel Repuesto x 50 ml",
       "price": "79449.00",
       "link": "https://www.farmacity.com/crema-eucerin-hyaluron-filler-elasticity-repuesto-noche-x-50-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/283479/246798_crema-eucerin-hyaluron-filler-elasticity-repuesto-noche-x-50-ml_imagen-1.jpg?v=638955428634530000"
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/285919/246798_crema-eucerin-hyaluron-filler-elasticity-repuesto-noche-x-50-ml__imagen-1.jpg?v=638986634464500000"
     },
     {
       "name": "Óleo Sérum Corporal Dove Tono Uniforme x 150 ml",
@@ -11125,6 +11143,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/282413/246639_acondicionador-herbal-essences-shine-con-manzanilla-x-400-ml_imagen-1.jpg?v=638944268726970000"
     },
     {
+      "name": "Acondicionador Herbal Essences Pomelo x 400 ml",
+      "price": "13910.00",
+      "link": "https://www.farmacity.com/acondicionador-herbal-essences-pomelo-x-400-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/282409/246637_acondicionador-herbal-essences-toronja-blanca-y-menta-x-400-ml_imagen-1.jpg?v=638944267691170000"
+    },
+    {
       "name": "Desodorante Antitranspirante Old Spice Dragon Blast x 50 g",
       "price": "6300.00",
       "link": "https://www.farmacity.com/desodorante-antitranspirante-old-spice-dragon-blast-x-50-g/p",
@@ -11185,12 +11209,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/280684/246310_pasta-dental-oral-b-100-x-70-g_Imagen-1.jpg?v=638920779000130000"
     },
     {
-      "name": "Cepillo Dental Oral B Complete x 2 un",
-      "price": "4529.00",
-      "link": "https://www.farmacity.com/cepillo-dental-oral-b-complete-x-2-un/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/280662/246305_cepillo-dental-oral-b-complete-x-2-un_Imagen-1.jpg?v=638920777179000000"
-    },
-    {
       "name": "Pasta Dental Oral B Kids Mickey y Minnie x 50 g",
       "price": "2047.00",
       "link": "https://www.farmacity.com/pasta-dental-oral-b-kids-mickey-y-minnie-x-50-g/p",
@@ -11225,12 +11243,6 @@
       "price": "8694.00",
       "link": "https://www.farmacity.com/mascarilla-facial-get-the-look-lumiglow-y-vitamina-e-x-50-g/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/281454/246122_mascarilla-facial-get-the-look-lumiglow-y-vitamina-e-x-50-g_imagen-1.jpg?v=638931275561000000"
-    },
-    {
-      "name": "Sérum Facial Get The Look Lumiglow y Vitamina E x 30 ml",
-      "price": "11694.00",
-      "link": "https://www.farmacity.com/serum-facial-get-the-look-lumiglow-y-vitamina-e-x-30-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/281458/246121_serum-facial-get-the-look-lumiglow-y-vitamina-e-x-30-ml_imagen-1.jpg?v=638931277998400000"
     },
     {
       "name": "Crema Facial Get The Look Lumiglow y Vitamina E x 45 g",
@@ -11312,7 +11324,7 @@
     },
     {
       "name": "Desinfectante Lysoform Aerosol Frescura Citrica x 360 ml",
-      "price": "4340.00",
+      "price": "4731.00",
       "link": "https://www.farmacity.com/desinfectante-lysoform-aerosol-frescura-citrica-x-360-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/279509/245899_desinfectante-lysoform-aerosol-frescura-citrica-x-360-ml_Imagen-1.jpg?v=638896531963170000"
     },
@@ -11351,6 +11363,12 @@
       "price": "20474.00",
       "link": "https://www.farmacity.com/mascara-de-pestanas-rimmel-wonder-bond-lash-filler-negro-x-11-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/276500/245753_mascara-de-pestanas-rimmel-wonder-bond-lash-filler-negro-x-11-ml_Imagen-1.jpg?v=638886988327400000"
+    },
+    {
+      "name": "Sérum Facial Cetaphil Ceramidas x 30 ml",
+      "price": "37042.00",
+      "link": "https://www.farmacity.com/serum-facial-cetaphil-ceramidas-x-30-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/280282/245684_serum-facial-cetaphil-ceramidas-x-30-ml_imagen-1.jpg?v=638912302569100000"
     },
     {
       "name": "Esmalte para Uñas Sally Hansen Color Therapy x 14,7 ml",
@@ -11468,25 +11486,25 @@
     },
     {
       "name": "Óleo Capilar Get The Look Argán y Palta x 50 ml",
-      "price": "4495.00",
+      "price": "4675.00",
       "link": "https://www.farmacity.com/oleo-capilar-get-the-look-argan-y-palta-x-50-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/275568/245034_oleo-capilar-get-the-look-argan-y-palta-x-50-ml_Imagen-1.jpg?v=638875136378970000"
     },
     {
       "name": "Ampolla Tratamiento Capilar Get The Look Nutrición Profunda Palta x 15 ml",
-      "price": "4190.00",
+      "price": "4400.00",
       "link": "https://www.farmacity.com/ampolla-tratamiento-capilar-get-the-look-nutricion-profunda-palta-x-15-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/276663/245031_ampolla-tratamiento-capilar-get-the-look-nutricion-profunda-palta-x-15-ml_imagen-2.jpg?v=638887853260300000"
     },
     {
       "name": "Ampolla Tratamiento Capilar Get The Look Reparación Profunda Silfoft y Keratina Hidrolizada x 15 ml",
-      "price": "4190.00",
+      "price": "4400.00",
       "link": "https://www.farmacity.com/ampolla-tratamiento-capilar-get-the-look-reparacion-profunda-silfoft-y-keratina-hidrolizada-x-15-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/276666/245030_ampolla-tratamiento-capilar-get-the-look-reparacion-profunda-silfoft-y-keratina-hidrolizada-x-15-ml_imagen-1.jpg?v=638887855400800000"
     },
     {
       "name": "Ampolla Tratamiento Capilar Get The Look Anti Caída Niacinamida x 15 ml",
-      "price": "4190.00",
+      "price": "4400.00",
       "link": "https://www.farmacity.com/ampolla-tratamiento-capilar-get-the-look-anti-caida-niacinamida-x-15-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/276669/245029_ampolla-tratamiento-capilar-get-the-look-anti-caida-niacinamida-x-15-ml_imagen-1.jpg?v=638887863808270000"
     },
@@ -11495,12 +11513,6 @@
       "price": "714.00",
       "link": "https://www.farmacity.com/bombon-vauquita-relleno-de-pasta-de-mani-x-15-g/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/280228/245028_bombon-vauquita-relleno-de-pasta-de-mani-x-15-g_imagen-1.jpg?v=638912051081200000"
-    },
-    {
-      "name": "Crema Hidratante CeraVe Repuesto x 454 ml",
-      "price": "40539.00",
-      "link": "https://www.farmacity.com/crema-hidratante-cerave-repuesto-x-454-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/273547/244975_crema-hidratante-cerave-repuesto-x-454-ml_imagen-1.jpg?v=638847431374300000"
     },
     {
       "name": "Acondicionador Capilatis Ortiga Mujer x 350 ml",
@@ -11651,12 +11663,6 @@
       "price": "2900.00",
       "link": "https://www.farmacity.com/combo-barra-proteina-low-sugar-pw-cookie-crunch-x-45-g-vainilla-x-45-g/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/266287/244316_combo-barra-proteina-low-sugar-pw-cookie-crunch-x-45-g-vainilla-x-45-g_imagen-1.jpg.jpg?v=638797448402970000"
-    },
-    {
-      "name": "Combo Protein Bar Pure Wellness L-Car Cookies x 46 g + Banana Split x 46 g",
-      "price": "2350.00",
-      "link": "https://www.farmacity.com/combo-protein-bar-pure-wellness-l-car-cookies-x-46-g-banana-split-x-46-g/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/266284/244313_combo-protein-bar-pure-wellness-l-car-cookies-x-46-g-banana-split-x-46-g_imagen-1.jpg.jpg?v=638797444179770000"
     },
     {
       "name": "Barra Proteica Iron Bar Lemon Cookies x 46 g",
@@ -11851,16 +11857,16 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/263782/243412_brillo-labial-extreme-butter-gloss_imagen-1.jpg?v=638738971187630000"
     },
     {
-      "name": "Labial Líquido Maybelline Super Stay Vinyl Ink",
-      "price": "28898.00",
-      "link": "https://www.farmacity.com/labial-liquido-maybelline-super-stay-vinyl-ink/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/270448/243550_labial-liquido-maybelline-super-stay-vinyl-ink_Imange-1.jpg.jpg.jpg?v=638828201852670000"
-    },
-    {
       "name": "Combo Dove Baby Jabones Hidratación Enriquecida",
       "price": "8964.00",
       "link": "https://www.farmacity.com/combo-dove-baby-jabones-hidratacion-enriquecida/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/263981/243605_combo-dove-baby-jabones-hidratacion-enriquecida_imagen-1.jpg.jpg?v=638744479827830000"
+    },
+    {
+      "name": "Combo Dove Baby Rutina de Baño Humectación y Cuidado",
+      "price": "15251.00",
+      "link": "https://www.farmacity.com/combo-dove-baby-rutina-de-bano-humectacion-y-cuidado/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/263980/243603_combo-dove-baby-rutina-de-bano-humectacion-y-cuidado_imagen-1.jpg.jpg?v=638744468024300000"
     },
     {
       "name": "Combo Baño Líquido Farmacity Bebé Lavanda y Tilo x 200 ml + Repuesto x 180 ml",
@@ -11941,12 +11947,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/264665/243432_edt-get-the-look-invisible-x-50-ml_imagen-1.jpg.jpg?v=638769522727770000"
     },
     {
-      "name": "EDT Get The Look Donna Valentina x 50 ml",
-      "price": "13490.00",
-      "link": "https://www.farmacity.com/edt-get-the-look-donna-valentina-x-50-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/264668/243430_edt-get-the-look-donna-valentina-x-50-ml_imagen-1.jpg.jpg?v=638769531297930000"
-    },
-    {
       "name": "EDT Get The Look Bloom x 50 ml",
       "price": "13490.00",
       "link": "https://www.farmacity.com/edt-get-the-look-bloom-x-50-ml/p",
@@ -11963,6 +11963,12 @@
       "price": "33928.00",
       "link": "https://www.farmacity.com/combo-mascara-de-pestanas-maybelline-lash-sensational-sky-high-cosmic-agua-micelar-garnier-skin-active-x-400-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/279875/243408_combo-mascara-de-pestanas-maybelline-lash-sensational-sky-high-cosmic-agua-micelar-garnier-skin-active-x-400-ml_Imagen-1.jpg.jpg?v=638901727830330000"
+    },
+    {
+      "name": "Dioxaflex VL Diclofenac Sódico 25 mg Rápida Acción x 8 Cáps",
+      "price": "3498.00",
+      "link": "https://www.farmacity.com/dioxaflex-vl-diclofenac-sodico-25-mg-rapida-accion-x-8-caps/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/265208/243399_dioxaflex-vl-diclofenac-sodico-25-mg-rapida-accion-x-8-caps_imagen-1.jpg.jpg?v=638779820548630000"
     },
     {
       "name": "Crema de Ojos Garnier Express Aclara Vitamina C x 15 ml",
@@ -12002,7 +12008,7 @@
     },
     {
       "name": "Desinfectante Lysoform Aerosol Lavanda x 315 ml",
-      "price": "3405.00",
+      "price": "3712.00",
       "link": "https://www.farmacity.com/desinfectante-lysoform-aerosol-lavanda-x-232-g/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/262731/242774_desinfectante-lysoform-aerosol-lavanda-x-232-g_imagen-1.jpg?v=638678991020000000"
     },
@@ -12127,12 +12133,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/260332/242026_suavizante-downy-brisa-de-verano-x-500-ml_imagen-1.jpg?v=638622861474130000"
     },
     {
-      "name": "Kit Tio Nacho Anticanas Shampoo x 415 ml + Acondicionador x 415 ml",
-      "price": "11100.00",
-      "link": "https://www.farmacity.com/combo-tio-nacho-anticanas-shampoo-x-415-ml-acondicionador-x-415-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/261852/241957_combo-tio-nacho-anticanas-shampoo-x-415-ml-acondicionador-x-415-ml__imagen-1.jpg?v=638653892203670000"
-    },
-    {
       "name": "EDP Tucci Nero Riserva x 100 ml",
       "price": "39990.00",
       "link": "https://www.farmacity.com/edp-tucci-nero-riserva-x-100-ml/p",
@@ -12140,7 +12140,7 @@
     },
     {
       "name": "Desinfectante Elimina Olores Lysoform Original Aerosol x 55 ml",
-      "price": "2392.00",
+      "price": "2608.00",
       "link": "https://www.farmacity.com/desinfectante-lysoform-on-the-go-original-x-55-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/263176/241914_desinfectante-lysoform-on-the-go-original-x-55-ml_imagen-1.jpg?v=638700604862670000"
     },
@@ -12185,12 +12185,6 @@
       "price": "135008.00",
       "link": "https://www.farmacity.com/crema-de-noche-lifactiv-retinol-x-50-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/259549/241669_crema-de-noche-lifactiv-retinol-x-50-ml_imagen-1.jpg?v=638604637747070000"
-    },
-    {
-      "name": "Kit Shampoo y Acondicionador Tío Nacho Herbolaria Milenaria x 415 ml",
-      "price": "11100.00",
-      "link": "https://www.farmacity.com/combo-shampoo-y-acondicionador-tio-nacho-herbolaria-milenaria-x-415-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/259493/241608_combo-shampoo-y-acondicionador-tio-nacho-herbolaria-milenaria-x-415-ml_imagen-1.jpg?v=638600353323330000"
     },
     {
       "name": "Kit Shampoo y Acondicionador Tío Nacho Engrosador x 415 ml",
@@ -12253,12 +12247,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/259223/241360_shampoo-head-shoulders-anti-comezon-x-180-ml_imagen-1.jpg?v=638590842880170000"
     },
     {
-      "name": "Máquina de Afeitar Enjoy 3 Filos x 4 un",
-      "price": "5274.00",
-      "link": "https://www.farmacity.com/maquina-de-afeitar-enjoy-3-filos-x-4-un/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/263196/241326_maquina-de-afeitar-enjoy-3-filos-x-4-un_imagen-1.jpg?v=638702353782970000"
-    },
-    {
       "name": "Pañales para Adultos Farmacity Unisex Rectos",
       "price": "9350.00",
       "link": "https://www.farmacity.com/panales-para-adultos-rectos-x-10-un/p",
@@ -12271,13 +12259,13 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/285176/160239_ropa-interior-plenitud-active-plus-x-8-u__imagen-1.jpg?v=638973635257930000"
     },
     {
-      "name": "Secador de Pelo Glam Boost Studio 9 Professional",
+      "name": "Secador de Pelo Studio 9 Professional Glam Boost",
       "price": "34993.00",
       "link": "https://www.farmacity.com/secador-de-pelo-glam-boost-studio-9-professional/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/266116/241295_secador-de-pelo-glam-boost-studio-9-professional_imagen-1.jpg.jpg?v=638793022402630000"
     },
     {
-      "name": "Cepillo Eléctrico Glam Styler Studio 9 Professional",
+      "name": "Cepillo Eléctrico Studio 9 Professional Glam Styler",
       "price": "48993.00",
       "link": "https://www.farmacity.com/cepillo-electrico-glam-styler-studio-9-professional/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/266112/241294_cepillo-electrico-glam-styler-studio-9-professional_imagen-1.jpg.jpg?v=638793017898730000"
@@ -12371,6 +12359,12 @@
       "price": "13384.00",
       "link": "https://www.farmacity.com/cafe-en-capsulas-bonafide-lungo-x-10-un/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/258107/240738_cafe-en-capsulas-bonafide-lungo-x-10-un_imagen-1.jpg?v=638560606007530000"
+    },
+    {
+      "name": "Sérum Corporal Dove Concentrado x 100 ml",
+      "price": "11195.00",
+      "link": "https://www.farmacity.com/serum-dove-corporal-concentrado-x-100-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/259091/240714_serum-dove-corporal-concentrado-x-100-ml_imagen-1.jpg?v=638580346158800000"
     },
     {
       "name": "Sérum Corporal Dove Piel Sensible Pantenol x 400 ml",
@@ -12529,7 +12523,7 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/282255/239731_desinfectante-aerosol-cif-original-x-260-g_imagen-1.jpg?v=638942470454330000"
     },
     {
-      "name": "Suplemento Dietario Pure Wellness Multi Colágeno x 30",
+      "name": "Suplemento Dietario Pure Wellness Multi Colágeno x 30 Comp",
       "price": "11940.00",
       "link": "https://www.farmacity.com/suplemento-dietario-pure-wellness-multi-colageno-x-30/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/255183/239704_suplemento-dietario-pure-wellness-multi-colageno-x-30_imagen-1.jpg?v=638513093978730000"
@@ -12569,6 +12563,12 @@
       "price": "2580.00",
       "link": "https://www.farmacity.com/shampoo-farmacity-bebe-avena-x-200-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/254552/239566_shampoo-farmacity-bebe-avena-x-200-ml_imagen-1.jpg?v=638494943862200000"
+    },
+    {
+      "name": "Baño Líquido Farmacity Bebé Lavanda y Tilo x 200 ml",
+      "price": "2514.00",
+      "link": "https://www.farmacity.com/bano-liquido-farmacity-bebe-lavanda-y-tilo-x-200-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/254554/239564_bano-liquido-farmacity-bebe-lavanda-y-tilo-x-200-ml_imagen-1.jpg?v=638494944680600000"
     },
     {
       "name": "Yerba Mate Buenas y Santas Hierbas x 500 g",
@@ -12623,6 +12623,12 @@
       "price": "6475.00",
       "link": "https://www.farmacity.com/acondicionador-tio-nacho-anticanas-x-415-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/262148/239424-acondicionador-tio-nacho-anticanas-x-415-ml___imagen-1.jpg?v=638659174400670000"
+    },
+    {
+      "name": "Sérum Anti-Manchas Nivea Luminous 360 Anti-Edad x 30 ml",
+      "price": "21297.00",
+      "link": "https://www.farmacity.com/serum-nivea-luminous-anti-manchas-antiedad-x-30-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/284897/239422_serum-nivea-luminous-anti-manchas-antiedad-x-30-ml_imagen-2.jpg?v=638972689234270000"
     },
     {
       "name": "Jabón de Glicerina Farmacity Antibacterial x 120 g",
@@ -12685,7 +12691,7 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/251408/236793_tintura-en-shampoo-issue-express-5-min_imagen-1.jpg?v=638406613281370000"
     },
     {
-      "name": "Barrita de Frutos Secos Nat de Almendra x 24 gr",
+      "name": "Barrita de Frutos Secos Nat de Almendra x 24 g",
       "price": "1220.00",
       "link": "https://www.farmacity.com/barrita-de-frutos-secos-nat-de-almendras-x-24-gr/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/251682/238632_barrita-de-frutos-secos-nat-de-almendras-x-24-gr_imagen-1.jpg?v=638424057106570000"
@@ -12721,12 +12727,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/263677/238117-body-splash-farmacity-relax-x-200-ml_imagen-1.jpg?v=638733707862130000"
     },
     {
-      "name": "Preservativos Prime Skyn Extra Large x 6 un",
-      "price": "12112.00",
-      "link": "https://www.farmacity.com/preservativos-prime-skyn-extra-large-x-6-un/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/254206/238041_preservativos-prime-skyn-extra-large-x-6-un_imagen-2.jpg?v=638483783816970000"
-    },
-    {
       "name": "Vaselina Vasecop con Aceite de Coco x 90 g",
       "price": "11191.00",
       "link": "https://www.farmacity.com/vaselina-con-aceite-de-coco-vasecopx-90-g/p",
@@ -12745,16 +12745,16 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/250888/237979_crema-corporal-home-spa-lavender-x-200-ml_imagen-1.jpg?v=638388642985000000"
     },
     {
+      "name": "Espuma de Baño Home Spa Lavender x 200 ml",
+      "price": "3076.00",
+      "link": "https://www.farmacity.com/espuma-de-bano-home-spa-lavender-x-200-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/250889/237978_espuma-de-bano-home-spa-lavender-x-200-ml_imagen-1.jpg?v=638388643446030000"
+    },
+    {
       "name": "Body Splash Home Spa Lavender x 60 ml",
       "price": "3316.00",
       "link": "https://www.farmacity.com/body-splash-home-spa-lavender-x-60-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/250890/237977_body-splash-home-spa-lavender-x-60-ml_imagen-1.jpg?v=638388644135700000"
-    },
-    {
-      "name": "Sérum Facial Teatrical Antimanchas Aclarante x 30 ml",
-      "price": "7496.00",
-      "link": "https://www.farmacity.com/serum-facial-teatrical-aclarante-x-30-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/254368/237906_serum-facial-teatrical-aclarante-x-30-ml_imagen-1.jpg?v=638488811940500000"
     },
     {
       "name": "Shampoo Capilatis Ortiga Concentrado Caspa x 420 ml",
@@ -12769,7 +12769,7 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/244124/231800_pack-wav-colaless-clasico-blanco-y-negro-talle-l-x-2-un_imagen-1.jpg?v=638234049691630000"
     },
     {
-      "name": "Vedetina Wav Gris y Negro",
+      "name": "Vedetina Wav Gris y Negro x 2 un",
       "price": "13990.00",
       "link": "https://www.farmacity.com/vedetina-wav-gris-y-negro/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/244104/231785_pack-wav-vedetina-clasico-gris-y-negro-talle-l-x-2-un_imagen-2.jpg?v=638234039676500000"
@@ -12871,6 +12871,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/249907/237286_edp-sarkany-why-not-1-x-100-ml_imagen-1.jpg?v=638368623441000000"
     },
     {
+      "name": "Crema para Peinar Garnier Fructis Hydra Liss x 250 ml",
+      "price": "5899.00",
+      "link": "https://www.farmacity.com/crema-para-peinar-fructis-hydra-liss-x-250-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/248630/237267_crema-para-peinar-fructis-hydra-liss-x-250-ml_imagen-1.jpg?v=638342929842200000"
+    },
+    {
       "name": "Crema Tratamiento Capilatis Plex Reparación Absoluta x 170 ml",
       "price": "8240.00",
       "link": "https://www.farmacity.com/crema-tratamiento-capilatis-plex-reparacion-absoluta-x-170-ml/p",
@@ -12913,7 +12919,7 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/249651/237183_suplemento-dietario-ultraflex-magnesio-x-15-sobres_imagen-1.jpg?v=638363382495700000"
     },
     {
-      "name": "Almendras Peladas Nat x 50 gr",
+      "name": "Almendras Peladas Nat x 50 g",
       "price": "3650.00",
       "link": "https://www.farmacity.com/almendras-peladas-nat-x-50-gr/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/250240/237011_almendras-peladas-nat-x-50-gr_imagen-1.jpg?v=638379079285600000"
@@ -12931,7 +12937,7 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/247620/236811_mascara-de-tratatamiento-sedal-care-acido-hialuronico-vitamina-a-x-300-g_imagen-1.jpg?v=638319551473630000"
     },
     {
-      "name": "Alfajor Vegano Nat Sabor Maní x 42gr",
+      "name": "Alfajor Vegano Nat Sabor Maní x 42g",
       "price": "1335.00",
       "link": "https://www.farmacity.com/alfajor-vegano-nat-sabor-mani-x-42gr/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/250050/236757.jpg?v=638374043857430000"
@@ -13085,12 +13091,6 @@
       "price": "5014.00",
       "link": "https://www.farmacity.com/quitaesmalte-cutex-fortalecedor-x-200-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/246076/235993_quitaesmalte-cutex-fortalecedor-x-200-ml_imagen-1.jpg?v=638283977362900000"
-    },
-    {
-      "name": "Crema Facial Teatrical Aclaradora x 100 g",
-      "price": "2240.00",
-      "link": "https://www.farmacity.com/crema-facial-teatrical-aclaradora-x-100-g/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/245770/235950_crema-facial-teatrical-aclaradora-x-100-g_imagen-1.jpg?v=638277060114770000"
     },
     {
       "name": "Cera Capilar Modeladora Efecto Mate NIC Modeleitor x 90 g",
@@ -13249,7 +13249,7 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/263007/234698_kit-completo-pieles-mixtas-loreal-paris-Gel-de-limpiez-serum-rostro-gel-crema--protector-solar-fps-50_imagen--1.jpg?v=638690227110100000"
     },
     {
-      "name": "Refill Gel de Ducha Eco Pomelo y Flores Home Spa x 150 ml",
+      "name": "Gel de Ducha Home Spa Pomelo y Flores Repuesto x 150 ml",
       "price": "2236.00",
       "link": "https://www.farmacity.com/refill-gel-de-ducha-eco-pomelo-y-flores-home-spa-x-150-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/244181/234691_refill-gel-de-ducha-eco-pomelo-y-flores-home-spa-x-150-ml_imagen-1.jpg?v=638234725852170000"
@@ -13337,6 +13337,12 @@
       "price": "7230.00",
       "link": "https://www.farmacity.com/leche-vegetal-silk-de-almendras-vainilla-sin-azucar-x-1-l/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/248185/234059_leche-vegetal-silk-de-almendras-vainilla-sin-azucar-x-1-l_imagen-1.jpg?v=638332361069170000"
+    },
+    {
+      "name": "Paracetamol Tafirol Forte x 70 Cáps",
+      "price": "14996.00",
+      "link": "https://www.farmacity.com/paracetamol-tafirol-forte-x-70-capsulas/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/243083/234043_paracetamol-tafirol-forte-x-70-capsulas_imagen-1.jpg?v=638210697838830000"
     },
     {
       "name": "Protector Térmico Roby x 200 ml",
@@ -13537,18 +13543,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/233592/231892_jabon-de-limpieza-facial-adermicina-x-2-un_imagen-1.jpg?v=638077688164370000"
     },
     {
-      "name": "Crema para Peinar Garnier Fructis Aloe Hidra Bomb x 250 ml",
-      "price": "5899.00",
-      "link": "https://www.farmacity.com/crema-para-peinar-garnier-aloe-hidra-liso-bond-x-250-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/248859/231817_crema-para-peinar-garnier-aloe-hidra-liso-bond-x-250-ml__imagen-1.jpg?v=638345433045270000"
-    },
-    {
-      "name": "Delineador de Labios Revlon Colorstay Tono Plum",
-      "price": "17800.00",
-      "link": "https://www.farmacity.com/delineador-de-labios-revlon-colorstay-1-2/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/232946/231805_delineador-de-labios-revlon-colorstay_imagen-1.jpg?v=638065364236270000"
-    },
-    {
       "name": "EDP Bensimon Sunset x 100 ml",
       "price": "39990.00",
       "link": "https://www.farmacity.com/edp-bensimon-sunset-x-100-ml/p",
@@ -13634,13 +13628,13 @@
     },
     {
       "name": "Suplemento Dietario Bagó+ Calma x 30 comprimidos",
-      "price": "11615.00",
+      "price": "11789.00",
       "link": "https://www.farmacity.com/suplemento-dietario-bago-calma-x-20-comprimidos/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/244502/230792_suplemento-dietario-bago-calma-x-20-comprimidos_imagen-1.jpg?v=638243366540700000"
     },
     {
       "name": "Suplemento Dietario Bagó+ Descanso x 20 comprimidos",
-      "price": "11341.00",
+      "price": "11602.00",
       "link": "https://www.farmacity.com/suplemento-dietario-bago-descanso-x-20-comprimidos/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/244505/230791_suplemento-dietario-bago-descanso-x-20-comprimidos_imagen-1.jpg?v=638243372258270000"
     },
@@ -13673,12 +13667,6 @@
       "price": "39304.00",
       "link": "https://www.farmacity.com/edt-nautica-voyage-x-100-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/230178/230420_edt-nautica-voyage-x-100-ml_imagen-1.jpg?v=638016354627630000"
-    },
-    {
-      "name": "Espuma Enjoy Higiene Intima x 75 ml",
-      "price": "8990.00",
-      "link": "https://www.farmacity.com/espuma-enjoy-higiene-intima-x-75-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/241375/230408_jabon-intimo-enjoy-en-espuma-x-75-ml_imagen-1.jpg?v=638186379620970000"
     },
     {
       "name": "Máquina de Afeitar Farmacity 2 Filos Hombre x 5 un",
@@ -13921,12 +13909,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/224227/228549_shampoo-biferdil-pt-para-la-caspa-y-caida-x-300-ml_imagen-1.jpg?v=637914222300870000"
     },
     {
-      "name": "Mix de Semillas Nat Chía, Girasol y Sésamo x 100 g",
-      "price": "1790.00",
-      "link": "https://www.farmacity.com/mix-de-semillas-nat-chia-girasol-y-sesamo-x-100-g/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/223701/228366_mix-de-semillas-nat-chia-girasol-y-sesamo-x-100-g_imagen-1.jpg?v=637901196417600000"
-    },
-    {
       "name": "Sérum Facial Ultra Light Eucerin Anti-Pigment para Todo Tipo de Piel x 30 ml",
       "price": "86406.00",
       "link": "https://www.farmacity.com/serum-facial-eucerin-anti-pigment-ultra-light/p",
@@ -14005,6 +13987,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/284959/227095_serum-facial-cicatricure-gold-lift-x-30-ml_imagen-2__.jpg?v=638972714021800000"
     },
     {
+      "name": "Rubor en Polvo Revlon Powder Blush",
+      "price": "24900.00",
+      "link": "https://www.farmacity.com/rubor-revlon-powder-blush/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/221138/226908_rubor-revlon-powder-blush_imagen-1.jpg?v=637846796781200000"
+    },
+    {
       "name": "Tratamiento Capilar Farmacity Protección Total x 20 g",
       "price": "594.00",
       "link": "https://www.farmacity.com/tratamiento-capilar-farmacity-proteccion-total-x-20-g/p",
@@ -14027,6 +14015,12 @@
       "price": "46000.00",
       "link": "https://www.farmacity.com/serum-facial-caviahue-mineral-face-ah-x-50-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/280421/226921_serum-facial-caviahue-mineral-face-ah-x-50-ml_imagen-1.jpg?v=638919178980870000"
+    },
+    {
+      "name": "Bronzer L'Oréal Paris Terra Paradise Powder x 9 g",
+      "price": "20300.00",
+      "link": "https://www.farmacity.com/bronzer-loreal-paris-terra-paradise-powder-x-9-g/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/256836/206865_bronzer-loreal-paris-terra-paradise-powder-x-9-g_imagen-1.jpg?v=638532054416700000"
     },
     {
       "name": "Apósitos Adhesivos Curitas Manía x 20 un",
@@ -14077,12 +14071,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/220121/226436_barra-de-cereal-integra-de-banana-y-nuez-x-44-g_imagen-1.jpg?v=637822537514200000"
     },
     {
-      "name": "Crema Facial Nivea Q10 Energy Noche x 50 ml",
-      "price": "15110.00",
-      "link": "https://www.farmacity.com/crema-facial-nivea-q10-energy-noche-x-40-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/284048/226254_crema-facial-nivea-q10-energy-noche-x-40-ml_imagen-1.jpg?v=638963027460200000"
-    },
-    {
       "name": "Crema Neutrogena Body Care Intensive Hidrata \u0026 Repara x 400 ml",
       "price": "10636.00",
       "link": "https://www.farmacity.com/crema-corporal-neutrogena-hidrata-y-repara-x-400-ml/p",
@@ -14125,22 +14113,10 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/218724/225708_body-lotion-bio-oil-x-175-ml_imagen-1.jpg?v=637764735117700000"
     },
     {
-      "name": "Lima Eléctrica Studio 9 Professional para Pies",
-      "price": "17994.00",
-      "link": "https://www.farmacity.com/lima-electrica-studio-9-professional-para-pies/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/233714/225667_lima-electrica-studio-9-professional-para-pies_imagen-1.jpg?v=638078448685570000"
-    },
-    {
       "name": "EDT Paula Cahen D'anvers Paula Alegria x 100 ml",
       "price": "36000.00",
       "link": "https://www.farmacity.com/edt-paula-cahen-d-anvers-paula-alegria-x-100-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/219118/225638_edt-paula-cahen-d-anvers-paula-alegria-x-100-ml_imagen-1.jpg?v=637783717202000000"
-    },
-    {
-      "name": "Suplemento Dietario Centrum Silver Hombre x 60 comprimidos",
-      "price": "34968.00",
-      "link": "https://www.farmacity.com/suplemento-dietario-centrum-silver-hombre-x-60-comprimidos/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/260736/225627_suplemento-dietario-centrum-silver-hombre-x-60-comprimidos_imagen--6.jpg?v=638630577848730000"
     },
     {
       "name": "Crema para Peinar Capilar Pelo Largo y Sin Frizz x 200 ml",
@@ -14201,6 +14177,12 @@
       "price": "27188.00",
       "link": "https://www.farmacity.com/suplemento-dietario-centrum-base-x-60-comprimidos/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/260729/224707_suplemento-dietario-centrum-base-x-60-comprimidos__imagen--1.jpg?v=638630547406700000"
+    },
+    {
+      "name": "Suplemento Dietario Centrum Adulto Multivitamínico x 30 comprimidos",
+      "price": "15454.00",
+      "link": "https://www.farmacity.com/suplemento-dietario-centrum-base-x-30-comprimidos/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/260728/224706_suplemento-dietario-centrum-base-x-30-comprimidos__imagen--1--2-.jpg?v=638630545866670000"
     },
     {
       "name": "Suplemento Dietario Satial Total con Neutralasa x 60 comprimidos",
@@ -14437,6 +14419,12 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/210610/222296_alimento-infantil-nestle-nestum-multicereal-x-225-g_imagen-1.jpg?v=637584352892770000"
     },
     {
+      "name": "Crema de Dental Sensodyne Sensibilidad y Encías x 100 g",
+      "price": "9280.00",
+      "link": "https://www.farmacity.com/crema-de-dental-sensodyne-sensibilidad-y-encias-x-100-g/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/231372/222236_crema-de-dental-sensodyne-sensibilidad-y-encias-x-100-g_imagen-1.jpg?v=638034384610970000"
+    },
+    {
       "name": "Bálsamo Corporal Eucerin AtopiControl para Piel Atópica x 400 ml",
       "price": "84671.00",
       "link": "https://www.farmacity.com/balsamo-eucerin-atopicontrol-x-400-ml/p",
@@ -14492,15 +14480,9 @@
     },
     {
       "name": "Atomo Desinflamante Forte x 100 g",
-      "price": "19339.00",
+      "price": "19726.00",
       "link": "https://www.farmacity.com/desinflamante-atomo-forte-x-100-g/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/233527/221601_desinflamante-atomo-forte-x-100-g_imagen-1.jpg?v=638077687949730000"
-    },
-    {
-      "name": "Guantes de Látex Mapa Plissé Satinado Talle M x 2 un",
-      "price": "4431.00",
-      "link": "https://www.farmacity.com/guantes-de-latex-mapa-plisse-satinado-talle-m-x-2-un/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/209280/221567_guantes-de-latex-mapa-plisse-satinado-talle-m-x-2-un_imagen-1.jpg?v=637547084236100000"
     },
     {
       "name": "Toallitas Húmedas Pampers Higiene Completa x 48 un",
@@ -14510,7 +14492,7 @@
     },
     {
       "name": "Suplemento Dietario Bagó+ Energía x 30 un",
-      "price": "16442.00",
+      "price": "16688.00",
       "link": "https://www.farmacity.com/suplemento-dietario-bago-energia-x-30-un/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/244499/221475_suplemento-dietario-bago-energia-x-30-un_imagen-1.jpg?v=638243355582770000"
     },
@@ -14555,6 +14537,12 @@
       "price": "41189.00",
       "link": "https://www.farmacity.com/eau-de-parfum-bensimon-blue-x-100-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/230001/221214_eau-de-parfum-bensimon-blue-x-100-ml_imagen-1.jpg?v=638012820553000000"
+    },
+    {
+      "name": "Suplementos Nutricional Ensure Plus sabor Frutilla 220 ml",
+      "price": "17094.00",
+      "link": "https://www.farmacity.com/suplementos-nutricional-ensure-plus-sabor-frutilla-220-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/208852/221158_suplementos-nutricional-ensure-plus-sabor-frutilla-220-ml_imagen-1.jpg?v=637527137445700000"
     },
     {
       "name": "Suplemento Nutricional Ensure Plus Sabor Vainilla x 220 ml",
@@ -14780,7 +14768,7 @@
     },
     {
       "name": "Aromatizante de Ambientes Automático Glade Limón Refrescante Repuesto x 170 ml",
-      "price": "5390.00",
+      "price": "5875.00",
       "link": "https://www.farmacity.com/aromatizante-ade-ambientes-automatico--glade-limon-refrescante-repuesto-x-170-ml/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/276592/218883_aromatizante-ade-ambientes-automatico--glade-limon-refrescante-repuesto-x-170-ml_imagen-1.jpg?v=638978007148700000"
     },
@@ -14959,12 +14947,6 @@
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/254659/215470_acondicionador-head-shouders-hidratacion-con-aceite-de-coco-x-300-ml_imagen--1.jpg?v=638495767830170000"
     },
     {
-      "name": "Espuma de Higiene Diaria Viasek pH 6.8 x 75 ml",
-      "price": "11890.00",
-      "link": "https://www.farmacity.com/espuma-de-higiene-diaria-viasek-espuma-ph-6-8-x-75-ml/p",
-      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/229524/215359_jabon-intimo-eurolab-viasek-espuma-ph-6-8-x-75-ml_imagen-1.jpg?v=638005031549870000"
-    },
-    {
       "name": "Espuma de Higiene Diaria Viasek pH 3.5 x 75 ml",
       "price": "11890.00",
       "link": "https://www.farmacity.com/espuma-de-higiene-diaria-viasek-espuma-ph-3-5-x-75-ml/p",
@@ -15005,6 +14987,24 @@
       "price": "4000.00",
       "link": "https://www.farmacity.com/galletas-integrales-cachafaz-avena-y-chips-de-chocolate-x-225-g/p",
       "image": "https://farmacityar.vteximg.com.br/arquivos/ids/195078/214872_galletas-integrales-cachafaz-avena-y-chips-de-chocolate-x-225-g_imagen-1.jpg?v=637172777698100000"
+    },
+    {
+      "name": "Galletas Orgánicas Cachafaz Cacao y Miel x 170 g",
+      "price": "3400.00",
+      "link": "https://www.farmacity.com/galletas-organicas-cachafaz-cacao-y-miel-x-170-g/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/195080/214850_galletas-organicas-cachafaz-cacao-y-miel-x-170-g_imagen-1.jpg?v=637172777705000000"
+    },
+    {
+      "name": "Brillo Labial con Aplicador Extreme Kiss Delicious x 2 g",
+      "price": "17990.00",
+      "link": "https://www.farmacity.com/brillo-labial-con-aplicador-extreme-kiss-delicious-x-2-gr/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/194415/214582_brillo-labial-con-aplicador-extreme-kiss-delicious-x-2-gr_imagen-1.jpg?v=637163385509530000"
+    },
+    {
+      "name": "Acondicionador Head \u0026 Shoulders Apple Fresh x 300 ml",
+      "price": "6765.00",
+      "link": "https://www.farmacity.com/acondicionador-head-and-shoulders-apple-fresh-x-300-ml/p",
+      "image": "https://farmacityar.vteximg.com.br/arquivos/ids/254657/214538_acondicionador-head-and-shoulders-apple-fresh-x-300-ml_imagen--1.jpg?v=638495766630830000"
     }
   ]
 }
