@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import axios from "axios";
+import { useState } from "react";
 
 export default function Searcher() {
   const [query, setQuery] = useState("");
@@ -22,15 +21,28 @@ export default function Searcher() {
     setHasSearched(false);
 
     try {
-      console.log('Buscando en:', `${import.meta.env.VITE_API_URL}/search?q=${query}`);
-      const res = await axios.get(`${import.meta.env.VITE_API_URL}/search`, {
-        params: { q: query },
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8081';
+      const url = `${apiUrl}/search?q=${encodeURIComponent(query)}`;
+      
+      console.log('Buscando en:', url);
+      
+      const res = await fetch(url, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
       });
       
-      console.log('Respuesta completa:', res.data);
-      const products = Array.isArray(res.data) 
-        ? res.data 
-        : (res.data?.data || []);
+      if (!res.ok) {
+        throw new Error(`Error ${res.status}: ${res.statusText}`);
+      }
+      
+      const data = await res.json();
+      console.log('Respuesta completa:', data);
+      
+      const products = Array.isArray(data) 
+        ? data 
+        : (data?.data || []);
       console.log('Productos encontrados:', products.length);
       
       setResults(products);

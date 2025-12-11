@@ -7,22 +7,24 @@ const loadTodayData = async (storeName) => {
   const dateFolder = getCurrentDateFolder();
   
   try {
+    // Cargar SOLO ofertas reales (no los 10k productos)
     const data = await import(`../../../scraper/data/daily/${dateFolder}/${storeName}-ofertas.json`);
     return data.default || data;
-  } catch (error) {
+  } catch {
     console.warn(`No data found for ${storeName} on ${dateFolder}, using fallback`);
     
     try {
+      // Fallback a ofertas en scraper/data/today
       const fallbackData = await import(`../../../scraper/data/today/${storeName}-ofertas.json`);
       return fallbackData.default || fallbackData;
-    } catch (fallbackError) {
-      console.error(`No data found for ${storeName}`, fallbackError);
+    } catch {
+      console.error(`No data found for ${storeName}`);
       return null;
     }
   }
 };
 
-const convertToExpectedFormat = (fileData, storeName) => {
+const convertToExpectedFormat = (fileData) => {
   if (!fileData) return {};
   
   const data = fileData?.data || fileData;
@@ -51,7 +53,7 @@ export const getStaticOffersData = async () => {
   
   for (const store of stores) {
     const storeData = await loadTodayData(store);
-    data[store] = convertToExpectedFormat(storeData, store);
+    data[store] = convertToExpectedFormat(storeData);
   }
   
   return data;

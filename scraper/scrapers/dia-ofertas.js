@@ -21,6 +21,27 @@ async function diaScraper() {
         console.log('⏳ Esperando a que carguen los productos...');
         await page.waitForSelector('.vtex-product-summary-2-x-element', { timeout: 10000 });
         
+        // Hacer scroll suave hasta el final para cargar lazy loading
+        console.log('📜 Cargando todos los productos...');
+        await page.evaluate(async () => {
+            await new Promise((resolve) => {
+                let totalHeight = 0;
+                const distance = 500;
+                const timer = setInterval(() => {
+                    const scrollHeight = document.documentElement.scrollHeight;
+                    window.scrollBy(0, distance);
+                    totalHeight += distance;
+                    if(totalHeight >= scrollHeight){
+                        clearInterval(timer);
+                        resolve();
+                    }
+                }, 100);
+            });
+        });
+        
+        // Esperar a que se carguen todos los productos
+        await new Promise(resolve => setTimeout(resolve, 2000));
+        
         const products = await page.evaluate(() => {
             const productElements = document.querySelectorAll('.vtex-product-summary-2-x-element');
             const productsData = [];

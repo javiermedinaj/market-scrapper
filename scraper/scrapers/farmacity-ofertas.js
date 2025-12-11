@@ -61,22 +61,40 @@ async function farmacityScraper() {
         const page = await browser.newPage();
         let allProducts = [];
 
-        //esto se puede cambiar bajo preferencia yo solo queria traer pocos productos por el momento.
-        const totalPages = 4;
+        // Cargar solo la primera página con scroll para obtener más productos
+        const url = `https://www.farmacity.com/2246?map=productClusterIds&order=OrderByTopSaleDESC`;
+        await page.goto(url, { timeout: 30000, waitUntil: 'domcontentloaded' });
+        console.log(`Página cargada.`);
 
-        for (let currentPage = 1; currentPage <= totalPages; currentPage++) {
-            const url = `https://www.farmacity.com/2246?map=productClusterIds&order=OrderByTopSaleDESC&page=${currentPage}`;
-            await page.goto(url, { timeout: 120000, waitUntil: 'networkidle2' });
-            console.log(`Página ${currentPage} cargada.`);
-
-            await page.waitForSelector("section.vtex-product-summary-2-x-container", { timeout: 60000 });
-            console.log(`Contenedores de productos encontrados en la página ${currentPage}.`);
+        try {
+            await page.waitForSelector("section.vtex-product-summary-2-x-container", { timeout: 15000 });
+            console.log(`Contenedores de productos encontrados.`);
+            
+            // Scroll para cargar más productos (lazy loading)
+            console.log('📜 Cargando todos los productos con scroll...');
+            await page.evaluate(async () => {
+                await new Promise((resolve) => {
+                    let totalHeight = 0;
+                    const distance = 500;
+                    const timer = setInterval(() => {
+                        const scrollHeight = document.documentElement.scrollHeight;
+                        window.scrollBy(0, distance);
+                        totalHeight += distance;
+                        if(totalHeight >= scrollHeight){
+                            clearInterval(timer);
+                            resolve();
+                        }
+                    }, 150);
+                });
+            });
+            
+            await delay(2000);
 
             const products = await extractProducts(page);
-            console.log(`Encontrados ${products.length} productos en la página ${currentPage}.`);
-            allProducts = allProducts.concat(products);
-
-            await delay(2000);
+            console.log(`✅ Encontrados ${products.length} productos en total.`);
+            allProducts = products;
+        } catch (error) {
+            console.log(`⚠️ Error cargando productos: ${error.message}`);
         }
 
         const uniqueProducts = Array.from(new Map(allProducts.map(item => [item.link, item])).values());

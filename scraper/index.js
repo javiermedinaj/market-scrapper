@@ -1,10 +1,10 @@
-//import jumboScraper from './scrapers/jumbo-ofertas.js';
+import jumboScraper from './scrapers/jumbo-ofertas.js';
 import carrefourScraper from './scrapers/carrefour-ofertas.js';
-//import diaScraper from './scrapers/dia-ofertas.js';
-//import farmaScraper from './scrapers/farma-ofertas.js';
-//import farmacityScraper from './scrapers/farmacity-ofertas.js';
+import diaScraper from './scrapers/dia-ofertas.js';
+import farmaScraper from './scrapers/farma-ofertas.js';
+import farmacityScraper from './scrapers/farmacity-ofertas.js';
 import cotoScraper from './scrapers/coto-ofertas.js';
-// import { cleanOldFiles } from './utils/dateStorage.js'; // 🔒 DESACTIVADO PARA INVESTIGACIÓN
+//import { cleanOldFiles } from './utils/dateStorage.js'; // 
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -21,7 +21,11 @@ export async function runAllScrapers() {
   try {
     const scrapers = [
       { name: 'Carrefour', fn: carrefourScraper },
-      { name: 'Coto', fn: cotoScraper }
+      { name: 'Coto', fn: cotoScraper },
+      { name: 'Jumbo', fn: jumboScraper },
+      { name: 'Día', fn: diaScraper },
+      { name: 'Farma', fn: farmaScraper },
+      { name: 'Farmacity', fn: farmacityScraper }
     ];
 
     for (const scraper of scrapers) {
@@ -72,11 +76,11 @@ export async function runSingleScraper(scraperName) {
   console.log(`🚀 Ejecutando scraper específico: ${scraperName}...`);
   
   const scrapers = {
-    //jumbo: jumboScraper,
+    jumbo: jumboScraper,
     carrefour: carrefourScraper,
-    //dia: diaScraper,
-    //farma: farmaScraper,
-    //farmacity: farmacityScraper,
+    dia: diaScraper,
+    farma: farmaScraper,
+    farmacity: farmacityScraper,
     coto: cotoScraper
   };
   
