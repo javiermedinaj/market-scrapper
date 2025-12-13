@@ -1,4 +1,4 @@
-import { ExternalLink, Store, Tag, ShoppingCart } from 'lucide-react';
+import { ExternalLink, Store, ShoppingCart } from 'lucide-react';
 
 const OfferCard = ({ product, storeName }) => {
     const formatPrice = (price) => {
@@ -43,8 +43,8 @@ const OfferCard = ({ product, storeName }) => {
     const finalLink = hasValidLink ? product.link : defaultStoreLinks[storeName] || '#';
 
     return (
-        <div className="offer-card group dark:bg-zinc-900">
-            <div className="relative bg-gray-50 dark:bg-white aspect-[4/3] overflow-hidden flex-shrink-0">
+        <div className="offer-card group bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden hover:border-zinc-700 transition-all">
+            <div className="relative bg-white aspect-[4/3] overflow-hidden flex-shrink-0">
                 {productImage ? (
                     <img
                         src={productImage}
@@ -58,12 +58,13 @@ const OfferCard = ({ product, storeName }) => {
                         }}
                     />
                 ) : null}
-                <div className={`${productImage ? 'hidden' : 'flex'} w-full h-full items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200 dark:bg-zinc-900`}>
+                <div className={`${productImage ? 'hidden' : 'flex'} w-full h-full items-center justify-center bg-zinc-800`}>
                     <div className="text-center">
-                        <ShoppingCart className="w-10 h-10 text-gray-400 dark:text-black-500 mx-auto mb-2" />
-                        <span className="text-sm text-gray-500 dark:text-gray-400">Sin imagen</span>
+                        <ShoppingCart className="w-10 h-10 text-zinc-500 mx-auto mb-2" />
+                        <span className="text-sm text-zinc-400">Sin imagen</span>
                     </div>
                 </div>
+
                 {storeName && (
                     <div className="absolute top-3 left-3">
                         <span className={`inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium border ${getStoreColor(storeName)}`}>
@@ -73,31 +74,29 @@ const OfferCard = ({ product, storeName }) => {
                     </div>
                 )}
             </div>
-            <div className="offer-card-content">
+            <div className="p-4">
                 <div className="h-12 mb-3 flex items-start">
-                    <h3 className="offer-title">
+                    <h3 className="font-semibold text-white text-sm line-clamp-2">
                         {productName}
                     </h3>
                 </div>
-                <div className="flex-grow min-h-4"></div>
                 <div className="h-8 flex items-center gap-2 mb-4">
-                    <Tag className="w-4 h-4 text-green-600 dark:text-green-400 flex-shrink-0" />
-                    <span className="text-lg font-bold text-green-600 dark:text-green-400 truncate">
+                    <span className="text-xl font-bold text-green-400 truncate">
                         {formatPrice(product.price)}
                     </span>
                 </div>
                 <button
                     onClick={handleProductClick}
                     disabled={!finalLink || finalLink === '#'}
-                    className={`w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg font-medium transition-all h-10 flex-shrink-0 ${
+                    className={`w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg font-medium transition-all ${
                         finalLink && finalLink !== '#'
-                            ? 'bg-blue-600 text-white hover:bg-blue-700 hover:shadow-md'
-                            : 'bg-gray-100 dark:bg-gray-700 text-gray-400 dark:text-gray-500 cursor-not-allowed'
+                            ? 'bg-red-600 text-white hover:bg-red-700'
+                            : 'bg-zinc-700 text-zinc-500 cursor-not-allowed'
                     }`}
                 >
                     <ExternalLink className="w-4 h-4 flex-shrink-0" />
                     <span className="truncate">
-                        {finalLink && finalLink !== '#' ? 'Ver en tienda' : 'No disponible'}
+                        {finalLink && finalLink !== '#' ? 'Ver oferta' : 'No disponible'}
                     </span>
                 </button>
             </div>

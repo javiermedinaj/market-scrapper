@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import OfferCard from './OfferCard';
-import { Store, Loader, AlertCircle, RefreshCw, Calendar, TrendingUp, Database } from 'lucide-react';
+import { Store, Loader, AlertCircle, RefreshCw, Calendar, TrendingUp } from 'lucide-react';
 import { getStaticOffersData } from '../data/staticData';
 
 const STORES = [
@@ -18,23 +18,22 @@ const OfferList = () => {
   const [error, setError] = useState(null);
   const [activeStore, setActiveStore] = useState('all');
   const [refreshing, setRefreshing] = useState(false);
-  const [usingStaticData, setUsingStaticData] = useState(false);
+  const [displayedCount, setDisplayedCount] = useState(12);
+  const ITEMS_PER_PAGE = 12;
 
- const fetchData = async () => {
-  try {
-    const staticData = await getStaticOffersData();
-    setData(staticData);
-    setError(null);
-    setUsingStaticData(true);
-  } catch (err) {
-    setError("No se pudieron cargar los datos estáticos.");
-    setData({});
-    setUsingStaticData(true);
-  } finally {
-    setLoading(false);
-    setRefreshing(false);
-  }
-};
+  const fetchData = async () => {
+    try {
+      const staticData = await getStaticOffersData();
+      setData(staticData);
+      setError(null);
+    } catch (err) {
+      setError("No se pudieron cargar los datos estáticos.");
+      setData({});
+    } finally {
+      setLoading(false);
+      setRefreshing(false);
+    }
+  };
 
   const handleRefresh = async () => {
     setRefreshing(true);
@@ -84,6 +83,17 @@ const OfferList = () => {
       )
     : processedData[activeStore]?.products || [];
 
+  useEffect(() => {
+    setDisplayedCount(ITEMS_PER_PAGE);
+  }, [activeStore]);
+
+  const displayedProducts = filteredProducts.slice(0, displayedCount);
+  const hasMore = filteredProducts.length > displayedCount;
+
+  const handleLoadMore = () => {
+    setDisplayedCount(prev => prev + ITEMS_PER_PAGE);
+  };
+
   const totalProducts = Object.values(processedData).reduce((sum, store) => sum + (store.products?.length || 0), 0);
   const storesWithData = Object.keys(processedData).length;
 
@@ -91,8 +101,8 @@ const OfferList = () => {
     return (
       <div className="flex justify-center items-center py-20">
         <div className="text-center">
-          <Loader className="animate-spin w-12 h-12 text-blue-600 mx-auto mb-4" />
-          <p className="text-gray-600 dark:text-gray-400">Cargando ofertas...</p>
+          <Loader className="animate-spin w-12 h-12 text-red-600 mx-auto mb-4" />
+          <p className="text-gray-400">Cargando ofertas...</p>
         </div>
       </div>
     );
@@ -100,11 +110,12 @@ const OfferList = () => {
 
   return (
     <div className="space-y-6">
-      <div className="bg-white dark:bg-zinc-900 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-4 sm:p-6">
+      {/* Header */}
+      <div className="bg-zinc-900 rounded-xl border border-zinc-800 p-4 sm:p-6">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Ofertas Disponibles</h2>
-            <div className="flex flex-wrap gap-4 text-sm text-gray-600 dark:text-gray-400">
+            <h2 className="text-2xl font-bold text-white mb-2">Ofertas Disponibles</h2>
+            <div className="flex flex-wrap gap-4 text-sm text-gray-400">
               <div className="flex items-center gap-1">
                 <TrendingUp size={16} />
                 <span>{totalProducts} productos</span>
@@ -120,32 +131,26 @@ const OfferList = () => {
             </div>
           </div>
 
-          <button
-            onClick={handleRefresh}
-            disabled={refreshing}
-            className="flex items-center justify-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors disabled:opacity-50 w-full md:w-auto"
-          >
-            <RefreshCw className={`w-4 h-4 ${refreshing ? 'animate-spin' : ''}`} />
-            {refreshing ? 'Actualizando...' : 'Actualizar'}
-          </button>
+
         </div>
       </div>
 
       {error && (
-        <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-4 flex items-center gap-3 text-red-700 dark:text-red-400">
+        <div className="bg-red-900/20 border border-red-800 rounded-lg p-4 flex items-center gap-3 text-red-400">
           <AlertCircle size={20} />
           <span>{error}</span>
         </div>
       )}
 
-      <div className="bg-white dark:bg-zinc-900 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-4">
+      {/* Filtros de tiendas */}
+      <div className="bg-zinc-900 rounded-xl border border-zinc-800 p-4">
         <div className="flex overflow-x-auto gap-2 no-scrollbar py-1 px-1 -mx-1">
           <button
             onClick={() => setActiveStore('all')}
             className={`px-4 py-2 rounded-lg font-medium whitespace-nowrap transition-colors ${
               activeStore === 'all'
-                ? 'bg-gray-900 dark:bg-white text-white dark:text-black'
-                : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                ? 'bg-red-600 text-white'
+                : 'bg-zinc-800 text-gray-300 hover:bg-zinc-700'
             }`}
           >
             Todos ({totalProducts})
@@ -165,8 +170,8 @@ const OfferList = () => {
                   activeStore === store.id
                     ? `${store.color} text-white`
                     : hasData
-                    ? `bg-gray-100 dark:bg-gray-700 ${store.textColor} hover:bg-gray-200 dark:hover:bg-gray-600`
-                    : 'bg-gray-50 dark:bg-gray-800 text-gray-400 dark:text-gray-600 cursor-not-allowed'
+                    ? 'bg-zinc-800 text-gray-300 hover:bg-zinc-700'
+                    : 'bg-zinc-900 text-zinc-600 cursor-not-allowed'
                 }`}
               >
                 {store.name} {hasData ? `(${count})` : '(0)'}
@@ -176,23 +181,36 @@ const OfferList = () => {
         </div>
       </div>
 
+      {/* Grid de productos */}
       {filteredProducts.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6 auto-rows-fr">
-          {filteredProducts.map((product, index) => (
-            <OfferCard 
-              key={`${product.storeId || activeStore}-${index}`}
-              product={product}
-              storeName={product.storeId 
-                ? STORES.find(s => s.id === product.storeId)?.name 
-                : STORES.find(s => s.id === activeStore)?.name}
-            />
-          ))}
-        </div>
+        <>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6 auto-rows-fr">
+            {displayedProducts.map((product, index) => (
+              <OfferCard 
+                key={`${product.storeId || activeStore}-${index}`}
+                product={product}
+                storeName={product.storeId 
+                  ? STORES.find(s => s.id === product.storeId)?.name 
+                  : STORES.find(s => s.id === activeStore)?.name}
+              />
+            ))}
+          </div>
+          {hasMore && (
+            <div className="flex justify-center mt-8">
+              <button
+                onClick={handleLoadMore}
+                className="px-8 py-3 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-lg transition-colors"
+              >
+                Cargar más ofertas
+              </button>
+            </div>
+          )}
+        </>
       ) : (
         <div className="text-center py-12">
-          <Store className="w-16 h-16 text-gray-300 dark:text-gray-600 mx-auto mb-4" />
-          <h3 className="text-lg font-medium text-gray-900 dark:text-white mb-2">No hay ofertas disponibles</h3>
-          <p className="text-gray-500 dark:text-gray-400">
+          <Store className="w-16 h-16 text-zinc-600 mx-auto mb-4" />
+          <h3 className="text-lg font-medium text-white mb-2">No hay ofertas disponibles</h3>
+          <p className="text-gray-400">
             {activeStore === 'all' 
               ? 'No se encontraron ofertas en ningún supermercado' 
               : `No hay ofertas disponibles en ${STORES.find(s => s.id === activeStore)?.name}`}
