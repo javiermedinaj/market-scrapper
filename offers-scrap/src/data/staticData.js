@@ -1,26 +1,15 @@
 const getCurrentDateFolder = () => {
   const today = new Date();
-  return today.toISOString().split('T')[0]; // formato: YYYY-MM-DD
+  return today.toISOString().split('T')[0]; 
 };
 
 const loadTodayData = async (storeName) => {
   const dateFolder = getCurrentDateFolder();
-  
   try {
-    // Cargar SOLO ofertas reales (no los 10k productos)
     const data = await import(`../../../scraper/data/daily/${dateFolder}/${storeName}-ofertas.json`);
     return data.default || data;
   } catch {
-    console.warn(`No data found for ${storeName} on ${dateFolder}, using fallback`);
-    
-    try {
-      // Fallback a ofertas en scraper/data/today
-      const fallbackData = await import(`../../../scraper/data/today/${storeName}-ofertas.json`);
-      return fallbackData.default || fallbackData;
-    } catch {
-      console.error(`No data found for ${storeName}`);
-      return null;
-    }
+    return null;
   }
 };
 

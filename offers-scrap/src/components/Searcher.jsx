@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
 
 export default function Searcher() {
   const [query, setQuery] = useState("");
@@ -6,21 +7,21 @@ export default function Searcher() {
   const [loading, setLoading] = useState(false);
   const [hasSearched, setHasSearched] = useState(false);
   
-  const [showAllDia, setShowAllDia] = useState(false);
-  const [showAllJumbo, setShowAllJumbo] = useState(false);
-  const [showAllFarmacity, setShowAllFarmacity] = useState(false);
-  const [showAllFarmaOnline, setShowAllFarmaOnline] = useState(false);
-
   const INITIAL_RESULTS = 2;
+
+  const [visibleDia, setVisibleDia] = useState(INITIAL_RESULTS);
+  const [visibleJumbo, setVisibleJumbo] = useState(INITIAL_RESULTS);
+  const [visibleFarmacity, setVisibleFarmacity] = useState(INITIAL_RESULTS);
+  const [visibleFarmaOnline, setVisibleFarmaOnline] = useState(INITIAL_RESULTS);
 
   const clearSearch = () => {
     setQuery("");
     setResults([]);
     setHasSearched(false);
-    setShowAllDia(false);
-    setShowAllJumbo(false);
-    setShowAllFarmacity(false);
-    setShowAllFarmaOnline(false);
+    setVisibleDia(INITIAL_RESULTS);
+    setVisibleJumbo(INITIAL_RESULTS);
+    setVisibleFarmacity(INITIAL_RESULTS);
+    setVisibleFarmaOnline(INITIAL_RESULTS);
   };
 
   const handleSearch = async (e) => {
@@ -30,10 +31,10 @@ export default function Searcher() {
     setLoading(true);
     setResults([]);
     setHasSearched(false);
-    setShowAllDia(false);
-    setShowAllJumbo(false);
-    setShowAllFarmacity(false);
-    setShowAllFarmaOnline(false);
+    setVisibleDia(INITIAL_RESULTS);
+    setVisibleJumbo(INITIAL_RESULTS);
+    setVisibleFarmacity(INITIAL_RESULTS);
+    setVisibleFarmaOnline(INITIAL_RESULTS);
 
     try {
       const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8081';
@@ -69,10 +70,10 @@ export default function Searcher() {
   const farmacityResults = Array.isArray(results) ? results.filter((p) => p.store === "Farmacity") : [];
   const farmaOnlineResults = Array.isArray(results) ? results.filter((p) => p.store === "FarmaOnline") : [];
 
-  const displayedDia = showAllDia ? diaResults : diaResults.slice(0, INITIAL_RESULTS);
-  const displayedJumbo = showAllJumbo ? jumboResults : jumboResults.slice(0, INITIAL_RESULTS);
-  const displayedFarmacity = showAllFarmacity ? farmacityResults : farmacityResults.slice(0, INITIAL_RESULTS);
-  const displayedFarmaOnline = showAllFarmaOnline ? farmaOnlineResults : farmaOnlineResults.slice(0, INITIAL_RESULTS);
+  const displayedDia = diaResults.slice(0, visibleDia);
+  const displayedJumbo = jumboResults.slice(0, visibleJumbo);
+  const displayedFarmacity = farmacityResults.slice(0, visibleFarmacity);
+  const displayedFarmaOnline = farmaOnlineResults.slice(0, visibleFarmaOnline);
 
   const ProductCard = ({ product, storeColor, storeBgColor, storeName }) => (
     <div className="flex items-center gap-4 bg-zinc-800 border border-zinc-700 rounded-lg p-4 mb-3 hover:border-zinc-600 transition">
@@ -108,6 +109,20 @@ export default function Searcher() {
     </div>
   );
 
+  ProductCard.propTypes = {
+    product: PropTypes.shape({
+      image: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+      price: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+      link: PropTypes.string,
+    }).isRequired,
+    storeColor: PropTypes.string.isRequired,
+    storeBgColor: PropTypes.string.isRequired,
+    storeName: PropTypes.string.isRequired,
+  };
+
+
+
   const LoadMoreButton = ({ onClick, remaining }) => (
     <button
       onClick={onClick}
@@ -116,6 +131,11 @@ export default function Searcher() {
       Cargar más ({remaining} restantes)
     </button>
   );
+
+  LoadMoreButton.propTypes = {
+    onClick: PropTypes.func.isRequired,
+    remaining: PropTypes.number.isRequired,
+  };
 
   const EmptyState = ({ storeName, hasSearched, loading }) => {
     if (!hasSearched && !loading) {
@@ -129,7 +149,6 @@ export default function Searcher() {
     if (hasSearched && !loading) {
       return (
         <div className="text-center py-8 flex-grow">
-          <div className="text-gray-400 text-lg mb-2">😔</div>
           <div className="text-gray-400 font-medium">
             Producto no encontrado en {storeName}
           </div>
@@ -142,25 +161,22 @@ export default function Searcher() {
     return null;
   };
 
+  EmptyState.propTypes = {
+    storeName: PropTypes.string.isRequired,
+    hasSearched: PropTypes.bool.isRequired,
+    loading: PropTypes.bool.isRequired,
+  };
+
   return (
     <div className="min-h-10 bg-black text-white">
-      {/* Hero Section */}
       <div className="relative w-full bg-gradient-to-b from-zinc-900 to-black py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Badge superior */}
-        
-
-          {/* Título principal */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 leading-tight">
+                  <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 leading-tight">
             Las mejores ofertas de Buenos Aires
           </h1>
-
-          {/* Subtítulo */}
           <p className="text-gray-400 text-lg mb-8">
             Descubrí cual es el mejor precio para tus productos
           </p>
-
-          {/* Buscador principal */}
           <div className="max-w-2xl mx-auto">
             <div className="relative">
               <div className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
@@ -183,8 +199,6 @@ export default function Searcher() {
                 {loading ? "Buscando..." : "Buscar"}
               </button>
             </div>
-
-            {/* Ubicación */}
             <div className="flex items-center justify-center gap-2 mt-4 text-gray-400 text-sm">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -196,11 +210,9 @@ export default function Searcher() {
         </div>
       </div>
 
-      {/* Resultados */}
       {(hasSearched || results.length > 0) && (
         <div className="max-w-7xl mx-auto px-4 py-8">
           <div className="bg-zinc-900 rounded-xl border border-zinc-800 p-6">
-            {/* Botón limpiar */}
             <div className="flex justify-between items-center mb-6">
               <h2 className="text-2xl font-bold">Resultados de búsqueda</h2>
               <button
@@ -211,13 +223,12 @@ export default function Searcher() {
               </button>
             </div>
 
-            {/* Comparador de Supermercados */}
             <div className="mb-8">
               <h3 className="text-xl font-bold mb-4 text-gray-200 border-b border-zinc-700 pb-2">
                 Comparador de Supermercados
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {/* Día */}
+          
                 <div className="flex flex-col">
                   <h2 className="text-lg font-bold mb-2 text-red-400 flex items-center gap-2">
                     <span className="inline-block w-3 h-3 rounded-full bg-red-500"></span>
@@ -235,15 +246,22 @@ export default function Searcher() {
                       storeName="Día" 
                     />
                   ))}
-                  {!showAllDia && diaResults.length > INITIAL_RESULTS && (
-                    <LoadMoreButton 
-                      onClick={() => setShowAllDia(true)} 
-                      remaining={diaResults.length - INITIAL_RESULTS} 
+                  {diaResults.length > visibleDia && (
+                    <LoadMoreButton
+                      onClick={() => setVisibleDia(v => Math.min(diaResults.length, v + INITIAL_RESULTS))}
+                      remaining={diaResults.length - visibleDia}
                     />
+                  )}
+                  {visibleDia > INITIAL_RESULTS && (
+                    <button
+                      onClick={() => setVisibleDia(v => Math.max(INITIAL_RESULTS, v - INITIAL_RESULTS))}
+                      className="w-full py-2 text-sm text-gray-400 hover:text-white border border-zinc-700 rounded-lg hover:bg-zinc-800 transition mt-2"
+                    >
+                      Mostrar menos
+                    </button>
                   )}
                 </div>
 
-                {/* Jumbo */}
                 <div className="flex flex-col">
                   <h2 className="text-lg font-bold mb-2 text-green-400 flex items-center gap-2">
                     <span className="inline-block w-3 h-3 rounded-full bg-green-500"></span>
@@ -261,23 +279,29 @@ export default function Searcher() {
                       storeName="Jumbo" 
                     />
                   ))}
-                  {!showAllJumbo && jumboResults.length > INITIAL_RESULTS && (
-                    <LoadMoreButton 
-                      onClick={() => setShowAllJumbo(true)} 
-                      remaining={jumboResults.length - INITIAL_RESULTS} 
+                  {jumboResults.length > visibleJumbo && (
+                    <LoadMoreButton
+                      onClick={() => setVisibleJumbo(v => Math.min(jumboResults.length, v + INITIAL_RESULTS))}
+                      remaining={jumboResults.length - visibleJumbo}
                     />
+                  )}
+                  {visibleJumbo > INITIAL_RESULTS && (
+                    <button
+                      onClick={() => setVisibleJumbo(v => Math.max(INITIAL_RESULTS, v - INITIAL_RESULTS))}
+                      className="w-full py-2 text-sm text-gray-400 hover:text-white border border-zinc-700 rounded-lg hover:bg-zinc-800 transition mt-2"
+                    >
+                      Mostrar menos
+                    </button>
                   )}
                 </div>
               </div>
             </div>
 
-            {/* Comparador de Farmacias */}
             <div>
               <h3 className="text-xl font-bold mb-4 text-gray-200 border-b border-zinc-700 pb-2">
                 Comparador de Farmacias
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {/* Farmacity */}
                 <div className="flex flex-col">
                   <h2 className="text-lg font-bold mb-2 text-purple-400 flex items-center gap-2">
                     <span className="inline-block w-3 h-3 rounded-full bg-purple-500"></span>
@@ -295,15 +319,21 @@ export default function Searcher() {
                       storeName="Farmacity" 
                     />
                   ))}
-                  {!showAllFarmacity && farmacityResults.length > INITIAL_RESULTS && (
-                    <LoadMoreButton 
-                      onClick={() => setShowAllFarmacity(true)} 
-                      remaining={farmacityResults.length - INITIAL_RESULTS} 
+                  {farmacityResults.length > visibleFarmacity && (
+                    <LoadMoreButton
+                      onClick={() => setVisibleFarmacity(v => Math.min(farmacityResults.length, v + INITIAL_RESULTS))}
+                      remaining={farmacityResults.length - visibleFarmacity}
                     />
                   )}
+                  {visibleFarmacity > INITIAL_RESULTS && (
+                    <button
+                      onClick={() => setVisibleFarmacity(v => Math.max(INITIAL_RESULTS, v - INITIAL_RESULTS))}
+                      className="w-full py-2 text-sm text-gray-400 hover:text-white border border-zinc-700 rounded-lg hover:bg-zinc-800 transition mt-2"
+                    >
+                      Mostrar menos
+                    </button>
+                  )}
                 </div>
-
-                {/* FarmaOnline */}
                 <div className="flex flex-col">
                   <h2 className="text-lg font-bold mb-2 text-blue-400 flex items-center gap-2">
                     <span className="inline-block w-3 h-3 rounded-full bg-blue-500"></span>
@@ -321,11 +351,19 @@ export default function Searcher() {
                       storeName="FarmaOnline" 
                     />
                   ))}
-                  {!showAllFarmaOnline && farmaOnlineResults.length > INITIAL_RESULTS && (
-                    <LoadMoreButton 
-                      onClick={() => setShowAllFarmaOnline(true)} 
-                      remaining={farmaOnlineResults.length - INITIAL_RESULTS} 
+                  {farmaOnlineResults.length > visibleFarmaOnline && (
+                    <LoadMoreButton
+                      onClick={() => setVisibleFarmaOnline(v => Math.min(farmaOnlineResults.length, v + INITIAL_RESULTS))}
+                      remaining={farmaOnlineResults.length - visibleFarmaOnline}
                     />
+                  )}
+                  {visibleFarmaOnline > INITIAL_RESULTS && (
+                    <button
+                      onClick={() => setVisibleFarmaOnline(v => Math.max(INITIAL_RESULTS, v - INITIAL_RESULTS))}
+                      className="w-full py-2 text-sm text-gray-400 hover:text-white border border-zinc-700 rounded-lg hover:bg-zinc-800 transition mt-2"
+                    >
+                      Mostrar menos
+                    </button>
                   )}
                 </div>
               </div>

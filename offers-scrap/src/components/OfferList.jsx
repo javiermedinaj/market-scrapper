@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import OfferCard from './OfferCard';
-import { Store, Loader, AlertCircle, RefreshCw, Calendar, TrendingUp } from 'lucide-react';
+import { Store, Loader, AlertCircle, Calendar, TrendingUp } from 'lucide-react';
 import { getStaticOffersData } from '../data/staticData';
 
 const STORES = [
@@ -17,27 +17,21 @@ const OfferList = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [activeStore, setActiveStore] = useState('all');
-  const [refreshing, setRefreshing] = useState(false);
-  const [displayedCount, setDisplayedCount] = useState(12);
-  const ITEMS_PER_PAGE = 12;
+  const [displayedCount, setDisplayedCount] = useState(10);
+  const ITEMS_PER_PAGE = 10;
 
   const fetchData = async () => {
     try {
       const staticData = await getStaticOffersData();
       setData(staticData);
       setError(null);
-    } catch (err) {
+    } catch (error) {
+      console.error(error);
       setError("No se pudieron cargar los datos estáticos.");
       setData({});
     } finally {
       setLoading(false);
-      setRefreshing(false);
     }
-  };
-
-  const handleRefresh = async () => {
-    setRefreshing(true);
-    await fetchData();
   };
 
   useEffect(() => {
@@ -48,7 +42,7 @@ const OfferList = () => {
     if (storeData && storeData._metadata) {
       const products = Object.entries(storeData)
         .filter(([key, value]) => !key.startsWith('_') && value && typeof value === 'object' && (value.name || value.image))
-        .map(([key, value]) => value);
+        .map(([, value]) => value);
 
       acc[storeId] = {
         products: products,
@@ -109,8 +103,7 @@ const OfferList = () => {
   }
 
   return (
-    <div className="space-y-6">
-      {/* Header */}
+    <div className="space-y-6 py-10">
       <div className="bg-zinc-900 rounded-xl border border-zinc-800 p-4 sm:p-6">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>
@@ -142,7 +135,6 @@ const OfferList = () => {
         </div>
       )}
 
-      {/* Filtros de tiendas */}
       <div className="bg-zinc-900 rounded-xl border border-zinc-800 p-4">
         <div className="flex overflow-x-auto gap-2 no-scrollbar py-1 px-1 -mx-1">
           <button
@@ -181,7 +173,6 @@ const OfferList = () => {
         </div>
       </div>
 
-      {/* Grid de productos */}
       {filteredProducts.length > 0 ? (
         <>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6 auto-rows-fr">
@@ -196,7 +187,7 @@ const OfferList = () => {
             ))}
           </div>
           {hasMore && (
-            <div className="flex justify-center mt-8">
+            <div className="flex justify-center mt-8 mb-8">
               <button
                 onClick={handleLoadMore}
                 className="px-8 py-3 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-lg transition-colors"

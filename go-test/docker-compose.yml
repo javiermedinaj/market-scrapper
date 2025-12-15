@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: market-scrapper-api
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8080:8081"
+    environment:
+      - DATA_PATH=/app
+    volumes:
+      - ./data:/app/data
+    networks:
+      - api-network
+
+networks:
+  api-network:
+    driver: bridge

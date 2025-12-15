@@ -8,19 +8,32 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"strings"
 	"time"
 )
 
-type Product struct {
-	Name  string `json:"name"`
-	Price string `json:"price"`
-	Link  string `json:"link"`
-	Image string `json:"image"`
+// EnrichedProduct contiene toda la data extraída del scraper
+type EnrichedProduct struct {
+	Name        string  `json:"name"`
+	Price       float64 `json:"price"`
+	Link        string  `json:"link"`
+	Image       string  `json:"image"`
+	Brand       string  `json:"brand,omitempty"`
+	ProductId   string  `json:"productId,omitempty"`
+	CategoryId  string  `json:"categoryId,omitempty"`
+	Category    string  `json:"category,omitempty"`
+	Description string  `json:"description,omitempty"`
+	ScrapedAt   string  `json:"scrapedAt"`
 }
 
 type DiaItem struct {
-	ProductName string `json:"productName"`
-	Link        string `json:"link"`
+	ProductName string   `json:"productName"`
+	Link        string   `json:"link"`
+	Brand       string   `json:"brand"`
+	BrandId     int      `json:"brandId"`
+	ProductId   string   `json:"productId"`
+	CategoryId  string   `json:"categoryId"`
+	Categories  []string `json:"categories"`
 	Items       []struct {
 		Images []struct {
 			ImageUrl string `json:"imageUrl"`
@@ -58,16 +71,31 @@ func saveHistoricalData(result map[string]interface{}, storeName string) error {
 	return nil
 }
 
+// extractCategory intenta extraer categoría del árbol
+func extractCategory(categories []string) string {
+	if len(categories) > 0 {
+		// Toma la categoría más específica (último nivel)
+		parts := strings.Split(categories[len(categories)-1], "/")
+		for i := len(parts) - 1; i >= 0; i-- {
+			if parts[i] != "" {
+				return strings.TrimSpace(parts[i])
+			}
+		}
+	}
+	return ""
+}
+
 func main() {
 	pageSize := 50
 	from := 0
-	allProducts := []Product{}
+	allProducts := []EnrichedProduct{}
+	now := time.Now()
+	scrapedAt := now.Format(time.RFC3339)
 
 	for {
 		to := from + pageSize - 1
-		// url https://diaonline.supermercadosdia.com.ar/api/catalog_system/pub/products/search?productClusterIds=567&_from=4600_to=4649
 		url := fmt.Sprintf("https://diaonline.supermercadosdia.com.ar/api/catalog_system/pub/products/search?productClusterIds=567&_from=%d&_to=%d", from, to)
-		log.Printf("➡️ Requesting %d–%d (url=%s)", from, to, url)
+		log.Printf("➡️ Requesting %d–%d", from, to)
 
 		req, err := http.NewRequest("GET", url, nil)
 		if err != nil {
@@ -94,7 +122,7 @@ func main() {
 		var diaItems []DiaItem
 		err = json.Unmarshal(body, &diaItems)
 		if err != nil {
-			log.Printf("Error parseando JSON: %v, body: %s", err, string(body))
+			log.Printf("Error parseando JSON: %v", err)
 			break
 		}
 
@@ -105,31 +133,48 @@ func main() {
 		}
 
 		for _, item := range diaItems {
-			product := Product{
-				Name:  item.ProductName,
-				Link:  item.Link,
-				Price: "",
-				Image: "",
+			// Validar precio
+			price := 0.0
+			if len(item.Items) > 0 && len(item.Items[0].Sellers) > 0 {
+				price = item.Items[0].Sellers[0].CommertialOffer.Price
 			}
-			if len(item.Items) > 0 {
-				if len(item.Items[0].Images) > 0 {
-					product.Image = item.Items[0].Images[0].ImageUrl
-				}
-				if len(item.Items[0].Sellers) > 0 {
-					product.Price = fmt.Sprintf("%.2f", item.Items[0].Sellers[0].CommertialOffer.Price)
-				}
+
+			// Descartar precios inválidos
+			if price <= 0 || price > 999999 {
+				log.Printf("⚠️ Precio inválido descartado: %s (%.2f)", item.ProductName, price)
+				continue
 			}
+
+			image := ""
+			if len(item.Items) > 0 && len(item.Items[0].Images) > 0 {
+				image = item.Items[0].Images[0].ImageUrl
+			}
+
+			category := extractCategory(item.Categories)
+
+			product := EnrichedProduct{
+				Name:        item.ProductName,
+				Price:       price,
+				Link:        item.Link,
+				Image:       image,
+				Brand:       item.Brand,
+				ProductId:   item.ProductId,
+				CategoryId:  item.CategoryId,
+				Category:    category,
+				Description: "",
+				ScrapedAt:   scrapedAt,
+			}
+
 			allProducts = append(allProducts, product)
 		}
 		from += pageSize
 	}
 
-	now := time.Now()
 	result := map[string]interface{}{
 		"timestamp":     now.Format(time.RFC3339),
 		"date":          now.Format("2006-01-02"),
 		"time":          now.Format("15-04-05"),
-		"store":         "dia",
+		"store":         "Día",
 		"totalProducts": len(allProducts),
 		"lastUpdate":    now.Format(time.RFC3339),
 		"data":          allProducts,

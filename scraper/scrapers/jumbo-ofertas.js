@@ -17,14 +17,13 @@ async function jumboScraper() {
 
   try {
     const page = await browser.newPage();
-    await page.goto("https://www.jumbo.com.ar/50532?map=productClusterIds", {
+    await page.goto("https://www.jumbo.com.ar/55406?map=productClusterIds", {
       timeout: 20000,
     });
 
     console.log('⏳ Esperando productos...');
     await page.waitForSelector(".vtex-product-summary-2-x-container", { timeout: 15000 });
     
-    // Scroll para cargar productos lazy loading
     console.log('📜 Cargando productos con scroll...');
     await page.evaluate(async () => {
       await new Promise((resolve) => {

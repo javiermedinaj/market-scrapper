@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import { ChevronUp, ExternalLink, Grid } from 'lucide-react';
 
 const ImageGrid = ({ images, linkUrl }) => { 
@@ -94,6 +95,16 @@ const ImageGrid = ({ images, linkUrl }) => {
       )}
     </div>
   );
+};
+
+ImageGrid.propTypes = {
+  images: PropTypes.arrayOf(
+    PropTypes.shape({
+      image: PropTypes.string,
+      name: PropTypes.string,
+    })
+  ),
+  linkUrl: PropTypes.string,
 };
 
 export default ImageGrid;

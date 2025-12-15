@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { ExternalLink, Tag, Search } from 'lucide-react';
 
 const SearchResults = ({ results }) => {
@@ -106,6 +107,22 @@ const SearchResults = ({ results }) => {
       </div>
     </div>
   );
+};
+
+SearchResults.propTypes = {
+  results: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string,
+      price: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+      image: PropTypes.string,
+      store: PropTypes.string,
+      link: PropTypes.string,
+    })
+  ),
+};
+
+SearchResults.defaultProps = {
+  results: [],
 };
 
 export default SearchResults;

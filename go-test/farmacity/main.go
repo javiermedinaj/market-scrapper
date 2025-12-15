@@ -3,23 +3,40 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"html"
 	"log"
 	"net/http"
 	"os"
 	"path/filepath"
+	"regexp"
+	"strings"
 	"time"
 )
 
-type Product struct {
-	Name  string `json:"name"`
-	Price string `json:"price"`
-	Link  string `json:"link"`
-	Image string `json:"image"`
+// EnrichedProduct contiene toda la data extraída
+type EnrichedProduct struct {
+	Name        string  `json:"name"`
+	Price       float64 `json:"price"`
+	Link        string  `json:"link"`
+	Image       string  `json:"image"`
+	Brand       string  `json:"brand,omitempty"`
+	ProductId   string  `json:"productId,omitempty"`
+	CategoryId  string  `json:"categoryId,omitempty"`
+	Category    string  `json:"category,omitempty"`
+	Description string  `json:"description,omitempty"`
+	ScrapedAt   string  `json:"scrapedAt"`
 }
 
 type FarmacityProduct struct {
-	ProductName string `json:"productName"`
-	LinkText    string `json:"linkText"`
+	ProductName string   `json:"productName"`
+	LinkText    string   `json:"linkText"`
+	ProductId   string   `json:"productId"`
+	Brand       string   `json:"brand"`
+	BrandId     int      `json:"brandId"`
+	CategoryId  string   `json:"categoryId"`
+	Categories  []string `json:"categories"`
+	Link        string   `json:"link"`
+	Description string   `json:"description"`
 	Items       []struct {
 		Images []struct {
 			ImageUrl string `json:"imageUrl"`
@@ -33,13 +50,13 @@ type FarmacityProduct struct {
 }
 
 type Output struct {
-	Timestamp     string    `json:"timestamp"`
-	Date          string    `json:"date"`
-	Time          string    `json:"time"`
-	Store         string    `json:"store"`
-	TotalProducts int       `json:"totalProducts"`
-	LastUpdate    string    `json:"lastUpdate"`
-	Data          []Product `json:"data"`
+	Timestamp     string            `json:"timestamp"`
+	Date          string            `json:"date"`
+	Time          string            `json:"time"`
+	Store         string            `json:"store"`
+	TotalProducts int               `json:"totalProducts"`
+	LastUpdate    string            `json:"lastUpdate"`
+	Data          []EnrichedProduct `json:"data"`
 }
 
 func saveHistoricalData(output Output) error {
@@ -67,11 +84,38 @@ func saveHistoricalData(output Output) error {
 	return nil
 }
 
+// stripHTML elimina etiquetas HTML de un string
+func stripHTML(text string) string {
+	// Decodificar entidades HTML
+	text = html.UnescapeString(text)
+	// Remover etiquetas HTML
+	re := regexp.MustCompile(`<[^>]+>`)
+	text = re.ReplaceAllString(text, "")
+	// Remover espacios múltiples
+	text = strings.TrimSpace(text)
+	return text
+}
+
+// extractCategory extrae la categoría más específica
+func extractCategory(categories []string) string {
+	if len(categories) > 0 {
+		parts := strings.Split(categories[len(categories)-1], "/")
+		for i := len(parts) - 1; i >= 0; i-- {
+			if parts[i] != "" {
+				return strings.TrimSpace(parts[i])
+			}
+		}
+	}
+	return ""
+}
+
 func main() {
 	baseURL := "https://www.farmacity.com/api/catalog_system/pub/products/search"
 	pageSize := 50
 	maxProducts := 2500
-	allProducts := []Product{}
+	allProducts := []EnrichedProduct{}
+	now := time.Now()
+	scrapedAt := now.Format(time.RFC3339)
 
 	for from := 0; from < maxProducts; from += pageSize {
 		log.Printf("📄 Obteniendo productos %d-%d...", from, from+pageSize-1)
@@ -80,7 +124,6 @@ func main() {
 			to = maxProducts - 1
 		}
 
-		log.Printf("📄 Obteniendo productos %d-%d...", from, to)
 		url := fmt.Sprintf("%s?_from=%d&_to=%d", baseURL, from, to)
 
 		client := &http.Client{
@@ -114,22 +157,44 @@ func main() {
 		}
 
 		for _, fp := range pageProducts {
-			if len(fp.Items) > 0 && len(fp.Items[0].Sellers) > 0 {
-				var imageURL string
-				if len(fp.Items[0].Images) > 0 {
-					imageURL = fp.Items[0].Images[0].ImageUrl
-				}
-
-				price := fmt.Sprintf("%.2f", fp.Items[0].Sellers[0].CommertialOffer.Price)
-				link := "https://www.farmacity.com/" + fp.LinkText + "/p"
-
-				allProducts = append(allProducts, Product{
-					Name:  fp.ProductName,
-					Price: price,
-					Link:  link,
-					Image: imageURL,
-				})
+			if len(fp.Items) == 0 || len(fp.Items[0].Sellers) == 0 {
+				continue
 			}
+
+			// Validar precio
+			price := fp.Items[0].Sellers[0].CommertialOffer.Price
+			if price <= 0 || price > 999999 {
+				log.Printf("⚠️ Precio inválido: %s (%.2f)", fp.ProductName, price)
+				continue
+			}
+
+			image := ""
+			if len(fp.Items[0].Images) > 0 {
+				image = fp.Items[0].Images[0].ImageUrl
+			}
+
+			link := fp.Link
+			if link == "" {
+				link = "https://www.farmacity.com/" + fp.LinkText + "/p"
+			}
+
+			category := extractCategory(fp.Categories)
+			description := stripHTML(fp.Description)
+
+			product := EnrichedProduct{
+				Name:        fp.ProductName,
+				Price:       price,
+				Link:        link,
+				Image:       image,
+				Brand:       fp.Brand,
+				ProductId:   fp.ProductId,
+				CategoryId:  fp.CategoryId,
+				Category:    category,
+				Description: description,
+				ScrapedAt:   scrapedAt,
+			}
+
+			allProducts = append(allProducts, product)
 		}
 
 		log.Printf("✅ Página procesada. Productos acumulados: %d", len(allProducts))
@@ -137,12 +202,12 @@ func main() {
 	}
 
 	output := Output{
-		Timestamp:     time.Now().Format(time.RFC3339),
-		Date:          time.Now().Format("2006-01-02"),
-		Time:          time.Now().Format("15:04:05"),
+		Timestamp:     now.Format(time.RFC3339),
+		Date:          now.Format("2006-01-02"),
+		Time:          now.Format("15:04:05"),
 		Store:         "Farmacity",
 		TotalProducts: len(allProducts),
-		LastUpdate:    time.Now().Format(time.RFC3339),
+		LastUpdate:    now.Format(time.RFC3339),
 		Data:          allProducts,
 	}
 

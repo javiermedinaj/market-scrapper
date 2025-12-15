@@ -54,7 +54,6 @@ func SetupProducts(baseDir string) error {
 	}
 	log.Printf("✅ Cargados %d productos de Farmacity", len(farmacityProducts))
 
-	// Productos de FarmaOnline
 	farmaOnlineProducts, err = services.LoadProducts(dataDir, "farma-ofertas.json", "FarmaOnline")
 	if err != nil {
 		log.Printf("❌ Error cargando productos FarmaOnline: %v", err)

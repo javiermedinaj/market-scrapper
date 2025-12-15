@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { ExternalLink, Store, ShoppingCart } from 'lucide-react';
 
 const OfferCard = ({ product, storeName }) => {
@@ -102,6 +103,16 @@ const OfferCard = ({ product, storeName }) => {
             </div>
         </div>
     );
+};
+
+OfferCard.propTypes = {
+    product: PropTypes.shape({
+        name: PropTypes.string,
+        image: PropTypes.string,
+        link: PropTypes.string,
+        price: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+    }),
+    storeName: PropTypes.string
 };
 
 export default OfferCard;

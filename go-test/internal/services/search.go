@@ -44,6 +44,10 @@ func LoadProducts(baseDir, filename, store string) ([]models.Product, error) {
 
 	for i := range storeData.Data {
 		storeData.Data[i].Store = store
+		// Solo categorizar si no viene del scraper
+		if storeData.Data[i].Category == "" {
+			storeData.Data[i].Category = CategorizeProduct(storeData.Data[i].Name)
+		}
 	}
 	return storeData.Data, nil
 }

@@ -8,20 +8,39 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"strings"
 	"time"
 )
 
-type Product struct {
-	Name  string `json:"name"`
-	Price string `json:"price"`
-	Link  string `json:"link"`
-	Image string `json:"image"`
+type EnrichedProduct struct {
+	Name        string  `json:"name"`
+	Price       float64 `json:"price"`
+	Link        string  `json:"link"`
+	Image       string  `json:"image"`
+	Brand       string  `json:"brand,omitempty"`
+	ProductId   string  `json:"productId,omitempty"`
+	CategoryId  string  `json:"categoryId,omitempty"`
+	Category    string  `json:"category,omitempty"`
+	Description string  `json:"description,omitempty"`
+	ScrapedAt   string  `json:"scrapedAt"`
+}
+
+type CategoryNode struct {
+	Id   string `json:"id"`
+	Name string `json:"name"`
 }
 
 type VtexProduct struct {
-	ProductName string `json:"productName"`
-	LinkText    string `json:"linkText"`
-	Items       []struct {
+	ProductName  string         `json:"productName"`
+	LinkText     string         `json:"linkText"`
+	Link         string         `json:"link"`
+	ProductId    string         `json:"productId"`
+	Brand        string         `json:"brand"`
+	BrandId      int            `json:"brandId"`
+	CategoryId   string         `json:"categoryId"`
+	CategoryTree []CategoryNode `json:"categoryTree"`
+	Categories   []string       `json:"categories"`
+	Items        []struct {
 		Images []struct {
 			ImageUrl string `json:"imageUrl"`
 		} `json:"images"`
@@ -31,15 +50,6 @@ type VtexProduct struct {
 			} `json:"commertialOffer"`
 		} `json:"sellers"`
 	} `json:"items"`
-	ClusterHighlights map[string]interface{} `json:"clusterHighlights"`
-	Link              string                 `json:"link"`
-	Brand             string                 `json:"brand"`
-	BrandId           int                    `json:"brandId"`
-	CategoryId        string                 `json:"categoryId"`
-	CategoryTree      []struct {
-		Id   string `json:"id"`
-		Name string `json:"name"`
-	} `json:"categoryTree"`
 	Properties []struct {
 		Name   string   `json:"name"`
 		Values []string `json:"values"`
@@ -47,13 +57,13 @@ type VtexProduct struct {
 }
 
 type Output struct {
-	Timestamp     string    `json:"timestamp"`
-	Date          string    `json:"date"`
-	Time          string    `json:"time"`
-	Store         string    `json:"store"`
-	TotalProducts int       `json:"totalProducts"`
-	LastUpdate    string    `json:"lastUpdate"`
-	Data          []Product `json:"data"`
+	Timestamp     string            `json:"timestamp"`
+	Date          string            `json:"date"`
+	Time          string            `json:"time"`
+	Store         string            `json:"store"`
+	TotalProducts int               `json:"totalProducts"`
+	LastUpdate    string            `json:"lastUpdate"`
+	Data          []EnrichedProduct `json:"data"`
 }
 
 func saveHistoricalData(output Output) error {
@@ -80,12 +90,29 @@ func saveHistoricalData(output Output) error {
 	return nil
 }
 
+func extractCategory(categoryTree []CategoryNode, categories []string) string {
+	if len(categoryTree) > 0 {
+		return categoryTree[len(categoryTree)-1].Name
+	}
+	if len(categories) > 0 {
+		parts := strings.Split(categories[len(categories)-1], "/")
+		for i := len(parts) - 1; i >= 0; i-- {
+			if parts[i] != "" {
+				return strings.TrimSpace(parts[i])
+			}
+		}
+	}
+	return ""
+}
+
 func main() {
 	clusterId := "50532"
 	baseUrl := "https://www.jumbo.com.ar/api/catalog_system/pub/products/search?productClusterIds=" + clusterId
 	pageSize := 50
 	from := 0
-	allProducts := []Product{}
+	allProducts := []EnrichedProduct{}
+	now := time.Now()
+	scrapedAt := now.Format(time.RFC3339)
 
 	maxFrom := 2500
 	for from < maxFrom {
@@ -109,7 +136,7 @@ func main() {
 				continue
 			}
 
-			req.Header.Set("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+			req.Header.Set("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
 			req.Header.Set("Accept", "application/json")
 			req.Header.Set("Connection", "keep-alive")
 			req.Header.Set("Cache-Control", "no-cache")
@@ -130,7 +157,7 @@ func main() {
 			if resp.StatusCode == 200 || resp.StatusCode == 206 {
 				break
 			}
-			log.Printf("Status code %d en intento %d (esperado 200 o 206)", resp.StatusCode, retry+1)
+			log.Printf("Status code %d en intento %d", resp.StatusCode, retry+1)
 		}
 
 		if resp == nil || (resp.StatusCode != 200 && resp.StatusCode != 206) {
@@ -138,53 +165,58 @@ func main() {
 			break
 		}
 
-		var vtexProducts []map[string]interface{}
+		var vtexProducts []VtexProduct
 		if err := json.Unmarshal(body, &vtexProducts); err != nil {
-			log.Printf("Respuesta recibida (no es JSON de productos):\n%s", string(body))
 			log.Printf("Error parseando JSON: %v", err)
 			continue
 		}
 		if len(vtexProducts) == 0 {
-			log.Printf("✅ No hay más productos en esta página")
+			log.Printf("✅ No hay más productos")
 			break
 		}
 
-		log.Printf("✅ Encontrados %d productos en esta página", len(vtexProducts))
+		log.Printf("✅ Encontrados %d productos", len(vtexProducts))
 		for _, vp := range vtexProducts {
-			name, _ := vp["productName"].(string)
-			linkText, _ := vp["linkText"].(string)
-			link := "https://www.jumbo.com.ar/" + linkText + "/p"
+			price := 0.0
+			if len(vp.Items) > 0 && len(vp.Items[0].Sellers) > 0 {
+				price = vp.Items[0].Sellers[0].CommertialOffer.Price
+			}
+
+			if price <= 0 || price > 999999 {
+				log.Printf("⚠️ Precio inválido: %s (%.2f)", vp.ProductName, price)
+				continue
+			}
+
 			image := ""
-			if items, ok := vp["items"].([]interface{}); ok && len(items) > 0 {
-				item := items[0].(map[string]interface{})
-				if images, ok := item["images"].([]interface{}); ok && len(images) > 0 {
-					img := images[0].(map[string]interface{})
-					image, _ = img["imageUrl"].(string)
-				}
+			if len(vp.Items) > 0 && len(vp.Items[0].Images) > 0 {
+				image = vp.Items[0].Images[0].ImageUrl
 			}
-			price := ""
-			if items, ok := vp["items"].([]interface{}); ok && len(items) > 0 {
-				item := items[0].(map[string]interface{})
-				if sellers, ok := item["sellers"].([]interface{}); ok && len(sellers) > 0 {
-					seller := sellers[0].(map[string]interface{})
-					if comm, ok := seller["commertialOffer"].(map[string]interface{}); ok {
-						if p, ok := comm["Price"].(float64); ok {
-							price = fmt.Sprintf("%.2f", p)
-						}
-					}
-				}
+
+			link := vp.Link
+			if link == "" {
+				link = "https://www.jumbo.com.ar/" + vp.LinkText + "/p"
 			}
-			allProducts = append(allProducts, Product{
-				Name:  name,
-				Price: price,
-				Link:  link,
-				Image: image,
-			})
+
+			category := extractCategory(vp.CategoryTree, vp.Categories)
+
+			product := EnrichedProduct{
+				Name:        vp.ProductName,
+				Price:       price,
+				Link:        link,
+				Image:       image,
+				Brand:       vp.Brand,
+				ProductId:   vp.ProductId,
+				CategoryId:  vp.CategoryId,
+				Category:    category,
+				Description: "",
+				ScrapedAt:   scrapedAt,
+			}
+
+			allProducts = append(allProducts, product)
 		}
 		from += pageSize
 	}
 
-	now := time.Now()
 	dateString := now.Format("2006-01-02")
 	timeString := now.Format("15-04-05")
 
@@ -192,7 +224,7 @@ func main() {
 		Timestamp:     now.Format(time.RFC3339),
 		Date:          dateString,
 		Time:          timeString,
-		Store:         "jumbo",
+		Store:         "Jumbo",
 		TotalProducts: len(allProducts),
 		LastUpdate:    now.Format(time.RFC3339),
 		Data:          allProducts,
@@ -202,5 +234,5 @@ func main() {
 		log.Printf("Error saving historical data: %v", err)
 	}
 
-	fmt.Printf("✅ Scraping Jumbo (Go, API) completado. Productos: %d\n", len(allProducts))
+	fmt.Printf("✅ Scraping Jumbo completado. Productos: %d\n", len(allProducts))
 }

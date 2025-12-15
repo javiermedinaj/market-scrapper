@@ -66,6 +66,21 @@ func main() {
 
 	r.GET("/search", handlers.SearchHandler)
 
+	// 🆕 Analytics endpoints
+	r.GET("/api/analytics/available-categories", handlers.AvailableCategoriesHandler)
+	r.GET("/api/analytics/categories", handlers.CategoriesStatsHandler)
+	r.GET("/api/analytics/category/:name", handlers.CategoryDetailHandler)
+	r.GET("/api/analytics/cheapest", handlers.CheapestProductsHandler)
+	r.GET("/api/analytics/stores-comparison", handlers.StoresComparisonHandler)
+	r.GET("/api/analytics/category-stores-comparison", handlers.CategoryStoresComparisonHandler)
+	r.GET("/api/analytics/cheapest-by-category/:category", handlers.CheapestByCategoryHandler)
+
+	// 🆕 Diagnostic endpoints
+	r.GET("/api/diagnostic/data-quality", handlers.DataQualityHandler)
+	r.GET("/api/diagnostic/sample/:store/:limit", handlers.SampleProductsHandler)
+	r.GET("/api/diagnostic/stores", handlers.StoresInfoHandler)
+	r.GET("/api/diagnostic/category-distribution", handlers.CategoryDistributionHandler)
+
 	log.Printf("🚀 Market Scrapper API iniciada en http://localhost:8081")
 	if err := r.Run(":8081"); err != nil {
 		log.Fatalf("Error iniciando servidor: %v", err)
