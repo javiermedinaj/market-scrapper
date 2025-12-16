@@ -8,7 +8,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Deploy to EC2
         uses: appleboy/ssh-action@master
@@ -17,9 +17,23 @@ jobs:
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
+            set -e
+
             cd /home/ubuntu/apps/market-scrapper
             git pull origin main
+
             cd go-test
-            docker-compose down
-            docker-compose up -d
+
+            # bajar containers
+            docker compose down
+
+            # opcional: limpiar data
+            # rm -rf data/*
+
+            # build limpio
+            docker compose build --no-cache
+
+            # levantar
+            docker compose up -d
+
             echo "Deployment completed at $(date)"
