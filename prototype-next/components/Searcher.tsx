@@ -72,9 +72,14 @@ export default function Searcher() {
     return products;
   };
 
+  const normalize = (s: string) =>
+    s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
   const groupedResults = STORES.map((store) => ({
     ...store,
-    items: sortProducts(results.filter((product) => product.store === store.id)),
+    items: sortProducts(
+      results.filter((product) => normalize(product.store || "") === normalize(store.id))
+    ),
   })).filter((store) => store.items.length > 0);
 
   return (
