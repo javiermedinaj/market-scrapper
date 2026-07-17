@@ -46,6 +46,10 @@ next-env.d.ts
 /data/historical/
 /data/*.json
 
+# backup files
+*.sql.gz
+backup-*
+
 # puppeteer
 .cache/
 .chromium/

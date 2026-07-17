@@ -10,16 +10,12 @@ interface OfferCardProps {
 
 const STORE_STYLES: Record<string, string> = {
   Jumbo: "bg-emerald-400/10 text-emerald-300 ring-emerald-400/20",
-  Carrefour: "bg-sky-400/10 text-sky-300 ring-sky-400/20",
   Farmacity: "bg-violet-400/10 text-violet-300 ring-violet-400/20",
   "Día": "bg-rose-400/10 text-rose-300 ring-rose-400/20",
   FarmaOnline: "bg-amber-400/10 text-amber-300 ring-amber-400/20",
-  Coto: "bg-yellow-400/10 text-yellow-300 ring-yellow-400/20",
 };
 
 const DEFAULT_STORE_LINKS: Record<string, string> = {
-  Coto: "https://www.coto.com.ar/ofertas",
-  Carrefour: "https://www.carrefour.com.ar/promociones",
   Jumbo: "https://www.jumbo.com.ar/ofertas",
   "Día": "https://diaonline.supermercadosdia.com.ar/especial-ofertas",
   Farmacity: "https://www.farmacity.com/promociones",

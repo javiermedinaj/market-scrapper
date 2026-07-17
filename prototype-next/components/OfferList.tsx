@@ -12,8 +12,6 @@ const STORES: StoreInfo[] = [
   { id: "farmacity", name: "Farmacity" },
   { id: "dia", name: "Día" },
   { id: "farma", name: "FarmaOnline" },
-  { id: "carrefour", name: "Carrefour" },
-  { id: "coto", name: "Coto" },
 ];
 const ITEMS_PER_PAGE = 12;
 

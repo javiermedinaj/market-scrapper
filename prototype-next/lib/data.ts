@@ -37,6 +37,14 @@ export async function saveHistoricalData(
   data: StoreData,
   storeSlug: string
 ): Promise<void> {
+  if (process.env.VERCEL) {
+    if (isSupabaseEnabled()) {
+      await upsertProducts(data.data);
+      await recordScrapingRun(data);
+    }
+    return;
+  }
+
   await ensureDataDirs();
 
   const dailyDir = path.join(DATA_DIR, "daily", data.date);
@@ -52,13 +60,12 @@ export async function saveHistoricalData(
   await fs.writeFile(todayFile, jsonData, "utf-8");
   await fs.writeFile(currentFile, jsonData, "utf-8");
 
-  // Si Supabase está configurado, sincronizamos
   if (isSupabaseEnabled()) {
     try {
       await upsertProducts(data.data);
       await recordScrapingRun(data);
     } catch (error) {
-      console.error("❌ Error syncing to Supabase:", error);
+      console.error("Error syncing to Supabase:", error);
     }
   }
 }
@@ -74,6 +81,9 @@ export async function loadStoreData(storeSlug: string): Promise<StoreData | null
 }
 
 export async function loadTodayStoreData(storeSlug: string): Promise<StoreData | null> {
+  if (process.env.VERCEL) {
+    return null;
+  }
   try {
     const today = getTodayDate();
     const filePath = path.join(DATA_DIR, "daily", today, `${storeSlug}-ofertas.json`);
@@ -84,21 +94,19 @@ export async function loadTodayStoreData(storeSlug: string): Promise<StoreData |
   }
 }
 
+const ACTIVE_STORES = ["dia", "jumbo", "farmacity", "farma"];
+
 export async function loadAllProducts(): Promise<Product[]> {
-  // Si Supabase está configurado, usamos la base de datos
   if (isSupabaseEnabled()) {
-    try {
-      return await loadProductsFromSupabase();
-    } catch (error) {
-      console.error("❌ Error loading from Supabase, falling back to JSON:", error);
-    }
+    return await loadProductsFromSupabase();
   }
 
-  // Fallback: archivos JSON
-  const stores = ["dia", "jumbo", "farmacity", "farma", "carrefour", "coto"];
-  const products: Product[] = [];
+  if (process.env.VERCEL) {
+    throw new Error("Supabase no configurado. Configurá NEXT_PUBLIC_SUPABASE_URL y NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY en el environment de Vercel.");
+  }
 
-  for (const store of stores) {
+  const products: Product[] = [];
+  for (const store of ACTIVE_STORES) {
     const data = await loadStoreData(store);
     if (data?.data) {
       products.push(...withStoreDefaults(data.data, data.store || store));

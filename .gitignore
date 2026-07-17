@@ -1,5 +1,12 @@
 node_modules/
 
+# Supabase CLI local metadata
+prototype-next/supabase/.temp/
+
+# Backups
+*.sql.gz
+backup-*
+
 # Archivos de datos antiguos (mantener solo los organizados por día)
 scraper/data/*.json
 !scraper/data/daily/

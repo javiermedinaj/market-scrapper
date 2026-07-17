@@ -3,18 +3,25 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Searcher from "@/components/Searcher";
 import OfferList from "@/components/OfferList";
-import { loadTodayStoreData } from "@/lib/data";
+import { loadAllProducts } from "@/lib/data";
 
-const STORE_SLUGS = ["dia", "jumbo", "farmacity", "farma", "carrefour", "coto"];
+export const dynamic = "force-dynamic";
+
+const STORE_SLUGS = ["dia", "jumbo", "farmacity", "farma"] as const;
+
+function groupByStore(products: Product[]): Record<string, Product[]> {
+  const map: Record<string, Product[]> = {};
+  for (const slug of STORE_SLUGS) map[slug] = [];
+  for (const p of products) {
+    const key = (p.store || "").toLowerCase();
+    if (map[key]) map[key].push(p);
+  }
+  return map;
+}
 
 export default async function Home() {
-  const storeData = await Promise.all(
-    STORE_SLUGS.map(async (slug) => {
-      const data = await loadTodayStoreData(slug);
-      return [slug, data?.data || []] as const;
-    })
-  );
-  const initialData: Record<string, Product[]> = Object.fromEntries(storeData);
+  const allProducts = await loadAllProducts();
+  const initialData = groupByStore(allProducts);
 
   return (
     <div className="min-h-screen bg-black">

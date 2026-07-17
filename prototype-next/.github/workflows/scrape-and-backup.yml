@@ -1,0 +1,101 @@
+name: Daily Scrape + Backup
+
+on:
+  schedule:
+    # Todos los días a las 06:00 UTC (03:00 ART)
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      store:
+        description: "Scraper específico (vacío = todos)"
+        required: false
+        type: choice
+        default: "all"
+        options:
+          - all
+          - dia
+          - jumbo
+          - farmacity
+          - farmaonline
+      skip_backup:
+        description: "Saltar backup"
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Install Chromium for Puppeteer
+        run: pnpm exec puppeteer browsers install chrome
+
+      - name: Run scraper(s) → Supabase
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY }}
+        run: |
+          STORE="${{ inputs.store || 'all' }}"
+          if [ "$STORE" = "all" ]; then
+            pnpm scrape
+          else
+            pnpm scrape "$STORE"
+          fi
+
+      - name: Upload scraped JSONs as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraped-data-${{ github.run_id }}
+          path: data/*.json
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: Generate backup
+        if: ${{ !inputs.skip_backup }}
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY }}
+        run: pnpm backup backup-${{ github.run_id }}.sql.gz
+
+      - name: Upload backup as artifact
+        if: ${{ !inputs.skip_backup }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: backup-${{ github.run_id }}
+          path: backup-${{ github.run_id }}.sql.gz
+          retention-days: 90
+
+      - name: Create backup Release
+        if: ${{ !inputs.skip_backup }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: backup-${{ github.run_id }}
+          name: "Backup ${{ github.run_id }}"
+          body: |
+            Backup automático generado por GitHub Actions.
+
+            - Run ID: ${{ github.run_id }}
+            - Fecha: ${{ github.event.head_commit.timestamp || github.run_id }}
+            - Workflow: ${{ github.workflow }}
+          files: backup-${{ github.run_id }}.sql.gz
+          draft: false
+          prerelease: false
+          fail_on_unmatched_files: true

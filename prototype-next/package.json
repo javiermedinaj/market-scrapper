@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "scrape": "tsx scripts/scrape.ts"
+    "scrape": "tsx scripts/scrape.ts",
+    "migrate:supabase": "tsx --env-file=.env.local scripts/migrate-to-supabase.ts",
+    "migrate:supabase:dry": "tsx --env-file=.env.local scripts/migrate-to-supabase.ts --dry-run",
+    "backup": "tsx --env-file=.env.local scripts/backup.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.110.6",
