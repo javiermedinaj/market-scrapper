@@ -2,16 +2,19 @@ node_modules/
 
 # Supabase CLI local metadata
 prototype-next/supabase/.temp/
+.atl/
 
 # Backups
 *.sql.gz
 backup-*
+local-archives/
 
-# Archivos de datos antiguos (mantener solo los organizados por día)
-scraper/data/*.json
-!scraper/data/daily/
-!scraper/data/today/
-offers-scrap/.env
+# Data de scrapers (todo lo scrapeado queda fuera del repo)
+/scraper/data/
+/go-test/data/
+/prototype-next/data/
+/prototype-next/scripts/backup-*.sql.gz
+
 # Logs
 *.log
 npm-debug.log*
@@ -26,4 +29,3 @@ yarn-error.log*
 .Trashes
 ehthumbs.db
 Thumbs.db
-
