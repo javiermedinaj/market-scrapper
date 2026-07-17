@@ -2,12 +2,11 @@ name: Daily Scrape + Backup
 
 on:
   schedule:
-    # Todos los días a las 06:00 UTC (03:00 ART)
     - cron: "0 6 * * *"
   workflow_dispatch:
     inputs:
       store:
-        description: "Scraper específico (vacío = todos)"
+        description: "Scraper específico (all = todos los activos)"
         required: false
         type: choice
         default: "all"
@@ -16,12 +15,17 @@ on:
           - dia
           - jumbo
           - farmacity
+          - farma
           - farmaonline
       skip_backup:
         description: "Saltar backup"
         required: false
         type: boolean
         default: false
+
+defaults:
+  run:
+    working-directory: prototype-next
 
 jobs:
   scrape:
@@ -41,12 +45,10 @@ jobs:
         with:
           node-version: "22"
           cache: pnpm
+          cache-dependency-path: prototype-next/pnpm-lock.yaml
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-
-      - name: Install Chromium for Puppeteer
-        run: pnpm exec puppeteer browsers install chrome
 
       - name: Run scraper(s) → Supabase
         env:
@@ -60,14 +62,6 @@ jobs:
             pnpm scrape "$STORE"
           fi
 
-      - name: Upload scraped JSONs as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: scraped-data-${{ github.run_id }}
-          path: data/*.json
-          if-no-files-found: ignore
-          retention-days: 30
-
       - name: Generate backup
         if: ${{ !inputs.skip_backup }}
         env:
@@ -80,7 +74,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: backup-${{ github.run_id }}
-          path: backup-${{ github.run_id }}.sql.gz
+          path: prototype-next/backup-${{ github.run_id }}.sql.gz
           retention-days: 90
 
       - name: Create backup Release
@@ -95,7 +89,7 @@ jobs:
             - Run ID: ${{ github.run_id }}
             - Fecha: ${{ github.event.head_commit.timestamp || github.run_id }}
             - Workflow: ${{ github.workflow }}
-          files: backup-${{ github.run_id }}.sql.gz
+          files: prototype-next/backup-${{ github.run_id }}.sql.gz
           draft: false
           prerelease: false
           fail_on_unmatched_files: true
