@@ -57,11 +57,7 @@ jobs:
           NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY }}
         run: |
           STORE="${{ inputs.store || 'all' }}"
-          if [ "$STORE" = "all" ]; then
-            pnpm scrape
-          else
-            pnpm scrape "$STORE"
-          fi
+          pnpm scrape "$STORE"
 
       - name: Generate backup
         if: ${{ !inputs.skip_backup }}

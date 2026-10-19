@@ -25,7 +25,10 @@ export type ScraperName =
 export async function runScraper(name: ScraperName): Promise<StoreData[]> {
   if (name === "all") {
     const results: StoreData[] = [];
+    const seen = new Set<unknown>();
     for (const [scraperName, scraperFn] of Object.entries(ACTIVE_SCRAPERS)) {
+      if (seen.has(scraperFn)) continue;
+      seen.add(scraperFn);
       try {
         console.log(`\nEjecutando ${scraperName} scraper...`);
         const start = Date.now();

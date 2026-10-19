@@ -73,6 +73,7 @@ export async function scrapeDia(): Promise<StoreData> {
       });
     }
 
+    if (diaItems.length < pageSize) break;
     from += pageSize;
   }
 

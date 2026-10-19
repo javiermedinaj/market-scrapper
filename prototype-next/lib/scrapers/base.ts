@@ -84,7 +84,7 @@ export function buildProductFromVtex(
 export async function fetchWithRetry(
   url: string,
   options: RequestInit = {},
-  maxRetries = 3
+  maxRetries = 5
 ): Promise<Response> {
   const headers: Record<string, string> = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
@@ -96,19 +96,23 @@ export async function fetchWithRetry(
 
   let lastError: Error | null = null;
 
-  for (let attempt = 0; attempt < maxRetries; attempt++) {
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
     try {
-      if (attempt > 0) {
-        await new Promise((resolve) => setTimeout(resolve, 2000));
-      }
-
       const response = await fetch(url, { ...options, headers });
       if (response.ok || response.status === 206) {
         return response;
       }
+
       lastError = new Error(`HTTP ${response.status}`);
+      const retryable = response.status >= 500 || response.status === 429;
+      if (!retryable) break;
     } catch (error) {
       lastError = error instanceof Error ? error : new Error(String(error));
+    }
+
+    if (attempt < maxRetries) {
+      const backoff = Math.min(30_000, 1_000 * 2 ** attempt);
+      await delay(backoff + Math.floor(Math.random() * 500));
     }
   }
 

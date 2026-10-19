@@ -1,10 +1,10 @@
 import { runScraper, ScraperName, listScrapers } from "@/lib/scrapers";
 
 async function main() {
-  const arg = process.argv[2];
+  const arg = process.argv[2] ?? "all";
 
-  if (!arg || arg === "--help" || arg === "-h") {
-    console.log("Uso: pnpm scrape [nombre]");
+  if (arg === "--help" || arg === "-h") {
+    console.log("Uso: pnpm scrape [nombre|all] (default: all)");
     console.log(`Scrapers disponibles: ${listScrapers().join(", ")}, all`);
     process.exit(0);
   }
@@ -22,6 +22,13 @@ async function main() {
     results.forEach((result) => {
       console.log(`  ✅ ${result.store}: ${result.totalProducts} productos`);
     });
+
+    if (results.length === 0 || results.every((r) => r.totalProducts === 0)) {
+      console.error(
+        "❌ No se scrapeó ningún producto. Failing para no silenciar el error.",
+      );
+      process.exit(1);
+    }
   } catch (error) {
     console.error("❌ Error general:", error);
     process.exit(1);
