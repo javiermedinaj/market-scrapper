@@ -34,11 +34,21 @@ export async function scrapeDia(): Promise<StoreData> {
     const url = `${baseUrl}/api/catalog_system/pub/products/search?productClusterIds=567&_from=${from}&_to=${to}`;
 
     console.log(`➡️ Día: Requesting ${from}–${to}`);
-    const response = await fetchWithRetry(url, {
-      headers: {
-        "User-Agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
-      },
-    });
+    let response: Response;
+    try {
+      response = await fetchWithRetry(url, {
+        headers: {
+          "User-Agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+        },
+      });
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      if (from > 0 && message.includes("HTTP 400")) {
+        console.log("✅ Día: fin de resultados (400 al pedir página extra)");
+        break;
+      }
+      throw error;
+    }
 
     const diaItems = (await response.json()) as DiaItem[];
     console.log(`✅ Día: Página ${from}–${to}: ${diaItems.length} productos`);

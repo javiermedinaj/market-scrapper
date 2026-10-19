@@ -26,6 +26,7 @@ export async function runScraper(name: ScraperName): Promise<StoreData[]> {
   if (name === "all") {
     const results: StoreData[] = [];
     const seen = new Set<unknown>();
+    let failures = 0;
     for (const [scraperName, scraperFn] of Object.entries(ACTIVE_SCRAPERS)) {
       if (seen.has(scraperFn)) continue;
       seen.add(scraperFn);
@@ -37,8 +38,14 @@ export async function runScraper(name: ScraperName): Promise<StoreData[]> {
         console.log(`${scraperName} completado en ${duration}s (${result.totalProducts} productos)`);
         results.push(result);
       } catch (error) {
+        failures += 1;
         console.error(`Error en ${scraperName}:`, error);
       }
+    }
+    if (failures > 0) {
+      throw new Error(
+        `${failures} scraper(s) fallaron. Los demás guardaron sus datos, pero la corrida se marca como fallida.`,
+      );
     }
     return results;
   }
