@@ -1,61 +1,58 @@
 # Comparador de Ofertas Supermercados
 
-Un proyecto web que permite comparar precios y ofertas entre diferentes supermercados de forma automática y en tiempo real. Se actualiza cada 24 horas para ofrecer la información más reciente.
+Scraper y comparador de ofertas de supermercados argentinos. Recolecta precios a diario
+y los presenta en una app web. La aplicación activa es **`prototype-next/`**.
 
-## ¿Qué hace este proyecto?
+## Estructura
 
-Este proyecto automatiza la recolección de ofertas de diferentes supermercados y las presenta en una interfaz web amigable donde los usuarios pueden:
-- Comparar precios entre diferentes supermercados
-- Ver las ofertas más recientes
-- comparar productos específicos
-- Buscar productos por nombre
-- Filtrar productos por categoría
-- Encontrar los mejores descuentos
+```
+prototype-next/   App activa: Next.js + Supabase + /cena (IA) (deploy en Vercel)
+test-ai/          Laboratorio y evals del pipeline de IA (la versión de producción vive en prototype-next/lib/ai)
+local-archives/   Backups de datos y archivo del código legacy (gitignored)
+```
 
-## Tecnologías Utilizadas
+## Arquitectura
 
-- **Frontend**: 
-  - React con Vite.js (para una experiencia de usuario rápida y moderna)
-  - TailwindCSS (para un diseño elegante y responsivo)
-  
-- **Backend Antiguo**: 
-  - Express.js (para gestionar las peticiones de datos)
-  - Web Scraping automatizado
+```
+GitHub Actions (diario)  ──►  Scrapers (prototype-next/lib/scrapers)
+                                      │
+                                      ▼
+                                Supabase (Postgres)
+                                      │
+                                      ▼
+                             Next.js en Vercel (solo lee)
+```
 
--**Backend nuevo**:
-  -Go y gin-gonic 
+- **Scraping:** `prototype-next/lib/scrapers` (Día, Jumbo, Farmacity, FarmaOnline, Carrefour, Coto).
+- **Automatización:** `.github/workflows/scrape-and-backup.yml` corre `pnpm scrape` todos los días
+  a las 06:00 y genera un backup como Release de GitHub.
+- **Datos:** no se commitean (ver `.gitignore`); viven en Supabase y en backups.
+- **Cena con IA:** `/cena` + `POST /api/dinner`; la lógica vive en `prototype-next/lib/ai`.
 
-- **Automatización**:
-  - GitHub Actions (actualización automática de datos cada 12 horas)
+## Instalación y uso
 
-## 🛠️ Instalación
+Requiere Node 22+ y pnpm.
 
-1. Clona el proyecto:
-    ```bash
-    git clone https://github.com/javiermedinaj/market-scrapper
-    ```
+```bash
+cd prototype-next
+pnpm install
 
-2. Instala las dependencias:
-    ```bash
-    # Para el backend
-    cd go-test
-    go mod tidy
-    go mod download
-    go build -o scrapers
+cp .env.example .env.local   # Supabase + AI_GATEWAY_API_KEY
+pnpm dev                     # http://localhost:3000
 
-    # Para el frontend
-    cd ../offers-scrap
-    npm install
-    ```
+pnpm scrape [store|all]      # scrapea y escribe en Supabase
+pnpm backup backup.sql.gz    # genera un backup
+pnpm lint
+```
 
-    ```
+## test-ai
 
-## Características Destacadas
+Experimento para construir una capa de IA sobre los datos: dada una cantidad de porciones,
+un presupuesto en ARS y un supermercado, arma una receta con productos reales y calcula el
+total. Ver `test-ai/README.md`.
 
-- Actualización automática de precios cada 24 horas
-- Interfaz intuitiva y fácil de usar
-- Comparación en tiempo real de precios
-- Diseño responsive (se adapta a móviles y tablets)
+## Nota
 
-
-
+Las carpetas legacy (`go-test`, `offers-scrap`, `scraper`) se archivaron en
+`local-archives/legacy-go-test-offers-scrap-scraper-2026-10-16.zip` y se removieron del
+árbol de trabajo. Su lógica quedó reemplazada por `prototype-next`.
