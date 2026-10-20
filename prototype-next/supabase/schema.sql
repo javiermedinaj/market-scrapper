@@ -58,5 +58,9 @@ CREATE TRIGGER update_products_updated_at
 ALTER TABLE products ENABLE ROW LEVEL SECURITY;
 ALTER TABLE scraping_runs ENABLE ROW LEVEL SECURITY;
 
-CREATE POLICY "Allow all" ON products FOR ALL USING (true) WITH CHECK (true);
-CREATE POLICY "Allow all" ON scraping_runs FOR ALL USING (true) WITH CHECK (true);
+DROP POLICY IF EXISTS "Allow all" ON products;
+DROP POLICY IF EXISTS "Allow all" ON scraping_runs;
+
+-- Lectura pública; las escrituras requieren service_role (bypassa RLS).
+CREATE POLICY "Public read products" ON products FOR SELECT USING (true);
+CREATE POLICY "Public read scraping_runs" ON scraping_runs FOR SELECT USING (true);

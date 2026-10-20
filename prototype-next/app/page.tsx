@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Searcher from "@/components/Searcher";
 import OfferList from "@/components/OfferList";
 import { loadAllProducts } from "@/lib/data";
+import { storeKey } from "@/lib/stores";
 
 export const dynamic = "force-dynamic";
 
@@ -13,8 +14,8 @@ function groupByStore(products: Product[]): Record<string, Product[]> {
   const map: Record<string, Product[]> = {};
   for (const slug of STORE_SLUGS) map[slug] = [];
   for (const p of products) {
-    const key = (p.store || "").toLowerCase();
-    if (map[key]) map[key].push(p);
+    const key = storeKey(p.store || "");
+    if (key && map[key]) map[key].push(p);
   }
   return map;
 }

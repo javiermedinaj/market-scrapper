@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 import {
   BarChart,
   Bar,
@@ -47,63 +47,80 @@ export default function Analytics() {
     }));
   };
 
-  const fetchAnalytics = useCallback(async () => {
-    try {
-      const [categoriesRes, storesRes, availableCatsRes] = await Promise.all([
-        fetch("/api/analytics/categories"),
-        fetch("/api/analytics/stores-comparison"),
-        fetch("/api/analytics/available-categories"),
-      ]);
+  useEffect(() => {
+    let cancelled = false;
 
-      const categoriesData = await categoriesRes.json();
-      const storesData = await storesRes.json();
-      const availableCatsData = await availableCatsRes.json();
+    (async () => {
+      try {
+        const [categoriesRes, storesRes, availableCatsRes] = await Promise.all([
+          fetch("/api/analytics/categories"),
+          fetch("/api/analytics/stores-comparison"),
+          fetch("/api/analytics/available-categories"),
+        ]);
 
-      const chartData = Object.entries(categoriesData).map(
-        ([name, stats]: [string, any]) => ({
-          name,
-          avgPrice: stats.averagePrice,
-          minPrice: stats.minPrice,
-          maxPrice: stats.maxPrice,
-          priceDiff: stats.maxPrice - stats.minPrice,
-          cheapestStore: stats.cheapestStore,
-        })
-      );
+        const categoriesData = await categoriesRes.json();
+        const storesData = await storesRes.json();
+        const availableCatsData = await availableCatsRes.json();
 
-      setCategoryStats(chartData);
-      setStoresComparison(storesData);
-      setCategories(availableCatsData.categories || []);
-      if (availableCatsData.categories?.length > 0) {
-        setSelectedCategory(availableCatsData.categories[0]);
+        if (cancelled) return;
+
+        const chartData = Object.entries(categoriesData).map(
+          ([name, rawStats]) => {
+            const stats = rawStats as {
+              averagePrice: number;
+              minPrice: number;
+              maxPrice: number;
+              cheapestStore: string;
+            };
+            return {
+              name,
+              avgPrice: stats.averagePrice,
+              minPrice: stats.minPrice,
+              maxPrice: stats.maxPrice,
+              priceDiff: stats.maxPrice - stats.minPrice,
+              cheapestStore: stats.cheapestStore,
+            };
+          }
+        );
+
+        setCategoryStats(chartData);
+        setStoresComparison(storesData);
+        setCategories(availableCatsData.categories || []);
+        if (availableCatsData.categories?.length > 0) {
+          setSelectedCategory(availableCatsData.categories[0]);
+        }
+      } catch (error) {
+        console.error("Error fetching analytics:", error);
+      } finally {
+        if (!cancelled) setLoading(false);
       }
-    } catch (error) {
-      console.error("Error fetching analytics:", error);
-    } finally {
-      setLoading(false);
-    }
-  }, []);
+    })();
 
-  const fetchCheapestByCategory = useCallback(async (category: string) => {
-    try {
-      const res = await fetch(
-        `/api/analytics/cheapest-by-category/${encodeURIComponent(category)}`
-      );
-      const data = await res.json();
-      setCheapestProducts(data.cheapest || []);
-    } catch (error) {
-      console.error("Error fetching cheapest products:", error);
-    }
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   useEffect(() => {
-    fetchAnalytics();
-  }, [fetchAnalytics]);
+    if (!selectedCategory || categories.length === 0) return;
 
-  useEffect(() => {
-    if (selectedCategory && categories.length > 0) {
-      fetchCheapestByCategory(selectedCategory);
-    }
-  }, [selectedCategory, categories, fetchCheapestByCategory]);
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await fetch(
+          `/api/analytics/cheapest-by-category/${encodeURIComponent(selectedCategory)}`
+        );
+        const data = await res.json();
+        if (!cancelled) setCheapestProducts(data.cheapest || []);
+      } catch (error) {
+        console.error("Error fetching cheapest products:", error);
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [selectedCategory, categories]);
 
   if (loading) return <div className="text-center py-10 text-white">Cargando analíticas...</div>;
 
