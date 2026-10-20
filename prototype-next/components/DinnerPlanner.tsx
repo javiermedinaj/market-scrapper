@@ -50,10 +50,24 @@ export default function DinnerPlanner() {
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ servings, budgetArs, store, diet }),
       });
-      const payload = (await response.json()) as PlanResult | { error: string };
-      if (!response.ok || "error" in payload) {
-        throw new Error("error" in payload ? payload.error : "Error inesperado");
+
+      if (!response.ok) {
+        if (response.status === 403 || response.status === 429) {
+          throw new Error(
+            "Hiciste demasiadas solicitudes. Esperá un minuto y probá de nuevo.",
+          );
+        }
+        let message = "No pudimos generar la cena. Probá de nuevo.";
+        try {
+          const errorBody = (await response.json()) as { error?: unknown };
+          if (typeof errorBody.error === "string") message = errorBody.error;
+        } catch {
+          // respuesta no JSON (por ejemplo, del firewall)
+        }
+        throw new Error(message);
       }
+
+      const payload = (await response.json()) as PlanResult;
       setResult(payload);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Error inesperado");
