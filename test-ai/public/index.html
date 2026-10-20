@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cena de hoy — test-ai</title>
+    <style>
+      :root {
+        --bg: #0f1115;
+        --card: #171a21;
+        --line: #262b36;
+        --txt: #e7e9ee;
+        --muted: #9aa2b1;
+        --accent: #ffb454;
+        --ok: #6ee7a8;
+        --warn: #ff8f6b;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--txt);
+        font: 15px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      }
+      main { max-width: 780px; margin: 0 auto; padding: 32px 20px 64px; }
+      h1 { font-size: 26px; margin: 0 0 4px; }
+      h2 { font-size: 16px; margin: 0 0 6px; }
+      .sub { color: var(--muted); margin-bottom: 20px; }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 18px 20px;
+        margin-bottom: 16px;
+      }
+      .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+      .badge {
+        font-size: 12px;
+        padding: 3px 9px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        color: var(--muted);
+      }
+      .badge.warn { color: var(--warn); border-color: #4a2b22; }
+      .badge.ok { color: var(--ok); border-color: #22432f; }
+      table { width: 100%; border-collapse: collapse; margin-top: 6px; }
+      th, td { text-align: left; padding: 9px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+      th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
+      td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+      .empty { color: var(--muted); }
+      .small { font-size: 12px; color: var(--muted); }
+      .ing { display: flex; gap: 10px; align-items: flex-start; }
+      .thumb {
+        width: 46px; height: 46px; border-radius: 8px; object-fit: contain;
+        background: #fff; border: 1px solid var(--line); flex: none;
+      }
+      .thumb--empty { background: #0b0d11; }
+      .plink { color: var(--accent); font-size: 13px; text-decoration: none; }
+      .plink:hover { text-decoration: underline; }
+      .total { display: flex; justify-content: space-between; align-items: baseline; margin-top: 12px; }
+      .total b { font-size: 22px; }
+      ol { padding-left: 20px; margin: 6px 0 0; }
+      ol li { margin-bottom: 8px; }
+      .banner {
+        background: #1b1710;
+        border: 1px solid #3a2f1a;
+        color: #f0d9a8;
+        font-size: 13px;
+      }
+      .banner.ok { background: #101b14; border-color: #1f3a29; color: #bfe9cf; }
+      code { background: #0b0d11; padding: 1px 6px; border-radius: 6px; }
+      footer { color: var(--muted); font-size: 12px; margin-top: 24px; }
+      .error { color: var(--warn); }
+    </style>
+  </head>
+  <body>
+    <main id="app">Cargando…</main>
+    <script>
+      const ars = (n) =>
+        n == null
+          ? "—"
+          : new Intl.NumberFormat("es-AR", {
+              style: "currency",
+              currency: "ARS",
+              maximumFractionDigits: 0,
+            }).format(n);
+
+      const esc = (s) =>
+        String(s).replace(/[&<>"]/g, (c) =>
+          ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c],
+        );
+
+      function render(data) {
+        const { params, usage } = data;
+        const stage2 = Array.isArray(data.ingredients);
+        const ingredients = stage2 ? data.ingredients : data.recipe.ingredients;
+        const title = data.recipe.title;
+        const servings = data.recipe.servings;
+        const steps = data.recipe.steps;
+        const total = stage2 ? data.total : data.recipe.estimatedTotalArs;
+        const grounded = stage2 && !data.overBudget;
+
+        const rows = ingredients
+          .map((ing) => {
+            const cost = ing.cost != null ? ing.cost : ing.price;
+            const thumb = ing.image
+              ? `<img class="thumb" src="${esc(ing.image)}" alt="" loading="lazy" />`
+              : `<div class="thumb thumb--empty"></div>`;
+            const productLine = ing.productName
+              ? ing.link
+                ? `<a class="plink" href="${esc(ing.link)}" target="_blank" rel="noopener">${esc(ing.productName)}</a>`
+                : `<div class="plink">${esc(ing.productName)}</div>`
+              : "";
+            const pantryBadge = ing.pantry
+              ? ` <span class="badge">despensa</span>`
+              : "";
+            const packageInfo =
+              ing.price != null && ing.cost != null && ing.cost !== ing.price
+                ? `<div class="small">paquete ${ars(ing.price)}${ing.packages ? ` · ${ing.packages}×` : ""}</div>`
+                : "";
+            const storeLine = ing.store
+              ? `<div class="small">${esc(ing.store)}</div>`
+              : "";
+            const scrapedLine = ing.scrapedAt
+              ? `<div class="small">scrapeado ${esc(String(ing.scrapedAt).slice(0, 10))}</div>`
+              : "";
+            return `
+          <tr>
+            <td>
+              <div class="ing">
+                ${thumb}
+                <div>
+                  <div>${esc(ing.name)}${pantryBadge}</div>
+                  ${productLine}
+                  ${packageInfo}
+                  ${storeLine}
+                  ${scrapedLine}
+                </div>
+              </div>
+            </td>
+            <td class="num">${ing.quantity}</td>
+            <td>${esc(ing.unit)}</td>
+            <td class="num ${cost == null ? "empty" : ""}">
+              ${cost == null ? "—" : ars(cost)}
+            </td>
+          </tr>`;
+          })
+          .join("");
+
+        const stepList = steps.map((s) => `<li>${esc(s)}</li>`).join("");
+
+        const bannerClass = grounded ? "banner ok" : "banner";
+        const bannerText = stage2
+          ? grounded
+            ? `<b>Etapa 2:</b> cada precio sale de tus datos (${esc(data.toolCalls)} búsquedas, ${esc(data.steps)} pasos, ${esc(data.attempts)} intento/s). El total lo calculó el código.`
+            : `<b>Etapa 2:</b> el código calculó el total y quedó por encima del presupuesto incluso tras ${esc(data.attempts)} intentos. Revisá el output.`
+          : `<b>Etapa 1:</b> el precio total lo estima el modelo y el precio por producto todavía no existe.`;
+
+        const statusBadge = stage2
+          ? `<span class="badge ${data.overBudget ? "warn" : "ok"}">${data.overBudget ? "sobre presupuesto" : "dentro del presupuesto"}</span>`
+          : "";
+
+        const warnings = data.semanticWarnings || [];
+        const warningsHtml = warnings.length
+          ? `<div class="card banner"><b>⚠ Mismatches semánticos:</b> ${warnings.map(esc).join("; ")}</div>`
+          : "";
+
+        const dietViolations = data.dietViolations || [];
+        const dietWarningsHtml = dietViolations.length
+          ? `<div class="card banner"><b>⚠ No cumplen la dieta:</b> ${dietViolations.map(esc).join("; ")}</div>`
+          : "";
+
+        const staleHtml = data.stale
+          ? `<div class="card banner"><b>⚠ Precios viejos:</b> el producto más antiguo elegido tiene ${esc(data.priceAgeDays)} días (último scrape: ${esc(data.newestScrapedAt || "—")}). Verificá antes de comprar.</div>`
+          : "";
+
+        const dietText =
+          params.diet === "vegan"
+            ? "vegana"
+            : params.diet === "vegetarian"
+              ? "vegetariana"
+              : params.diet === "omnivore"
+                ? "omnívora"
+                : "";
+
+        document.getElementById("app").innerHTML = `
+          <h1>${esc(title)}</h1>
+          <div class="sub">Para ${esc(servings)} porciones${dietText ? ` · ${dietText}` : ""} · presupuesto ${ars(params.budgetArs)}${params.store ? ` · ${esc(params.store)}` : ""}</div>
+
+          <div class="card ${bannerClass}">${bannerText}</div>
+          ${warningsHtml}
+          ${dietWarningsHtml}
+          ${staleHtml}
+
+          <div class="card">
+            <div class="row">
+              <span class="badge">ingredientes: ${ingredients.length}</span>
+              <span class="badge">pasos: ${steps.length}</span>
+              ${stage2 ? `<span class="badge">productos: ${ingredients.filter((i) => i.price != null).length}</span>` : ""}
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Ingrediente</th>
+                  <th class="num">Cantidad</th>
+                  <th>Unidad</th>
+                  <th class="num">Precio</th>
+                </tr>
+              </thead>
+              <tbody>${rows}</tbody>
+            </table>
+            <div class="total">
+              <span>
+                ${stage2 ? "Total (calculado por el código)" : "Total estimado por el modelo"}
+                ${statusBadge}
+              </span>
+              <b>${ars(total)}</b>
+            </div>
+            ${
+              stage2
+                ? `<div class="small" style="margin-top:6px">Costo según formato de venta: paquete = precio del paquete; por kg = cantidad × $/kg; por unidad = unidades × precio. La despensa (sal, aceite, condimentos) no suma.</div>`
+                : `<div class="small" style="margin-top:6px">Este número NO está verificado contra tus datos.</div>`
+            }
+          </div>
+
+          <div class="card">
+            <h2>Preparación</h2>
+            <ol>${stepList}</ol>
+          </div>
+
+          <footer>
+            Generado ${esc(data.generatedAt)}${data.dataSource ? ` · datos: ${esc(data.dataSource)}` : ""} ·
+            tokens: ${usage.inputTokens} in / ${usage.outputTokens} out / ${usage.totalTokens} total
+          </footer>
+        `;
+      }
+
+      async function load() {
+        try {
+          const res = await fetch("recipe.json", { cache: "no-store" });
+          if (!res.ok) throw new Error("sin recipe.json");
+          render(await res.json());
+        } catch (err) {
+          document.getElementById("app").innerHTML = `<p class="error">
+            No hay <code>public/recipe.json</code> todavía.<br />
+            Corré <code>npm run stage2</code> y recargá esta página.
+          </p>`;
+        }
+      }
+
+      load();
+    </script>
+  </body>
+</html>
